@@ -1,5 +1,297 @@
 [
   {
+    "slug": "agi",
+    "title": "AGI",
+    "yomi": "エージーアイ",
+    "english": "Artificial General Intelligence",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "決まった仕事だけでなく、人間ができる知的な作業をひととおりこなせるAIのことです。まだ実現していません。"
+  },
+  {
+    "slug": "ai-literacy",
+    "title": "AIリテラシー",
+    "yomi": "エーアイリテラシー",
+    "english": "AI Literacy",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "AIを使う力と、AIの答えを疑う力。この両方をあわせてAIリテラシーと呼びます。"
+  },
+  {
+    "slug": "api",
+    "title": "API",
+    "yomi": "エーピーアイ",
+    "english": "Application Programming Interface",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "プログラムが別のプログラムに用事を頼むための、決まった形の窓口です。"
+  },
+  {
+    "slug": "authentication",
+    "title": "認証",
+    "yomi": "ニンショウ",
+    "english": "Authentication",
+    "difficulty": "上級",
+    "genres": [
+      "セキュリティ"
+    ],
+    "summary": "アクセスしてきた相手が、本当に本人かどうかを確かめる手続きのことです。"
+  },
+  {
+    "slug": "branch",
+    "title": "ブランチ",
+    "yomi": "ブランチ",
+    "english": "Branch",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "本線に影響を与えずに作業するための、履歴の枝分かれです。"
+  },
+  {
+    "slug": "chatgpt",
+    "title": "ChatGPT",
+    "yomi": "チャットジーピーティー",
+    "english": "ChatGPT",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "文章で質問すると、文章で答えてくれるAIサービスです。OpenAIという会社が2022年に公開しました。"
+  },
+  {
+    "slug": "claude-code",
+    "title": "Claude Code",
+    "yomi": "クロードコード",
+    "english": "Claude Code",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "日本語で頼むと、コードを読んで、書いて、動かして、直してくれるAIの開発ツールです。"
+  },
+  {
+    "slug": "clone",
+    "title": "クローン",
+    "yomi": "クローン",
+    "english": "Clone",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "サーバーにあるリポジトリを、履歴ごと丸ごと自分のパソコンに複製する操作です。"
+  },
+  {
+    "slug": "commit",
+    "title": "コミット",
+    "yomi": "コミット",
+    "english": "Commit",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "変更をひとかたまりにして、説明文を付けて履歴に刻む操作です。Gitのセーブポイントにあたります。"
+  },
+  {
+    "slug": "database",
+    "title": "データベース",
+    "yomi": "データベース",
+    "english": "Database",
+    "difficulty": "中級",
+    "genres": [
+      "データベース",
+      "プログラミング"
+    ],
+    "summary": "大量のデータを、あとから素早く探して取り出せる形で保管しておく仕組みです。"
+  },
+  {
+    "slug": "digital-divide",
+    "title": "デジタルデバイド",
+    "yomi": "デジタルデバイド",
+    "english": "Digital Divide",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "情報技術を使える人と使えない人のあいだに開く格差のことです。放っておくと、暮らしの格差そのものになります。"
+  },
+  {
+    "slug": "exponential-growth",
+    "title": "指数関数的成長",
+    "yomi": "シスウカンスウテキセイチョウ",
+    "english": "Exponential Growth",
+    "difficulty": "中級",
+    "genres": [
+      "未来"
+    ],
+    "summary": "一定期間ごとに倍になっていく増え方のことです。最初は退屈なほど遅く、あるところから手がつけられなくなります。"
+  },
+  {
+    "slug": "fork",
+    "title": "フォーク",
+    "yomi": "フォーク",
+    "english": "Fork",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "他人のリポジトリを、自分のアカウントの下に複製して、自由に改造できるようにすることです。"
+  },
+  {
+    "slug": "generative-ai",
+    "title": "生成AI",
+    "yomi": "セイセイエーアイ",
+    "english": "Generative AI",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "文章・画像・音声・プログラムなど、新しいものを作り出すAIの総称です。"
+  },
+  {
+    "slug": "git",
+    "title": "Git",
+    "yomi": "ギット",
+    "english": "Git",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "ファイルの変更履歴を記録し、いつでも過去に戻れるようにする道具です。世界の開発現場のほぼ標準です。"
+  },
+  {
+    "slug": "koen-meigi",
+    "title": "後援名義",
+    "yomi": "コウエンメイギ",
+    "english": "",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "行政などから「この催しを応援しています」と名前を貸してもらう制度です。お金はもらえませんが、信用がつきます。"
+  },
+  {
+    "slug": "llm",
+    "title": "LLM",
+    "yomi": "エルエルエム",
+    "english": "Large Language Model",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "膨大な文章を学習して、言葉の続きを予測できるようになった巨大なプログラムです。ChatGPTなどの中身がこれです。"
+  },
+  {
+    "slug": "merge",
+    "title": "マージ",
+    "yomi": "マージ",
+    "english": "Merge",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "枝分かれしていた作業を、1本にまとめ直す操作です。"
+  },
+  {
+    "slug": "npo",
+    "title": "NPO法人",
+    "yomi": "エヌピーオーホウジン",
+    "english": "Nonprofit Organization",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "もうけを配らないと決めて、法律にもとづいて認証を受けた団体のことです。正式には特定非営利活動法人といいます。"
+  },
+  {
+    "slug": "open-source",
+    "title": "オープンソース",
+    "yomi": "オープンソース",
+    "english": "Open Source",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "社会"
+    ],
+    "summary": "プログラムの中身を誰でも読めて、自由に使い、直し、配り直せるようにする考え方です。"
+  },
+  {
+    "slug": "oss-license",
+    "title": "ライセンス",
+    "yomi": "ライセンス",
+    "english": "License",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "社会"
+    ],
+    "summary": "作った人が「この条件で使っていいですよ」と決めて示す、利用のルールです。"
+  },
+  {
+    "slug": "prompt",
+    "title": "プロンプト",
+    "yomi": "プロンプト",
+    "english": "Prompt",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "生成AIに向かって書く指示文のことです。AIの出力の良し悪しは、ほぼここで決まります。"
+  },
+  {
+    "slug": "pull-request",
+    "title": "プルリクエスト",
+    "yomi": "プルリクエスト",
+    "english": "Pull Request",
+    "difficulty": "特級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "「この変更を取り込んでください」とお願いし、取り込む前にみんなで確認するための仕組みです。略してPRと呼びます。"
+  },
+  {
+    "slug": "pull",
+    "title": "プル",
+    "yomi": "プル",
+    "english": "Pull",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "サーバー側のリポジトリの最新の変更を、自分の手元に取り込む操作です。"
+  },
+  {
+    "slug": "push",
+    "title": "プッシュ",
+    "yomi": "プッシュ",
+    "english": "Push",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "自分のパソコンに溜めたコミットを、サーバー側のリポジトリへ送る操作です。"
+  },
+  {
+    "slug": "repository",
+    "title": "リポジトリ",
+    "yomi": "リポジトリ",
+    "english": "Repository",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "プロジェクトのファイル一式と、その全変更履歴をまとめて入れておく保管庫です。"
+  },
+  {
     "slug": "rls",
     "title": "RLS",
     "yomi": "アールエルエス",
@@ -10,5 +302,63 @@
       "セキュリティ"
     ],
     "summary": "同じ表を見ても、人によって見える行がちがう。そういう仕組みをデータベース自身に持たせるのがRLSです。"
+  },
+  {
+    "slug": "singularity",
+    "title": "シンギュラリティ",
+    "yomi": "シンギュラリティ",
+    "english": "Technological Singularity",
+    "difficulty": "上級",
+    "genres": [
+      "未来"
+    ],
+    "summary": "人間より賢い知能が生まれ、その先の未来が人間には予測できなくなる時点のことです。"
+  },
+  {
+    "slug": "supabase",
+    "title": "Supabase",
+    "yomi": "スーパベース",
+    "english": "Supabase",
+    "difficulty": "特級",
+    "genres": [
+      "データベース",
+      "プログラミング"
+    ],
+    "summary": "データベース・ログイン・ファイル保管など、アプリの裏側に必要なものを一式まとめて提供するサービスです。"
+  },
+  {
+    "slug": "teikan",
+    "title": "定款",
+    "yomi": "テイカン",
+    "english": "",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "法人の根本ルールを書いた文書です。会社や法人にとっての憲法にあたります。"
+  },
+  {
+    "slug": "vibe-coding",
+    "title": "vibe coding",
+    "yomi": "バイブコーディング",
+    "english": "Vibe Coding",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "コードを1行ずつ書くのではなく、やりたいことをAIに伝えて動くものを作っていく進め方です。"
+  },
+  {
+    "slug": "zero-trust-accounting",
+    "title": "ゼロトラスト会計",
+    "yomi": "ゼロトラストカイケイ",
+    "english": "Zero Trust Accounting",
+    "difficulty": "上級",
+    "genres": [
+      "社会",
+      "かけこみ用語"
+    ],
+    "summary": "帳簿を全件そのまま公開して、誰でもAIで監査できる状態にしておく。AIかけこみ寺が実践している会計のやり方です。"
   }
 ]

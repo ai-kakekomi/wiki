@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>フォークとは | かけこみWiki</title>
+<meta name="description" content="他人のリポジトリを、自分のアカウントの下に複製して、自由に改造できるようにすることです。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="フォークとは | かけこみWiki">
+<meta property="og:description" content="他人のリポジトリを、自分のアカウントの下に複製して、自由に改造できるようにすることです。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/fork/">
+<meta property="og:site_name" content="かけこみWiki">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="上級">
+<header class="brand-bar">
+  <div class="container">
+    <a class="brand" href="../">かけこみWiki</a>
+    <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
+  </div>
+</header>
+
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">用語いちらん</a> ＞ <span>フォーク</span></nav>
+
+  <header class="article-head">
+    <p class="yomi">フォーク</p>
+    <h1>フォーク</h1>
+    <p class="english"><span class="en">Fork</span><span class="en-yomi">フォーク</span><span class="en-ja">派生リポジトリの作成</span></p>
+    <p class="meta">
+      <span class="badge">上級</span>
+      <span class="chip">プログラミング</span>
+    </p>
+  </header>
+
+  <div class="body">
+<h2>ひとことで</h2>
+<p>他人のリポジトリを、自分のアカウントの下に複製して、自由に改造できるようにすることです。</p>
+<h2>なぜ大事?</h2>
+<p>オープンソースの世界では、他人のプロジェクトを直接書き換える権限は、ふつう持っていません。持たせてしまえば荒らされるからです。かといって、提案するたびに許可を待つのでは何も進みません。</p>
+<p>フォークは、この矛盾を解く仕組みです。自分の場所に複製を作って、そこでは自由に改造する。良いものができたら、元のプロジェクトに「取り込みませんか」と提案する。許可を待たずに手を動かせて、しかも元のプロジェクトは荒らされない。</p>
+<p>AIかけこみ寺がOSSツールをMITライセンスで公開しているのは、この動きを歓迎するためです。他の地域の団体が、うちのツールをフォークして、自分たちの地名や事情に合わせて作り替える。それが「AIで善意をスケールする」の具体的な姿です。</p>
+<h2>やさしい解説</h2>
+<p>フォークは、公開されているレシピを自分のノートに書き写して、そこから自分流に改造することにたとえられます。</p>
+<p>元のレシピは、そのまま残っています。あなたのノートで塩加減を変えても、元の作者の本は書き換わりません。うまくいったら「この配合のほうがおいしかったですよ」と作者に手紙を書けます。作者が納得すれば、次の版に採用されるかもしれません。この手紙にあたるものがプルリクエストです。</p>
+<p>GitHubの公式ドキュメントでは、フォークを「別のリポジトリ（上流リポジトリと呼ばれる）のコピーとして始まるリポジトリ」と説明しています。大事なのは、始まりがコピーであっても、そのあとは独立した設定と権限を持つ別のリポジトリになる点です。それでいて、元との接続は保たれています。</p>
+<p>使い方の流れは、こうなります。</p>
+<ol>
+<li>GitHubで目的のリポジトリのForkボタンを押す。自分のアカウント下に複製ができる</li>
+<li>その複製を自分のパソコンにクローンする</li>
+<li>ブランチを切って改造し、コミットする</li>
+<li>自分のフォークにプッシュする</li>
+<li>元のリポジトリに向けてプルリクエストを出す</li>
+</ol>
+<p>この流れを、フォーク＆プルモデルと呼びます。オープンソースの共同開発でもっとも広く使われている形です。事前の打ち合わせなしに、世界中の誰でも改善を提案できるのが強みです。</p>
+<p>フォークにはもう1つの顔があります。プロジェクトの方針に納得できない人たちが、フォークして別のプロジェクトとして独立していく、という使われ方です。歴史上、有名なソフトウェアがこの形で分かれたことが何度もあります。ライセンスが改変と再配布を認めているからこそ可能な自由で、オープンソースの定義そのものに支えられています。</p>
+<p>注意点を1つ。フォークは複製した時点で時間が止まります。元のプロジェクトが進めば、放っておくほど差が開きます。長く手を入れるつもりなら、定期的に元の変更を取り込んで（同期して）おかないと、あとで合流できないほど離れてしまいます。</p>
+
+  </div>
+
+  <aside class="stepdown"><p class="stepdown-label">むずかしいと感じたら</p><a class="stepdown-link" href="../database/">一つやさしい難易度へ： データベース<span class="badge badge-inline" data-difficulty="中級">中級</span></a></aside>
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../clone/"><span class="badge badge-inline" data-difficulty="上級">上級</span>クローン</a></li><li><a href="../repository/"><span class="badge badge-inline" data-difficulty="上級">上級</span>リポジトリ</a></li><li><a href="../open-source/"><span class="badge badge-inline" data-difficulty="上級">上級</span>オープンソース</a></li><li><a href="../pull-request/"><span class="badge badge-inline" data-difficulty="特級">特級</span>プルリクエスト</a></li><li><a href="../database/"><span class="badge badge-inline" data-difficulty="中級">中級</span>データベース</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks" rel="noopener nofollow" target="_blank">About forks | GitHub Docs</a></li><li><a href="https://opensource.org/osd" rel="noopener nofollow" target="_blank">The Open Source Definition | Open Source Initiative</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-08-16</p>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみWiki は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> の技術用語辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+</body>
+</html>

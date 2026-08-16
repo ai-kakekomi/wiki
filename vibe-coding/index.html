@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>vibe codingとは | かけこみWiki</title>
+<meta name="description" content="コードを1行ずつ書くのではなく、やりたいことをAIに伝えて動くものを作っていく進め方です。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="vibe codingとは | かけこみWiki">
+<meta property="og:description" content="コードを1行ずつ書くのではなく、やりたいことをAIに伝えて動くものを作っていく進め方です。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/vibe-coding/">
+<meta property="og:site_name" content="かけこみWiki">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="上級">
+<header class="brand-bar">
+  <div class="container">
+    <a class="brand" href="../">かけこみWiki</a>
+    <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
+  </div>
+</header>
+
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">用語いちらん</a> ＞ <span>vibe coding</span></nav>
+
+  <header class="article-head">
+    <p class="yomi">バイブコーディング</p>
+    <h1>vibe coding</h1>
+    <p class="english"><span class="en">Vibe Coding</span><span class="en-yomi">バイブ・コーディング</span><span class="en-ja">AIに任せる感覚重視の開発</span></p>
+    <p class="meta">
+      <span class="badge">上級</span>
+      <span class="chip">AI</span><span class="chip">プログラミング</span>
+    </p>
+  </header>
+
+  <div class="body">
+<h2>ひとことで</h2>
+<p>コードを1行ずつ書くのではなく、やりたいことをAIに伝えて動くものを作っていく進め方です。</p>
+<h2>なぜ大事?</h2>
+<p>これまで、ソフトウェアを作れる人は限られていました。文法を覚え、エラーの意味を調べ、動くようになるまでに何百時間もかかったからです。この時間が、作りたい人と作れる人のあいだの壁でした。</p>
+<p>vibe codingは、この壁の高さを変えます。プログラミング言語ではなく日本語で伝え、AIが実装する。だから、専門教育を受けていない人でも、自分の困りごとを自分で解決する道具を持てます。</p>
+<p>AIかけこみ寺の運営基盤は、ほぼこの方法で作られています。LP、メンバー限定サイト、出席管理、公開しているOSSツール群。専業のエンジニアを雇わずにここまで持てているのは、この進め方があるからです。そして作った道具はGitHubにMITライセンスで公開しています。1つの団体の困りごとを解いた道具が、そのまま他の団体の道具になる。これが「AIで善意をスケールする」の実装です。</p>
+<h2>やさしい解説</h2>
+<p>言葉の感じをつかむために、料理でたとえます。</p>
+<p>従来のプログラミングは、包丁の握り方から習う料理です。基礎ができるまで一皿も作れませんが、できるようになれば何でも作れます。vibe codingは、腕のいい料理人に「今日は疲れているから、あっさりした和食で、20分で食べられるもの」と伝える形です。素材の切り方は知らなくても、目的の一皿は出てきます。</p>
+<p>この言葉は、2025年ごろに海外の研究者の発言をきっかけに広まり、AIに任せて感覚で進める開発を指す言い方として定着しました。日本語では「バイブコーディング」とそのまま呼ばれることが多いです。</p>
+<p>実際の進め方は、こんな会話の連続になります。</p>
+<blockquote>
+<p>教室の出席をスマホから記録できるページを作ってください。名前を選んで、ボタンを押すだけで済むようにしたいです。</p>
+</blockquote>
+<p>動くものが出てきたら、実際に触ってみます。</p>
+<blockquote>
+<p>ボタンが小さくて、高齢の参加者には押しにくいです。倍くらいに大きくして、押したことがはっきりわかるようにしてください。</p>
+</blockquote>
+<p>この繰り返しで形にしていきます。ポイントは、完成形を最初に言葉で決めきらないことです。動くものを見てから直すほうが速い。だから、雑でもいいので早く1回目を出させる、というのがコツになります。</p>
+<p>ここからは注意点です。正確さのために、はっきり書いておきます。</p>
+<p>第1に、vibe codingは「中身を理解しなくてよい」という意味ではありません。動いているように見えて、個人情報が誰にでも見える設定になっていた、というのはこの進め方でいちばん起きやすい事故です。データベースを使うならRLSのような守りが入っているか、ログインの仕組みが正しいかは、必ず自分の目で確かめる必要があります。</p>
+<p>第2に、他人に使わせるものを作るなら、動作確認とテストは省けません。自分だけで使う道具と、公開する道具では、求められる水準がちがいます。</p>
+<p>第3に、AIが書いたコードにも著作権やライセンスの問題が起こりえます。公開する前に、使っている部品のライセンスを確認してください。</p>
+<p>まとめると、vibe codingは「作り始めるまでの距離」を劇的に縮める方法です。距離が縮んだぶん、確かめる責任は作った人に残ります。ここを引き受けられるなら、これほど強い道具はありません。</p>
+
+  </div>
+
+  <aside class="stepdown"><p class="stepdown-label">むずかしいと感じたら</p><a class="stepdown-link" href="../prompt/">一つやさしい難易度へ： プロンプト<span class="badge badge-inline" data-difficulty="中級">中級</span></a></aside>
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../claude-code/"><span class="badge badge-inline" data-difficulty="上級">上級</span>Claude Code</a></li><li><a href="../prompt/"><span class="badge badge-inline" data-difficulty="中級">中級</span>プロンプト</a></li><li><a href="../generative-ai/"><span class="badge badge-inline" data-difficulty="中級">中級</span>生成AI</a></li><li><a href="../open-source/"><span class="badge badge-inline" data-difficulty="上級">上級</span>オープンソース</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://note.com/ai_kakekomi/n/n9d4bf16323a5" rel="noopener nofollow" target="_blank">無料AI教室ボランティア、5ヶ月目の記録 | AIかけこみ寺 note</a></li><li><a href="https://code.claude.com/docs/en/overview" rel="noopener nofollow" target="_blank">Claude Code overview | Claude Docs</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-08-16</p>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみWiki は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> の技術用語辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+</body>
+</html>

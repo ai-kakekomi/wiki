@@ -152,9 +152,26 @@ test('記事HTML: 難易度属性・よみ・英語併記・相対パスが入�
   assert.match(html, /行単位のアクセス制御/);
   assert.match(html, /href="\.\.\/assets\/wiki\.css"/);
   assert.doesNotMatch(html, /\{\{[A-Z_]+\}\}/);
-  // 未収録 slug は警告のうえ本文に出さない
-  assert.ok(warnings.some((w) => w.includes('database') || w.includes('supabase')));
-  assert.doesNotMatch(html, /href="\.\.\/database\//);
+  assert.equal(warnings.length, 0);
+  // 収録済み slug は関連ワードとして相対パスで出る
+  assert.match(html, /href="\.\.\/database\//);
+});
+
+test('記事HTML: 未収録 slug は警告のうえ本文に出さない', () => {
+  const { articles } = loadArticles();
+  const bySlug = new Map(articles.map((a) => [a.slug, a]));
+  const template = readFileSync(join(ROOT, 'templates', 'article.html'), 'utf8');
+  const rls = bySlug.get('rls');
+  const warnings = [];
+  const html = renderArticle(
+    { ...rls, related: [...rls.related, 'no-such-term'] },
+    bySlug,
+    template,
+    (m) => warnings.push(m)
+  );
+
+  assert.ok(warnings.some((w) => w.includes('no-such-term')));
+  assert.doesNotMatch(html, /href="\.\.\/no-such-term\//);
 });
 
 test('記事HTML: OGP と description を持つ', () => {

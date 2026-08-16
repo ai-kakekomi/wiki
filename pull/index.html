@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プルとは | かけこみWiki</title>
+<meta name="description" content="サーバー側のリポジトリの最新の変更を、自分の手元に取り込む操作です。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="プルとは | かけこみWiki">
+<meta property="og:description" content="サーバー側のリポジトリの最新の変更を、自分の手元に取り込む操作です。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/pull/">
+<meta property="og:site_name" content="かけこみWiki">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="上級">
+<header class="brand-bar">
+  <div class="container">
+    <a class="brand" href="../">かけこみWiki</a>
+    <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
+  </div>
+</header>
+
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">用語いちらん</a> ＞ <span>プル</span></nav>
+
+  <header class="article-head">
+    <p class="yomi">プル</p>
+    <h1>プル</h1>
+    <p class="english"><span class="en">Pull</span><span class="en-yomi">プル</span><span class="en-ja">最新の変更を取り込む</span></p>
+    <p class="meta">
+      <span class="badge">上級</span>
+      <span class="chip">プログラミング</span>
+    </p>
+  </header>
+
+  <div class="body">
+<h2>ひとことで</h2>
+<p>サーバー側のリポジトリの最新の変更を、自分の手元に取り込む操作です。</p>
+<h2>なぜ大事?</h2>
+<p>共同作業の事故の多くは、古い状態のまま作業を始めたことが原因です。他の人が昨日直した部分を知らずに、自分も同じ場所を直す。合流のときに必ずぶつかります。</p>
+<p>プルは、この事故を防ぐための最初の一手です。作業を始める前にプルする、という習慣だけで、衝突の量ははっきり減ります。</p>
+<p>AIかけこみ寺の共同開発ルールでも、作業前に最新を取り込むことを第1条にしています。複数人が別々のパソコンから同じサイトを触っているので、自分の手元の見た目を信じないこと。サーバー側が正である、という前提を毎回確かめる操作がプルです。</p>
+<h2>やさしい解説</h2>
+<p>プルは、グループ作業の途中で「いまの最新版ちょうだい」と全員に確認する行為です。</p>
+<p>3人で1つの資料を作っているとします。あなたが2日ぶりに作業を再開するとき、いきなり自分の手元のファイルを開いて書き始めたら、その2日間の他の人の仕事は反映されていません。まず最新版をもらってから続きを書く。当たり前の話ですが、Gitでは明示的にこの操作をします。</p>
+<p>操作は1行です。</p>
+<pre><code class="language-bash">git pull
+</code></pre>
+<p>公式ドキュメントによれば、この1行は実は2つの動作を続けて行っています。</p>
+<ol>
+<li>フェッチ：サーバーから新しい変更をダウンロードする</li>
+<li>統合：それを自分の現在のブランチに合流させる</li>
+</ol>
+<p>つまり <code>git pull</code> は、<code>git fetch</code> と <code>git merge</code> をまとめたものです。分けて実行することもでき、慣れてくるとそのほうが安全な場面もあります。まずフェッチして中身を確認し、問題なさそうなら合流する、という進め方です。</p>
+<pre><code class="language-bash">git fetch                  # 取ってくるだけ。手元のファイルはまだ変わらない
+git diff origin/main       # 何がちがうか確認する
+git merge origin/main      # 納得してから合流する
+</code></pre>
+<p>統合のしかたは選べます。マージだと合流の記録（マージコミット）が残り、履歴が枝分かれした形になります。リベース（<code>git pull --rebase</code>）だと、自分の作業を相手の変更の上に載せ直すので、履歴が1本にそろって読みやすくなります。AIかけこみ寺では <code>git pull --rebase</code> を使う運用です。</p>
+<p>注意点を2つ。第1に、リベースは履歴を作り直す操作なので、すでに共有した（プッシュ済みの）コミットに対して使うと、他の人の履歴とずれます。まだ公開していない自分の作業にだけ使ってください。第2に、プルの途中でコンフリクトが出たら、そこで止まります。慌てずに、ぶつかった箇所を直して続けるか、いったん中止して相談すること。無理に押し切ると、他人の作業を消す方向に進みがちです。</p>
+
+  </div>
+
+  <aside class="stepdown"><p class="stepdown-label">むずかしいと感じたら</p><a class="stepdown-link" href="../database/">一つやさしい難易度へ： データベース<span class="badge badge-inline" data-difficulty="中級">中級</span></a></aside>
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../push/"><span class="badge badge-inline" data-difficulty="上級">上級</span>プッシュ</a></li><li><a href="../merge/"><span class="badge badge-inline" data-difficulty="上級">上級</span>マージ</a></li><li><a href="../clone/"><span class="badge badge-inline" data-difficulty="上級">上級</span>クローン</a></li><li><a href="../git/"><span class="badge badge-inline" data-difficulty="上級">上級</span>Git</a></li><li><a href="../database/"><span class="badge badge-inline" data-difficulty="中級">中級</span>データベース</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://git-scm.com/docs/git-pull" rel="noopener nofollow" target="_blank">git-pull Documentation | Git</a></li><li><a href="https://git-scm.com/docs/git-merge" rel="noopener nofollow" target="_blank">git-merge Documentation | Git</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-08-16</p>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみWiki は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> の技術用語辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -14,7 +14,7 @@ LPがビルドレス運用（Vercelで静的配信）なので、HTMLが最初�
 ```bash
 npm install          # 初回のみ（devDependencies は marked だけ）
 npm run build        # 検証 + HTML生成 + search-index.json生成
-npm test             # 25本のテスト（node --test）
+npm test             # 26本のテスト（node --test）
 npm run serve        # http://localhost:8080 でローカル確認
 ```
 

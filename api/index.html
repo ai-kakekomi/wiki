@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APIとは | かけこみWiki</title>
+<meta name="description" content="プログラムが別のプログラムに用事を頼むための、決まった形の窓口です。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="APIとは | かけこみWiki">
+<meta property="og:description" content="プログラムが別のプログラムに用事を頼むための、決まった形の窓口です。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/api/">
+<meta property="og:site_name" content="かけこみWiki">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="上級">
+<header class="brand-bar">
+  <div class="container">
+    <a class="brand" href="../">かけこみWiki</a>
+    <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
+  </div>
+</header>
+
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">用語いちらん</a> ＞ <span>API</span></nav>
+
+  <header class="article-head">
+    <p class="yomi">エーピーアイ</p>
+    <h1>API</h1>
+    <p class="english"><span class="en">Application Programming Interface</span><span class="en-yomi">アプリケーション・プログラミング・インターフェース</span><span class="en-ja">プログラム同士の連絡窓口</span></p>
+    <p class="meta">
+      <span class="badge">上級</span>
+      <span class="chip">プログラミング</span>
+    </p>
+  </header>
+
+  <div class="body">
+<h2>ひとことで</h2>
+<p>プログラムが別のプログラムに用事を頼むための、決まった形の窓口です。</p>
+<h2>なぜ大事?</h2>
+<p>いまのアプリは、1社だけで作られていません。地図はGoogle、決済はクレジットカード会社、AIの応答はOpenAIやAnthropic。それぞれの会社のプログラムを呼び出して、1つのサービスに組み上げています。この呼び出し口がAPIです。</p>
+<p>APIがあるおかげで、中身を知らなくても他人の技術を使えます。地図の描画アルゴリズムを理解していなくても、地図を表示できる。これが、少人数でも本格的なサービスを作れる理由です。</p>
+<p>AIかけこみ寺の道具立てもここに乗っています。生成AIをプログラムから呼ぶのもAPI、メンバー限定サイトがデータベースから出席記録を取るのもAPIです。APIという概念を1つ覚えると、「なぜ個人でもアプリが作れる時代になったのか」の答えが半分わかります。</p>
+<h2>やさしい解説</h2>
+<p>APIは、レストランの注文窓口だと思ってください。</p>
+<p>客は厨房に入りません。メニューを見て、決まった料理名を伝えるだけです。厨房が何人で回っていようが、コンロがガスか電気かは客に関係ありません。逆に、メニューにない料理は頼めませんし、「塩少なめ」のような注文もメニューに書かれた形でしか受け付けられません。</p>
+<p>この、メニューにあたるものがAPIの仕様書です。何を頼めるか、どう書いて頼むか、どんな形で返ってくるかが書かれています。GitHubの公式ドキュメントも、OpenAIの公式ドキュメントも、中身はこのメニュー表です。</p>
+<p>実際の呼び出しは、URLへのアクセスに似た形をとります。よく使われるのがREST APIという方式です。たとえばGitHubに「このユーザーの情報をください」と頼むときは、こういうURLにアクセスします。</p>
+<pre><code>GET https://api.github.com/users/octocat
+</code></pre>
+<p>返ってくるのは、人間向けのページではなく、機械が読みやすいJSONという形式のデータです。</p>
+<pre><code class="language-json">{
+  &quot;login&quot;: &quot;octocat&quot;,
+  &quot;name&quot;: &quot;The Octocat&quot;,
+  &quot;public_repos&quot;: 8
+}
+</code></pre>
+<p>このデータをプログラムが受け取り、自分のアプリの画面に並べ直します。ホームページを人間が読むのがブラウザ、APIを機械が読むのがプログラム、という関係です。</p>
+<p>ここで必ず出てくるのが認証です。誰でも無制限に呼べると、悪用もされますし、料金の請求先もわかりません。そこでAPIキーやトークンと呼ばれる合言葉を一緒に送ります。この合言葉は、絶対に他人に見せてはいけません。公開のリポジトリにうっかり書き込んでしまい、他人に使われて高額な請求が来る、というのはよくある事故です。</p>
+<p>注意点をもう1つ。APIは提供する側の都合で仕様が変わったり、終了したりします。他社のAPIに深く依存したサービスを作るときは、止まった場合にどうするかまで考えておく必要があります。</p>
+
+  </div>
+
+  <aside class="stepdown"><p class="stepdown-label">むずかしいと感じたら</p><a class="stepdown-link" href="../database/">一つやさしい難易度へ： データベース<span class="badge badge-inline" data-difficulty="中級">中級</span></a></aside>
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../database/"><span class="badge badge-inline" data-difficulty="中級">中級</span>データベース</a></li><li><a href="../generative-ai/"><span class="badge badge-inline" data-difficulty="中級">中級</span>生成AI</a></li><li><a href="../authentication/"><span class="badge badge-inline" data-difficulty="上級">上級</span>認証</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://docs.github.com/en/rest/about-the-rest-api/about-the-rest-api" rel="noopener nofollow" target="_blank">About the REST API | GitHub Docs</a></li><li><a href="https://developers.openai.com/api/docs/models" rel="noopener nofollow" target="_blank">Models | OpenAI API Docs</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-08-16</p>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみWiki は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> の技術用語辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+</body>
+</html>
