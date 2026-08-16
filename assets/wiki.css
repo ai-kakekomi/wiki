@@ -27,7 +27,8 @@
 
   --level: var(--primary);
   --level-pale: var(--primary-pale);
-  --font: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, system-ui, sans-serif;
+  /* ブランド指定: 丸ゴシック。外部フォント禁止のためOS内蔵の丸ゴを優先し、無い環境は角ゴにフォールバック */
+  --font: "Hiragino Maru Gothic ProN", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, system-ui, sans-serif;
 }
 
 body[data-difficulty="初級"] { --level: var(--d-beginner); --level-pale: var(--d-beginner-pale); }
