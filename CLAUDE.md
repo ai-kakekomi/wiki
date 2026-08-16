@@ -82,7 +82,7 @@ updated: 2026-08-16           # YYYY-MM-DD
 
 ## 配信物の制約（破らない）
 
-- **外部CDN参照禁止・依存ゼロ・完全静的**。Webフォントも読み込まない（システムフォント）
+- **外部CDN参照禁止・依存ゼロ・完全静的**。例外はフォントのみ: ブランド統一のためLPと同じ Zen Maru Gothic（Google Fonts）を読み込む
 - 記事は `{slug}/index.html` に出るので、assetsへの参照は `../assets/`
 - Wiki内リンクは相対パス `../{slug}/`。ローカルの `python3 -m http.server` でも動くこと
 - 難易度の色分けは `<body data-difficulty="特級">` + CSS属性セレクタ。

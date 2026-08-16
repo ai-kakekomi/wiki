@@ -149,10 +149,13 @@ export function renderIndex(articles) {
 <meta name="description" content="ITやAIの言葉を、中学生にも分かる日本語で説明する用語辞典です。むずかしい言葉に出会ったら、ここにかけこんでください。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="かけこみWiki | AIかけこみ寺の技術用語辞典">
-<meta property="og:description" content="ITやAIの言葉を、中学生にも分かる日本語で説明する用語辞典です。">
+<meta property="og:description" content="AI・プログラミング・社会・未来の言葉を、誰でも読める短い日本語で説明する用語辞典です。">
 <meta property="og:url" content="https://ai-kakekomi.com/wiki/">
 <meta property="og:site_name" content="かけこみWiki">
 <meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/wiki.css">
 </head>
 <body>

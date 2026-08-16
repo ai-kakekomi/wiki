@@ -194,11 +194,12 @@ test('トップページ: カード・検索欄・絞り込みが入る', () => 
   assert.match(html, /assets\/search\.js/);
 });
 
-test('配信物に外部CDNの読み込みがない', () => {
+test('配信物に外部CDNの読み込みがない（LPと同じGoogle Fontsのみ許可）', () => {
   const files = ['assets/wiki.css', 'assets/search.js', 'templates/article.html'];
   for (const f of files) {
     const src = readFileSync(join(ROOT, f), 'utf8');
-    assert.doesNotMatch(src, /https?:\/\/(cdn|unpkg|fonts|ajax|cdnjs)\./, `${f} が外部CDNを参照しています`);
+    const stripped = src.replace(/https?:\/\/fonts\.(googleapis|gstatic)\.com/g, '');
+    assert.doesNotMatch(stripped, /https?:\/\/(cdn|unpkg|fonts|ajax|cdnjs)\./, `${f} が外部CDNを参照しています`);
   }
 });
 
