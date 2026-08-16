@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}}とは | かけこみWiki</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{TITLE}}とは | かけこみWiki">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/{{SLUG}}/">
+<meta property="og:site_name" content="かけこみWiki">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="{{DIFFICULTY}}">
+<header class="brand-bar">
+  <div class="container">
+    <a class="brand" href="../">かけこみWiki</a>
+    <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
+  </div>
+</header>
+
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">用語いちらん</a> ＞ <span>{{TITLE}}</span></nav>
+
+  <header class="article-head">
+    <p class="yomi">{{YOMI}}</p>
+    <h1>{{TITLE}}</h1>
+    {{ENGLISH_BLOCK}}
+    <p class="meta">
+      <span class="badge">{{DIFFICULTY}}</span>
+      {{GENRE_CHIPS}}
+    </p>
+  </header>
+
+  <div class="body">
+{{BODY}}
+  </div>
+
+  {{STEPDOWN_BLOCK}}
+  {{RELATED_BLOCK}}
+  {{SOURCES_BLOCK}}
+
+  <p class="updated">最終更新: {{UPDATED}}</p>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみWiki は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> の技術用語辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+</body>
+</html>

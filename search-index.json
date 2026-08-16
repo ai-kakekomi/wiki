@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "rls",
+    "title": "RLS",
+    "yomi": "アールエルエス",
+    "english": "Row Level Security",
+    "difficulty": "特級",
+    "genres": [
+      "データベース",
+      "セキュリティ"
+    ],
+    "summary": "同じ表を見ても、人によって見える行がちがう。そういう仕組みをデータベース自身に持たせるのがRLSです。"
+  }
+]

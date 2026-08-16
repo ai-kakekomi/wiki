@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>かけこみWiki | AIかけこみ寺の技術用語辞典</title>
+<meta name="description" content="ITやAIの言葉を、中学生にも分かる日本語で説明する用語辞典です。むずかしい言葉に出会ったら、ここにかけこんでください。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="かけこみWiki | AIかけこみ寺の技術用語辞典">
+<meta property="og:description" content="ITやAIの言葉を、中学生にも分かる日本語で説明する用語辞典です。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/">
+<meta property="og:site_name" content="かけこみWiki">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="assets/wiki.css">
+</head>
+<body>
+<header class="brand-bar">
+  <div class="container">
+    <a class="brand" href="./">かけこみWiki</a>
+    <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
+  </div>
+</header>
+
+<main>
+<div class="page-head">
+  <div class="container">
+    <p class="section-label">KAKEKOMI WIKI</p>
+    <h1>むずかしい言葉に、かけこむ場所</h1>
+    <p class="lead">ITやAIの言葉を、中学生にも分かる日本語で説明します。むずかしいと感じたら、やさしい言葉へ戻れます。</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="search-area">
+    <label class="search-label" for="q">言葉をさがす</label>
+    <input id="q" type="search" class="search-box" placeholder="ひらがな・カタカナ・英語で入力（例: あーるえるえす、security）" autocomplete="off">
+    <div class="filters">
+      <div class="filter-row"><span class="filter-label">むずかしさ</span><button type="button" class="filter-btn is-on" data-difficulty="">すべて</button><button type="button" class="filter-btn" data-difficulty="初級">初級</button><button type="button" class="filter-btn" data-difficulty="中級">中級</button><button type="button" class="filter-btn" data-difficulty="上級">上級</button><button type="button" class="filter-btn" data-difficulty="特級">特級</button></div>
+      <div class="filter-row"><span class="filter-label">ジャンル</span><button type="button" class="filter-btn is-on" data-genre="">すべて</button><button type="button" class="filter-btn" data-genre="セキュリティ">セキュリティ</button><button type="button" class="filter-btn" data-genre="データベース">データベース</button></div>
+    </div>
+    <p class="result-count" id="count"></p>
+  </div>
+
+  <div class="card-grid" id="cards">
+      <a class="card" href="rls/" data-difficulty="特級" data-genres="データベース,セキュリティ">
+        <p class="card-yomi">アールエルエス</p>
+        <h2 class="card-title">RLS</h2>
+        <p class="card-summary">同じ表を見ても、人によって見える行がちがう。そういう仕組みをデータベース自身に持たせるのがRLSです。</p>
+        <p class="card-meta"><span class="badge">特級</span><span class="chip">データベース</span><span class="chip">セキュリティ</span></p>
+      </a>
+  </div>
+  <p class="empty" id="empty" hidden>あてはまる言葉が見つかりませんでした。ひらがなや英語でも試してみてください。</p>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみWiki は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> の技術用語辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+<script src="assets/search.js"></script>
+</body>
+</html>

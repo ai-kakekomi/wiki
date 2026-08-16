@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RLSとは | かけこみWiki</title>
+<meta name="description" content="同じ表を見ても、人によって見える行がちがう。そういう仕組みをデータベース自身に持たせるのがRLSです。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RLSとは | かけこみWiki">
+<meta property="og:description" content="同じ表を見ても、人によって見える行がちがう。そういう仕組みをデータベース自身に持たせるのがRLSです。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/rls/">
+<meta property="og:site_name" content="かけこみWiki">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="特級">
+<header class="brand-bar">
+  <div class="container">
+    <a class="brand" href="../">かけこみWiki</a>
+    <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
+  </div>
+</header>
+
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">用語いちらん</a> ＞ <span>RLS</span></nav>
+
+  <header class="article-head">
+    <p class="yomi">アールエルエス</p>
+    <h1>RLS</h1>
+    <p class="english"><span class="en">Row Level Security</span><span class="en-yomi">ロウ・レベル・セキュリティ</span><span class="en-ja">行単位のアクセス制御</span></p>
+    <p class="meta">
+      <span class="badge">特級</span>
+      <span class="chip">データベース</span><span class="chip">セキュリティ</span>
+    </p>
+  </header>
+
+  <div class="body">
+<h2>ひとことで</h2>
+<p>同じ表を見ても、人によって見える行がちがう。そういう仕組みをデータベース自身に持たせるのがRLSです。</p>
+<h2>なぜ大事?</h2>
+<p>アプリの中には、たくさんの人のデータが1つの表にまとめて入っています。日記アプリなら、あなたの日記も、友だちの日記も、全部同じ表の別々の行です。</p>
+<p>このとき「自分の行だけ見せる」という判断を、アプリのプログラム側だけでやっていると危険です。プログラムは人間が書くものなので、うっかり条件を書き忘れた1か所から、他人のデータが丸ごと見えてしまいます。実際、個人情報の流出事故はこの種の書き忘れがきっかけになることがよくあります。</p>
+<p>RLSは、その判断をデータベースそのものに引っ越させます。データベースが門番になるので、アプリ側が書き忘れても、そもそも他人の行は返ってきません。守りの層が二重になる、というのが一番大きな価値です。</p>
+<h2>やさしい解説</h2>
+<p>学校の職員室に、全校生徒の成績が1冊のノートにまとまっているとします。</p>
+<p>このノートを机に置きっぱなしにして「自分のページだけ見てね」とお願いするのが、アプリ側だけで守っているやり方です。ルールを守る人ばかりなら平気ですが、一度めくられたら終わりです。</p>
+<p>RLSは、そのノートに司書さんを1人つけるようなものです。誰かがノートを見に来たら、司書さんが「あなたは山田さんですね」と確認して、山田さんのページだけを開いて渡します。他のページは、頼まれても開きません。お願いではなく、物理的に届かないようにする。これがRLSの発想です。</p>
+<p>具体的な形も見ておきましょう。日記アプリの <code>diaries</code>（日記）という表に、こういう行が入っているとします。</p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>user_id</th>
+<th>本文</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>山田</td>
+<td>今日は雨だった</td>
+</tr>
+<tr>
+<td>2</td>
+<td>鈴木</td>
+<td>部活で筋肉痛</td>
+</tr>
+<tr>
+<td>3</td>
+<td>山田</td>
+<td>テスト勉強した</td>
+</tr>
+</tbody></table>
+<p>ここにRLSの決まりごと（ポリシーと呼びます）を1つ書きます。日本語にすると、こうです。</p>
+<blockquote>
+<p>この表を読むときは、行の <code>user_id</code> が「いま接続している本人」と一致する行だけを返すこと。</p>
+</blockquote>
+<p>この決まりを入れたあと、山田さんがログインして「日記を全部ちょうだい」と頼むと、返ってくるのは1番と3番だけです。2番の鈴木さんの行は、「全部ちょうだい」と頼んでいるのに返ってきません。データベースが勝手に、そして確実に、除いてくれるからです。</p>
+<p>注意点も1つ。RLSは「有効にする」と宣言して初めて働きます。宣言を忘れた表は、これまで通り誰にでも全部見えたままです。表を新しく作るたびに有効化する、という習慣とセットで初めて意味を持ちます。</p>
+
+  </div>
+
+  
+  
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://supabase.com/docs/guides/database/postgres/row-level-security" rel="noopener nofollow" target="_blank">Row Level Security | Supabase Docs</a></li><li><a href="https://www.postgresql.org/docs/current/ddl-rowsecurity.html" rel="noopener nofollow" target="_blank">Row Security Policies | PostgreSQL Documentation</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-08-16</p>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみWiki は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> の技術用語辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+</body>
+</html>
