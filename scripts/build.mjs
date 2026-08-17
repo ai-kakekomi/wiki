@@ -90,14 +90,6 @@ function relatedBlock(a, bySlug, warn) {
   return `<section class="related"><h2>関連ワード</h2><ul class="related-list">${items.join('')}</ul></section>`;
 }
 
-function stepdownBlock(a, bySlug) {
-  const targets = stepDownTargets(a, bySlug);
-  if (!targets.length) return '';
-  const t = targets[0];
-  return `<aside class="stepdown"><p class="stepdown-label">むずかしいと感じたら</p>` +
-    `<a class="stepdown-link" href="../${t.slug}/">一つやさしい難易度へ： ${escapeHtml(t.title)}<span class="badge badge-inline" data-difficulty="${escapeHtml(t.difficulty)}">${escapeHtml(t.difficulty)}</span></a></aside>`;
-}
-
 function sourcesBlock(a) {
   const items = (a.sources || [])
     .map((s) => `<li><a href="${escapeHtml(s.url)}" rel="noopener nofollow" target="_blank">${escapeHtml(s.title)}</a></li>`)
@@ -119,7 +111,6 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
     .replaceAll('{{UPDATED}}', escapeHtml(a.updated))
     .replaceAll('{{ENGLISH_BLOCK}}', englishBlock(a))
     .replaceAll('{{GENRE_CHIPS}}', chips(a.genres))
-    .replaceAll('{{STEPDOWN_BLOCK}}', stepdownBlock(a, bySlug))
     .replaceAll('{{RELATED_BLOCK}}', relatedBlock(a, bySlug, warn))
     .replaceAll('{{SOURCES_BLOCK}}', sourcesBlock(a))
     .replaceAll('{{BODY}}', body);

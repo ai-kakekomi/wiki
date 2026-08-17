@@ -1,6 +1,6 @@
 import { DIFFICULTIES } from './frontmatter.mjs';
 
-export const REQUIRED_SECTIONS = ['## ひとことで', '## なぜ大事?', '## やさしい解説'];
+export const REQUIRED_SECTIONS = ['## ひとことで', '## なぜ大事?', '## やさしい解説', '## 例文'];
 
 const KATAKANA = /^[゠-ヿ・ー・\s]+$/;
 
