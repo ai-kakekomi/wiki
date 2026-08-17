@@ -1,4 +1,4 @@
-/* かけこみ辞典 共通スタイル。外部フォント・外部CSSは読み込まない（完全ローカル） */
+/* かけこみ辞典 共通スタイル */
 :root {
   --primary: #2D6A4F;
   --primary-light: #52B788;
@@ -132,15 +132,6 @@ main { flex: 1; }
   display: inline-block; background: var(--level); color: var(--white);
   font-size: 0.78rem; font-weight: 700; padding: 3px 12px; border-radius: 999px; line-height: 1.7;
 }
-/* バッジにも段位マーク: 上級=◆ 特級=★(紫金グラデ) */
-.badge[data-difficulty="上級"]::before,
-body[data-difficulty="上級"] .article-head .badge::before { content: "◆ "; font-size: 0.85em; }
-.badge[data-difficulty="特級"]::before,
-body[data-difficulty="特級"] .article-head .badge::before { content: "★ "; font-size: 0.85em; }
-.badge[data-difficulty="特級"],
-body[data-difficulty="特級"] .article-head .badge {
-  background: linear-gradient(120deg, var(--d-expert) 0%, #8A5FBF 55%, #C9A227 130%);
-}
 .badge-inline { margin-right: 8px; }
 .chip {
   display: inline-block; background: var(--warm-bg-alt); color: var(--text-light);
@@ -179,41 +170,10 @@ body[data-difficulty="特級"] .article-head .badge {
 }
 .article-head .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 
-.card[data-difficulty="初級"] { --level: var(--d-beginner); --level-pale: var(--d-beginner-pale); }
-.card[data-difficulty="中級"] { --level: var(--d-middle); --level-pale: var(--d-middle-pale); }
-.card[data-difficulty="上級"] { --level: var(--d-advanced); --level-pale: var(--d-advanced-pale); }
-.card[data-difficulty="特級"] { --level: var(--d-expert); --level-pale: var(--d-expert-pale); }
-
-/* レアリティ演出: 段位が上がるほどピルが少しずつ豪華になる(N→R→SR→SSRの気持ちよさ) */
-/* 中級: 枠がうっすら色づく */
-.card[data-difficulty="中級"] { border-color: color-mix(in srgb, var(--level) 40%, white); }
-/* 上級: ひし形マーク+淡い色地+色枠 */
-.card[data-difficulty="上級"] {
-  border-color: color-mix(in srgb, var(--level) 55%, white);
-  background: color-mix(in srgb, var(--level-pale) 45%, white);
-}
-.card[data-difficulty="上級"] .w-dot { border-radius: 2px; transform: rotate(45deg); }
-/* 特級: 星マーク+紫と金のグラデーション枠。ここまで読めたら自慢していい */
-.card[data-difficulty="特級"] {
-  border: 1px solid transparent;
-  background:
-    linear-gradient(color-mix(in srgb, var(--level-pale) 35%, white), color-mix(in srgb, var(--level-pale) 35%, white)) padding-box,
-    linear-gradient(120deg, var(--d-expert) 0%, #C9A227 45%, var(--d-expert) 100%) border-box;
-  background-size: 100% 100%, 250% 100%;
-}
-.card[data-difficulty="特級"] .w-dot {
-  width: 12px; height: 12px; border-radius: 0;
-  clip-path: polygon(50% 0%, 63% 36%, 100% 38%, 70% 60%, 81% 100%, 50% 76%, 19% 100%, 30% 60%, 0% 38%, 37% 36%);
-}
-@media (hover: hover) and (prefers-reduced-motion: no-preference) {
-  .card[data-difficulty="特級"]:hover {
-    animation: ssr-shine 1.2s linear infinite;
-  }
-  @keyframes ssr-shine {
-    from { background-position: 0 0, 0% 0; }
-    to { background-position: 0 0, 250% 0; }
-  }
-}
+.card[data-difficulty="初級"] { --level: var(--d-beginner); }
+.card[data-difficulty="中級"] { --level: var(--d-middle); }
+.card[data-difficulty="上級"] { --level: var(--d-advanced); }
+.card[data-difficulty="特級"] { --level: var(--d-expert); }
 .article-head .chip { background: var(--white); }
 
 .body { font-size: 1.05rem; }
