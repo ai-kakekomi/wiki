@@ -33,7 +33,7 @@ npm run serve        # http://localhost:8080 でローカル確認
 | `scripts/link.mjs` | note原稿へ初出リンクを埋め込むCLI（wiki-linkスキルから呼ぶ） |
 | `templates/article.html` | 記事HTMLのひな形。`{{PLACEHOLDER}}` を置換するだけ |
 | `assets/wiki.css` | LPのCSSトークン（`--primary:#2D6A4F` 系）を流用 |
-| `assets/search.js` | 依存ゼロの検索。`search-index.json` をfetchする |
+| `assets/search.js` | 依存ゼロの絞り込み(難易度・ジャンル)。検索バーは置かない方針 |
 | `test/build.test.mjs` | `node --test` で走るテスト |
 
 ## frontmatter仕様（検証で必須強制）
@@ -42,7 +42,7 @@ npm run serve        # http://localhost:8080 でローカル確認
 ---
 slug: rls                    # 英小文字・数字・ハイフン。ファイル名と一致すること
 title: RLS                   # 見出しに出る表記
-yomi: アールエルエス            # カタカナ必須（検索のかな正規化に使う）
+yomi: アールエルエス            # カタカナ必須
 english: Row Level Security  # 任意。英語・頭字語ならフルスペルを書く
 english_yomi: ロウ・レベル・セキュリティ  # english があれば必須・カタカナ
 japanese: 行単位のアクセス制御   # english があれば必須・和訳

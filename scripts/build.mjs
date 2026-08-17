@@ -195,7 +195,6 @@ ${pills}
   </div>
 
   <div class="toolbar">
-    <input id="q" type="search" class="search-box" placeholder="言葉をさがす" aria-label="言葉をさがす" autocomplete="off">
     <div class="filters">
       <div class="filter-row">${difficultyButtons}</div>
       <div class="filter-row">${genreButtons}</div>

@@ -86,14 +86,7 @@ main { flex: 1; }
 .lead { font-size: 0.9rem; color: var(--text-light); }
 
 .toolbar { padding: 14px 0 18px; }
-.search-box {
-  width: 100%; max-width: 420px; font-family: var(--font); font-size: 1rem; padding: 9px 14px;
-  border: 1.5px solid rgba(45, 106, 79, 0.25); border-radius: 999px;
-  background: var(--white); color: var(--text);
-}
-.search-box:focus { outline: none; border-color: var(--primary-light); }
-
-.filters { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+.filters { display: flex; flex-direction: column; gap: 6px; }
 .filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .filter-btn {
   font-family: var(--font); font-size: 0.82rem; padding: 5px 12px; cursor: pointer;

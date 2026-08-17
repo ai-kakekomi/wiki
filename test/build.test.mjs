@@ -189,10 +189,10 @@ test('記事HTML: OGP と description を持つ', () => {
   assert.match(html, /property="og:url" content="https:\/\/ai-kakekomi\.com\/wiki\/rls\/"/);
 });
 
-test('トップページ: カード・検索欄・絞り込みが入る', () => {
+test('トップページ: ことば一覧と絞り込みが入る(検索バーは置かない)', () => {
   const { articles } = loadArticles();
   const html = renderIndex(articles);
-  assert.match(html, /id="q"/);
+  assert.doesNotMatch(html, /id="q"/);
   assert.match(html, /class="card" href="rls\/"/);
   assert.match(html, /data-difficulty="特級"/);
   assert.match(html, /data-genre="データベース"/);
