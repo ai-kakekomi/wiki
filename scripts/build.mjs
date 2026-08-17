@@ -125,19 +125,38 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
     .replaceAll('{{BODY}}', body);
 }
 
+// トップの大分類。ジャンルから1つに割り当てる(未来・社会を先に判定し、残りは技術)
+export function wordGroup(a) {
+  const g = a.genres || [];
+  if (g.includes('未来')) return '未来の用語';
+  if (g.includes('社会')) return '社会の用語';
+  return '技術の用語';
+}
+
+const WORD_GROUPS = ['技術の用語', '社会の用語', '未来の用語'];
+
 export function renderIndex(articles) {
   const genres = [...new Set(articles.flatMap((a) => a.genres || []))].sort();
-  const cards = articles
+  const wordPill = (a) => {
+    // 読み仮名は英字タイトルのみ(日本語の語に全部付けると一覧がうるさい)
+    const yomi = /[A-Za-z]/.test(a.title)
+      ? `<span class="w-yomi">${escapeHtml(a.yomi)}</span>`
+      : '';
+    return `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}"><i class="w-dot"></i><span class="w-title">${escapeHtml(a.title)}</span>${yomi}</a>`;
+  };
+  const sorted = articles
     .slice()
-    .sort((a, b) => DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) || a.slug.localeCompare(b.slug))
-    .map((a) => {
-      // 読み仮名は英字タイトルのみ(日本語の語に全部付けると一覧がうるさい)
-      const yomi = /[A-Za-z]/.test(a.title)
-        ? `<span class="w-yomi">${escapeHtml(a.yomi)}</span>`
-        : '';
-      return `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}"><i class="w-dot"></i><span class="w-title">${escapeHtml(a.title)}</span>${yomi}</a>`;
-    })
-    .join('\n');
+    .sort((a, b) => DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) || a.slug.localeCompare(b.slug));
+  const cards = WORD_GROUPS.map((name) => {
+    const pills = sorted.filter((a) => wordGroup(a) === name).map(wordPill).join('\n');
+    if (!pills) return '';
+    return `    <section class="word-group">
+      <h2 class="group-title">${name}</h2>
+      <div class="word-list">
+${pills}
+      </div>
+    </section>`;
+  }).filter(Boolean).join('\n');
 
   const difficultyButtons = ['すべて', ...DIFFICULTIES]
     .map(
@@ -192,7 +211,7 @@ export function renderIndex(articles) {
     <p class="result-count" id="count" hidden></p>
   </div>
 
-  <div class="word-list" id="cards">
+  <div id="cards">
 ${cards}
   </div>
   <p class="empty" id="empty" hidden>あてはまる言葉が見つかりませんでした。ひらがなや英語でも試してみてください。</p>

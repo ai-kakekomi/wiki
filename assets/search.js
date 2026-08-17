@@ -63,10 +63,10 @@
       return { card: card, score: sc };
     });
 
-    if (q) {
-      ranked.sort(function (a, b) { return b.score - a.score; });
-      ranked.forEach(function (r) { cardsWrap.appendChild(r.card); });
-    }
+    // グループ内に言葉が1つも残らないときは見出しごと隠す
+    Array.prototype.forEach.call(cardsWrap.querySelectorAll('.word-group'), function (group) {
+      group.hidden = !group.querySelector('.card:not([hidden])');
+    });
 
     if (countEl) {
       var active = q || state.difficulty || state.genre;

@@ -105,7 +105,13 @@ main { flex: 1; }
 .result-count { margin-top: 10px; font-size: 0.85rem; color: var(--text-light); }
 
 /* 索引: 言葉が主役。難易度は先頭のドットの色で示す */
-.word-list { display: flex; flex-wrap: wrap; gap: 8px 8px; padding-bottom: 64px; }
+.word-group { margin-bottom: 26px; }
+.word-group:last-of-type { margin-bottom: 64px; }
+.group-title {
+  font-size: 0.95rem; font-weight: 800; color: var(--text-light);
+  margin-bottom: 10px; padding-bottom: 4px; border-bottom: 1.5px solid rgba(45, 106, 79, 0.15);
+}
+.word-list { display: flex; flex-wrap: wrap; gap: 8px 8px; }
 .card {
   display: inline-flex; align-items: baseline; gap: 7px;
   padding: 8px 14px; background: var(--white);
@@ -214,12 +220,13 @@ main { flex: 1; }
   font-size: 1.15rem; font-weight: 800; color: var(--text);
   margin-bottom: 12px; padding-bottom: 6px; border-bottom: 2px solid rgba(45, 106, 79, 0.15);
 }
-.related-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.related-list { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
 .related-list a {
-  display: block; background: var(--white); border-radius: var(--radius-sm);
-  padding: 12px 16px; text-decoration: none; color: var(--text); box-shadow: var(--shadow-soft);
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid rgba(45, 106, 79, 0.18); border-radius: 999px;
+  padding: 7px 14px; text-decoration: none; color: var(--text); font-size: 0.95rem;
 }
-.related-list a:hover { color: var(--primary); }
+.related-list a:hover { border-color: var(--primary); color: var(--primary); }
 .sources ul { margin-left: 1.3em; }
 .sources li { margin-bottom: 6px; font-size: 0.95rem; }
 .sources a { color: var(--primary); word-break: break-all; }
