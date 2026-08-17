@@ -37,15 +37,15 @@
   --font: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, system-ui, sans-serif;
 }
 
-body[data-difficulty="初級"] { --level: var(--d-beginner); --level-pale: var(--d-beginner-pale); }
-body[data-difficulty="中級"] { --level: var(--d-middle);   --level-pale: var(--d-middle-pale); }
-body[data-difficulty="上級"] { --level: var(--d-advanced); --level-pale: var(--d-advanced-pale); }
-body[data-difficulty="特級"] { --level: var(--d-expert);   --level-pale: var(--d-expert-pale); }
+body[data-difficulty="初級"] { --level: var(--d-beginner); --level-pale: var(--d-beginner-pale); --dot: var(--d-beginner-vivid); }
+body[data-difficulty="中級"] { --level: var(--d-middle);   --level-pale: var(--d-middle-pale); --dot: var(--d-middle-vivid); }
+body[data-difficulty="上級"] { --level: var(--d-advanced); --level-pale: var(--d-advanced-pale); --dot: var(--d-advanced-vivid); }
+body[data-difficulty="特級"] { --level: var(--d-expert);   --level-pale: var(--d-expert-pale); --dot: var(--d-expert-vivid); }
 
-.badge[data-difficulty="初級"] { background: var(--d-beginner); }
-.badge[data-difficulty="中級"] { background: var(--d-middle); }
-.badge[data-difficulty="上級"] { background: var(--d-advanced); }
-.badge[data-difficulty="特級"] { background: var(--d-expert); }
+.badge[data-difficulty="初級"] { background: var(--d-beginner-vivid); }
+.badge[data-difficulty="中級"] { background: var(--d-middle-vivid); }
+.badge[data-difficulty="上級"] { background: var(--d-advanced-vivid); }
+.badge[data-difficulty="特級"] { background: var(--d-expert-vivid); }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -66,7 +66,7 @@ body[data-difficulty]::before {
   content: "";
   display: block;
   height: 7px;
-  background: var(--level);
+  background: var(--dot, var(--level));
 }
 
 .container { max-width: 760px; margin: 0 auto; padding: 0 20px; }
@@ -130,7 +130,7 @@ main { flex: 1; }
 .empty { padding: 32px 0 64px; text-align: center; color: var(--text-light); }
 
 .badge {
-  display: inline-block; background: var(--level); color: var(--white);
+  display: inline-block; background: var(--dot, var(--level)); color: var(--white);
   font-size: 0.78rem; font-weight: 700; padding: 3px 12px; border-radius: 999px; line-height: 1.7;
 }
 .badge-inline { margin-right: 8px; }
@@ -180,7 +180,7 @@ main { flex: 1; }
 .body { font-size: 1.05rem; }
 .body h2 {
   font-size: 1.4rem; font-weight: 800; color: var(--level);
-  margin: 40px 0 14px; padding-left: 14px; border-left: 6px solid var(--level); line-height: 1.5;
+  margin: 40px 0 14px; padding-left: 14px; border-left: 6px solid var(--dot, var(--level)); line-height: 1.5;
 }
 .body h3 { font-size: 1.15rem; font-weight: 700; color: var(--text); margin: 28px 0 10px; }
 .body p { margin-bottom: 20px; }
@@ -199,7 +199,7 @@ main { flex: 1; }
 }
 .body pre code { background: none; border: none; color: inherit; padding: 0; }
 .body blockquote {
-  border-left: 5px solid var(--level); background: var(--level-pale);
+  border-left: 5px solid var(--dot, var(--level)); background: var(--level-pale);
   padding: 14px 18px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-bottom: 20px;
 }
 .body blockquote p:last-child { margin-bottom: 0; }
