@@ -2,7 +2,7 @@
   "name": "kakekomi-wiki",
   "version": "1.0.0",
   "private": true,
-  "description": "かけこみWiki - AIかけこみ寺の技術用語辞典（静的サイト）",
+  "description": "かけこみ辞典 - AIかけこみ寺の技術用語辞典（静的サイト）",
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",

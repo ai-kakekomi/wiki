@@ -1,4 +1,4 @@
-/* かけこみWiki 検索。依存ゼロ・外部通信なし（同じフォルダの search-index.json だけを読む） */
+/* かけこみ辞典 検索。依存ゼロ・外部通信なし（同じフォルダの search-index.json だけを読む） */
 (function () {
   'use strict';
 

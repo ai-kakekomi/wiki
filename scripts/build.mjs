@@ -119,12 +119,12 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
 // トップの大分類。ジャンルから1つに割り当てる(未来・社会を先に判定し、残りは技術)
 export function wordGroup(a) {
   const g = a.genres || [];
-  if (g.includes('未来')) return '未来の用語';
-  if (g.includes('社会')) return '社会の用語';
-  return '技術の用語';
+  if (g.includes('未来')) return '未来のことば';
+  if (g.includes('社会')) return '社会のことば';
+  return '技術のことば';
 }
 
-const WORD_GROUPS = ['技術の用語', '社会の用語', '未来の用語'];
+const WORD_GROUPS = ['社会のことば', '技術のことば', '未来のことば'];
 
 export function renderIndex(articles) {
   const genres = [...new Set(articles.flatMap((a) => a.genres || []))].sort();
@@ -165,13 +165,13 @@ ${pills}
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>かけこみWiki | AIかけこみ寺の技術用語辞典</title>
-<meta name="description" content="ITやAIの言葉を、中学生にも分かる日本語で説明する用語辞典です。むずかしい言葉に出会ったら、ここにかけこんでください。">
+<title>かけこみ辞典 | AIかけこみ寺</title>
+<meta name="description" content="AI・プログラミング・社会・未来のことばを、誰でも読める短い日本語で説明する辞典です。むずかしいことばに出会ったら、ここにかけこんでください。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="かけこみWiki | AIかけこみ寺の技術用語辞典">
-<meta property="og:description" content="AI・プログラミング・社会・未来の言葉を、誰でも読める短い日本語で説明する用語辞典です。">
+<meta property="og:title" content="かけこみ辞典 | AIかけこみ寺">
+<meta property="og:description" content="AI・プログラミング・社会・未来のことばを、誰でも読める短い日本語で説明する辞典です。">
 <meta property="og:url" content="https://ai-kakekomi.com/wiki/">
-<meta property="og:site_name" content="かけこみWiki">
+<meta property="og:site_name" content="かけこみ辞典">
 <meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -181,7 +181,7 @@ ${pills}
 <body>
 <header class="brand-bar">
   <div class="container">
-    <a class="brand" href="./">かけこみWiki</a>
+    <a class="brand" href="./">かけこみ辞典</a>
     <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
   </div>
 </header>
@@ -189,7 +189,7 @@ ${pills}
 <main>
 <div class="container">
   <div class="page-head">
-    <h1>かけこみWiki</h1>
+    <h1>かけこみ辞典</h1>
     <p class="lead">AI・プログラミング・社会・未来の言葉を、短くやさしい日本語で。</p>
   </div>
 
@@ -211,7 +211,7 @@ ${cards}
 
 <footer class="site-footer">
   <div class="container">
-    <p>かけこみWiki は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> の技術用語辞典です。</p>
+    <p>かけこみ辞典 は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> のことばの辞典です。</p>
     <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
   </div>
 </footer>
@@ -259,7 +259,7 @@ export function build({ root = ROOT, quiet = false } = {}) {
 
 if (import.meta.url === pathToFileURL(process.argv[1] || '').href) {
   try {
-    console.log('かけこみWiki をビルドします');
+    console.log('かけこみ辞典 をビルドします');
     const { articles, warnings } = build();
     console.log(`完了: 記事 ${articles.length} 本 / 警告 ${warnings.length} 件`);
   } catch (err) {

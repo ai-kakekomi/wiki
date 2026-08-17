@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// note原稿など任意のMarkdownに、かけこみWikiの用語リンクを「初出だけ」埋め込む。
+// note原稿など任意のMarkdownに、かけこみ辞典の用語リンクを「初出だけ」埋め込む。
 //   node scripts/link.mjs <原稿.md>            結果を標準出力へ（ファイルは書き換えない）
 //   node scripts/link.mjs <原稿.md> --dry-run  変更行だけを差分風に表示
 // どちらの場合も、未収録らしき専門用語の候補を標準エラーに一覧表示する。
