@@ -58,6 +58,21 @@ export function stepDownTargets(article, bySlug) {
 const chips = (genres) =>
   (genres || []).map((g) => `<span class="chip">${escapeHtml(g)}</span>`).join('');
 
+// 「## ひとことで」の1文をヒーロー表示用に切り出し、本文からは除く
+export function splitHitokoto(body) {
+  const m = body.match(/##\s*ひとことで\s*\n+([\s\S]*?)(?=\n##\s|$)/);
+  const hitokoto = m ? m[1].trim() : '';
+  const rest = m ? body.replace(m[0], '').trim() : body;
+  return { hitokoto, rest };
+}
+
+// 難易度を4段ゲージで表す(難易度は本物の階段なので順序を可視化する)
+export function rankGauge(difficulty) {
+  const n = DIFFICULTIES.indexOf(difficulty) + 1;
+  const dots = DIFFICULTIES.map((_, i) => `<i${i < n ? ' class="on"' : ''}></i>`).join('');
+  return `<span class="rank" role="img" aria-label="むずかしさ 4段階中${n}">${dots}</span>`;
+}
+
 function englishBlock(a) {
   if (!a.english) return '';
   return `<p class="english"><span class="en">${escapeHtml(a.english)}</span>` +
@@ -97,9 +112,12 @@ function sourcesBlock(a) {
 }
 
 export function renderArticle(a, bySlug, template, warn = () => {}) {
-  const body = marked.parse(a.body);
+  const { hitokoto, rest } = splitHitokoto(a.body);
+  const body = marked.parse(rest);
   const desc = summarize(a.body, 110);
   return template
+    .replaceAll('{{HITOKOTO}}', escapeHtml(hitokoto))
+    .replaceAll('{{RANK_GAUGE}}', rankGauge(a.difficulty))
     .replaceAll('{{SLUG}}', escapeHtml(a.slug))
     .replaceAll('{{TITLE}}', escapeHtml(a.title))
     .replaceAll('{{YOMI}}', escapeHtml(a.yomi))
@@ -124,7 +142,7 @@ export function renderIndex(articles) {
         <p class="card-yomi">${escapeHtml(a.yomi)}</p>
         <h2 class="card-title">${escapeHtml(a.title)}</h2>
         <p class="card-summary">${escapeHtml(summarize(a.body, 80))}</p>
-        <p class="card-meta"><span class="badge">${escapeHtml(a.difficulty)}</span>${chips(a.genres)}</p>
+        <p class="card-meta"><span class="badge">${escapeHtml(a.difficulty)}</span>${rankGauge(a.difficulty)}${chips(a.genres)}</p>
       </a>`
     )
     .join('\n');
