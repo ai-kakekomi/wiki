@@ -129,13 +129,8 @@ const WORD_GROUPS = ['社会のことば', '技術のことば', 'プログラ�
 
 export function renderIndex(articles) {
   const genres = [...new Set(articles.flatMap((a) => a.genres || []))].sort();
-  const wordPill = (a) => {
-    // 読み仮名は英字タイトルのみ(日本語の語に全部付けると一覧がうるさい)
-    const yomi = /[A-Za-z]/.test(a.title)
-      ? `<span class="w-yomi">${escapeHtml(a.yomi)}</span>`
-      : '';
-    return `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}"><i class="w-dot"></i><span class="w-title">${escapeHtml(a.title)}</span>${yomi}</a>`;
-  };
+  const wordPill = (a) =>
+    `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}"><span class="w-badge">${escapeHtml(a.difficulty)}</span><span class="w-title">${escapeHtml(a.title)}</span></a>`;
   const sorted = articles
     .slice()
     .sort((a, b) => DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) || a.slug.localeCompare(b.slug));
@@ -152,7 +147,7 @@ ${pills}
 
   const difficultyButtons = ['すべて', ...DIFFICULTIES]
     .map(
-      (d, i) => `<button type="button" class="filter-btn${i === 0 ? ' is-on' : ''}" data-difficulty="${d === 'すべて' ? '' : d}">${d}</button>`
+      (d, i) => `<button type="button" class="filter-btn${i === 0 ? ' is-on' : ''}" data-difficulty="${d === 'すべて' ? '' : d}">${d === 'すべて' ? '' : '<i class="f-dot"></i>'}${d}</button>`
     )
     .join('');
   const genreButtons = ['すべて', ...genres]

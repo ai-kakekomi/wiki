@@ -25,6 +25,12 @@
   --d-expert: #6B3FA0;
   --d-expert-pale: #F0E9FA;
 
+  /* ドット用の高彩度色(文字を載せないのでコントラスト制約なし。一覧で色分けをはっきりさせる) */
+  --d-beginner-vivid: #2FB45F;
+  --d-middle-vivid: #2E8FE0;
+  --d-advanced-vivid: #F59E0B;
+  --d-expert-vivid: #8B5CF6;
+
   --level: var(--primary);
   --level-pale: var(--primary-pale);
   /* ブランド指定: 丸ゴシック。LPと同じZen Maru Gothic(Google Fonts)を全環境で使い、OS内蔵丸ゴにフォールバック */
@@ -103,12 +109,24 @@ main { flex: 1; }
 }
 .card:hover { border-color: var(--level); color: var(--level); }
 .card[hidden] { display: none; }
-.w-dot {
-  width: 8px; height: 8px; border-radius: 50%; background: var(--level);
+/* ピル内の難易度ミニバッジ(フィルタのドットと同じ高彩度色) */
+.w-badge {
   align-self: center; flex: none;
+  background: var(--dot, var(--level)); color: var(--white);
+  font-size: 0.68rem; font-weight: 700; line-height: 1.5;
+  padding: 1px 8px; border-radius: 999px;
 }
+/* 難易度ボタンに同じ色ドットを付け、凡例を兼ねさせる */
+.filter-btn .f-dot {
+  display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+  margin-right: 5px; vertical-align: -1px;
+}
+.filter-btn[data-difficulty="初級"] .f-dot { background: var(--d-beginner-vivid); }
+.filter-btn[data-difficulty="中級"] .f-dot { background: var(--d-middle-vivid); }
+.filter-btn[data-difficulty="上級"] .f-dot { background: var(--d-advanced-vivid); }
+.filter-btn[data-difficulty="特級"] .f-dot { background: var(--d-expert-vivid); }
+.filter-btn.is-on .f-dot { outline: 2px solid var(--white); outline-offset: -1px; }
 .w-title { font-size: 1rem; font-weight: 700; line-height: 1.6; }
-.w-yomi { font-size: 0.75rem; color: var(--text-light); line-height: 1.4; }
 .empty { padding: 32px 0 64px; text-align: center; color: var(--text-light); }
 
 .badge {
@@ -153,10 +171,10 @@ main { flex: 1; }
 }
 .article-head .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 
-.card[data-difficulty="初級"] { --level: var(--d-beginner); }
-.card[data-difficulty="中級"] { --level: var(--d-middle); }
-.card[data-difficulty="上級"] { --level: var(--d-advanced); }
-.card[data-difficulty="特級"] { --level: var(--d-expert); }
+.card[data-difficulty="初級"] { --level: var(--d-beginner); --dot: var(--d-beginner-vivid); }
+.card[data-difficulty="中級"] { --level: var(--d-middle); --dot: var(--d-middle-vivid); }
+.card[data-difficulty="上級"] { --level: var(--d-advanced); --dot: var(--d-advanced-vivid); }
+.card[data-difficulty="特級"] { --level: var(--d-expert); --dot: var(--d-expert-vivid); }
 .article-head .chip { background: var(--white); }
 
 .body { font-size: 1.05rem; }
