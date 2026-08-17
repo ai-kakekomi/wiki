@@ -69,6 +69,8 @@
     }
 
     if (countEl) {
+      var active = q || state.difficulty || state.genre;
+      countEl.hidden = !active;
       countEl.textContent = shown + ' 件の言葉が見つかりました';
     }
     if (emptyEl) emptyEl.hidden = shown !== 0;

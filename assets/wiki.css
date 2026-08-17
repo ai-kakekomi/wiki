@@ -40,14 +40,6 @@ body[data-difficulty="特級"] { --level: var(--d-expert);   --level-pale: var(-
 .badge[data-difficulty="中級"] { background: var(--d-middle); }
 .badge[data-difficulty="上級"] { background: var(--d-advanced); }
 .badge[data-difficulty="特級"] { background: var(--d-expert); }
-.card[data-difficulty="初級"] { border-left-color: var(--d-beginner); }
-.card[data-difficulty="中級"] { border-left-color: var(--d-middle); }
-.card[data-difficulty="上級"] { border-left-color: var(--d-advanced); }
-.card[data-difficulty="特級"] { border-left-color: var(--d-expert); }
-.card[data-difficulty="初級"] .badge { background: var(--d-beginner); }
-.card[data-difficulty="中級"] .badge { background: var(--d-middle); }
-.card[data-difficulty="上級"] .badge { background: var(--d-advanced); }
-.card[data-difficulty="特級"] .badge { background: var(--d-expert); }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -85,55 +77,49 @@ body[data-difficulty]::before {
 
 main { flex: 1; }
 
-/* ---- トップページ ---- */
-.page-head {
-  padding: 32px 0 22px;
-  text-align: center;
-  background: linear-gradient(170deg, #D8F3DC 0%, #FDF8F0 60%, #FDF8F0 100%);
-}
+/* ---- トップページ: ワード一覧がヒーロー ---- */
+.page-head { padding: 26px 0 6px; }
 .page-head h1 {
-  font-size: clamp(1.6rem, 5vw, 2.3rem); font-weight: 900;
-  color: var(--primary); line-height: 1.45; margin-bottom: 12px;
+  font-size: clamp(1.4rem, 4.5vw, 1.8rem); font-weight: 900;
+  color: var(--primary); line-height: 1.45; margin-bottom: 2px;
 }
-.lead { font-size: 1rem; color: var(--text-light); max-width: 600px; margin: 0 auto; }
+.lead { font-size: 0.9rem; color: var(--text-light); }
 
-.search-area {
-  background: var(--white); border-radius: var(--radius);
-  box-shadow: var(--shadow-soft); padding: 24px 22px; margin: 28px 0 24px;
-}
-.search-label { display: block; font-weight: 700; color: var(--primary); margin-bottom: 8px; font-size: 0.95rem; }
+.toolbar { padding: 14px 0 18px; }
 .search-box {
-  width: 100%; font-family: var(--font); font-size: 1.05rem; padding: 14px 16px;
-  border: 2px solid var(--primary-pale); border-radius: var(--radius-sm);
-  background: var(--warm-bg-alt); color: var(--text);
+  width: 100%; max-width: 420px; font-family: var(--font); font-size: 1rem; padding: 9px 14px;
+  border: 1.5px solid rgba(45, 106, 79, 0.25); border-radius: 999px;
+  background: var(--white); color: var(--text);
 }
-.search-box:focus { outline: none; border-color: var(--primary-light); background: var(--white); }
+.search-box:focus { outline: none; border-color: var(--primary-light); }
 
-.filters { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
-.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
-.filter-label { font-size: 0.85rem; color: var(--text-light); min-width: 5.5em; }
+.filters { margin-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .filter-btn {
-  font-family: var(--font); font-size: 0.88rem; padding: 9px 16px; cursor: pointer;
-  border: 1px solid rgba(45, 106, 79, 0.25); border-radius: 999px;
-  background: var(--white); color: var(--text-light); line-height: 1.6;
+  font-family: var(--font); font-size: 0.82rem; padding: 5px 12px; cursor: pointer;
+  border: 1px solid rgba(45, 106, 79, 0.2); border-radius: 999px;
+  background: transparent; color: var(--text-light); line-height: 1.6;
 }
 .filter-btn:hover { border-color: var(--primary-light); color: var(--primary); }
 .filter-btn.is-on { background: var(--primary); border-color: var(--primary); color: var(--white); font-weight: 700; }
-.result-count { margin-top: 12px; font-size: 0.85rem; color: var(--text-light); }
+.result-count { margin-top: 10px; font-size: 0.85rem; color: var(--text-light); }
 
-.card-grid { display: grid; grid-template-columns: 1fr; gap: 16px; padding-bottom: 56px; }
+/* 索引: 言葉が主役。難易度は先頭のドットの色で示す */
+.word-list { display: flex; flex-wrap: wrap; gap: 8px 8px; padding-bottom: 64px; }
 .card {
-  display: block; padding: 20px 22px; background: var(--white);
-  border-radius: var(--radius); box-shadow: var(--shadow-card);
-  border-left: 5px solid var(--primary-light);
-  text-decoration: none; color: var(--text); transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-flex; align-items: baseline; gap: 7px;
+  padding: 8px 14px; background: var(--white);
+  border: 1px solid rgba(45, 106, 79, 0.14); border-radius: 999px;
+  text-decoration: none; color: var(--text);
 }
-.card:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(45, 106, 79, 0.14); }
+.card:hover { border-color: var(--level); color: var(--level); }
 .card[hidden] { display: none; }
-.card-yomi { font-size: 0.8rem; color: var(--text-light); line-height: 1.4; }
-.card-title { font-size: 1.3rem; font-weight: 700; color: var(--primary); line-height: 1.5; margin-bottom: 4px; }
-.card-summary { font-size: 0.95rem; color: var(--text-light); line-height: 1.8; }
-.card-meta { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.w-dot {
+  width: 8px; height: 8px; border-radius: 50%; background: var(--level);
+  align-self: center; flex: none;
+}
+.w-title { font-size: 1rem; font-weight: 700; line-height: 1.6; }
+.w-yomi { font-size: 0.75rem; color: var(--text-light); line-height: 1.4; }
 .empty { padding: 32px 0 64px; text-align: center; color: var(--text-light); }
 
 .badge {
@@ -178,13 +164,6 @@ main { flex: 1; }
 }
 .article-head .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 
-/* 難易度ゲージ(4段) */
-.rank { display: inline-flex; gap: 3px; align-items: center; margin-right: 2px; }
-.rank i {
-  width: 9px; height: 9px; border-radius: 50%;
-  background: transparent; border: 1.5px solid var(--level); opacity: 0.55;
-}
-.rank i.on { background: var(--level); opacity: 1; }
 .card[data-difficulty="初級"] { --level: var(--d-beginner); }
 .card[data-difficulty="中級"] { --level: var(--d-middle); }
 .card[data-difficulty="上級"] { --level: var(--d-advanced); }
@@ -266,5 +245,4 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   body { font-size: 17px; }
   .container { padding: 0 16px; }
   .article-head { padding: 20px 18px; }
-  .filter-label { min-width: 100%; }
 }

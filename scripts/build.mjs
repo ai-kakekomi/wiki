@@ -66,12 +66,6 @@ export function splitHitokoto(body) {
   return { hitokoto, rest };
 }
 
-// 難易度を4段ゲージで表す(難易度は本物の階段なので順序を可視化する)
-export function rankGauge(difficulty) {
-  const n = DIFFICULTIES.indexOf(difficulty) + 1;
-  const dots = DIFFICULTIES.map((_, i) => `<i${i < n ? ' class="on"' : ''}></i>`).join('');
-  return `<span class="rank" role="img" aria-label="むずかしさ 4段階中${n}">${dots}</span>`;
-}
 
 function englishBlock(a) {
   if (!a.english) return '';
@@ -117,7 +111,6 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
   const desc = summarize(a.body, 110);
   return template
     .replaceAll('{{HITOKOTO}}', escapeHtml(hitokoto))
-    .replaceAll('{{RANK_GAUGE}}', rankGauge(a.difficulty))
     .replaceAll('{{SLUG}}', escapeHtml(a.slug))
     .replaceAll('{{TITLE}}', escapeHtml(a.title))
     .replaceAll('{{YOMI}}', escapeHtml(a.yomi))
@@ -137,14 +130,13 @@ export function renderIndex(articles) {
   const cards = articles
     .slice()
     .sort((a, b) => DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) || a.slug.localeCompare(b.slug))
-    .map(
-      (a) => `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}">
-        <p class="card-yomi">${escapeHtml(a.yomi)}</p>
-        <h2 class="card-title">${escapeHtml(a.title)}</h2>
-        <p class="card-summary">${escapeHtml(summarize(a.body, 80))}</p>
-        <p class="card-meta"><span class="badge">${escapeHtml(a.difficulty)}</span>${rankGauge(a.difficulty)}${chips(a.genres)}</p>
-      </a>`
-    )
+    .map((a) => {
+      // 読み仮名は英字タイトルのみ(日本語の語に全部付けると一覧がうるさい)
+      const yomi = /[A-Za-z]/.test(a.title)
+        ? `<span class="w-yomi">${escapeHtml(a.yomi)}</span>`
+        : '';
+      return `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}"><i class="w-dot"></i><span class="w-title">${escapeHtml(a.title)}</span>${yomi}</a>`;
+    })
     .join('\n');
 
   const difficultyButtons = ['すべて', ...DIFFICULTIES]
@@ -185,25 +177,22 @@ export function renderIndex(articles) {
 </header>
 
 <main>
-<div class="page-head">
-  <div class="container">
-    <h1>かけこみWiki</h1>
-    <p class="lead">AI・プログラミング・社会・未来の言葉を、短くやさしい日本語で説明します。</p>
-  </div>
-</div>
-
 <div class="container">
-  <div class="search-area">
-    <label class="search-label" for="q">言葉をさがす</label>
-    <input id="q" type="search" class="search-box" placeholder="ひらがな・カタカナ・英語で入力（例: あーるえるえす、security）" autocomplete="off">
-    <div class="filters">
-      <div class="filter-row"><span class="filter-label">むずかしさ</span>${difficultyButtons}</div>
-      <div class="filter-row"><span class="filter-label">ジャンル</span>${genreButtons}</div>
-    </div>
-    <p class="result-count" id="count"></p>
+  <div class="page-head">
+    <h1>かけこみWiki</h1>
+    <p class="lead">AI・プログラミング・社会・未来の言葉を、短くやさしい日本語で。</p>
   </div>
 
-  <div class="card-grid" id="cards">
+  <div class="toolbar">
+    <input id="q" type="search" class="search-box" placeholder="言葉をさがす" aria-label="言葉をさがす" autocomplete="off">
+    <div class="filters">
+      <div class="filter-row">${difficultyButtons}</div>
+      <div class="filter-row">${genreButtons}</div>
+    </div>
+    <p class="result-count" id="count" hidden></p>
+  </div>
+
+  <div class="word-list" id="cards">
 ${cards}
   </div>
   <p class="empty" id="empty" hidden>あてはまる言葉が見つかりませんでした。ひらがなや英語でも試してみてください。</p>
