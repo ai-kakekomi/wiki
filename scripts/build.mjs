@@ -180,13 +180,6 @@ ${pills}
 <link rel="stylesheet" href="assets/wiki.css">
 </head>
 <body>
-<header class="brand-bar">
-  <div class="container">
-    <a class="brand" href="./">かけこみ辞典</a>
-    <a class="brand-home" href="https://ai-kakekomi.com/">AIかけこみ寺</a>
-  </div>
-</header>
-
 <main>
 <div class="container">
   <div class="page-head">
