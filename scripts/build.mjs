@@ -121,10 +121,11 @@ export function wordGroup(a) {
   const g = a.genres || [];
   if (g.includes('未来')) return '未来のことば';
   if (g.includes('社会')) return '社会のことば';
+  if (g.includes('プログラミング')) return 'プログラミングのことば';
   return '技術のことば';
 }
 
-const WORD_GROUPS = ['社会のことば', '技術のことば', '未来のことば'];
+const WORD_GROUPS = ['社会のことば', '技術のことば', 'プログラミングのことば', '未来のことば'];
 
 export function renderIndex(articles) {
   const genres = [...new Set(articles.flatMap((a) => a.genres || []))].sort();
