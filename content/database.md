@@ -6,7 +6,7 @@ english: Database
 english_yomi: データベース
 japanese: 整理して保管されたデータの集まり
 difficulty: 中級
-genres: [データベース, プログラミング]
+genres: [データベース]
 related: [supabase, rls, api]
 sources:
   - title: What Is PostgreSQL? | PostgreSQL Documentation
