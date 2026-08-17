@@ -134,6 +134,13 @@ main { flex: 1; }
   font-size: 0.78rem; font-weight: 700; padding: 3px 12px; border-radius: 999px; line-height: 1.7;
 }
 .badge-inline { margin-right: 8px; }
+/* 見出し横の大バッジ: 「特級を読んでるぞ」の背伸び感を出す */
+.badge-title {
+  font-size: 1.6rem; padding: 7px 26px;
+  letter-spacing: 0.12em; text-indent: 0.12em; /* 字間を空け、左右の視覚バランスを取る */
+  margin-left: 14px; vertical-align: 6px;
+  box-shadow: 0 2px 12px color-mix(in srgb, var(--dot, var(--level)) 35%, transparent);
+}
 .chip {
   display: inline-block; background: var(--warm-bg-alt); color: var(--text-light);
   border: 1px solid rgba(45, 106, 79, 0.18);
