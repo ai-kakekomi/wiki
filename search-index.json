@@ -23,6 +23,17 @@
     "summary": "人間ができる知的な仕事をひととおりこなせるAIのことで、まだ実現していません。"
   },
   {
+    "slug": "ai-agent",
+    "title": "AIエージェント",
+    "yomi": "エーアイエージェント",
+    "english": "AI Agent",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "聞かれたことに答えるだけでなく、自分で手順を決めて作業まで進めるAIです。"
+  },
+  {
     "slug": "ai-literacy",
     "title": "AIリテラシー",
     "yomi": "エーアイリテラシー",
@@ -68,6 +79,18 @@
     "summary": "スマホやパソコンに入れて使う、ひとつの目的のための道具です。"
   },
   {
+    "slug": "asi",
+    "title": "超知能",
+    "yomi": "チョウチノウ",
+    "english": "Artificial Superintelligence",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "人よりもはるかに賢くなったAIのことです。"
+  },
+  {
     "slug": "authentication",
     "title": "認証",
     "yomi": "ニンショウ",
@@ -77,6 +100,18 @@
       "セキュリティ"
     ],
     "summary": "アクセスしてきた相手が本当に本人かどうかを確かめる手続きのことです。"
+  },
+  {
+    "slug": "basic-income",
+    "title": "ベーシックインカム",
+    "yomi": "ベーシックインカム",
+    "english": "Basic Income",
+    "difficulty": "上級",
+    "genres": [
+      "社会",
+      "未来"
+    ],
+    "summary": "働いているかどうかに関係なく、全員に決まったお金を配る仕組みです。"
   },
   {
     "slug": "branch",
@@ -99,6 +134,17 @@
       "スマホ"
     ],
     "summary": "インターネットのページを見るための道具です。"
+  },
+  {
+    "slug": "chatbot",
+    "title": "チャットボット",
+    "yomi": "チャットボット",
+    "english": "Chatbot",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "人の代わりに、会話の形で応じてくれる自動の窓口です。"
   },
   {
     "slug": "chatgpt",
@@ -135,6 +181,17 @@
     "summary": "アンソロピックが作った、話しかけて使うAIです。"
   },
   {
+    "slug": "cli",
+    "title": "CLI",
+    "yomi": "シーエルアイ",
+    "english": "Command Line Interface",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "絵やボタンではなく、文字を打って機械に指示する画面です。"
+  },
+  {
     "slug": "clone",
     "title": "クローン",
     "yomi": "クローン",
@@ -155,6 +212,17 @@
       "スマホ"
     ],
     "summary": "写真やデータを、自分の機械ではなく、よその会社の機械にあずけておく形です。"
+  },
+  {
+    "slug": "cloudflare-zero-trust",
+    "title": "ゼロトラスト",
+    "yomi": "ゼロトラスト",
+    "english": "Zero Trust",
+    "difficulty": "特級",
+    "genres": [
+      "セキュリティ"
+    ],
+    "summary": "「社内だから安全」という前提をやめ、毎回確かめる守りかたです。"
   },
   {
     "slug": "commit",
@@ -179,6 +247,39 @@
     "summary": "二人が同じ場所を別々に直していて、どちらを残すか機械が決められない状態です。"
   },
   {
+    "slug": "context",
+    "title": "コンテキスト",
+    "yomi": "コンテキスト",
+    "english": "Context",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIが、いまのやりとりで覚えていられる範囲のことです。"
+  },
+  {
+    "slug": "copyright",
+    "title": "著作権",
+    "yomi": "チョサクケン",
+    "english": "Copyright",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "文章や絵、音楽を作った人に、自動的に生まれる権利です。"
+  },
+  {
+    "slug": "csv",
+    "title": "CSV",
+    "yomi": "シーエスブイ",
+    "english": "Comma-Separated Values",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "表を、カンマで区切っただけの文字で表したファイルです。"
+  },
+  {
     "slug": "dario-amodei",
     "title": "ダリオ・アモデイ",
     "yomi": "ダリオアモデイ",
@@ -189,6 +290,17 @@
       "社会"
     ],
     "summary": "Claudeを作っているアンソロピックを率いている人です。"
+  },
+  {
+    "slug": "data-center",
+    "title": "データセンター",
+    "yomi": "データセンター",
+    "english": "Data Center",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "計算機を大量に並べた、専用の建物です。"
   },
   {
     "slug": "database",
@@ -337,6 +449,17 @@
     "summary": "「これは記録しないで」と書いておくファイルです。"
   },
   {
+    "slug": "gpu",
+    "title": "GPU",
+    "yomi": "ジーピーユー",
+    "english": "Graphics Processing Unit",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "同じような計算を一度に大量にこなすのが得意な部品です。"
+  },
+  {
     "slug": "grok",
     "title": "Grok",
     "yomi": "グロック",
@@ -346,6 +469,62 @@
       "AI"
     ],
     "summary": "イーロン・マスクの会社が作った、話しかけて使うAIです。"
+  },
+  {
+    "slug": "hands-on",
+    "title": "ハンズオン",
+    "yomi": "ハンズオン",
+    "english": "Hands-on",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "説明を聞くだけでなく、その場で自分の手を動かして学ぶ形です。"
+  },
+  {
+    "slug": "hojinkaku",
+    "title": "法人格",
+    "yomi": "ホウジンカク",
+    "english": "Legal Personality",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "団体が、代表個人ではなく団体のまま契約できるようになる資格です。"
+  },
+  {
+    "slug": "hojokin",
+    "title": "補助金・助成金",
+    "yomi": "ホジョキンジョセイキン",
+    "english": "Subsidy",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "国や自治体、財団から出る、返さなくてよい活動のお金です。"
+  },
+  {
+    "slug": "humanoid-robot",
+    "title": "ヒューマノイドロボット",
+    "yomi": "ヒューマノイドロボット",
+    "english": "Humanoid Robot",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "人と同じような形と動きをするロボットです。"
+  },
+  {
+    "slug": "image-generation-ai",
+    "title": "画像生成AI",
+    "yomi": "ガゾウセイセイエーアイ",
+    "english": "Image Generation AI",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "「こんな絵がほしい」と言葉で伝えると、絵を描いてくれるAIです。"
   },
   {
     "slug": "install",
@@ -359,6 +538,17 @@
     "summary": "アプリを自分のスマホやパソコンに入れて、使えるようにすることです。"
   },
   {
+    "slug": "ippan-shadan",
+    "title": "一般社団法人",
+    "yomi": "イッパンシャダンホウジン",
+    "english": "General Incorporated Association",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "役所の審査を待たず、登記だけで作れる法人の形です。"
+  },
+  {
     "slug": "issue",
     "title": "イシュー",
     "yomi": "イシュー",
@@ -370,6 +560,17 @@
     "summary": "「ここを直したい」「これを足したい」を書いて貼っておく紙です。"
   },
   {
+    "slug": "kanji-auditor",
+    "title": "監事",
+    "yomi": "カンジ",
+    "english": "Auditor",
+    "difficulty": "特級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "団体の運営とお金の使いかたを、内側から見張る役です。"
+  },
+  {
     "slug": "koen-meigi",
     "title": "後援名義",
     "yomi": "コウエンメイギ",
@@ -379,6 +580,17 @@
       "社会"
     ],
     "summary": "行政などから「この催しを応援しています」と名前を貸してもらう制度です。"
+  },
+  {
+    "slug": "law-of-accelerating-returns",
+    "title": "収穫加速の法則",
+    "yomi": "シュウカクカソクノホウソク",
+    "english": "Law of Accelerating Returns",
+    "difficulty": "特級",
+    "genres": [
+      "未来"
+    ],
+    "summary": "技術は少しずつ進むのではなく、進む速さそのものが上がっていく、という見かたです。"
   },
   {
     "slug": "llm",
@@ -403,6 +615,40 @@
     "summary": "「私です」と伝えて、自分の席に座ることです。"
   },
   {
+    "slug": "longevity-escape-velocity",
+    "title": "寿命脱出速度",
+    "yomi": "ジュミョウダッシュツソクド",
+    "english": "Longevity Escape Velocity",
+    "difficulty": "特級",
+    "genres": [
+      "未来"
+    ],
+    "summary": "1年生きるあいだに、医療の進歩で寿命が1年以上延びる、という状態のことです。"
+  },
+  {
+    "slug": "malware",
+    "title": "マルウェア",
+    "yomi": "マルウェア",
+    "english": "Malware",
+    "difficulty": "上級",
+    "genres": [
+      "セキュリティ",
+      "スマホ"
+    ],
+    "summary": "害を与えるために作られた、悪いソフトの総称です。"
+  },
+  {
+    "slug": "markdown",
+    "title": "マークダウン",
+    "yomi": "マークダウン",
+    "english": "Markdown",
+    "difficulty": "中級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "記号をいくつか覚えるだけで、見出しや箇条書きを作れる書きかたです。"
+  },
+  {
     "slug": "merge",
     "title": "マージ",
     "yomi": "マージ",
@@ -414,6 +660,28 @@
     "summary": "別々に進めていた作業を、ひとつにまとめ直す操作です。"
   },
   {
+    "slug": "moores-law",
+    "title": "ムーアの法則",
+    "yomi": "ムーアノホウソク",
+    "english": "Moore's Law",
+    "difficulty": "上級",
+    "genres": [
+      "未来"
+    ],
+    "summary": "半導体に詰め込める部品の数が、一定の期間ごとに倍になっていく、という見かたです。"
+  },
+  {
+    "slug": "neural-network",
+    "title": "ニューラルネットワーク",
+    "yomi": "ニューラルネットワーク",
+    "english": "Neural Network",
+    "difficulty": "特級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "脳の神経のつながりかたをまねて作った、計算の仕組みです。"
+  },
+  {
     "slug": "npo",
     "title": "NPO法人",
     "yomi": "エヌピーオーホウジン",
@@ -423,6 +691,18 @@
       "社会"
     ],
     "summary": "もうけを仲間内で分けないと決め、法律にもとづいて認められた団体のことです。"
+  },
+  {
+    "slug": "oauth",
+    "title": "OAuth",
+    "yomi": "オーオース",
+    "english": "OAuth",
+    "difficulty": "特級",
+    "genres": [
+      "セキュリティ",
+      "プログラミング"
+    ],
+    "summary": "自分の合言葉を相手に渡さずに、他のサービスとつなぐ仕組みです。"
   },
   {
     "slug": "open-source",
@@ -586,6 +866,39 @@
     "summary": "ChatGPTを作ったOpenAIを率いている人です。"
   },
   {
+    "slug": "semiconductor",
+    "title": "半導体",
+    "yomi": "ハンドウタイ",
+    "english": "Semiconductor",
+    "difficulty": "上級",
+    "genres": [
+      "未来"
+    ],
+    "summary": "電気を通す状態と、通さない状態を切り替えられる材料です。"
+  },
+  {
+    "slug": "shakyo",
+    "title": "社会福祉協議会",
+    "yomi": "シャカイフクシキョウギカイ",
+    "english": "Council of Social Welfare",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "市区町村ごとに置かれている、地域の福祉をまとめる団体です。略して「社協」と呼ばれます。"
+  },
+  {
+    "slug": "shogai-gakushu-center",
+    "title": "生涯学習センター",
+    "yomi": "ショウガイガクシュウセンター",
+    "english": "Lifelong Learning Center",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "大人が学ぶための、市区町村が置いている施設です。"
+  },
+  {
     "slug": "singularity",
     "title": "シンギュラリティ",
     "yomi": "シンギュラリティ",
@@ -595,6 +908,28 @@
       "未来"
     ],
     "summary": "AIの進歩が積み重なって人間の知能をはるかに超え、世界の変化が一気に加速する転換点のことです。"
+  },
+  {
+    "slug": "skill",
+    "title": "スキル",
+    "yomi": "スキル",
+    "english": "Skill",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIにあらかじめ渡しておく、決まった作業の手順書です。"
+  },
+  {
+    "slug": "subscription",
+    "title": "サブスク",
+    "yomi": "サブスク",
+    "english": "Subscription",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "買い切りではなく、月ごとや年ごとにお金を払って使い続ける形です。"
   },
   {
     "slug": "supabase",
@@ -618,6 +953,39 @@
       "社会"
     ],
     "summary": "会社や法人の根本ルールを書いた文書で、その団体にとっての憲法にあたります。"
+  },
+  {
+    "slug": "tethering",
+    "title": "テザリング",
+    "yomi": "テザリング",
+    "english": "Tethering",
+    "difficulty": "中級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "自分のスマホを、Wi-Fiの機械の代わりにして、他の機械をつなぐことです。"
+  },
+  {
+    "slug": "token",
+    "title": "トークン",
+    "yomi": "トークン",
+    "english": "Token",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIが文章を読み書きするときの、長さの数えかたの単位です。"
+  },
+  {
+    "slug": "trademark",
+    "title": "商標登録",
+    "yomi": "ショウヒョウトウロク",
+    "english": "Trademark",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "団体やお店の名前・ロゴを、国に登録して自分のものにする手続きです。"
   },
   {
     "slug": "two-factor-auth",
@@ -654,6 +1022,18 @@
       "プログラミング"
     ],
     "summary": "コードを1行ずつ書かずに、やりたいことを日本語でAIに伝えて動くものを作る進め方です。"
+  },
+  {
+    "slug": "vulnerability",
+    "title": "脆弱性",
+    "yomi": "ゼイジャクセイ",
+    "english": "Vulnerability",
+    "difficulty": "特級",
+    "genres": [
+      "セキュリティ",
+      "プログラミング"
+    ],
+    "summary": "ソフトの中にある、突かれると悪用できてしまう弱点です。"
   },
   {
     "slug": "wifi",
