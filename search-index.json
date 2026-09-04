@@ -326,6 +326,17 @@
     "summary": "たくさんの情報を、あとから一瞬で探し出せる形にして保管しておく仕組みです。"
   },
   {
+    "slug": "deep-learning",
+    "title": "ディープラーニング",
+    "yomi": "ディープラーニング",
+    "english": "Deep Learning",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "脳をまねた仕組みを、何層にも深く重ねた機械学習のやりかたです。"
+  },
+  {
     "slug": "demis-hassabis",
     "title": "デミス・ハサビス",
     "yomi": "デミスハサビス",
@@ -630,14 +641,14 @@
   },
   {
     "slug": "llm",
-    "title": "LLM",
-    "yomi": "エルエルエム",
+    "title": "大規模言語モデル",
+    "yomi": "ダイキボゲンゴモデル",
     "english": "Large Language Model",
     "difficulty": "上級",
     "genres": [
       "AI"
     ],
-    "summary": "大量の文章を読みこんで、次に来る言葉を当てられるようになった巨大なプログラムです。"
+    "summary": "大量の文章を読みこんで、次に来る言葉を当てられるようになった巨大なプログラムです。英語の頭文字をとって「LLM」とも呼ばれます。"
   },
   {
     "slug": "login",
@@ -660,6 +671,17 @@
       "未来"
     ],
     "summary": "1年生きるあいだに、医療の進歩で寿命が1年以上延びる、という状態のことです。"
+  },
+  {
+    "slug": "machine-learning",
+    "title": "機械学習",
+    "yomi": "キカイガクシュウ",
+    "english": "Machine Learning",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "やりかたを教えるのではなく、例をたくさん見せて、機械に自分で覚えさせる方法です。"
   },
   {
     "slug": "malware",
