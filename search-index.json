@@ -1,5 +1,16 @@
 [
   {
+    "slug": "account",
+    "title": "アカウント",
+    "yomi": "アカウント",
+    "english": "Account",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "そのサービスの中に用意された、自分専用の席のことです。"
+  },
+  {
     "slug": "agi",
     "title": "AGI",
     "yomi": "エージーアイ",
@@ -24,6 +35,17 @@
     "summary": "AIを使う力と、AIの答えを疑う力をあわせて、AIリテラシーと呼びます。"
   },
   {
+    "slug": "anthropic",
+    "title": "アンソロピック",
+    "yomi": "アンソロピック",
+    "english": "Anthropic",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "Claudeを作っている、アメリカの会社です。"
+  },
+  {
     "slug": "api",
     "title": "API",
     "yomi": "エーピーアイ",
@@ -33,6 +55,17 @@
       "プログラミング"
     ],
     "summary": "プログラムが別のプログラムに用事を頼むための、決まった形の窓口です。"
+  },
+  {
+    "slug": "app",
+    "title": "アプリ",
+    "yomi": "アプリ",
+    "english": "App",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "スマホやパソコンに入れて使う、ひとつの目的のための道具です。"
   },
   {
     "slug": "authentication",
@@ -55,6 +88,17 @@
       "プログラミング"
     ],
     "summary": "いま動いているものをこわさずに、別のところで作りかえるための「枝」です。"
+  },
+  {
+    "slug": "browser",
+    "title": "ブラウザ",
+    "yomi": "ブラウザ",
+    "english": "Browser",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "インターネットのページを見るための道具です。"
   },
   {
     "slug": "chatgpt",
@@ -80,6 +124,17 @@
     "summary": "日本語で頼むと、パソコンの中のプログラムを自分で読んで、書いて、動かして、直してくれるAIです。"
   },
   {
+    "slug": "claude",
+    "title": "Claude",
+    "yomi": "クロード",
+    "english": "Claude",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "アンソロピックが作った、話しかけて使うAIです。"
+  },
+  {
     "slug": "clone",
     "title": "クローン",
     "yomi": "クローン",
@@ -89,6 +144,17 @@
       "プログラミング"
     ],
     "summary": "ネット上に置かれたプログラム一式を、これまでの記録ごと自分のパソコンに丸ごと写し取ることです。"
+  },
+  {
+    "slug": "cloud",
+    "title": "クラウド",
+    "yomi": "クラウド",
+    "english": "Cloud",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "写真やデータを、自分の機械ではなく、よその会社の機械にあずけておく形です。"
   },
   {
     "slug": "commit",
@@ -102,6 +168,29 @@
     "summary": "作業の区切りに「ここまでやりました」と説明を付けて記録を残す操作です。"
   },
   {
+    "slug": "conflict",
+    "title": "コンフリクト",
+    "yomi": "コンフリクト",
+    "english": "Conflict",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "二人が同じ場所を別々に直していて、どちらを残すか機械が決められない状態です。"
+  },
+  {
+    "slug": "dario-amodei",
+    "title": "ダリオ・アモデイ",
+    "yomi": "ダリオアモデイ",
+    "english": "Dario Amodei",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "Claudeを作っているアンソロピックを率いている人です。"
+  },
+  {
     "slug": "database",
     "title": "データベース",
     "yomi": "データベース",
@@ -113,6 +202,29 @@
     "summary": "たくさんの情報を、あとから一瞬で探し出せる形にして保管しておく仕組みです。"
   },
   {
+    "slug": "demis-hassabis",
+    "title": "デミス・ハサビス",
+    "yomi": "デミスハサビス",
+    "english": "Demis Hassabis",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "グーグルのAI研究部門を率いている人です。囲碁でプロに勝ったAIを作りました。"
+  },
+  {
+    "slug": "diff",
+    "title": "差分",
+    "yomi": "サブン",
+    "english": "Diff",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "前の状態と今の状態を並べて、変わったところだけを見せたものです。"
+  },
+  {
     "slug": "digital-divide",
     "title": "デジタルデバイド",
     "yomi": "デジタルデバイド",
@@ -122,6 +234,18 @@
       "社会"
     ],
     "summary": "デジタルの道具を使える人と使えない人のあいだに開く、暮らしの差のことです。"
+  },
+  {
+    "slug": "elon-musk",
+    "title": "イーロン・マスク",
+    "yomi": "イーロンマスク",
+    "english": "Elon Musk",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "電気自動車のテスラ、ロケットのスペースX、SNSのXを率いている人です。"
   },
   {
     "slug": "exponential-growth",
@@ -146,6 +270,17 @@
     "summary": "公開されている他人のソフトを、自分の手元に丸ごと複製して自由に作り替えることです。"
   },
   {
+    "slug": "gemini",
+    "title": "Gemini",
+    "yomi": "ジェミニ",
+    "english": "Gemini",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "グーグルが作った、話しかけて使うAIです。"
+  },
+  {
     "slug": "generative-ai",
     "title": "生成AI",
     "yomi": "セイセイエーアイ",
@@ -168,6 +303,73 @@
     "summary": "ファイルの変更を全部記録しておき、いつでも過去の状態に戻れるようにする道具です。"
   },
   {
+    "slug": "github-actions",
+    "title": "GitHub Actions",
+    "yomi": "ギットハブアクションズ",
+    "english": "GitHub Actions",
+    "difficulty": "特級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "GitHubに置いたとき、決めた作業を自動で走らせる仕組みです。"
+  },
+  {
+    "slug": "github",
+    "title": "GitHub",
+    "yomi": "ギットハブ",
+    "english": "GitHub",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "作ったプログラムを置いて、みんなで直していける場所です。"
+  },
+  {
+    "slug": "gitignore",
+    "title": ".gitignore",
+    "yomi": "ドットギットイグノア",
+    "english": ".gitignore",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "セキュリティ"
+    ],
+    "summary": "「これは記録しないで」と書いておくファイルです。"
+  },
+  {
+    "slug": "grok",
+    "title": "Grok",
+    "yomi": "グロック",
+    "english": "Grok",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "イーロン・マスクの会社が作った、話しかけて使うAIです。"
+  },
+  {
+    "slug": "install",
+    "title": "インストール",
+    "yomi": "インストール",
+    "english": "Install",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "アプリを自分のスマホやパソコンに入れて、使えるようにすることです。"
+  },
+  {
+    "slug": "issue",
+    "title": "イシュー",
+    "yomi": "イシュー",
+    "english": "Issue",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "「ここを直したい」「これを足したい」を書いて貼っておく紙です。"
+  },
+  {
     "slug": "koen-meigi",
     "title": "後援名義",
     "yomi": "コウエンメイギ",
@@ -188,6 +390,17 @@
       "AI"
     ],
     "summary": "大量の文章を読みこんで、次に来る言葉を当てられるようになった巨大なプログラムです。"
+  },
+  {
+    "slug": "login",
+    "title": "ログイン",
+    "yomi": "ログイン",
+    "english": "Log in",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "「私です」と伝えて、自分の席に座ることです。"
   },
   {
     "slug": "merge",
@@ -224,6 +437,17 @@
     "summary": "プログラムの中身を誰でも読めて、自由に使い、直し、配り直せるようにする考え方です。"
   },
   {
+    "slug": "openai",
+    "title": "OpenAI",
+    "yomi": "オープンエーアイ",
+    "english": "OpenAI",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "ChatGPTを作った、アメリカの会社です。"
+  },
+  {
     "slug": "oss-license",
     "title": "ライセンス",
     "yomi": "ライセンス",
@@ -234,6 +458,30 @@
       "社会"
     ],
     "summary": "作った人が「この条件で使っていいですよ」と決めて示す、利用のルールです。"
+  },
+  {
+    "slug": "password",
+    "title": "パスワード",
+    "yomi": "パスワード",
+    "english": "Password",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "セキュリティ"
+    ],
+    "summary": "「これを知っているのは本人だけのはず」という合言葉です。"
+  },
+  {
+    "slug": "phishing",
+    "title": "フィッシング",
+    "yomi": "フィッシング",
+    "english": "Phishing",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "セキュリティ"
+    ],
+    "summary": "本物そっくりの偽の画面を見せて、合言葉やカード番号を打たせる手口です。"
   },
   {
     "slug": "prompt",
@@ -280,6 +528,29 @@
     "summary": "自分のパソコンに溜めた作業の記録を、みんなが見るサーバーへ送る操作です。"
   },
   {
+    "slug": "ray-kurzweil",
+    "title": "レイ・カーツワイル",
+    "yomi": "レイカーツワイル",
+    "english": "Ray Kurzweil",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "「2045年にAIが人を超える」と予測した、アメリカの発明家です。"
+  },
+  {
+    "slug": "readme",
+    "title": "README",
+    "yomi": "リードミー",
+    "english": "README",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "置き場を開いた人が最初に読む、その道具の説明書です。"
+  },
+  {
     "slug": "repository",
     "title": "リポジトリ",
     "yomi": "リポジトリ",
@@ -301,6 +572,18 @@
       "セキュリティ"
     ],
     "summary": "同じ表を見ても人によって見える行がちがう、という仕組みです。"
+  },
+  {
+    "slug": "sam-altman",
+    "title": "サム・アルトマン",
+    "yomi": "サムアルトマン",
+    "english": "Sam Altman",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "ChatGPTを作ったOpenAIを率いている人です。"
   },
   {
     "slug": "singularity",
@@ -337,8 +620,32 @@
     "summary": "会社や法人の根本ルールを書いた文書で、その団体にとっての憲法にあたります。"
   },
   {
+    "slug": "two-factor-auth",
+    "title": "二段階認証",
+    "yomi": "ニダンカイニンショウ",
+    "english": "Two-Factor Authentication",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "セキュリティ"
+    ],
+    "summary": "合言葉のあとに、もう一つ確かめる仕組みです。"
+  },
+  {
+    "slug": "update",
+    "title": "アップデート",
+    "yomi": "アップデート",
+    "english": "Update",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "セキュリティ"
+    ],
+    "summary": "アプリやスマホの中身を、新しいものに入れ替えることです。"
+  },
+  {
     "slug": "vibe-coding",
-    "title": "vibe coding",
+    "title": "バイブコーディング",
     "yomi": "バイブコーディング",
     "english": "Vibe Coding",
     "difficulty": "上級",
@@ -347,6 +654,17 @@
       "プログラミング"
     ],
     "summary": "コードを1行ずつ書かずに、やりたいことを日本語でAIに伝えて動くものを作る進め方です。"
+  },
+  {
+    "slug": "wifi",
+    "title": "Wi-Fi",
+    "yomi": "ワイファイ",
+    "english": "Wi-Fi",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "線をつながずに、電波でインターネットにつなぐ仕組みです。"
   },
   {
     "slug": "zero-trust-accounting",

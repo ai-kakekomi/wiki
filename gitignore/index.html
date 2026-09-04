@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>.gitignoreとは | かけこみ辞典</title>
+<meta name="description" content="「これは記録しないで」と書いておくファイルです。">
+<meta property="og:type" content="article">
+<meta property="og:title" content=".gitignoreとは | かけこみ辞典">
+<meta property="og:description" content="「これは記録しないで」と書いておくファイルです。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/gitignore/">
+<meta property="og:site_name" content="かけこみ辞典">
+<meta property="og:image" content="https://ai-kakekomi.com/wiki/assets/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="上級">
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">← ことばのいちらん</a></nav>
+
+  <header class="article-head">
+    <p class="yomi">ドットギットイグノア</p>
+    <h1>.gitignore<span class="badge badge-title">上級</span></h1>
+    <p class="english"><span class="en">.gitignore</span><span class="en-yomi">ドット・ギットイグノア</span><span class="en-ja">記録しないものを書いておく紙</span></p>
+    <p class="hitokoto">「これは記録しないで」と書いておくファイルです。</p>
+  </header>
+
+  <div class="body">
+<h2>なぜ大事?</h2>
+<p><strong>合言葉や鍵をうっかり公開してしまう事故は、ここに書き忘れることで起きます。</strong> 一度GitHubに上げると、あとで消しても記録には残ります。取り返しがつきません。</p>
+<h2>やさしい解説</h2>
+<p>置き場に入れたくないものの名前を、1行ずつ書いておくだけのファイルです。書いておくと、Gitはそのファイルを見なかったことにします。</p>
+<p>必ず書くべきものは3つです。</p>
+<ul>
+<li><strong>鍵や合言葉が入ったファイル</strong>（<code>.env</code> など）</li>
+<li><strong>自動で作られるもの</strong>（<code>node_modules</code> など。量が多く、作り直せる）</li>
+<li><strong>持ち主だけの設定</strong>（他の人には関係ない）</li>
+</ul>
+<p>うっかり上げてしまったときは、消すだけでは足りません。<strong>その鍵はもう使えないものとして、新しいものに替えてください。</strong> 公開された時点で見られたと考えるのが安全です。</p>
+<h2>例文</h2>
+<ul>
+<li>「パスワードの入ったファイルを上げちゃった」「消すだけじゃだめだよ。その鍵は替えよう」</li>
+<li>「node_modulesって上げるの?」「上げないよ。.gitignoreに書いておこう」</li>
+</ul>
+
+  </div>
+
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../git/"><span class="badge badge-inline" data-difficulty="上級">上級</span>Git</a></li><li><a href="../github/"><span class="badge badge-inline" data-difficulty="上級">上級</span>GitHub</a></li><li><a href="../repository/"><span class="badge badge-inline" data-difficulty="上級">上級</span>リポジトリ</a></li><li><a href="../commit/"><span class="badge badge-inline" data-difficulty="上級">上級</span>コミット</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://git-scm.com/book/ja/v2" rel="noopener nofollow" target="_blank">Git - Book</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-09-05</p>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみ辞典 は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> のことばの辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+</body>
+</html>
