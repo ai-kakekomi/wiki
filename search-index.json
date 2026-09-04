@@ -58,6 +58,17 @@
     "summary": "AIを使う力と、AIの答えを疑う力をあわせて、AIリテラシーと呼びます。"
   },
   {
+    "slug": "alibaba",
+    "title": "アリババ",
+    "yomi": "アリババ",
+    "english": "Alibaba",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "中国の大きなIT企業です。ネット通販から始まり、いまはAIにも力を入れています。"
+  },
+  {
     "slug": "anthropic",
     "title": "アンソロピック",
     "yomi": "アンソロピック",
@@ -146,6 +157,18 @@
       "スマホ"
     ],
     "summary": "インターネットのページを見るための道具です。"
+  },
+  {
+    "slug": "bytedance",
+    "title": "バイトダンス",
+    "yomi": "バイトダンス",
+    "english": "ByteDance",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "TikTokを運営している、中国の会社です。"
   },
   {
     "slug": "chatbot",
@@ -335,6 +358,17 @@
       "AI"
     ],
     "summary": "脳をまねた仕組みを、何層にも深く重ねた機械学習のやりかたです。"
+  },
+  {
+    "slug": "deepseek",
+    "title": "DeepSeek",
+    "yomi": "ディープシーク",
+    "english": "DeepSeek",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "中国の会社が作ったAIで、「安く作れる」ことを示して世界を驚かせました。"
   },
   {
     "slug": "demis-hassabis",
@@ -527,6 +561,18 @@
     "summary": "国や自治体、財団から出る、返さなくてよい活動のお金です。"
   },
   {
+    "slug": "huawei",
+    "title": "ファーウェイ",
+    "yomi": "ファーウェイ",
+    "english": "Huawei",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "中国の大きな通信機器メーカーで、いまは半導体も自分で作ろうとしています。"
+  },
+  {
     "slug": "humanoid-robot",
     "title": "ヒューマノイドロボット",
     "yomi": "ヒューマノイドロボット",
@@ -581,6 +627,18 @@
       "プログラミング"
     ],
     "summary": "「ここを直したい」「これを足したい」を書いて貼っておく紙です。"
+  },
+  {
+    "slug": "jensen-huang",
+    "title": "ジェンスン・フアン",
+    "yomi": "ジェンスンフアン",
+    "english": "Jensen Huang",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "NVIDIAを創業し、いまも率いている人です。"
   },
   {
     "slug": "kakekomi-app",
@@ -707,6 +765,18 @@
     "summary": "記号をいくつか覚えるだけで、見出しや箇条書きを作れる書きかたです。"
   },
   {
+    "slug": "masayoshi-son",
+    "title": "孫正義",
+    "yomi": "ソンマサヨシ",
+    "english": "Masayoshi Son",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "ソフトバンクグループを創業し、率いている経営者です。"
+  },
+  {
     "slug": "merge",
     "title": "マージ",
     "yomi": "マージ",
@@ -749,6 +819,17 @@
       "社会"
     ],
     "summary": "もうけを仲間内で分けないと決め、法律にもとづいて認められた団体のことです。"
+  },
+  {
+    "slug": "nvidia",
+    "title": "NVIDIA",
+    "yomi": "エヌビディア",
+    "english": "NVIDIA",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIを動かすための半導体を作っている、アメリカの会社です。"
   },
   {
     "slug": "oauth",
@@ -977,6 +1058,18 @@
       "AI"
     ],
     "summary": "AIにあらかじめ渡しておく、決まった作業の手順書です。"
+  },
+  {
+    "slug": "softbank",
+    "title": "ソフトバンクグループ",
+    "yomi": "ソフトバンクグループ",
+    "english": "SoftBank Group",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "投資を中心とする、日本の大きな企業グループです。"
   },
   {
     "slug": "subscription",
