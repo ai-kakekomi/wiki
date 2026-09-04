@@ -100,6 +100,16 @@ function sourcesBlock(a) {
 export function renderArticle(a, bySlug, template, warn = () => {}) {
   const { hitokoto, rest } = splitHitokoto(a.body);
   const body = marked.parse(rest);
+
+  /* 強調の記号が、記号のまま残っていないか見る。
+     CommonMark では、閉じる ** の直前が句読点や全角の閉じ括弧だと、
+     閉じ記号として認められない（**「見えかた」**にあります が通らない）。
+     markedの不具合ではなく仕様どおりの動きで、日本語では踏みやすい。
+     括弧や句点を強調の外に出せば直る。 */
+  const leftover = body.replace(/<code>[\s\S]*?<\/code>/g, '');
+  if (leftover.includes('**')) {
+    warn(`${a.slug}.md: 強調の ** が記号のまま残っています。閉じる ** の直前が「」や。だと閉じられません。括弧や句点を強調の外に出してください`);
+  }
   const desc = summarize(a.body, 110);
   return template
     .replaceAll('{{HITOKOTO}}', escapeHtml(hitokoto))
