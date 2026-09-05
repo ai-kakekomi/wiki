@@ -2,7 +2,7 @@
 slug: teikan
 title: 定款
 yomi: テイカン
-difficulty: 上級
+difficulty: 中級
 genres: [社会]
 related: [npo, koen-meigi]
 sources:

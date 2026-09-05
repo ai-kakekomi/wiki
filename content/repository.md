@@ -5,7 +5,7 @@ yomi: リポジトリ
 english: Repository
 english_yomi: リポジトリ
 japanese: 保管庫
-difficulty: 上級
+difficulty: 中級
 genres: [プログラミング]
 related: [git, clone, commit, open-source, database]
 sources:

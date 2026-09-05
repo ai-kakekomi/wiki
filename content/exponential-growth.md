@@ -5,7 +5,7 @@ yomi: シスウカンスウテキセイチョウ
 english: Exponential Growth
 english_yomi: エクスポネンシャル・グロース
 japanese: 倍々で増える成長
-difficulty: 特級
+difficulty: 中級
 genres: [未来]
 related: [singularity, agi, generative-ai]
 sources:

@@ -5,7 +5,7 @@ yomi: ハンドウタイ
 english: Semiconductor
 english_yomi: セミコンダクター
 japanese: 電気を通したり止めたりできる材料
-difficulty: 上級
+difficulty: 中級
 genres: [半導体]
 related: [gpu, moores-law, data-center, exponential-growth, neural-network]
 sources:

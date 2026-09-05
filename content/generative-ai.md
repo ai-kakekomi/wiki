@@ -5,7 +5,7 @@ yomi: セイセイエーアイ
 english: Generative AI
 english_yomi: ジェネレーティブ・エーアイ
 japanese: 生成人工知能
-difficulty: 中級
+difficulty: 初級
 genres: [AI]
 related: [chatgpt, prompt, llm, ai-literacy]
 sources:

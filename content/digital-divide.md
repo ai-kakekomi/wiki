@@ -5,7 +5,7 @@ yomi: デジタルデバイド
 english: Digital Divide
 english_yomi: デジタル・ディバイド
 japanese: 情報格差
-difficulty: 上級
+difficulty: 中級
 genres: [社会]
 related: [market-failure, externality, ai-literacy, chatgpt, generative-ai, npo]
 sources:

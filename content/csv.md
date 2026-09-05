@@ -5,7 +5,7 @@ yomi: シーエスブイ
 english: Comma-Separated Values
 english_yomi: コンマ・セパレーテッド・バリューズ
 japanese: 表をカンマで区切って書いた文字だけのファイル
-difficulty: 上級
+difficulty: 中級
 genres: [プログラミング]
 related: [database, zero-trust-accounting, markdown, git, diff]
 sources:

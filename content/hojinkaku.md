@@ -5,7 +5,7 @@ yomi: ホウジンカク
 english: Legal Personality
 english_yomi: リーガル・パーソナリティ
 japanese: 団体が団体のまま契約できる資格
-difficulty: 上級
+difficulty: 中級
 genres: [社会]
 related: [npo, ippan-shadan, teikan, hojokin, kanji-auditor]
 sources:

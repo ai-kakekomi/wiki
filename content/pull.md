@@ -5,7 +5,7 @@ yomi: プル
 english: Pull
 english_yomi: プル
 japanese: 最新の変更を取り込む
-difficulty: 上級
+difficulty: 中級
 genres: [プログラミング]
 related: [push, merge, clone, git, database]
 sources:

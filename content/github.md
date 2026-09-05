@@ -5,7 +5,7 @@ yomi: ギットハブ
 english: GitHub
 english_yomi: ギットハブ
 japanese: プログラムを置いて共有する場所
-difficulty: 上級
+difficulty: 中級
 genres: [プログラミング]
 related: [git, repository, pull-request, issue, open-source]
 sources:

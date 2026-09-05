@@ -5,7 +5,7 @@ yomi: コミット
 english: Commit
 english_yomi: コミット
 japanese: 変更の確定記録
-difficulty: 上級
+difficulty: 中級
 genres: [プログラミング]
 related: [git, branch, push, repository, database]
 sources:

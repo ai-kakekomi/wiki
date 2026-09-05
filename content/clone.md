@@ -5,7 +5,7 @@ yomi: クローン
 english: Clone
 english_yomi: クローン
 japanese: 複製取得
-difficulty: 上級
+difficulty: 中級
 genres: [プログラミング]
 related: [repository, git, pull, fork, database]
 sources:

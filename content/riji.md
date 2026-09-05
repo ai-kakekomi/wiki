@@ -5,7 +5,7 @@ yomi: リジ
 english: Director
 english_yomi: ディレクター
 japanese: 団体の運営を担う役員
-difficulty: 上級
+difficulty: 中級
 genres: [社会]
 related: [rijicho, kanji-auditor, npo, teikan, hojinkaku]
 sources:
