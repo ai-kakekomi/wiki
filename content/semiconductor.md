@@ -6,7 +6,7 @@ english: Semiconductor
 english_yomi: セミコンダクター
 japanese: 電気を通したり止めたりできる材料
 difficulty: 上級
-genres: [未来]
+genres: [半導体]
 related: [gpu, moores-law, data-center, exponential-growth, neural-network]
 sources:
   - title: 「人と人とAI」 | AIかけこみ寺 note

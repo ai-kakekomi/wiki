@@ -6,7 +6,7 @@ english: Masayoshi Son
 english_yomi: マサヨシ・ソン
 japanese: ソフトバンクグループを率いる人
 difficulty: 初級
-genres: [AI, 社会]
+genres: [半導体, 社会]
 related: [softbank, agi, singularity, nvidia, elon-musk]
 sources:
   - title: ソフトバンクグループ

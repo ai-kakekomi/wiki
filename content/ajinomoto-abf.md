@@ -6,7 +6,7 @@ english: Ajinomoto Build-up Film
 english_yomi: アジノモト・ビルドアップ・フィルム
 japanese: 半導体に使う絶縁の膜
 difficulty: 上級
-genres: [AI]
+genres: [半導体]
 related: [semiconductor, semiconductor-equipment, kioxia, gpu, nvidia]
 sources:
   - title: 味の素グループ 電子材料

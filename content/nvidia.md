@@ -6,7 +6,7 @@ english: NVIDIA
 english_yomi: エヌビディア
 japanese: AI用の半導体をほぼ独占する会社
 difficulty: 中級
-genres: [AI]
+genres: [半導体, AI]
 related: [gpu, jensen-huang, semiconductor, data-center, huawei]
 sources:
   - title: NVIDIA

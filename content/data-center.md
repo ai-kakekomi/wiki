@@ -6,7 +6,7 @@ english: Data Center
 english_yomi: データセンター
 japanese: 計算機を大量に置いた建物
 difficulty: 中級
-genres: [AI]
+genres: [半導体, AI]
 related: [cloud, gpu, llm, generative-ai, exponential-growth]
 sources:
   - title: 「人と人とAI」 | AIかけこみ寺 note

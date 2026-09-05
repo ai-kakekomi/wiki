@@ -6,7 +6,7 @@ english: Graphics Processing Unit
 english_yomi: グラフィックス・プロセッシング・ユニット
 japanese: 同じ計算を一度に大量にこなす部品
 difficulty: 上級
-genres: [AI]
+genres: [半導体, AI]
 related: [data-center, neural-network, llm, semiconductor, generative-ai]
 sources:
   - title: 「人と人とAI」 | AIかけこみ寺 note

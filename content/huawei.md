@@ -6,7 +6,7 @@ english: Huawei
 english_yomi: ファーウェイ
 japanese: 中国の通信機器・半導体の大手
 difficulty: 中級
-genres: [AI, 社会]
+genres: [半導体, 社会]
 related: [semiconductor, nvidia, gpu, deepseek, bytedance]
 sources:
   - title: Huawei Japan

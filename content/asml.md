@@ -6,7 +6,7 @@ english: ASML
 english_yomi: エーエスエムエル
 japanese: 最先端の露光装置を独占するオランダの会社
 difficulty: 中級
-genres: [AI]
+genres: [半導体]
 related: [semiconductor-equipment, tsmc, semiconductor, tokyo-electron, huawei]
 sources:
   - title: ASML

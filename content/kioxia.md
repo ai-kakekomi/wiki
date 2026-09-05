@@ -6,7 +6,7 @@ english: Kioxia
 english_yomi: キオクシア
 japanese: 記憶用の半導体を作る日本の会社
 difficulty: 中級
-genres: [AI]
+genres: [半導体]
 related: [semiconductor, semiconductor-equipment, nvidia, data-center, gpu]
 sources:
   - title: キオクシア

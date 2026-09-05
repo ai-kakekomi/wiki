@@ -100,7 +100,7 @@
     "english": "Ajinomoto Build-up Film",
     "difficulty": "上級",
     "genres": [
-      "AI"
+      "半導体"
     ],
     "summary": "味の素が作っている、半導体に使う極薄の膜です。世界のほとんどがこれを使っています。"
   },
@@ -167,7 +167,7 @@
     "english": "ASML",
     "difficulty": "中級",
     "genres": [
-      "AI"
+      "半導体"
     ],
     "summary": "半導体に回路を焼き付ける機械を作っている、オランダの会社です。最先端のものは世界でここしか作れません。"
   },
@@ -402,6 +402,7 @@
     "english": "Data Center",
     "difficulty": "中級",
     "genres": [
+      "半導体",
       "AI"
     ],
     "summary": "計算機を大量に並べた、専用の建物です。"
@@ -604,6 +605,7 @@
     "english": "Graphics Processing Unit",
     "difficulty": "上級",
     "genres": [
+      "半導体",
       "AI"
     ],
     "summary": "同じような計算を一度に大量にこなすのが得意な部品です。"
@@ -670,7 +672,7 @@
     "english": "Huawei",
     "difficulty": "中級",
     "genres": [
-      "AI",
+      "半導体",
       "社会"
     ],
     "summary": "中国の大きな通信機器メーカーで、いまは半導体も自分で作ろうとしています。"
@@ -784,7 +786,7 @@
     "english": "Jensen Huang",
     "difficulty": "中級",
     "genres": [
-      "AI",
+      "半導体",
       "社会"
     ],
     "summary": "NVIDIAを創業し、いまも率いている人です。"
@@ -842,7 +844,7 @@
     "english": "Kioxia",
     "difficulty": "中級",
     "genres": [
-      "AI"
+      "半導体"
     ],
     "summary": "スマホやパソコンの記憶部分に使う半導体を作っている、日本の会社です。"
   },
@@ -954,7 +956,7 @@
     "english": "Masayoshi Son",
     "difficulty": "初級",
     "genres": [
-      "AI",
+      "半導体",
       "社会"
     ],
     "summary": "ソフトバンクグループを創業し、率いている経営者です。"
@@ -977,6 +979,7 @@
     "english": "Moore's Law",
     "difficulty": "上級",
     "genres": [
+      "半導体",
       "未来"
     ],
     "summary": "半導体に詰め込める部品の数が、一定の期間ごとに倍になっていく、という見かたです。"
@@ -1010,6 +1013,7 @@
     "english": "NVIDIA",
     "difficulty": "中級",
     "genres": [
+      "半導体",
       "AI"
     ],
     "summary": "AIを動かすための半導体を作っている、アメリカの会社です。"
@@ -1228,7 +1232,7 @@
     "english": "Semiconductor Equipment",
     "difficulty": "上級",
     "genres": [
-      "AI"
+      "半導体"
     ],
     "summary": "半導体を作るために使う、専用の機械です。"
   },
@@ -1239,7 +1243,7 @@
     "english": "Semiconductor",
     "difficulty": "上級",
     "genres": [
-      "未来"
+      "半導体"
     ],
     "summary": "電気を通す状態と、通さない状態を切り替えられる材料です。"
   },
@@ -1294,7 +1298,7 @@
     "english": "SoftBank Group",
     "difficulty": "初級",
     "genres": [
-      "AI",
+      "半導体",
       "社会"
     ],
     "summary": "投資を中心とする、日本の大きな企業グループです。"
@@ -1374,7 +1378,7 @@
     "english": "Tokyo Electron",
     "difficulty": "中級",
     "genres": [
-      "AI"
+      "半導体"
     ],
     "summary": "半導体を作る機械を作っている、日本で最大の会社です。"
   },
@@ -1407,7 +1411,7 @@
     "english": "TSMC",
     "difficulty": "中級",
     "genres": [
-      "AI"
+      "半導体"
     ],
     "summary": "他社が設計した半導体を、代わりに作ることに専念している台湾の会社です。"
   },

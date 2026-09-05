@@ -6,7 +6,7 @@ english: SoftBank Group
 english_yomi: ソフトバンク・グループ
 japanese: 投資を中心とする日本の企業グループ
 difficulty: 初級
-genres: [AI, 社会]
+genres: [半導体, 社会]
 related: [masayoshi-son, semiconductor, nvidia, gpu, data-center]
 sources:
   - title: ソフトバンクグループ

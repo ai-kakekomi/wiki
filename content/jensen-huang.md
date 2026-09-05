@@ -6,7 +6,7 @@ english: Jensen Huang
 english_yomi: ジェンスン・フアン
 japanese: NVIDIAを率いる人
 difficulty: 中級
-genres: [AI, 社会]
+genres: [半導体, 社会]
 related: [nvidia, gpu, semiconductor, elon-musk, masayoshi-son]
 sources:
   - title: NVIDIA

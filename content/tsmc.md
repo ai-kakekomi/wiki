@@ -6,7 +6,7 @@ english: TSMC
 english_yomi: ティーエスエムシー
 japanese: 半導体をまとめて受託製造する台湾の会社
 difficulty: 中級
-genres: [AI]
+genres: [半導体]
 related: [semiconductor, nvidia, asml, tokyo-electron, huawei]
 sources:
   - title: TSMC

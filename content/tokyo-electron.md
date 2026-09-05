@@ -6,7 +6,7 @@ english: Tokyo Electron
 english_yomi: トウキョウ・エレクトロン
 japanese: 日本最大の半導体製造装置メーカー
 difficulty: 中級
-genres: [AI]
+genres: [半導体]
 related: [semiconductor-equipment, asml, tsmc, semiconductor, kioxia]
 sources:
   - title: 東京エレクトロン

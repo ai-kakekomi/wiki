@@ -6,7 +6,7 @@ english: Moore's Law
 english_yomi: ムーアズ・ロー
 japanese: 半導体の性能が定期的に倍になるという見かた
 difficulty: 上級
-genres: [未来]
+genres: [半導体, 未来]
 related: [semiconductor, exponential-growth, law-of-accelerating-returns, gpu, singularity]
 sources:
   - title: 「人と人とAI」 | AIかけこみ寺 note
