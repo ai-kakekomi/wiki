@@ -22,6 +22,18 @@
     "summary": "そのサービスの中に用意された、自分専用の席のことです。"
   },
   {
+    "slug": "admin-privilege",
+    "title": "管理者権限",
+    "yomi": "カンリシャケンゲン",
+    "english": "Administrator Privilege",
+    "difficulty": "中級",
+    "genres": [
+      "セキュリティ",
+      "スマホ"
+    ],
+    "summary": "その機械やサービスの中で、何でもできてしまう強い権限のことです。"
+  },
+  {
     "slug": "agi",
     "title": "AGI",
     "yomi": "エージーアイ",

@@ -201,7 +201,7 @@ const GROUPS = [
   { name: 'スマホとインターネット', slugs: [
     'internet', 'provider',
     'os', 'android', 'iphone', 'ios',
-    'account', 'login', 'password', 'two-factor-auth', 'phishing', 'malware', 'ransomware',
+    'account', 'login', 'password', 'two-factor-auth', 'admin-privilege', 'phishing', 'malware', 'ransomware',
     'app', 'install', 'update', 'browser', 'cookie', 'cache', 'wifi', 'tethering', 'cloud',
     'subscription', 'dark-pattern', '5g'
   ]},

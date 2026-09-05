@@ -7,7 +7,7 @@ english_yomi: ランサムウェア
 japanese: 中身を人質に取って金を要求するソフト
 difficulty: 上級
 genres: [セキュリティ, スマホ]
-related: [malware, phishing, crypto-asset, update, cloud]
+related: [admin-privilege, malware, phishing, crypto-asset, cloud]
 sources:
   - title: 総務省 国民のための情報セキュリティサイト
     url: https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/
