@@ -420,6 +420,18 @@
     "summary": "Claudeを作っているアンソロピックを率いている人です。"
   },
   {
+    "slug": "dark-pattern",
+    "title": "ダークパターン",
+    "yomi": "ダークパターン",
+    "english": "Dark Pattern",
+    "difficulty": "中級",
+    "genres": [
+      "スマホ",
+      "社会"
+    ],
+    "summary": "利用者が損をするほうを選んでしまうように、わざと作られた画面のことです。"
+  },
+  {
     "slug": "data-center",
     "title": "データセンター",
     "yomi": "データセンター",

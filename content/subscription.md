@@ -7,7 +7,7 @@ english_yomi: サブスクリプション
 japanese: 月々払って使い続ける形
 difficulty: 初級
 genres: [スマホ]
-related: [app, account, cloud, install, token]
+related: [dark-pattern, app, account, cloud, install]
 sources:
   - title: Google Play ヘルプ
     url: https://support.google.com/googleplay/

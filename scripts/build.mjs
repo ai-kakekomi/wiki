@@ -200,7 +200,8 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
 const GROUPS = [
   { name: 'スマホとインターネット', slugs: [
     'account', 'login', 'password', 'two-factor-auth', 'phishing', 'malware',
-    'app', 'install', 'update', 'browser', 'cookie', 'wifi', 'tethering', 'cloud', 'subscription'
+    'app', 'install', 'update', 'browser', 'cookie', 'wifi', 'tethering', 'cloud',
+    'subscription', 'dark-pattern'
   ]},
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
