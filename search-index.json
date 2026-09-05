@@ -149,6 +149,17 @@
     "summary": "人よりもはるかに賢くなったAIのことです。"
   },
   {
+    "slug": "asml",
+    "title": "ASML",
+    "yomi": "エーエスエムエル",
+    "english": "ASML",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "半導体に回路を焼き付ける機械を作っている、オランダの会社です。最先端のものは世界でここしか作れません。"
+  },
+  {
     "slug": "authentication",
     "title": "認証",
     "yomi": "ニンショウ",
@@ -1231,6 +1242,17 @@
     "summary": "AIが文章を読み書きするときの、長さの数えかたの単位です。"
   },
   {
+    "slug": "tokyo-electron",
+    "title": "東京エレクトロン",
+    "yomi": "トウキョウエレクトロン",
+    "english": "Tokyo Electron",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "半導体を作る機械を作っている、日本で最大の会社です。"
+  },
+  {
     "slug": "trademark",
     "title": "商標登録",
     "yomi": "ショウヒョウトウロク",
@@ -1251,6 +1273,17 @@
       "AI"
     ],
     "summary": "いまのAIのほとんどが使っている、中身の設計のことです。"
+  },
+  {
+    "slug": "tsmc",
+    "title": "TSMC",
+    "yomi": "ティーエスエムシー",
+    "english": "TSMC",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "他社が設計した半導体を、代わりに作ることに専念している台湾の会社です。"
   },
   {
     "slug": "two-factor-auth",
