@@ -64,6 +64,16 @@ export function validateArticle({ data, body, filename }) {
     const re = new RegExp('^' + sec.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*$', 'm');
     if (!re.test(body)) e.push(`本文に「${sec}」の見出しがありません`);
   }
+  // 例文には見出し語そのものを入れる。
+  // その言葉を使った会話が見たくて例文を読むのに、言い換えだけだと使いかたが分からない
+  const rei = body.match(/^## 例文\s*\n([\s\S]*)$/m);
+  if (rei) {
+    const keys = [data.title, data.yomi, data.english].filter(Boolean);
+    if (!keys.some((k) => rei[1].includes(k))) {
+      e.push(`例文に「${data.title}」が出てきません。見出し語をそのまま使ってください`);
+    }
+  }
+
   // 関連ワード・一次資料は frontmatter から描画するので本文には書かせない
   if (/^##\s*(関連ワード|一次資料|参考文献)\s*$/m.test(body)) {
     e.push('関連ワード・一次資料は frontmatter に書きます（本文に見出しを作らないでください）');
