@@ -644,6 +644,17 @@
     "summary": "人と同じような形と動きをするロボットです。"
   },
   {
+    "slug": "idea-expression",
+    "title": "アイデア・表現二分論",
+    "yomi": "アイデアヒョウゲンニブンロン",
+    "english": "Idea-Expression Dichotomy",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "著作権が守るのは「どう表したか」だけで、「何を思いついたか」は守らない、という考えかたです。"
+  },
+  {
     "slug": "image-generation-ai",
     "title": "画像生成AI",
     "yomi": "ガゾウセイセイエーアイ",

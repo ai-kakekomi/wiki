@@ -4,7 +4,7 @@ title: AIと著作権
 yomi: エーアイトチョサクケン
 difficulty: 上級
 genres: [社会, AI]
-related: [copyright, image-generation-ai, generative-ai, ai-suishin-ho, deepfake]
+related: [idea-expression, copyright, image-generation-ai, ai-suishin-ho, deepfake]
 sources:
   - title: 著作権制度の概要 | 文化庁
     url: https://www.bunka.go.jp/seisaku/chosakuken/

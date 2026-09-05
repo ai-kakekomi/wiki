@@ -7,7 +7,7 @@ english_yomi: コピーライト
 japanese: 作った人が持つ権利
 difficulty: 中級
 genres: [社会]
-related: [image-generation-ai, oss-license, generative-ai, trademark, open-source]
+related: [idea-expression, ai-copyright, image-generation-ai, oss-license, trademark]
 sources:
   - title: 著作権制度の概要 | 文化庁
     url: https://www.bunka.go.jp/seisaku/chosakuken/
