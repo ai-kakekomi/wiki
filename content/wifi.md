@@ -7,7 +7,7 @@ english_yomi: ワイファイ
 japanese: 電波でインターネットにつなぐ仕組み
 difficulty: 初級
 genres: [スマホ]
-related: [5g, tethering, browser, cloud, app]
+related: [internet, provider, 5g, tethering, cloud]
 sources:
   - title: 総務省 国民のための情報セキュリティサイト
     url: https://www.soumu.go.jp/main_sosiki/cybersecurity/kokumin/

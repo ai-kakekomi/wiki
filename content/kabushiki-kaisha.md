@@ -7,7 +7,7 @@ english_yomi: コーポレーション
 japanese: 出資を集めて、もうけを分ける会社
 difficulty: 初級
 genres: [社会]
-related: [pbc, npo, hojinkaku, ippan-shadan, riji]
+related: [ipo, pbc, npo, hojinkaku, ippan-shadan]
 sources:
   - title: 法務省 商業・法人登記
     url: https://www.moj.go.jp/MINJI/minji06_00001.html

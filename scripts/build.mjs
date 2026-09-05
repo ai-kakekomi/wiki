@@ -199,6 +199,7 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
    ここに無い記事はビルドが警告する。書き足したら必ずどこかへ入れる。 */
 const GROUPS = [
   { name: 'スマホとインターネット', slugs: [
+    'internet', 'provider',
     'os', 'android', 'iphone', 'ios',
     'account', 'login', 'password', 'two-factor-auth', 'phishing', 'malware',
     'app', 'install', 'update', 'browser', 'cookie', 'cache', 'wifi', 'tethering', 'cloud',
@@ -239,7 +240,7 @@ const GROUPS = [
   ]},
   { name: '団体と制度のことば', slugs: [
     'npo', 'teikan', 'riji', 'rijicho', 'kanji-auditor', 'hojinkaku',
-    'kabushiki-kaisha', 'ippan-shadan', 'pbc',
+    'kabushiki-kaisha', 'ippan-shadan', 'pbc', 'ipo',
     'hojokin', 'koen-meigi', 'trademark', 'copyright', 'ai-copyright', 'idea-expression',
     'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'joho-ryoiki'
   ]},

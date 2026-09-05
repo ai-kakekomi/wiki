@@ -910,6 +910,17 @@
     "summary": "AIが自分より賢いAIを作れるようになると、そこから一気に加速する、という筋書きです。"
   },
   {
+    "slug": "internet",
+    "title": "インターネット",
+    "yomi": "インターネット",
+    "english": "Internet",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "世界中の機械をつないだ、巨大な網のことです。"
+  },
+  {
     "slug": "ios",
     "title": "iOS",
     "yomi": "アイオーエス",
@@ -930,6 +941,17 @@
       "スマホ"
     ],
     "summary": "アップルが作っているスマートフォンです。"
+  },
+  {
+    "slug": "ipo",
+    "title": "IPO",
+    "yomi": "アイピーオー",
+    "english": "Initial Public Offering",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "会社の株を市場に出して、誰でも買えるようにすることです。"
   },
   {
     "slug": "ippan-shadan",
@@ -1400,6 +1422,17 @@
       "AI"
     ],
     "summary": "生成AIに向かって書く指示文のことです。"
+  },
+  {
+    "slug": "provider",
+    "title": "プロバイダ",
+    "yomi": "プロバイダ",
+    "english": "Internet Service Provider",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "自宅やスマホを、インターネットにつないでくれる会社です。"
   },
   {
     "slug": "pull-request",
