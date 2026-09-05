@@ -201,7 +201,7 @@ const GROUPS = [
   { name: 'スマホとインターネット', slugs: [
     'account', 'login', 'password', 'two-factor-auth', 'phishing', 'malware',
     'app', 'install', 'update', 'browser', 'cookie', 'wifi', 'tethering', 'cloud',
-    'subscription', 'dark-pattern'
+    'subscription', 'dark-pattern', '5g'
   ]},
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',

@@ -1,5 +1,16 @@
 [
   {
+    "slug": "5g",
+    "title": "5G",
+    "yomi": "ファイブジー",
+    "english": "5G",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "携帯電話の電波の、5番目の世代のことです。4Gの次にあたります。"
+  },
+  {
     "slug": "account",
     "title": "アカウント",
     "yomi": "アカウント",
