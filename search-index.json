@@ -1176,6 +1176,28 @@
     "summary": "ファイル一式と、その全部の変更履歴をまとめて入れておく保管庫です。"
   },
   {
+    "slug": "riji",
+    "title": "理事",
+    "yomi": "リジ",
+    "english": "Director",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "団体の運営を実際に担う役員のことです。"
+  },
+  {
+    "slug": "rijicho",
+    "title": "理事長",
+    "yomi": "リジチョウ",
+    "english": "Chairperson",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "理事のうち、団体を代表する人の呼び名です。"
+  },
+  {
     "slug": "rls",
     "title": "RLS",
     "yomi": "アールエルエス",
