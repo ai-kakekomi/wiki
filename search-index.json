@@ -127,6 +127,17 @@
     "summary": "中国の大きなIT企業です。ネット通販から始まり、いまはAIにも力を入れています。"
   },
   {
+    "slug": "android",
+    "title": "Android",
+    "yomi": "アンドロイド",
+    "english": "Android",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "グーグルが作っている、スマホの土台のソフトです。"
+  },
+  {
     "slug": "anthropic",
     "title": "アンソロピック",
     "yomi": "アンソロピック",
@@ -806,6 +817,28 @@
     "summary": "AIが自分より賢いAIを作れるようになると、そこから一気に加速する、という筋書きです。"
   },
   {
+    "slug": "ios",
+    "title": "iOS",
+    "yomi": "アイオーエス",
+    "english": "iOS",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "iPhoneを動かしている、土台のソフトです。アップルが作っています。"
+  },
+  {
+    "slug": "iphone",
+    "title": "iPhone",
+    "yomi": "アイフォーン",
+    "english": "iPhone",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "アップルが作っているスマートフォンです。"
+  },
+  {
     "slug": "ippan-shadan",
     "title": "一般社団法人",
     "yomi": "イッパンシャダンホウジン",
@@ -1135,6 +1168,17 @@
       "AI"
     ],
     "summary": "ChatGPTを作った、アメリカの会社です。"
+  },
+  {
+    "slug": "os",
+    "title": "OS",
+    "yomi": "オーエス",
+    "english": "Operating System",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "スマホやパソコンを動かしている、いちばん土台のソフトです。"
   },
   {
     "slug": "oss-license",

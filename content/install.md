@@ -7,7 +7,7 @@ english_yomi: インストール
 japanese: 道具を自分の機械に入れること
 difficulty: 初級
 genres: [スマホ]
-related: [app, account, update, browser, cloud]
+related: [app, os, android, iphone, update]
 sources:
   - title: Google Play ヘルプ
     url: https://support.google.com/googleplay/

@@ -7,7 +7,7 @@ english_yomi: アップ
 japanese: スマホに入れる道具
 difficulty: 初級
 genres: [スマホ]
-related: [install, account, browser, subscription, cloud]
+related: [os, install, android, iphone, account]
 sources:
   - title: Google Play ヘルプ
     url: https://support.google.com/googleplay/
