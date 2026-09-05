@@ -100,9 +100,32 @@ function sourcesBlock(a) {
   return `<section class="sources"><h2>一次資料</h2><ul>${items}</ul></section>`;
 }
 
+/* 強調（**…**）を、marked に渡す前に <strong> へ置き換える。
+ *
+ * CommonMark には、記号の両隣に何があるかで開閉を決める規則がある。
+ * 日本語の全角括弧や句点が ** に接すると、開けない・閉じられないことがあり、
+ * 記号がそのまま画面に出る。
+ *
+ *   ✗ **違いは「早さ」と「見えかた」**にあります   （閉じられない）
+ *   ✗ つまり**「バブルだった」とはなりません**    （開けない）
+ *
+ * 書く側が毎回それを避けるより、機械が確実に処理するほうがよい。
+ * 書きたいまま書けば、そのとおりに出る。
+ *
+ * コードの中（``` … ``` と `…`）は触らない。記号として見せたいものがあるため。 */
+export function toStrong(md) {
+  const kept = [];
+  const hidden = String(md).replace(/```[\s\S]*?```|`[^`\n]*`/g, (m) => {
+    kept.push(m);
+    return '\u0000' + (kept.length - 1) + '\u0000';
+  });
+  const converted = hidden.replace(/\*\*(?!\s)([^\n*]+?)(?<!\s)\*\*/g, '<strong>$1</strong>');
+  return converted.replace(/\u0000(\d+)\u0000/g, (_, i) => kept[Number(i)]);
+}
+
 export function renderArticle(a, bySlug, template, warn = () => {}) {
   const { hitokoto, rest } = splitHitokoto(a.body);
-  const body = marked.parse(rest);
+  const body = marked.parse(toStrong(rest));
 
   /* 強調の記号が、記号のまま残っていないか見る。
      CommonMark では、閉じる ** の直前が句読点や全角の閉じ括弧だと、
@@ -111,12 +134,11 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
      括弧や句点を強調の外に出せば直る。 */
   const leftover = body.replace(/<code>[\s\S]*?<\/code>/g, '');
   if (leftover.includes('**')) {
-    /* これは警告ではなく失敗にする。見た目がそのまま壊れるうえ、
-       警告のままだと、気づかずに公開してしまう（実際に2回やった） */
+    /* toStrong が対になったものは処理する。ここに残るのは、
+       対になっていない ** だけ。書き間違いなので失敗にする */
     throw new Error(
-      `${a.slug}.md: 強調の ** が記号のまま残っています。` +
-      `全角の括弧や句点が ** に接していると、開けない・閉じられないことがあります。` +
-      `　✗ つまり**「…」**とはなりません　✓ つまり、**「…」**とはなりません`);
+      `${a.slug}.md: 対になっていない ** があります。` +
+      `記号としてそのまま見せたいなら、backtick で囲んでください`);
   }
   const desc = summarize(a.body, 110);
 
