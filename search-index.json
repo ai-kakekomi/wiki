@@ -34,6 +34,18 @@
     "summary": "聞かれたことに答えるだけでなく、自分で手順を決めて作業まで進めるAIです。"
   },
   {
+    "slug": "ai-bubble",
+    "title": "AIバブル",
+    "yomi": "エーアイバブル",
+    "english": "AI Bubble",
+    "difficulty": "上級",
+    "genres": [
+      "社会",
+      "AI"
+    ],
+    "summary": "AIへの期待が実際の稼ぎより先に膨らみ、いつか弾ける、という見かたです。"
+  },
+  {
     "slug": "ai-copyright",
     "title": "AIと著作権",
     "yomi": "エーアイトチョサクケン",
@@ -1275,6 +1287,18 @@
       "プログラミング"
     ],
     "summary": "アプリの裏側に必要なものを、一式まとめて貸してくれるサービスです。"
+  },
+  {
+    "slug": "supercycle",
+    "title": "スーパーサイクル",
+    "yomi": "スーパーサイクル",
+    "english": "Supercycle",
+    "difficulty": "上級",
+    "genres": [
+      "社会",
+      "AI"
+    ],
+    "summary": "一時の流行ではなく、10年単位で続く土台の作り替えだ、という見かたです。"
   },
   {
     "slug": "teikan",
