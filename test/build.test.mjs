@@ -36,8 +36,8 @@ updated: 2026-08-16
 
 ## 例文
 
-- 「これはためしの例文だよ」
-- 「もう一つ、ためしの例文だね」
+- 「デモってどういう意味?」「ためしに動かしてみせることだよ」
+- 「これがデモの画面?」「そう、ためしに作ったものだね」
 `;
 
 test('frontmatter: 本文とメタを分けられる', () => {
@@ -150,7 +150,7 @@ test('記事HTML: 難易度属性・よみ・英語併記・相対パスが入�
   const warnings = [];
   const html = renderArticle(rls, bySlug, template, (m) => warnings.push(m));
 
-  assert.match(html, /<body data-difficulty="特級">/);
+  assert.match(html, /<body data-difficulty="特級"/);
   assert.match(html, /アールエルエス/);
   assert.match(html, /Row Level Security/);
   assert.match(html, /ロウ・レベル・セキュリティ/);

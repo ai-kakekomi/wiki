@@ -139,6 +139,18 @@
     "summary": "味の素が作っている、半導体に使う極薄の膜です。世界のほとんどがこれを使っています。"
   },
   {
+    "slug": "algorithm",
+    "title": "アルゴリズム",
+    "yomi": "アルゴリズム",
+    "english": "Algorithm",
+    "difficulty": "中級",
+    "genres": [
+      "プログラミング",
+      "社会"
+    ],
+    "summary": "答えにたどりつくための、決まった手順のことです。"
+  },
+  {
     "slug": "alibaba",
     "title": "アリババ",
     "yomi": "アリババ",
@@ -263,6 +275,18 @@
     "summary": "アマゾンが貸している、計算する設備の一式です。"
   },
   {
+    "slug": "backup",
+    "title": "バックアップ",
+    "yomi": "バックアップ",
+    "english": "Backup",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "セキュリティ"
+    ],
+    "summary": "大事なものの控えを、別の場所に取っておくことです。"
+  },
+  {
     "slug": "basic-income",
     "title": "ベーシックインカム",
     "yomi": "ベーシックインカム",
@@ -285,6 +309,17 @@
       "セキュリティ"
     ],
     "summary": "記録をひとつながりの鎖にして、大勢で同じものを持ちあう仕組みです。"
+  },
+  {
+    "slug": "bluetooth",
+    "title": "Bluetooth",
+    "yomi": "ブルートゥース",
+    "english": "Bluetooth",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "数メートルの近さで、機器どうしを線なしでつなぐ仕組みです。"
   },
   {
     "slug": "branch",
@@ -331,6 +366,18 @@
       "プログラミング"
     ],
     "summary": "一度取ってきたものを手元に置いておき、次からは速く出す仕組みです。お金のキャッシュとは別の言葉です。"
+  },
+  {
+    "slug": "cashless",
+    "title": "キャッシュレス",
+    "yomi": "キャッシュレス",
+    "english": "Cashless",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "社会"
+    ],
+    "summary": "現金を出さずに、カードやスマホで支払うことです。"
   },
   {
     "slug": "chatbot",
@@ -455,6 +502,17 @@
       "プログラミング"
     ],
     "summary": "作業の区切りに「ここまでやりました」と説明を付けて記録を残す操作です。"
+  },
+  {
+    "slug": "compound-interest",
+    "title": "複利",
+    "yomi": "フクリ",
+    "english": "Compound Interest",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "利息にもまた利息がついて、雪だるま式に増えていく仕組みです。"
   },
   {
     "slug": "conflict",
@@ -706,6 +764,17 @@
     "summary": "電気自動車のテスラ、ロケットのスペースX、SNSのXを率いている人です。"
   },
   {
+    "slug": "exchange-rate",
+    "title": "為替",
+    "yomi": "カワセ",
+    "english": "Exchange Rate",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "円とドルなど、国どうしのお金を交換するときの比率です。"
+  },
+  {
     "slug": "exponential-growth",
     "title": "指数関数的成長",
     "yomi": "シスウカンスウテキセイチョウ",
@@ -726,6 +795,29 @@
       "社会"
     ],
     "summary": "ある人の行いが、お金のやりとりを通さずに、まわりの人に良い影響を与えることです。"
+  },
+  {
+    "slug": "face-recognition",
+    "title": "顔認証",
+    "yomi": "カオニンショウ",
+    "english": "Face Recognition",
+    "difficulty": "初級",
+    "genres": [
+      "セキュリティ",
+      "AI"
+    ],
+    "summary": "カメラに写った顔で、本人かどうかを確かめる技術です。"
+  },
+  {
+    "slug": "fine-tuning",
+    "title": "ファインチューニング",
+    "yomi": "ファインチューニング",
+    "english": "Fine-tuning",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "できあがったAIに追加で例を学ばせて、目的に合うよう調整することです。"
   },
   {
     "slug": "fork",
@@ -759,6 +851,17 @@
       "AI"
     ],
     "summary": "文章や絵や音楽など、まだ世の中にないものを作り出すAIのことです。"
+  },
+  {
+    "slug": "giga",
+    "title": "ギガ",
+    "yomi": "ギガ",
+    "english": "Giga",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "スマホで使えるデータの量をあらわす単位です。"
   },
   {
     "slug": "git",
@@ -839,6 +942,17 @@
       "AI"
     ],
     "summary": "イーロン・マスクの会社が作った、話しかけて使うAIです。"
+  },
+  {
+    "slug": "hallucination",
+    "title": "ハルシネーション",
+    "yomi": "ハルシネーション",
+    "english": "Hallucination",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIが、事実でないことを自信たっぷりに書いてしまうことです。"
   },
   {
     "slug": "hands-on",
@@ -975,6 +1089,17 @@
       "AI"
     ],
     "summary": "AIが実際に考えて、答えを出す作業そのものです。"
+  },
+  {
+    "slug": "inflation",
+    "title": "インフレ",
+    "yomi": "インフレ",
+    "english": "Inflation",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "物の値段が上がり続けて、同じお金で買えるものが減っていくことです。"
   },
   {
     "slug": "install",
@@ -1363,6 +1488,28 @@
     "summary": "半導体に詰め込める部品の数が、一定の期間ごとに倍になっていく、という見かたです。"
   },
   {
+    "slug": "multimodal",
+    "title": "マルチモーダル",
+    "yomi": "マルチモーダル",
+    "english": "Multimodal",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "文章だけでなく、画像や音声もまとめて扱えるAIのことです。"
+  },
+  {
+    "slug": "my-number",
+    "title": "マイナンバー",
+    "yomi": "マイナンバー",
+    "english": "Individual Number",
+    "difficulty": "初級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "住民一人ひとりに割り当てられた、12桁の番号です。"
+  },
+  {
     "slug": "nand-flash",
     "title": "NANDフラッシュ",
     "yomi": "ナンドフラッシュ",
@@ -1394,6 +1541,17 @@
       "社会"
     ],
     "summary": "投資で出た利益に税金がかからない、国が用意した枠のことです。"
+  },
+  {
+    "slug": "notification",
+    "title": "通知",
+    "yomi": "ツウチ",
+    "english": "Notification",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "アプリからの「お知らせですよ」という呼びかけが、画面に出てくる仕組みです。"
   },
   {
     "slug": "npo",
@@ -1429,6 +1587,17 @@
       "プログラミング"
     ],
     "summary": "自分の合言葉を相手に渡さずに、他のサービスとつなぐ仕組みです。"
+  },
+  {
+    "slug": "ocr",
+    "title": "OCR",
+    "yomi": "オーシーアール",
+    "english": "Optical Character Recognition",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "写真や紙の中の文字を、打ち直さずに文字データへ変える技術です。"
   },
   {
     "slug": "open-source",
@@ -1475,6 +1644,29 @@
       "社会"
     ],
     "summary": "作った人が「この条件で使っていいですよ」と決めて示す、利用のルールです。"
+  },
+  {
+    "slug": "parameter",
+    "title": "パラメータ",
+    "yomi": "パラメータ",
+    "english": "Parameter",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIの中にある、学習で少しずつ調整される無数の数値のことです。"
+  },
+  {
+    "slug": "passkey",
+    "title": "パスキー",
+    "yomi": "パスキー",
+    "english": "Passkey",
+    "difficulty": "中級",
+    "genres": [
+      "セキュリティ",
+      "スマホ"
+    ],
+    "summary": "合言葉を打つ代わりに、顔や指紋でログインできる新しい鍵です。"
   },
   {
     "slug": "password",
@@ -1592,6 +1784,40 @@
     "summary": "読みやすさを重んじた言語で、AIの分野では事実上の標準になっています。"
   },
   {
+    "slug": "qr-code",
+    "title": "QRコード",
+    "yomi": "キューアールコード",
+    "english": "QR Code",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "カメラを向けるだけで、決まった場所へ連れていってくれる四角い模様です。"
+  },
+  {
+    "slug": "quantum-computer",
+    "title": "量子コンピュータ",
+    "yomi": "リョウシコンピュータ",
+    "english": "Quantum Computer",
+    "difficulty": "中級",
+    "genres": [
+      "未来",
+      "半導体"
+    ],
+    "summary": "ふつうの計算機とは違う原理で、特定の計算だけをとても速く解く機械です。"
+  },
+  {
+    "slug": "rag",
+    "title": "RAG",
+    "yomi": "ラグ",
+    "english": "Retrieval-Augmented Generation",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIに答えさせる前に、手元の資料を探して読ませる仕組みです。"
+  },
+  {
     "slug": "ransomware",
     "title": "ランサムウェア",
     "yomi": "ランサムウェア",
@@ -1625,6 +1851,17 @@
       "プログラミング"
     ],
     "summary": "置き場を開いた人が最初に読む、その道具の説明書です。"
+  },
+  {
+    "slug": "reinforcement-learning",
+    "title": "強化学習",
+    "yomi": "キョウカガクシュウ",
+    "english": "Reinforcement Learning",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "うまくいったらほうびを与えて、AIに自分で上達させるやりかたです。"
   },
   {
     "slug": "repository",
@@ -1693,6 +1930,29 @@
       "社会"
     ],
     "summary": "ChatGPTを作ったOpenAIを率いている人です。"
+  },
+  {
+    "slug": "screenshot",
+    "title": "スクリーンショット",
+    "yomi": "スクリーンショット",
+    "english": "Screenshot",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "いま見ている画面を、そのまま1枚の写真として保存することです。"
+  },
+  {
+    "slug": "self-driving",
+    "title": "自動運転",
+    "yomi": "ジドウウンテン",
+    "english": "Autonomous Driving",
+    "difficulty": "中級",
+    "genres": [
+      "未来",
+      "AI"
+    ],
+    "summary": "人が操作しなくても、車がみずから走る技術です。"
   },
   {
     "slug": "semiconductor-equipment",
@@ -1796,6 +2056,17 @@
     "summary": "アップルを作り、iPhoneを世に出した人です。2011年に亡くなりました。"
   },
   {
+    "slug": "storage",
+    "title": "ストレージ",
+    "yomi": "ストレージ",
+    "english": "Storage",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ"
+    ],
+    "summary": "写真やアプリをしまっておく、スマホの中の置き場所です。"
+  },
+  {
     "slug": "subscription",
     "title": "サブスク",
     "yomi": "サブスク",
@@ -1829,6 +2100,18 @@
       "AI"
     ],
     "summary": "一時の流行ではなく、10年単位で続く土台の作り替えだ、という見かたです。"
+  },
+  {
+    "slug": "support-scam",
+    "title": "サポート詐欺",
+    "yomi": "サポートサギ",
+    "english": "Tech Support Scam",
+    "difficulty": "中級",
+    "genres": [
+      "セキュリティ",
+      "スマホ"
+    ],
+    "summary": "「ウイルスに感染しました」という偽の警告を出して、電話をかけさせる手口です。"
   },
   {
     "slug": "teikan",
@@ -1886,6 +2169,18 @@
     "summary": "団体やお店の名前・ロゴを、国に登録して自分のものにする手続きです。"
   },
   {
+    "slug": "training-data",
+    "title": "学習データ",
+    "yomi": "ガクシュウデータ",
+    "english": "Training Data",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "AIに覚えさせるために読ませる、大量の文章や画像のことです。"
+  },
+  {
     "slug": "transformer",
     "title": "トランスフォーマー",
     "yomi": "トランスフォーマー",
@@ -1930,6 +2225,18 @@
       "セキュリティ"
     ],
     "summary": "アプリやスマホの中身を、新しいものに入れ替えることです。"
+  },
+  {
+    "slug": "url",
+    "title": "URL",
+    "yomi": "ユーアールエル",
+    "english": "Uniform Resource Locator",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "セキュリティ"
+    ],
+    "summary": "インターネット上の「どこにあるか」を示す住所です。"
   },
   {
     "slug": "vercel",

@@ -201,13 +201,18 @@ const GROUPS = [
   { name: 'スマホとインターネット', slugs: [
     'internet', 'provider',
     'os', 'android', 'iphone', 'ios',
-    'account', 'login', 'password', 'two-factor-auth', 'admin-privilege', 'phishing', 'malware', 'ransomware',
-    'app', 'install', 'update', 'browser', 'cookie', 'cache', 'wifi', 'tethering', 'cloud',
+    'account', 'login', 'password', 'passkey', 'two-factor-auth', 'face-recognition', 'admin-privilege',
+    'phishing', 'support-scam', 'malware', 'ransomware',
+    'app', 'install', 'update', 'browser', 'url', 'qr-code', 'cookie', 'cache',
+    'wifi', 'tethering', 'giga', 'bluetooth', 'cloud', 'storage', 'backup',
+    'screenshot', 'notification', 'cashless',
     'subscription', 'dark-pattern', '5g'
   ]},
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
-    'neural-network', 'prompt', 'token', 'context', 'inference', 'skill', 'ai-agent', 'chatbot',
+    'neural-network', 'reinforcement-learning', 'parameter', 'training-data',
+    'prompt', 'token', 'context', 'inference', 'hallucination', 'rag', 'fine-tuning',
+    'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot',
     'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
@@ -220,12 +225,12 @@ const GROUPS = [
   { name: '半導体とインフラ', slugs: [
     'semiconductor', 'semiconductor-equipment', 'gpu',
     'memory-chip', 'dram', 'nand-flash',
-    'data-center', 'hyperscaler', 'moores-law',
+    'data-center', 'hyperscaler', 'moores-law', 'quantum-computer',
     'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'advantest', 'kioxia', 'ajinomoto-abf', 'huawei',
     'jensen-huang', 'masayoshi-son', 'softbank'
   ]},
   { name: 'つくるためのことば', slugs: [
-    'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',
+    'algorithm', 'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',
     'html', 'css', 'javascript', 'python'
   ]},
   { name: 'GitとGitHub', slugs: [
@@ -245,14 +250,15 @@ const GROUPS = [
     'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'joho-ryoiki'
   ]},
   { name: '社会と経済のことば', slugs: [
-    'digital-divide', 'externality', 'market-failure', 'basic-income',
+    'digital-divide', 'my-number', 'externality', 'market-failure', 'basic-income',
     'crypto-asset', 'volatility',
     'risk-tolerance', 'index-investing', 'dollar-cost-averaging', 'nisa', 'leverage',
+    'compound-interest', 'inflation', 'exchange-rate',
     'ai-bubble', 'supercycle'
   ]},
   { name: '未来のことば', slugs: [
     'singularity', 'agi', 'asi', 'intelligence-explosion', 'exponential-growth',
-    'law-of-accelerating-returns', 'longevity-escape-velocity', 'humanoid-robot',
+    'law-of-accelerating-returns', 'longevity-escape-velocity', 'humanoid-robot', 'self-driving',
     'ray-kurzweil'
   ]},
   { name: 'かけこみ寺のことば', slugs: [

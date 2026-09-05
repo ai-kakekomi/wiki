@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAGとは | かけこみ辞典</title>
+<meta name="description" content="AIに答えさせる前に、手元の資料を探して読ませる仕組みです。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RAGとは | かけこみ辞典">
+<meta property="og:description" content="AIに答えさせる前に、手元の資料を探して読ませる仕組みです。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/rag/">
+<meta property="og:site_name" content="かけこみ辞典">
+<meta property="og:image" content="https://ai-kakekomi.com/wiki/assets/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://ai-kakekomi.com/wiki/rag/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","name":"RAG","description":"AIに答えさせる前に、手元の資料を探して読ませる仕組みです。","url":"https://ai-kakekomi.com/wiki/rag/","inDefinedTermSet":{"@type":"DefinedTermSet","name":"かけこみ辞典","url":"https://ai-kakekomi.com/wiki/"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="上級" data-slug="rag">
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">← ことばのいちらん</a></nav>
+
+  
+
+  <header class="article-head">
+    <p class="yomi">ラグ</p>
+    <h1>RAG<span class="badge badge-title">上級</span></h1>
+    <p class="english"><span class="en">Retrieval-Augmented Generation</span><span class="en-yomi">リトリーバル・オーグメンテッド・ジェネレーション</span><span class="en-ja">調べてから答えさせる仕組み</span></p>
+    <p class="hitokoto">AIに答えさせる前に、手元の資料を探して読ませる仕組みです。</p>
+  </header>
+
+  <div class="body">
+<h2>なぜ大事?</h2>
+<p>AIは覚えていないことを、それらしく作って答えてしまいます。<strong>先に資料を渡してから答えさせれば</strong>、作り話がぐっと減ります。会社や役所が自前の規程をAIに答えさせるとき、ほぼ必ずこの仕組みが使われています。</p>
+<h2>やさしい解説</h2>
+<p>試験にたとえると分かりやすくなります。何も見ずに答えるのが素のAIで、<strong>教科書を開いてから答えるのがこの仕組み</strong>です。うろ覚えで書くより、開いて写したほうが正確なのは人間と同じです。</p>
+<p>流れは2段階です。まず質問に近そうな文書を探してきて、次にその文書と質問を一緒にAIへ渡します。AIは渡された範囲を読んで答えます。</p>
+<p>弱点もはっきりしています。<strong>探してくる段階で外すと、後ろは全部外れます</strong>。手元の資料が古ければ、古い答えが自信たっぷりに返ってきます。仕組みを入れれば正しくなる、というものではありません。</p>
+<h2>例文</h2>
+<ul>
+<li>「社内規程をAIに答えさせたいんだけど」「RAGだね。規程を先に読ませてから答えさせる形になるよ」</li>
+<li>「それで間違えなくなる?」「RAGでも、探してくる資料が古いと古い答えが返るよ」</li>
+</ul>
+
+  </div>
+
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../llm/"><span class="badge badge-inline" data-difficulty="中級">中級</span>大規模言語モデル</a></li><li><a href="../hallucination/"><span class="badge badge-inline" data-difficulty="中級">中級</span>ハルシネーション</a></li><li><a href="../context/"><span class="badge badge-inline" data-difficulty="上級">上級</span>コンテキスト</a></li><li><a href="../prompt/"><span class="badge badge-inline" data-difficulty="中級">中級</span>プロンプト</a></li><li><a href="../chatgpt/"><span class="badge badge-inline" data-difficulty="初級">初級</span>ChatGPT</a></li><li><a href="../token/"><span class="badge badge-inline" data-difficulty="上級">上級</span>トークン</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://arxiv.org/abs/2005.11401" rel="noopener nofollow" target="_blank">Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks | arXiv</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-09-05</p>
+
+  <nav class="article-foot">
+    <a class="back-big" href="../">
+      <span class="back-big-em" aria-hidden="true">📖</span>
+      <span class="back-big-text">
+        <strong>ことばのいちらんへ</strong>
+        <small>ほかの言葉も見てみる</small>
+      </span>
+    </a>
+    <p class="feedback">
+      分かりにくいところはありませんでしたか。<br>
+      追加してほしい言葉があれば、<a href="https://ai-kakekomi.com/#contact">お知らせください</a>。
+    </p>
+  </nav>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみ辞典 は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> のことばの辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+<script src="../assets/read.js"></script>
+</body>
+</html>
