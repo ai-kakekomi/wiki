@@ -7,7 +7,7 @@ english_yomi: ラージ・ランゲージ・モデル
 japanese: 大量の文章から言葉のつながりを学んだAI
 difficulty: 上級
 genres: [AI]
-related: [machine-learning, neural-network, generative-ai, token, context]
+related: [transformer, machine-learning, neural-network, generative-ai, token]
 sources:
   - title: Attention Is All You Need（Transformer原論文）| arXiv
     url: https://arxiv.org/abs/1706.03762

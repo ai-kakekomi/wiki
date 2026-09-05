@@ -1139,6 +1139,17 @@
     "summary": "団体やお店の名前・ロゴを、国に登録して自分のものにする手続きです。"
   },
   {
+    "slug": "transformer",
+    "title": "トランスフォーマー",
+    "yomi": "トランスフォーマー",
+    "english": "Transformer",
+    "difficulty": "特級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "いまのAIのほとんどが使っている、中身の設計のことです。"
+  },
+  {
     "slug": "two-factor-auth",
     "title": "二段階認証",
     "yomi": "ニダンカイニンショウ",
