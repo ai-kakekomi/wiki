@@ -7,7 +7,7 @@ english_yomi: トークン
 japanese: AIが文章を数える単位
 difficulty: 上級
 genres: [AI]
-related: [llm, context, prompt, generative-ai, claude-code]
+related: [inference, llm, context, prompt, generative-ai]
 sources:
   - title: Claude Docs
     url: https://docs.claude.com/

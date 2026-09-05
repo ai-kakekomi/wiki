@@ -7,7 +7,7 @@ english_yomi: マシン・ラーニング
 japanese: 例を見せて機械に覚えさせるやりかた
 difficulty: 中級
 genres: [AI]
-related: [deep-learning, neural-network, llm, generative-ai, gpu]
+related: [deep-learning, inference, neural-network, llm, gpu]
 sources:
   - title: Google DeepMind
     url: https://deepmind.google/

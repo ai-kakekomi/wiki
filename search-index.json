@@ -944,6 +944,17 @@
     "summary": "どの会社が伸びるかを選ばず、市場全体をまとめて買う形です。"
   },
   {
+    "slug": "inference",
+    "title": "推論",
+    "yomi": "スイロン",
+    "english": "Inference",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIが実際に考えて、答えを出す作業そのものです。"
+  },
+  {
     "slug": "install",
     "title": "インストール",
     "yomi": "インストール",

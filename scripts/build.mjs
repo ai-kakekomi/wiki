@@ -207,7 +207,7 @@ const GROUPS = [
   ]},
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
-    'neural-network', 'prompt', 'token', 'context', 'skill', 'ai-agent', 'chatbot',
+    'neural-network', 'prompt', 'token', 'context', 'inference', 'skill', 'ai-agent', 'chatbot',
     'image-generation-ai', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
