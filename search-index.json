@@ -639,6 +639,17 @@
     "summary": "前の状態と今の状態を並べて、変わったところだけを見せたものです。"
   },
   {
+    "slug": "diffusion-model",
+    "title": "拡散モデル",
+    "yomi": "カクサンモデル",
+    "english": "Diffusion Model",
+    "difficulty": "特級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "砂嵐のような画面から、少しずつ濁りを取り除いて絵を作る仕組みです。"
+  },
+  {
     "slug": "digital-divide",
     "title": "デジタルデバイド",
     "yomi": "デジタルデバイド",

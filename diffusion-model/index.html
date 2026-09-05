@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>拡散モデルとは | かけこみ辞典</title>
+<meta name="description" content="砂嵐のような画面から、少しずつ濁りを取り除いて絵を作る仕組みです。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="拡散モデルとは | かけこみ辞典">
+<meta property="og:description" content="砂嵐のような画面から、少しずつ濁りを取り除いて絵を作る仕組みです。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/diffusion-model/">
+<meta property="og:site_name" content="かけこみ辞典">
+<meta property="og:image" content="https://ai-kakekomi.com/wiki/assets/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://ai-kakekomi.com/wiki/diffusion-model/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","name":"拡散モデル","description":"砂嵐のような画面から、少しずつ濁りを取り除いて絵を作る仕組みです。","url":"https://ai-kakekomi.com/wiki/diffusion-model/","inDefinedTermSet":{"@type":"DefinedTermSet","name":"かけこみ辞典","url":"https://ai-kakekomi.com/wiki/"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="特級" data-slug="diffusion-model">
+<main>
+<article class="container article">
+  <nav class="breadcrumb"><a href="../">← ことばのいちらん</a></nav>
+
+  
+
+  <header class="article-head">
+    <p class="yomi">カクサンモデル</p>
+    <h1>拡散モデル<span class="badge badge-title">特級</span></h1>
+    <p class="english"><span class="en">Diffusion Model</span><span class="en-yomi">ディフュージョン・モデル</span><span class="en-ja">砂嵐から絵を彫り出す仕組み</span></p>
+    <p class="hitokoto">砂嵐のような画面から、少しずつ濁りを取り除いて絵を作る仕組みです。</p>
+  </header>
+
+  <div class="body">
+<h2>なぜ大事?</h2>
+<p><strong>画像を作るAIの中身がこれです。</strong> 文章を作るAIとは、まったく違う作りかたをしています。<strong>「AIの中身はひとつではない」</strong>と分かる、いちばん分かりやすい例です。</p>
+<h2>やさしい解説</h2>
+<p>作りかたは、覚えるときと使うときで逆になります。</p>
+<p><strong>覚えるとき。</strong> きれいな写真に、少しずつ砂嵐（ノイズ）を混ぜていきます。最後は何が写っていたか分からない、ただの砂嵐になる。<strong>その「濁っていく過程」を、何億枚ぶんも覚えさせます。</strong></p>
+<p><strong>使うとき。</strong> それを逆にたどります。まったくの砂嵐から始めて、「ここはもう少しきれいだったはず」と少しずつ濁りを取る。それを何十回もくり返すと、<strong>何も無かったところから絵が現れます。</strong></p>
+<p>大理石の塊から像を彫り出す、と言われることがあります。<strong>足すのではなく、余計なものを取り除いていく</strong>やりかたです。</p>
+<h2>同じ言葉で頼んでも、毎回違う絵が出る理由</h2>
+<p><strong>始まりの砂嵐が毎回違うから</strong>です。取り除きかたは言葉で導きますが、出発点がランダムなので、同じ道はたどりません。</p>
+<p>だから「さっきの絵をもう一度」が難しい。多くの道具に、<strong>始まりの砂嵐を指定する番号</strong>があり、そこを固定すると同じ絵に近づけられます。</p>
+<p>文章を作るAI（大規模言語モデル）は、次の言葉を1つずつ選んでいく作りでした。<strong>まったく別の考えかたです。</strong> 近ごろは動画や、文章そのものにもこの仕組みが使われ始めています。</p>
+<h2>例文</h2>
+<ul>
+<li>「画像生成AIってどうやって絵を作るの?」「拡散モデルっていうんだ。砂嵐から濁りを取っていく感じだよ」</li>
+<li>「同じ言葉で頼んだのに違う絵が出た」「拡散モデルは、始まりの砂嵐が毎回違うからね」</li>
+</ul>
+
+  </div>
+
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../image-generation-ai/"><span class="badge badge-inline" data-difficulty="中級">中級</span>画像生成AI</a></li><li><a href="../neural-network/"><span class="badge badge-inline" data-difficulty="上級">上級</span>ニューラルネットワーク</a></li><li><a href="../transformer/"><span class="badge badge-inline" data-difficulty="特級">特級</span>トランスフォーマー</a></li><li><a href="../generative-ai/"><span class="badge badge-inline" data-difficulty="初級">初級</span>生成AI</a></li><li><a href="../prompt/"><span class="badge badge-inline" data-difficulty="中級">中級</span>プロンプト</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://arxiv.org/abs/2006.11239" rel="noopener nofollow" target="_blank">Denoising Diffusion Probabilistic Models | arXiv</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-09-05</p>
+
+  <nav class="article-foot">
+    <a class="back-big" href="../">
+      <span class="back-big-em" aria-hidden="true">📖</span>
+      <span class="back-big-text">
+        <strong>ことばのいちらんへ</strong>
+        <small>ほかの言葉も見てみる</small>
+      </span>
+    </a>
+    <p class="feedback">
+      分かりにくいところはありませんでしたか。<br>
+      追加してほしい言葉があれば、<a href="https://ai-kakekomi.com/#contact">お知らせください</a>。
+    </p>
+  </nav>
+</article>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>かけこみ辞典 は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> のことばの辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+<script src="../assets/read.js"></script>
+</body>
+</html>

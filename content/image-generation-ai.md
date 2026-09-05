@@ -7,7 +7,7 @@ english_yomi: イメージ・ジェネレーション・エーアイ
 japanese: 言葉から絵を作るAI
 difficulty: 中級
 genres: [AI]
-related: [generative-ai, prompt, copyright, chatgpt, neural-network]
+related: [diffusion-model, generative-ai, prompt, copyright, ai-copyright]
 sources:
   - title: 添乗員向けAI教室開催レポ | AIかけこみ寺 note
     url: https://note.com/ai_kakekomi/n/n4814d51cfd9e
