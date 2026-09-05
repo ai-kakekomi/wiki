@@ -350,6 +350,17 @@
     "summary": "文章や絵、音楽を作った人に、自動的に生まれる権利です。"
   },
   {
+    "slug": "css",
+    "title": "CSS",
+    "yomi": "シーエスエス",
+    "english": "Cascading Style Sheets",
+    "difficulty": "中級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "ホームページの見た目を決めるための言葉です。"
+  },
+  {
     "slug": "csv",
     "title": "CSV",
     "yomi": "シーエスブイ",
@@ -630,6 +641,17 @@
     "summary": "国や自治体、財団から出る、返さなくてよい活動のお金です。"
   },
   {
+    "slug": "html",
+    "title": "HTML",
+    "yomi": "エイチティーエムエル",
+    "english": "HyperText Markup Language",
+    "difficulty": "中級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "ホームページの中身と、その組み立てかたを書くための言葉です。"
+  },
+  {
     "slug": "huawei",
     "title": "ファーウェイ",
     "yomi": "ファーウェイ",
@@ -719,6 +741,17 @@
       "プログラミング"
     ],
     "summary": "「ここを直したい」「これを足したい」を書いて貼っておく紙です。"
+  },
+  {
+    "slug": "javascript",
+    "title": "JavaScript",
+    "yomi": "ジャバスクリプト",
+    "english": "JavaScript",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "ホームページに動きをつけるための言葉です。"
   },
   {
     "slug": "jensen-huang",
@@ -1071,6 +1104,18 @@
       "プログラミング"
     ],
     "summary": "自分のパソコンに溜めた作業の記録を、みんなが見るサーバーへ送る操作です。"
+  },
+  {
+    "slug": "python",
+    "title": "Python",
+    "yomi": "パイソン",
+    "english": "Python",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "AI"
+    ],
+    "summary": "読みやすさを重んじた言語で、AIの分野では事実上の標準になっています。"
   },
   {
     "slug": "ray-kurzweil",

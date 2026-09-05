@@ -7,7 +7,7 @@ english_yomi: バイブ・コーディング
 japanese: AIに任せる感覚重視の開発
 difficulty: 上級
 genres: [AI, プログラミング]
-related: [claude-code, prompt, generative-ai, open-source]
+related: [claude-code, html, javascript, python, github]
 sources:
   - title: 無料AI教室ボランティア、5ヶ月目の記録 | AIかけこみ寺 note
     url: https://note.com/ai_kakekomi/n/n9d4bf16323a5
