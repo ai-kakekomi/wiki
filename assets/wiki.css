@@ -317,3 +317,19 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   content: "✓"; margin-left: 5px;
   font-size: .8em; color: var(--primary-light);
 }
+
+
+/* この団体の中の言葉であることを、読む前に伝える。
+   一般の用語と混ぜたまま出すと、辞典としての信用にかかわる */
+.kakekomi-note {
+  display: flex; align-items: flex-start; gap: 10px;
+  margin: 0 0 20px;
+  padding: 12px 16px;
+  border: 1px solid var(--accent-light);
+  border-radius: var(--radius-sm);
+  background: var(--warm-bg-alt);
+  font-size: .84rem; line-height: 1.8; color: var(--text-light);
+}
+.kakekomi-note-em { flex: 0 0 auto; font-size: 1.05rem; line-height: 1.6; }
+.kakekomi-note-text { flex: 1; min-width: 0; }
+.kakekomi-note strong { color: var(--accent); font-weight: 700; }

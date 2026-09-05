@@ -135,7 +135,20 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
     '</script>'
   ].join('');
 
+  /* この団体の中の言葉には、最初に断りを入れる。
+     世の中で広く使われている言いかただと誤解されないようにするため。
+     辞典としての信用は、ここを正直にしておけるかで決まる */
+  const kakekomiNote = (a.genres || []).includes('かけこみ用語')
+    ? '<p class="kakekomi-note"><span class="kakekomi-note-em" aria-hidden="true">🏮</span>' +
+      /* 文はひとつの入れ物に入れる。flex の中に直接置くと、
+         strong が別の箱として扱われ、文が分断される */
+      '<span class="kakekomi-note-text">' +
+      'これは<strong>AIかけこみ寺</strong>の活動や、その中で使っている言いかたについての項目です。' +
+      '世の中で広く使われている言葉ではありません。</span></p>'
+    : '';
+
   return template
+    .replaceAll('{{KAKEKOMI_NOTE}}', kakekomiNote)
     .replaceAll('{{JSONLD}}', jsonld)
     .replaceAll('{{HITOKOTO}}', escapeHtml(hitokoto))
     .replaceAll('{{SLUG}}', escapeHtml(a.slug))
