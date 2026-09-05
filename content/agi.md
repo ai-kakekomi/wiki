@@ -5,7 +5,7 @@ yomi: エージーアイ
 english: Artificial General Intelligence
 english_yomi: アーティフィシャル・ジェネラル・インテリジェンス
 japanese: 汎用人工知能
-difficulty: 上級
+difficulty: 中級
 genres: [AI, 未来]
 related: [singularity, llm, generative-ai, exponential-growth]
 sources:

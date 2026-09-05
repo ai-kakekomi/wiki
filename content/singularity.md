@@ -5,7 +5,7 @@ yomi: シンギュラリティ
 english: Technological Singularity
 english_yomi: テクノロジカル・シンギュラリティ
 japanese: 技術的特異点
-difficulty: 上級
+difficulty: 中級
 genres: [未来]
 related: [agi, exponential-growth, generative-ai]
 sources:

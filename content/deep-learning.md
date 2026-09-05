@@ -5,7 +5,7 @@ yomi: ディープラーニング
 english: Deep Learning
 english_yomi: ディープ・ラーニング
 japanese: 層を深く重ねた機械学習
-difficulty: 上級
+difficulty: 中級
 genres: [AI]
 related: [machine-learning, neural-network, llm, gpu, demis-hassabis]
 sources:

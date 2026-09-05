@@ -15,7 +15,7 @@
     "title": "AGI",
     "yomi": "エージーアイ",
     "english": "Artificial General Intelligence",
-    "difficulty": "上級",
+    "difficulty": "中級",
     "genres": [
       "AI",
       "未来"
@@ -423,7 +423,7 @@
     "title": "ディープラーニング",
     "yomi": "ディープラーニング",
     "english": "Deep Learning",
-    "difficulty": "上級",
+    "difficulty": "中級",
     "genres": [
       "AI"
     ],
@@ -887,7 +887,7 @@
     "title": "大規模言語モデル",
     "yomi": "ダイキボゲンゴモデル",
     "english": "Large Language Model",
-    "difficulty": "上級",
+    "difficulty": "中級",
     "genres": [
       "AI"
     ],
@@ -1025,7 +1025,7 @@
     "title": "ニューラルネットワーク",
     "yomi": "ニューラルネットワーク",
     "english": "Neural Network",
-    "difficulty": "特級",
+    "difficulty": "上級",
     "genres": [
       "AI"
     ],
@@ -1277,7 +1277,7 @@
     "title": "半導体",
     "yomi": "ハンドウタイ",
     "english": "Semiconductor",
-    "difficulty": "上級",
+    "difficulty": "中級",
     "genres": [
       "半導体"
     ],
@@ -1310,7 +1310,7 @@
     "title": "シンギュラリティ",
     "yomi": "シンギュラリティ",
     "english": "Technological Singularity",
-    "difficulty": "上級",
+    "difficulty": "中級",
     "genres": [
       "未来"
     ],

@@ -5,7 +5,7 @@ yomi: ダイキボゲンゴモデル
 english: Large Language Model
 english_yomi: ラージ・ランゲージ・モデル
 japanese: 大量の文章から言葉のつながりを学んだAI
-difficulty: 上級
+difficulty: 中級
 genres: [AI]
 related: [transformer, machine-learning, neural-network, generative-ai, token]
 sources:
