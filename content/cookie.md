@@ -7,7 +7,7 @@ english_yomi: クッキー
 japanese: ブラウザが預かる小さなメモ
 difficulty: 初級
 genres: [スマホ, セキュリティ]
-related: [dark-pattern, browser, login, account, phishing]
+related: [cache, dark-pattern, browser, login, account]
 sources:
   - title: Cookie | MDN Web Docs
     url: https://developer.mozilla.org/ja/docs/Web/HTTP/Cookies

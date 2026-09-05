@@ -7,7 +7,7 @@ english_yomi: ブラウザ
 japanese: ホームページを見るための道具
 difficulty: 初級
 genres: [スマホ]
-related: [cookie, app, wifi, phishing, cloud]
+related: [cookie, cache, app, wifi, phishing]
 sources:
   - title: Google Chrome ヘルプ
     url: https://support.google.com/chrome/
