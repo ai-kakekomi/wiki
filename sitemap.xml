@@ -12,13 +12,16 @@
   <url><loc>https://ai-kakekomi.com/wiki/ai-suishin-ho/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/ajinomoto-abf/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/alibaba/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-kakekomi.com/wiki/amazon/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/android/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/anthropic/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/api/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/app/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-kakekomi.com/wiki/apple/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/asi/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/asml/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/authentication/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-kakekomi.com/wiki/aws/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/basic-income/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/branch/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/browser/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -30,6 +33,7 @@
   <url><loc>https://ai-kakekomi.com/wiki/cli/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/clone/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/cloud/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-kakekomi.com/wiki/cloudflare/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/cloudflare-zero-trust/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/codex/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/commit/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -109,6 +113,7 @@
   <url><loc>https://ai-kakekomi.com/wiki/password/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/phishing/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/prompt/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-kakekomi.com/wiki/prompt-injection/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/pull/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/pull-request/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/push/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -127,6 +132,7 @@
   <url><loc>https://ai-kakekomi.com/wiki/singularity/</loc><lastmod>2026-08-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/skill/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/softbank/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-kakekomi.com/wiki/sql/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/subscription/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/supabase/</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/supercycle/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -139,6 +145,7 @@
   <url><loc>https://ai-kakekomi.com/wiki/tsmc/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/two-factor-auth/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/update/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-kakekomi.com/wiki/vercel/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/vibe-coding/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/vulnerability/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-kakekomi.com/wiki/wifi/</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>

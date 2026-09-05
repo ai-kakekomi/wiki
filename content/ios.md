@@ -7,7 +7,7 @@ english_yomi: アイオーエス
 japanese: iPhoneを動かす土台
 difficulty: 初級
 genres: [スマホ]
-related: [iphone, os, android, app, update]
+related: [iphone, apple, os, android, update]
 sources:
   - title: iOS | Apple
     url: https://www.apple.com/jp/ios/

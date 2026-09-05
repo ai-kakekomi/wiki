@@ -7,7 +7,7 @@ english_yomi: クラウド
 japanese: よその会社の機械にあずけて使う形
 difficulty: 初級
 genres: [スマホ]
-related: [app, account, data-center, wifi, browser]
+related: [aws, amazon, app, data-center, account]
 sources:
   - title: Google アカウント ヘルプ
     url: https://support.google.com/accounts/

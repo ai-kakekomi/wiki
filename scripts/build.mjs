@@ -207,10 +207,11 @@ const GROUPS = [
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
     'neural-network', 'prompt', 'token', 'context', 'skill', 'ai-agent', 'chatbot',
-    'image-generation-ai', 'deepfake', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok'
+    'image-generation-ai', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
-    'openai', 'google', 'microsoft', 'meta', 'anthropic', 'hugging-face', 'deepseek',
+    'openai', 'google', 'microsoft', 'meta', 'apple', 'amazon',
+    'anthropic', 'hugging-face', 'deepseek',
     'alibaba', 'bytedance',
     'sam-altman', 'dario-amodei', 'demis-hassabis', 'elon-musk'
   ]},
@@ -229,7 +230,8 @@ const GROUPS = [
     'github-actions', 'open-source', 'oss-license'
   ]},
   { name: 'データと安全のことば', slugs: [
-    'api', 'database', 'supabase', 'rls', 'csv',
+    'api', 'database', 'sql', 'supabase', 'rls', 'csv',
+    'aws', 'cloudflare', 'vercel',
     'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust'
   ]},
   { name: '団体と制度のことば', slugs: [

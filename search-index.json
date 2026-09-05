@@ -127,6 +127,18 @@
     "summary": "中国の大きなIT企業です。ネット通販から始まり、いまはAIにも力を入れています。"
   },
   {
+    "slug": "amazon",
+    "title": "アマゾン",
+    "yomi": "アマゾン",
+    "english": "Amazon",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "通販の会社として知られていますが、稼ぎの柱はクラウドの商売です。"
+  },
+  {
     "slug": "android",
     "title": "Android",
     "yomi": "アンドロイド",
@@ -171,6 +183,18 @@
     "summary": "スマホやパソコンに入れて使う、ひとつの目的のための道具です。"
   },
   {
+    "slug": "apple",
+    "title": "アップル",
+    "yomi": "アップル",
+    "english": "Apple",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "iPhoneとMacを作っている、アメリカの会社です。"
+  },
+  {
     "slug": "asi",
     "title": "超知能",
     "yomi": "チョウチノウ",
@@ -203,6 +227,17 @@
       "セキュリティ"
     ],
     "summary": "アクセスしてきた相手が本当に本人かどうかを確かめる手続きのことです。"
+  },
+  {
+    "slug": "aws",
+    "title": "AWS",
+    "yomi": "エーダブリューエス",
+    "english": "Amazon Web Services",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "アマゾンが貸している、計算する設備の一式です。"
   },
   {
     "slug": "basic-income",
@@ -338,6 +373,18 @@
       "セキュリティ"
     ],
     "summary": "「社内だから安全」という前提をやめ、毎回確かめる守りかたです。"
+  },
+  {
+    "slug": "cloudflare",
+    "title": "Cloudflare",
+    "yomi": "クラウドフレア",
+    "english": "Cloudflare",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "セキュリティ"
+    ],
+    "summary": "ホームページを世界中へ速く届け、悪い通信から守る仕組みです。"
   },
   {
     "slug": "codex",
@@ -1217,6 +1264,18 @@
     "summary": "本物そっくりの偽の画面を見せて、合言葉やカード番号を打たせる手口です。"
   },
   {
+    "slug": "prompt-injection",
+    "title": "プロンプトインジェクション",
+    "yomi": "プロンプトインジェクション",
+    "english": "Prompt Injection",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "セキュリティ"
+    ],
+    "summary": "AIに読ませた文章の中に指示を忍ばせて、こちらの言うことを聞かせる手口です。"
+  },
+  {
     "slug": "prompt",
     "title": "プロンプト",
     "yomi": "プロンプト",
@@ -1431,6 +1490,18 @@
     "summary": "投資を中心とする、日本の大きな企業グループです。"
   },
   {
+    "slug": "sql",
+    "title": "SQL",
+    "yomi": "エスキューエル",
+    "english": "Structured Query Language",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "データベース"
+    ],
+    "summary": "データベースに「これを出して」と頼むための言葉です。"
+  },
+  {
     "slug": "subscription",
     "title": "サブスク",
     "yomi": "サブスク",
@@ -1565,6 +1636,17 @@
       "セキュリティ"
     ],
     "summary": "アプリやスマホの中身を、新しいものに入れ替えることです。"
+  },
+  {
+    "slug": "vercel",
+    "title": "Vercel",
+    "yomi": "バーセル",
+    "english": "Vercel",
+    "difficulty": "特級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "作ったホームページを、置くだけで公開できるようにするサービスです。"
   },
   {
     "slug": "vibe-coding",

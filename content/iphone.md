@@ -7,7 +7,7 @@ english_yomi: アイフォーン
 japanese: アップルのスマートフォン
 difficulty: 初級
 genres: [スマホ]
-related: [ios, android, os, app, cloud]
+related: [ios, apple, android, os, cloud]
 sources:
   - title: iPhone | Apple
     url: https://www.apple.com/jp/iphone/
