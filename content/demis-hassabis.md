@@ -7,10 +7,12 @@ english_yomi: デミス・ハサビス
 japanese: グーグルのAI部門を率いる人
 difficulty: 中級
 genres: [AI, 社会]
-related: [gemini, neural-network, agi, generative-ai, sam-altman]
+related: [gemini, longevity-escape-velocity, neural-network, agi, sam-altman]
 sources:
   - title: Google DeepMind
     url: https://deepmind.google/
+  - title: Isomorphic Labs
+    url: https://www.isomorphiclabs.com/
 updated: 2026-09-05
 ---
 
@@ -29,6 +31,10 @@ updated: 2026-09-05
 2010年にディープマインドという会社を作り、のちにグーグルに加わりました。囲碁のあとは、生き物の体を作るたんぱく質が、どんな形に折りたたまれるかをAIに予想させる研究に取り組みます。長年解けなかった問題で、この成果によって2024年にノーベル化学賞を受けました。
 
 AIを「ゲームに勝つ道具」ではなく「科学の謎を解く道具」として使ってきた人、という見かたをすると分かりやすいです。
+
+いま力を入れているのは薬です。**「今後10年から15年で、あらゆる病気の解決に本気で挑める」**と語っています。1つの薬を世に出すのに10年と数十億ドルかかるのが現状で、だから多くの病気に良い治療法がありません。そこをAIで月や週の単位まで縮める、という狙いです。そのための会社（アイソモーフィック・ラボ）も率いています。
+
+言い過ぎに聞こえますが、この人は**50年解けなかったたんぱく質の問題を実際に解いています。** 話半分に聞くとしても、半分は残ります。
 
 ## 例文
 
