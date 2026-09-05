@@ -252,6 +252,18 @@
     "summary": "働いているかどうかに関係なく、全員に決まったお金を配る仕組みです。"
   },
   {
+    "slug": "blockchain",
+    "title": "ブロックチェーン",
+    "yomi": "ブロックチェーン",
+    "english": "Blockchain",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "セキュリティ"
+    ],
+    "summary": "記録をひとつながりの鎖にして、大勢で同じものを持ちあう仕組みです。"
+  },
+  {
     "slug": "branch",
     "title": "ブランチ",
     "yomi": "ブランチ",
@@ -465,6 +477,17 @@
       "社会"
     ],
     "summary": "文章や絵、音楽を作った人に、自動的に生まれる権利です。"
+  },
+  {
+    "slug": "crypto-asset",
+    "title": "暗号資産",
+    "yomi": "アンゴウシサン",
+    "english": "Crypto Asset",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "国が発行していない、電子のお金のようなものです。ビットコインが代表です。"
   },
   {
     "slug": "css",

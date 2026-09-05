@@ -234,7 +234,7 @@ const GROUPS = [
     'github-actions', 'open-source', 'oss-license'
   ]},
   { name: 'データと安全のことば', slugs: [
-    'api', 'database', 'sql', 'supabase', 'rls', 'csv',
+    'api', 'database', 'sql', 'supabase', 'rls', 'csv', 'blockchain',
     'aws', 'cloudflare', 'vercel', 'deploy',
     'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust'
   ]},
@@ -245,7 +245,7 @@ const GROUPS = [
     'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'joho-ryoiki'
   ]},
   { name: '社会と経済のことば', slugs: [
-    'digital-divide', 'externality', 'market-failure', 'basic-income',
+    'digital-divide', 'externality', 'market-failure', 'basic-income', 'crypto-asset',
     'ai-bubble', 'supercycle'
   ]},
   { name: '未来のことば', slugs: [

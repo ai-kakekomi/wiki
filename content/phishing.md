@@ -7,7 +7,7 @@ english_yomi: フィッシング
 japanese: 本物そっくりの偽サイトでだます手口
 difficulty: 初級
 genres: [スマホ, セキュリティ]
-related: [password, two-factor-auth, malware, account, browser]
+related: [crypto-asset, password, two-factor-auth, malware, dark-pattern]
 sources:
   - title: フィッシング対策協議会
     url: https://www.antiphishing.jp/
