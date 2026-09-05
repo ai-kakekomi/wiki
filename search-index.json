@@ -638,6 +638,17 @@
     "summary": "デジタルの道具を使える人と使えない人のあいだに開く、暮らしの差のことです。"
   },
   {
+    "slug": "dollar-cost-averaging",
+    "title": "ドルコスト平均法",
+    "yomi": "ドルコストヘイキンホウ",
+    "english": "Dollar Cost Averaging",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "毎月おなじ金額ずつ買い続けるやりかたです。"
+  },
+  {
     "slug": "dram",
     "title": "DRAM",
     "yomi": "ディーラム",
@@ -910,6 +921,17 @@
     "summary": "「こんな絵がほしい」と言葉で伝えると、絵を描いてくれるAIです。"
   },
   {
+    "slug": "index-investing",
+    "title": "インデックス投資",
+    "yomi": "インデックストウシ",
+    "english": "Index Investing",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "どの会社が伸びるかを選ばず、市場全体をまとめて買う形です。"
+  },
+  {
     "slug": "install",
     "title": "インストール",
     "yomi": "インストール",
@@ -1124,6 +1146,17 @@
     "summary": "技術は少しずつ進むのではなく、進む速さそのものが上がっていく、という見かたです。"
   },
   {
+    "slug": "leverage",
+    "title": "レバレッジ",
+    "yomi": "レバレッジ",
+    "english": "Leverage",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "借りることで、自分の持ち金以上の金額を動かすやりかたです。"
+  },
+  {
     "slug": "llm",
     "title": "大規模言語モデル",
     "yomi": "ダイキボゲンゴモデル",
@@ -1305,6 +1338,17 @@
       "AI"
     ],
     "summary": "脳の神経のつながりかたをまねて作った、計算の仕組みです。"
+  },
+  {
+    "slug": "nisa",
+    "title": "NISA",
+    "yomi": "ニーサ",
+    "english": "NISA",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "投資で出た利益に税金がかからない、国が用意した枠のことです。"
   },
   {
     "slug": "npo",
@@ -1569,6 +1613,17 @@
       "社会"
     ],
     "summary": "理事のうち、団体を代表する人の呼び名です。"
+  },
+  {
+    "slug": "risk-tolerance",
+    "title": "リスク許容度",
+    "yomi": "リスクキョヨウド",
+    "english": "Risk Tolerance",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "自分のお金がどれだけ減っても、暮らしと眠りを保てるか、という限度のことです。"
   },
   {
     "slug": "rls",

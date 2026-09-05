@@ -247,6 +247,7 @@ const GROUPS = [
   { name: '社会と経済のことば', slugs: [
     'digital-divide', 'externality', 'market-failure', 'basic-income',
     'crypto-asset', 'volatility',
+    'risk-tolerance', 'index-investing', 'dollar-cost-averaging', 'nisa', 'leverage',
     'ai-bubble', 'supercycle'
   ]},
   { name: '未来のことば', slugs: [
