@@ -34,6 +34,18 @@
     "summary": "聞かれたことに答えるだけでなく、自分で手順を決めて作業まで進めるAIです。"
   },
   {
+    "slug": "ai-copyright",
+    "title": "AIと著作権",
+    "yomi": "エーアイトチョサクケン",
+    "english": "",
+    "difficulty": "上級",
+    "genres": [
+      "社会",
+      "AI"
+    ],
+    "summary": "AIに学習させるときと、出てきたものを使うときで、考えかたが分かれます。"
+  },
+  {
     "slug": "ai-kakekomi",
     "title": "AIかけこみ寺",
     "yomi": "エーアイカケコミデラ",
@@ -56,6 +68,29 @@
       "社会"
     ],
     "summary": "AIを使う力と、AIの答えを疑う力をあわせて、AIリテラシーと呼びます。"
+  },
+  {
+    "slug": "ai-suishin-ho",
+    "title": "AI推進法",
+    "yomi": "エーアイスイシンホウ",
+    "english": "",
+    "difficulty": "上級",
+    "genres": [
+      "社会",
+      "AI"
+    ],
+    "summary": "日本で初めてAIを正面から扱った法律です。禁止ではなく、進めるための法律です。"
+  },
+  {
+    "slug": "ajinomoto-abf",
+    "title": "味の素ビルドアップフィルム",
+    "yomi": "アジノモトビルドアップフィルム",
+    "english": "Ajinomoto Build-up Film",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "味の素が作っている、半導体に使う極薄の膜です。世界のほとんどがこれを使っています。"
   },
   {
     "slug": "alibaba",
@@ -358,6 +393,18 @@
       "AI"
     ],
     "summary": "脳をまねた仕組みを、何層にも深く重ねた機械学習のやりかたです。"
+  },
+  {
+    "slug": "deepfake",
+    "title": "ディープフェイク",
+    "yomi": "ディープフェイク",
+    "english": "Deepfake",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "セキュリティ"
+    ],
+    "summary": "AIで作った、本物そっくりの偽の映像や音声です。"
   },
   {
     "slug": "deepseek",
@@ -699,6 +746,17 @@
     "summary": "団体の運営とお金の使いかたを、内側から見張る役です。"
   },
   {
+    "slug": "kioxia",
+    "title": "キオクシア",
+    "yomi": "キオクシア",
+    "english": "Kioxia",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "スマホやパソコンの記憶部分に使う半導体を作っている、日本の会社です。"
+  },
+  {
     "slug": "koen-meigi",
     "title": "後援名義",
     "yomi": "コウエンメイギ",
@@ -1026,6 +1084,17 @@
       "社会"
     ],
     "summary": "ChatGPTを作ったOpenAIを率いている人です。"
+  },
+  {
+    "slug": "semiconductor-equipment",
+    "title": "半導体製造装置",
+    "yomi": "ハンドウタイセイゾウソウチ",
+    "english": "Semiconductor Equipment",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "半導体を作るために使う、専用の機械です。"
   },
   {
     "slug": "semiconductor",
