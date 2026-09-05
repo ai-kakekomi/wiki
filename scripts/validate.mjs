@@ -64,6 +64,13 @@ export function validateArticle({ data, body, filename }) {
     const re = new RegExp('^' + sec.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*$', 'm');
     if (!re.test(body)) e.push(`本文に「${sec}」の見出しがありません`);
   }
+  // 日本語と英数字以外の文字が紛れていないか。
+  // 生成中にキリル文字やハングルが1文字だけ混ざることがあり、目では見つけにくい
+  const strayed = body.match(/[\u0400-\u04FF\uAC00-\uD7AF\u1100-\u11FF]/);
+  if (strayed) {
+    e.push(`日本語でない文字が紛れています: ${JSON.stringify(strayed[0])}`);
+  }
+
   // 例文には見出し語そのものを入れる。
   // その言葉を使った会話が見たくて例文を読むのに、言い換えだけだと使いかたが分からない
   const rei = body.match(/^## 例文\s*\n([\s\S]*)$/m);

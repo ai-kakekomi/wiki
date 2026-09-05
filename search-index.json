@@ -1503,6 +1503,18 @@
     "summary": "読みやすさを重んじた言語で、AIの分野では事実上の標準になっています。"
   },
   {
+    "slug": "ransomware",
+    "title": "ランサムウェア",
+    "yomi": "ランサムウェア",
+    "english": "Ransomware",
+    "difficulty": "上級",
+    "genres": [
+      "セキュリティ",
+      "スマホ"
+    ],
+    "summary": "機械の中身を開けないようにして、戻す代わりに金を要求するソフトです。"
+  },
+  {
     "slug": "ray-kurzweil",
     "title": "レイ・カーツワイル",
     "yomi": "レイカーツワイル",
@@ -1841,6 +1853,17 @@
       "プログラミング"
     ],
     "summary": "コードを1行ずつ書かずに、やりたいことを日本語でAIに伝えて動くものを作る進め方です。"
+  },
+  {
+    "slug": "volatility",
+    "title": "ボラティリティ",
+    "yomi": "ボラティリティ",
+    "english": "Volatility",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "値段がどれくらい激しく上下するか、という揺れの大きさのことです。"
   },
   {
     "slug": "vulnerability",

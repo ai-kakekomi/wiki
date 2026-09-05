@@ -7,7 +7,7 @@ english_yomi: クリプト・アセット
 japanese: 国が発行していない、電子のお金のようなもの
 difficulty: 中級
 genres: [社会]
-related: [blockchain, phishing, dark-pattern, market-failure, ai-bubble]
+related: [blockchain, volatility, phishing, ransomware, dark-pattern]
 sources:
   - title: 暗号資産（仮想通貨）について | 金融庁
     url: https://www.fsa.go.jp/policy/virtual_currency/

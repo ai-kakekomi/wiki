@@ -201,7 +201,7 @@ const GROUPS = [
   { name: 'スマホとインターネット', slugs: [
     'internet', 'provider',
     'os', 'android', 'iphone', 'ios',
-    'account', 'login', 'password', 'two-factor-auth', 'phishing', 'malware',
+    'account', 'login', 'password', 'two-factor-auth', 'phishing', 'malware', 'ransomware',
     'app', 'install', 'update', 'browser', 'cookie', 'cache', 'wifi', 'tethering', 'cloud',
     'subscription', 'dark-pattern', '5g'
   ]},
@@ -245,7 +245,8 @@ const GROUPS = [
     'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'joho-ryoiki'
   ]},
   { name: '社会と経済のことば', slugs: [
-    'digital-divide', 'externality', 'market-failure', 'basic-income', 'crypto-asset',
+    'digital-divide', 'externality', 'market-failure', 'basic-income',
+    'crypto-asset', 'volatility',
     'ai-bubble', 'supercycle'
   ]},
   { name: '未来のことば', slugs: [
