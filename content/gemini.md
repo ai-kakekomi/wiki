@@ -7,7 +7,7 @@ english_yomi: ジェミニ
 japanese: グーグルのAI
 difficulty: 初級
 genres: [AI]
-related: [chatgpt, claude, generative-ai, llm, demis-hassabis]
+related: [google, chatgpt, claude, generative-ai, demis-hassabis]
 sources:
   - title: Gemini
     url: https://gemini.google.com/

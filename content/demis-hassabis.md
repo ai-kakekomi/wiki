@@ -7,7 +7,7 @@ english_yomi: デミス・ハサビス
 japanese: グーグルのAI部門を率いる人
 difficulty: 中級
 genres: [AI, 社会]
-related: [gemini, longevity-escape-velocity, neural-network, agi, sam-altman]
+related: [google, gemini, longevity-escape-velocity, neural-network, agi]
 sources:
   - title: Google DeepMind
     url: https://deepmind.google/

@@ -599,6 +599,18 @@
     "summary": "「これは記録しないで」と書いておくファイルです。"
   },
   {
+    "slug": "google",
+    "title": "Google",
+    "yomi": "グーグル",
+    "english": "Google",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "検索から始まり、いまはAIでも中心にいるアメリカの会社です。"
+  },
+  {
     "slug": "gpu",
     "title": "GPU",
     "yomi": "ジーピーユー",

@@ -7,7 +7,7 @@ english_yomi: トランスフォーマー
 japanese: いまのAIの土台になった設計
 difficulty: 特級
 genres: [AI]
-related: [llm, deep-learning, neural-network, gpu, generative-ai]
+related: [llm, google, deep-learning, neural-network, generative-ai]
 sources:
   - title: Attention Is All You Need | arXiv
     url: https://arxiv.org/abs/1706.03762
