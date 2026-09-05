@@ -615,6 +615,17 @@
     "summary": "デジタルの道具を使える人と使えない人のあいだに開く、暮らしの差のことです。"
   },
   {
+    "slug": "dram",
+    "title": "DRAM",
+    "yomi": "ディーラム",
+    "english": "Dynamic Random Access Memory",
+    "difficulty": "上級",
+    "genres": [
+      "半導体"
+    ],
+    "summary": "作業中のものを置いておく、速い記憶用の半導体です。電源を切ると消えます。"
+  },
+  {
     "slug": "elon-musk",
     "title": "イーロン・マスク",
     "yomi": "イーロンマスク",
@@ -840,6 +851,18 @@
       "未来"
     ],
     "summary": "人と同じような形と動きをするロボットです。"
+  },
+  {
+    "slug": "hyperscaler",
+    "title": "ハイパースケーラー",
+    "yomi": "ハイパースケーラー",
+    "english": "Hyperscaler",
+    "difficulty": "上級",
+    "genres": [
+      "半導体",
+      "AI"
+    ],
+    "summary": "巨大なデータセンターを自分で建てて動かしている、ひと握りの会社のことです。"
   },
   {
     "slug": "idea-expression",
@@ -1148,6 +1171,17 @@
     "summary": "ソフトバンクグループを創業し、率いている経営者です。"
   },
   {
+    "slug": "memory-chip",
+    "title": "メモリ半導体",
+    "yomi": "メモリハンドウタイ",
+    "english": "Memory Chip",
+    "difficulty": "上級",
+    "genres": [
+      "半導体"
+    ],
+    "summary": "計算するのではなく、覚えておくための半導体です。"
+  },
+  {
     "slug": "merge",
     "title": "マージ",
     "yomi": "マージ",
@@ -1193,6 +1227,17 @@
       "未来"
     ],
     "summary": "半導体に詰め込める部品の数が、一定の期間ごとに倍になっていく、という見かたです。"
+  },
+  {
+    "slug": "nand-flash",
+    "title": "NANDフラッシュ",
+    "yomi": "ナンドフラッシュ",
+    "english": "NAND Flash Memory",
+    "difficulty": "上級",
+    "genres": [
+      "半導体"
+    ],
+    "summary": "電源を切っても中身が残る、記憶用の半導体です。"
   },
   {
     "slug": "neural-network",

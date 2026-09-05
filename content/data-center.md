@@ -7,7 +7,7 @@ english_yomi: データセンター
 japanese: 計算機を大量に置いた建物
 difficulty: 中級
 genres: [半導体, AI]
-related: [cloud, gpu, llm, generative-ai, exponential-growth]
+related: [hyperscaler, cloud, gpu, memory-chip, generative-ai]
 sources:
   - title: 「人と人とAI」 | AIかけこみ寺 note
     url: https://note.com/ai_kakekomi/n/n4faa522219ee

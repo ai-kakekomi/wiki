@@ -7,7 +7,7 @@ english_yomi: キオクシア
 japanese: 記憶用の半導体を作る日本の会社
 difficulty: 中級
 genres: [半導体]
-related: [semiconductor, semiconductor-equipment, nvidia, data-center, gpu]
+related: [nand-flash, memory-chip, semiconductor, dram, semiconductor-equipment]
 sources:
   - title: キオクシア
     url: https://www.kioxia.com/ja-jp/top.html

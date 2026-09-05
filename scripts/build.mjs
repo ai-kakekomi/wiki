@@ -217,7 +217,9 @@ const GROUPS = [
     'mark-zuckerberg', 'jeff-bezos', 'steve-jobs'
   ]},
   { name: '半導体とインフラ', slugs: [
-    'semiconductor', 'semiconductor-equipment', 'gpu', 'data-center', 'moores-law',
+    'semiconductor', 'semiconductor-equipment', 'gpu',
+    'memory-chip', 'dram', 'nand-flash',
+    'data-center', 'hyperscaler', 'moores-law',
     'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'kioxia', 'ajinomoto-abf', 'huawei',
     'jensen-huang', 'masayoshi-son', 'softbank'
   ]},
