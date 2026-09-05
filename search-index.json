@@ -653,6 +653,17 @@
     "summary": "NVIDIAを創業し、いまも率いている人です。"
   },
   {
+    "slug": "joho-ryoiki",
+    "title": "情報の領域",
+    "yomi": "ジョウホウノリョウイキ",
+    "english": "",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "中学校の技術・家庭科で、情報とプログラミングを学ぶ部分のことです。"
+  },
+  {
     "slug": "kakekomi-app",
     "title": "かけこみアプリ",
     "yomi": "カケコミアプリ",
