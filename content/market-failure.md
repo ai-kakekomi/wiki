@@ -7,7 +7,7 @@ english_yomi: マーケット・フェイリャー
 japanese: 市場に任せるとうまくいかない状態
 difficulty: 上級
 genres: [社会]
-related: [externality, digital-divide, npo, ai-kakekomi, hojokin]
+related: [externality, kakekomi-app, digital-divide, npo, ai-kakekomi]
 sources:
   - title: 情報通信白書 | 総務省
     url: https://www.soumu.go.jp/johotsusintokei/whitepaper/

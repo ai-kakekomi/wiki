@@ -7,7 +7,7 @@ english_yomi: エクスターナリティ
 japanese: 取引の外にこぼれる、良い影響や悪い影響
 difficulty: 上級
 genres: [社会]
-related: [market-failure, digital-divide, npo, ai-kakekomi, hojokin]
+related: [market-failure, kakekomi-app, digital-divide, npo, ai-kakekomi]
 sources:
   - title: 情報通信白書 | 総務省
     url: https://www.soumu.go.jp/johotsusintokei/whitepaper/
