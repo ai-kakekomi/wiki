@@ -213,7 +213,8 @@ const GROUPS = [
     'openai', 'google', 'microsoft', 'meta', 'apple', 'amazon',
     'anthropic', 'hugging-face', 'deepseek',
     'alibaba', 'bytedance',
-    'sam-altman', 'dario-amodei', 'demis-hassabis', 'elon-musk'
+    'sam-altman', 'dario-amodei', 'demis-hassabis', 'elon-musk',
+    'mark-zuckerberg', 'jeff-bezos', 'steve-jobs'
   ]},
   { name: '半導体とインフラ', slugs: [
     'semiconductor', 'semiconductor-equipment', 'gpu', 'data-center', 'moores-law',

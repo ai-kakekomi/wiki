@@ -7,7 +7,7 @@ english_yomi: メタ
 japanese: FacebookとInstagramの会社
 difficulty: 初級
 genres: [AI, 社会]
-related: [open-source, hugging-face, deepseek, google, generative-ai]
+related: [mark-zuckerberg, open-source, hugging-face, deepseek, google]
 sources:
   - title: Meta AI
     url: https://ai.meta.com/

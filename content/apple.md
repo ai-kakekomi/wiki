@@ -7,7 +7,7 @@ english_yomi: アップル
 japanese: iPhoneとMacを作る会社
 difficulty: 初級
 genres: [AI, 社会]
-related: [iphone, ios, google, microsoft, semiconductor]
+related: [steve-jobs, iphone, ios, google, microsoft]
 sources:
   - title: Apple
     url: https://www.apple.com/jp/

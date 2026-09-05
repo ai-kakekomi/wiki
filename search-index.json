@@ -919,6 +919,18 @@
     "summary": "ホームページに動きをつけるための言葉です。"
   },
   {
+    "slug": "jeff-bezos",
+    "title": "ジェフ・ベゾス",
+    "yomi": "ジェフベゾス",
+    "english": "Jeff Bezos",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "アマゾンを作った人です。いまは経営から退き、宇宙の事業などに関わっています。"
+  },
+  {
     "slug": "jensen-huang",
     "title": "ジェンスン・フアン",
     "yomi": "ジェンスンフアン",
@@ -1064,6 +1076,18 @@
       "スマホ"
     ],
     "summary": "害を与えるために作られた、悪いソフトの総称です。"
+  },
+  {
+    "slug": "mark-zuckerberg",
+    "title": "マーク・ザッカーバーグ",
+    "yomi": "マークザッカーバーグ",
+    "english": "Mark Zuckerberg",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "FacebookとInstagramを持つメタを、いまも率いている人です。"
   },
   {
     "slug": "markdown",
@@ -1500,6 +1524,17 @@
       "データベース"
     ],
     "summary": "データベースに「これを出して」と頼むための言葉です。"
+  },
+  {
+    "slug": "steve-jobs",
+    "title": "スティーブ・ジョブズ",
+    "yomi": "スティーブジョブズ",
+    "english": "Steve Jobs",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "アップルを作り、iPhoneを世に出した人です。2011年に亡くなりました。"
   },
   {
     "slug": "subscription",

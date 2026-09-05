@@ -7,7 +7,7 @@ english_yomi: アマゾン
 japanese: 通販とクラウドの会社
 difficulty: 初級
 genres: [AI, 社会]
-related: [aws, cloud, google, microsoft, data-center]
+related: [aws, jeff-bezos, cloud, google, microsoft]
 sources:
   - title: Amazon
     url: https://www.amazon.co.jp/
