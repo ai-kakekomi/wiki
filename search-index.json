@@ -486,6 +486,17 @@
     "summary": "一定の期間ごとに倍になっていく増え方のことです。"
   },
   {
+    "slug": "externality",
+    "title": "外部経済",
+    "yomi": "ガイブケイザイ",
+    "english": "Externality",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "ある人の行いが、お金のやりとりを通さずに、まわりの人に良い影響を与えることです。"
+  },
+  {
     "slug": "fork",
     "title": "フォーク",
     "yomi": "フォーク",
@@ -867,6 +878,17 @@
       "AI"
     ],
     "summary": "記号をいくつか使って、見出しや箇条書きといった文章の構造を表す書きかたです。"
+  },
+  {
+    "slug": "market-failure",
+    "title": "市場の失敗",
+    "yomi": "シジョウノシッパイ",
+    "english": "Market Failure",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "売り買いに任せておくと、世の中にとって必要な量がそろわなくなる状態のことです。"
   },
   {
     "slug": "masayoshi-son",

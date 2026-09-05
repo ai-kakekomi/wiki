@@ -7,7 +7,7 @@ english_yomi: デジタル・ディバイド
 japanese: 情報格差
 difficulty: 上級
 genres: [社会]
-related: [ai-literacy, chatgpt, generative-ai, npo]
+related: [market-failure, externality, ai-literacy, chatgpt, generative-ai, npo]
 sources:
   - title: Measuring digital development: Facts and Figures 2024 | ITU
     url: https://www.itu.int/itu-d/reports/statistics/facts-figures-2024/
