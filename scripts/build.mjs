@@ -221,7 +221,7 @@ const GROUPS = [
     'semiconductor', 'semiconductor-equipment', 'gpu',
     'memory-chip', 'dram', 'nand-flash',
     'data-center', 'hyperscaler', 'moores-law',
-    'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'kioxia', 'ajinomoto-abf', 'huawei',
+    'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'advantest', 'kioxia', 'ajinomoto-abf', 'huawei',
     'jensen-huang', 'masayoshi-son', 'softbank'
   ]},
   { name: 'つくるためのことば', slugs: [

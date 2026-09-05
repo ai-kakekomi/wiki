@@ -7,7 +7,7 @@ english_yomi: セミコンダクター・エクイップメント
 japanese: 半導体を作るための機械
 difficulty: 上級
 genres: [半導体]
-related: [asml, tokyo-electron, tsmc, semiconductor, ajinomoto-abf]
+related: [asml, tokyo-electron, advantest, tsmc, semiconductor]
 sources:
   - title: 経済産業省 半導体・デジタル産業戦略
     url: https://www.meti.go.jp/policy/mono_info_service/joho/semiconductor/index.html

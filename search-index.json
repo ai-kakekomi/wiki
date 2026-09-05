@@ -34,6 +34,17 @@
     "summary": "その機械やサービスの中で、何でもできてしまう強い権限のことです。"
   },
   {
+    "slug": "advantest",
+    "title": "アドバンテスト",
+    "yomi": "アドバンテスト",
+    "english": "Advantest",
+    "difficulty": "中級",
+    "genres": [
+      "半導体"
+    ],
+    "summary": "作った半導体が正しく動くかを検査する機械を作っている、日本の会社です。"
+  },
+  {
     "slug": "agi",
     "title": "AGI",
     "yomi": "エージーアイ",

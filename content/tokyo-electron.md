@@ -7,7 +7,7 @@ english_yomi: トウキョウ・エレクトロン
 japanese: 日本最大の半導体製造装置メーカー
 difficulty: 中級
 genres: [半導体]
-related: [semiconductor-equipment, asml, tsmc, semiconductor, kioxia]
+related: [semiconductor-equipment, advantest, asml, tsmc, semiconductor]
 sources:
   - title: 東京エレクトロン
     url: https://www.tel.co.jp/
