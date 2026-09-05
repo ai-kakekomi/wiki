@@ -7,7 +7,7 @@ english_yomi: ハギング・フェース
 japanese: AIを持ち寄って公開する場所
 difficulty: 上級
 genres: [AI, プログラミング]
-related: [open-source, github, transformer, llm, alibaba]
+related: [open-source, meta, github, transformer, alibaba]
 sources:
   - title: Hugging Face
     url: https://huggingface.co/

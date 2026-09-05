@@ -208,7 +208,8 @@ const GROUPS = [
     'image-generation-ai', 'deepfake', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
-    'openai', 'google', 'anthropic', 'hugging-face', 'deepseek', 'alibaba', 'bytedance',
+    'openai', 'google', 'microsoft', 'meta', 'anthropic', 'hugging-face', 'deepseek',
+    'alibaba', 'bytedance',
     'sam-altman', 'dario-amodei', 'demis-hassabis', 'elon-musk'
   ]},
   { name: '半導体とインフラ', slugs: [

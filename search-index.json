@@ -985,6 +985,30 @@
     "summary": "別々に進めていた作業を、ひとつにまとめ直す操作です。"
   },
   {
+    "slug": "meta",
+    "title": "メタ",
+    "yomi": "メタ",
+    "english": "Meta",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "FacebookとInstagramを運営していて、AIを無料で公開していることで知られる会社です。"
+  },
+  {
+    "slug": "microsoft",
+    "title": "マイクロソフト",
+    "yomi": "マイクロソフト",
+    "english": "Microsoft",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "WindowsとOfficeを作っている会社で、いまはAIの主要な担い手のひとつです。"
+  },
+  {
     "slug": "moores-law",
     "title": "ムーアの法則",
     "yomi": "ムーアノホウソク",
