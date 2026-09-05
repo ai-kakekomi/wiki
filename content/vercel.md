@@ -7,7 +7,7 @@ english_yomi: バーセル
 japanese: 作ったサイトを公開する場所
 difficulty: 特級
 genres: [プログラミング]
-related: [cloudflare, aws, github, javascript, vibe-coding]
+related: [deploy, cloudflare, aws, github, vibe-coding]
 sources:
   - title: Vercel
     url: https://vercel.com/

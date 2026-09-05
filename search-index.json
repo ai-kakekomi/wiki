@@ -570,6 +570,17 @@
     "summary": "グーグルのAI研究部門を率いている人です。囲碁でプロに勝ったAIを作りました。"
   },
   {
+    "slug": "deploy",
+    "title": "デプロイ",
+    "yomi": "デプロイ",
+    "english": "Deploy",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "作ったものを、実際に人が使える場所へ出して動かすことです。"
+  },
+  {
     "slug": "diff",
     "title": "差分",
     "yomi": "サブン",

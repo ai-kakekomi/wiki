@@ -7,7 +7,7 @@ english_yomi: ギットハブ・アクションズ
 japanese: 置き場に置くと自動で走る仕組み
 difficulty: 特級
 genres: [プログラミング]
-related: [github, repository, push, cli, open-source]
+related: [deploy, github, repository, push, open-source]
 sources:
   - title: GitHub Actions のドキュメント
     url: https://docs.github.com/ja/actions

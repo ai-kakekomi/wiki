@@ -232,7 +232,7 @@ const GROUPS = [
   ]},
   { name: 'データと安全のことば', slugs: [
     'api', 'database', 'sql', 'supabase', 'rls', 'csv',
-    'aws', 'cloudflare', 'vercel',
+    'aws', 'cloudflare', 'vercel', 'deploy',
     'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust'
   ]},
   { name: '団体と制度のことば', slugs: [
