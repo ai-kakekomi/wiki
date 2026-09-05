@@ -253,3 +253,67 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   .container { padding: 0 16px; }
   .article-head { padding: 20px 18px; }
 }
+
+
+/* ===== 記事の終わりから、また一覧へ =====
+   最後まで読んだ人が、次の言葉へ行きやすいようにする。
+   小さな「← 戻る」は上にもあるが、読み終えた位置からは遠い */
+.article-foot { margin-top: 40px; }
+
+.back-big {
+  display: flex; align-items: center; gap: 16px;
+  padding: 20px 24px;
+  border: 2px solid var(--primary-pale);
+  border-radius: var(--radius);
+  background: var(--white);
+  text-decoration: none; color: inherit;
+  transition: border-color .15s, transform .15s;
+}
+.back-big:hover { border-color: var(--primary-light); transform: translateY(-2px); }
+.back-big-em { font-size: 1.9rem; line-height: 1; flex: 0 0 auto; }
+.back-big-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.back-big-text strong { font-size: 1.05rem; font-weight: 700; color: var(--primary); }
+.back-big-text small { font-size: .82rem; color: var(--text-light); }
+
+.feedback {
+  margin-top: 14px; padding: 0 4px;
+  font-size: .84rem; color: var(--text-light); line-height: 1.9;
+}
+
+/* ===== 読んだ言葉の数 =====
+   残りの数は出さない。増えた数だけを出す。
+   義務にしたいのではなく、覚えた量に気づいてもらうため */
+.progress {
+  margin: 0 0 20px;
+  padding: 16px 20px;
+  border: 1px solid var(--primary-pale);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+}
+.progress[hidden] { display: none; }
+.progress-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.progress-num { font-size: 1.7rem; font-weight: 700; color: var(--primary); line-height: 1; }
+.progress-unit { font-size: .92rem; font-weight: 700; }
+.progress-word { font-size: .84rem; color: var(--text-light); }
+.progress-reset {
+  margin-left: auto; font: inherit; font-size: .76rem;
+  padding: 3px 12px; border-radius: 999px;
+  border: 1px solid var(--primary-pale); background: transparent;
+  color: var(--text-light); cursor: pointer;
+}
+.progress-reset:hover { border-color: var(--accent); color: var(--accent); }
+.progress-bar {
+  height: 7px; margin-top: 12px; border-radius: 4px;
+  background: var(--primary-pale); overflow: hidden;
+}
+.progress-bar i {
+  display: block; height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--primary-light));
+}
+
+/* 読んだ言葉は、うっすら印をつける。薄くはしない（また読めるように） */
+.card.is-read { border-color: var(--primary-light); }
+.card.is-read .w-title::after {
+  content: "✓"; margin-left: 5px;
+  font-size: .8em; color: var(--primary-light);
+}

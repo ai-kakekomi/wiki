@@ -234,6 +234,8 @@ ${pills}
     <p class="lead">AI・プログラミング・社会・未来の言葉を、短くやさしい日本語で。</p>
   </div>
 
+  <div class="progress" id="progress" hidden></div>
+
   <div class="toolbar">
     <div class="filters">
       <div class="filter-row">${difficultyButtons}</div>
@@ -256,6 +258,7 @@ ${cards}
   </div>
 </footer>
 <script src="assets/search.js"></script>
+<script src="assets/read.js"></script>
 </body>
 </html>
 `;
