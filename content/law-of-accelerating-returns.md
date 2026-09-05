@@ -5,7 +5,7 @@ yomi: シュウカクカソクノホウソク
 english: Law of Accelerating Returns
 english_yomi: ロー・オブ・アクセラレーティング・リターンズ
 japanese: 技術の進む速さ自体が上がっていくという見かた
-difficulty: 上級
+difficulty: 特級
 genres: [未来]
 related: [ray-kurzweil, exponential-growth, singularity, moores-law, agi]
 sources:

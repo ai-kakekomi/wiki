@@ -5,7 +5,7 @@ yomi: チノウバクハツ
 english: Intelligence Explosion
 english_yomi: インテリジェンス・エクスプロージョン
 japanese: AIが自分で自分を賢くし、加速していくという筋書き
-difficulty: 上級
+difficulty: 特級
 genres: [AI, 未来]
 related: [asi, agi, singularity, exponential-growth, dario-amodei]
 sources:

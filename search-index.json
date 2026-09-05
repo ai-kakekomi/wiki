@@ -503,7 +503,7 @@
     "title": "指数関数的成長",
     "yomi": "シスウカンスウテキセイチョウ",
     "english": "Exponential Growth",
-    "difficulty": "中級",
+    "difficulty": "特級",
     "genres": [
       "未来"
     ],
@@ -615,7 +615,7 @@
     "title": "GPU",
     "yomi": "ジーピーユー",
     "english": "Graphics Processing Unit",
-    "difficulty": "中級",
+    "difficulty": "上級",
     "genres": [
       "半導体",
       "AI"
@@ -718,7 +718,7 @@
     "title": "アイデア・表現二分論",
     "yomi": "アイデアヒョウゲンニブンロン",
     "english": "Idea-Expression Dichotomy",
-    "difficulty": "上級",
+    "difficulty": "特級",
     "genres": [
       "社会"
     ],
@@ -751,7 +751,7 @@
     "title": "知能爆発",
     "yomi": "チノウバクハツ",
     "english": "Intelligence Explosion",
-    "difficulty": "上級",
+    "difficulty": "特級",
     "genres": [
       "AI",
       "未来"
@@ -876,7 +876,7 @@
     "title": "収穫加速の法則",
     "yomi": "シュウカクカソクノホウソク",
     "english": "Law of Accelerating Returns",
-    "difficulty": "上級",
+    "difficulty": "特級",
     "genres": [
       "未来"
     ],
@@ -1035,7 +1035,7 @@
     "title": "OAuth",
     "yomi": "オーオース",
     "english": "OAuth",
-    "difficulty": "上級",
+    "difficulty": "特級",
     "genres": [
       "セキュリティ",
       "プログラミング"
@@ -1253,7 +1253,7 @@
     "title": "半導体",
     "yomi": "ハンドウタイ",
     "english": "Semiconductor",
-    "difficulty": "中級",
+    "difficulty": "上級",
     "genres": [
       "半導体"
     ],
@@ -1491,7 +1491,7 @@
     "title": "ゼロトラスト会計",
     "yomi": "ゼロトラストカイケイ",
     "english": "Zero Trust Accounting",
-    "difficulty": "上級",
+    "difficulty": "特級",
     "genres": [
       "社会",
       "かけこみ用語"
