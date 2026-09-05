@@ -6,6 +6,9 @@ import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync } from 'nod
 import { join, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { marked } from 'marked';
+
+/* 公開先。canonical・sitemap・構造化データで使う */
+const SITE = 'https://ai-kakekomi.com';
 import { parseFrontmatter, DIFFICULTIES } from './frontmatter.mjs';
 import { validateArticle } from './validate.mjs';
 import { escapeHtml, summarize } from './text.mjs';
@@ -111,7 +114,29 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
     warn(`${a.slug}.md: 強調の ** が記号のまま残っています。閉じる ** の直前が「」や。だと閉じられません。括弧や句点を強調の外に出してください`);
   }
   const desc = summarize(a.body, 110);
+
+  /* 用語辞典であることを機械にも伝える。
+     schema.org の DefinedTerm は、まさに辞典の1項目のための型。
+     検索結果での見え方が変わることがある */
+  const jsonld = [
+    '<script type="application/ld+json">',
+    JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'DefinedTerm',
+      name: a.title,
+      description: desc,
+      url: `${SITE}/wiki/${a.slug}/`,
+      inDefinedTermSet: {
+        '@type': 'DefinedTermSet',
+        name: 'かけこみ辞典',
+        url: `${SITE}/wiki/`
+      }
+    }),
+    '</script>'
+  ].join('');
+
   return template
+    .replaceAll('{{JSONLD}}', jsonld)
     .replaceAll('{{HITOKOTO}}', escapeHtml(hitokoto))
     .replaceAll('{{SLUG}}', escapeHtml(a.slug))
     .replaceAll('{{TITLE}}', escapeHtml(a.title))
@@ -182,6 +207,20 @@ ${pills}
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="${SITE}/wiki/">
+<script type="application/ld+json">${JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTermSet',
+  name: 'かけこみ辞典',
+  description: 'AI・プログラミング・社会・未来のことばを、誰でも読める短い日本語で説明する辞典です。',
+  url: `${SITE}/wiki/`,
+  inLanguage: 'ja',
+  hasDefinedTerm: articles.slice().sort((x, y) => x.slug.localeCompare(y.slug)).map((a) => ({
+    '@type': 'DefinedTerm',
+    name: a.title,
+    url: `${SITE}/wiki/${a.slug}/`
+  }))
+})}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
@@ -253,6 +292,23 @@ export function build({ root = ROOT, quiet = false } = {}) {
 
   const index = buildSearchIndex(articles);
   writeFileSync(join(root, 'search-index.json'), JSON.stringify(index, null, 2) + '\n');
+
+  /* sitemap。120本あると、リンクをたどるだけでは拾い切ってもらえない。
+     更新日は記事の updated をそのまま使う */
+  const urls = [
+    `  <url><loc>${SITE}/wiki/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>`,
+    ...articles
+      .slice()
+      .sort((x, y) => x.slug.localeCompare(y.slug))
+      .map((a) => `  <url><loc>${SITE}/wiki/${a.slug}/</loc><lastmod>${a.updated}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`)
+  ];
+  writeFileSync(
+    join(root, 'sitemap.xml'),
+    '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    urls.join('\n') + '\n</urlset>\n'
+  );
+  log(`  生成: sitemap.xml (${urls.length}件)`);
   log('  生成: search-index.json');
 
   return { articles, warnings, index };
