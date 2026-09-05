@@ -191,16 +191,69 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
     .replaceAll('{{BODY}}', body);
 }
 
-// トップの大分類。ジャンルから1つに割り当てる(未来・社会を先に判定し、残りは技術)
+/* トップの束。ジャンルではなく話題で切る。
+   ジャンル（AI・社会・プログラミング…）は絞り込みに使い、
+   並べる順はこちらで決める。AIだけで何十本もあるので、
+   会社と人、半導体、道具、を分けないと探せない。
+
+   ここに無い記事はビルドが警告する。書き足したら必ずどこかへ入れる。 */
+const GROUPS = [
+  { name: 'スマホとインターネット', slugs: [
+    'account', 'login', 'password', 'two-factor-auth', 'phishing', 'malware',
+    'app', 'install', 'update', 'browser', 'wifi', 'tethering', 'cloud', 'subscription'
+  ]},
+  { name: 'AIのことば', slugs: [
+    'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
+    'neural-network', 'prompt', 'token', 'context', 'skill', 'ai-agent', 'chatbot',
+    'image-generation-ai', 'deepfake', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok'
+  ]},
+  { name: 'AIをつくる会社と人', slugs: [
+    'openai', 'anthropic', 'hugging-face', 'deepseek', 'alibaba', 'bytedance',
+    'sam-altman', 'dario-amodei', 'demis-hassabis', 'elon-musk'
+  ]},
+  { name: '半導体とインフラ', slugs: [
+    'semiconductor', 'semiconductor-equipment', 'gpu', 'data-center', 'moores-law',
+    'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'kioxia', 'ajinomoto-abf', 'huawei',
+    'jensen-huang', 'masayoshi-son', 'softbank'
+  ]},
+  { name: 'つくるためのことば', slugs: [
+    'vibe-coding', 'claude-code', 'cli', 'markdown',
+    'html', 'css', 'javascript', 'python'
+  ]},
+  { name: 'GitとGitHub', slugs: [
+    'git', 'github', 'repository', 'clone', 'commit', 'branch', 'merge', 'conflict',
+    'push', 'pull', 'pull-request', 'fork', 'diff', 'issue', 'readme', 'gitignore',
+    'github-actions', 'open-source', 'oss-license'
+  ]},
+  { name: 'データと安全のことば', slugs: [
+    'api', 'database', 'supabase', 'rls', 'csv',
+    'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust'
+  ]},
+  { name: '団体と制度のことば', slugs: [
+    'npo', 'teikan', 'riji', 'rijicho', 'kanji-auditor', 'hojinkaku', 'ippan-shadan',
+    'hojokin', 'koen-meigi', 'trademark', 'copyright', 'ai-copyright', 'idea-expression',
+    'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'joho-ryoiki'
+  ]},
+  { name: '社会と経済のことば', slugs: [
+    'digital-divide', 'externality', 'market-failure', 'basic-income',
+    'ai-bubble', 'supercycle'
+  ]},
+  { name: '未来のことば', slugs: [
+    'singularity', 'agi', 'asi', 'intelligence-explosion', 'exponential-growth',
+    'law-of-accelerating-returns', 'longevity-escape-velocity', 'humanoid-robot',
+    'ray-kurzweil'
+  ]},
+  { name: 'かけこみ寺のことば', slugs: [
+    'ai-kakekomi', 'kakekomi-jiten', 'kakekomi-app', 'zero-trust-accounting'
+  ]}
+];
+const GROUP_OF = new Map(GROUPS.flatMap((g) => g.slugs.map((s) => [s, g.name])));
+
 export function wordGroup(a) {
-  const g = a.genres || [];
-  if (g.includes('未来')) return '未来のことば';
-  if (g.includes('社会')) return '社会のことば';
-  if (g.includes('プログラミング')) return 'プログラミングのことば';
-  return '技術のことば';
+  return GROUP_OF.get(a.slug) || null;
 }
 
-const WORD_GROUPS = ['社会のことば', '技術のことば', 'プログラミングのことば', '未来のことば'];
+const WORD_GROUPS = GROUPS.map((g) => g.name);
 
 export function renderIndex(articles) {
   const genres = [...new Set(articles.flatMap((a) => a.genres || []))].sort();
@@ -209,6 +262,12 @@ export function renderIndex(articles) {
   const sorted = articles
     .slice()
     .sort((a, b) => DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) || a.slug.localeCompare(b.slug));
+  const homeless = articles.filter((a) => !wordGroup(a)).map((a) => a.slug);
+  if (homeless.length) {
+    console.warn('  警告: どの束にも入っていない記事があります → ' + homeless.join(', ') +
+      '（scripts/build.mjs の GROUPS に足してください）');
+  }
+
   const cards = WORD_GROUPS.map((name) => {
     const pills = sorted.filter((a) => wordGroup(a) === name).map(wordPill).join('\n');
     if (!pills) return '';
