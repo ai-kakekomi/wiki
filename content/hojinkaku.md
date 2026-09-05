@@ -7,7 +7,7 @@ english_yomi: リーガル・パーソナリティ
 japanese: 団体が団体のまま契約できる資格
 difficulty: 中級
 genres: [社会]
-related: [npo, ippan-shadan, teikan, hojokin, kanji-auditor]
+related: [npo, kabushiki-kaisha, ippan-shadan, teikan, pbc]
 sources:
   - title: NPOホームページ | 内閣府
     url: https://www.npo-homepage.go.jp/

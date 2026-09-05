@@ -238,7 +238,8 @@ const GROUPS = [
     'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust'
   ]},
   { name: '団体と制度のことば', slugs: [
-    'npo', 'teikan', 'riji', 'rijicho', 'kanji-auditor', 'hojinkaku', 'ippan-shadan',
+    'npo', 'teikan', 'riji', 'rijicho', 'kanji-auditor', 'hojinkaku',
+    'kabushiki-kaisha', 'ippan-shadan', 'pbc',
     'hojokin', 'koen-meigi', 'trademark', 'copyright', 'ai-copyright', 'idea-expression',
     'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'joho-ryoiki'
   ]},

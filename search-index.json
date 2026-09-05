@@ -1000,6 +1000,17 @@
     "summary": "小学校で生成AIを学ぶことになる、これから新しく作られる学習の枠です。"
   },
   {
+    "slug": "kabushiki-kaisha",
+    "title": "株式会社",
+    "yomi": "カブシキガイシャ",
+    "english": "Corporation",
+    "difficulty": "初級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "お金を出してもらって事業をし、もうけを出した人たちで分ける会社です。"
+  },
+  {
     "slug": "kakekomi-app",
     "title": "かけこみアプリ",
     "yomi": "カケコミアプリ",
@@ -1342,6 +1353,18 @@
       "セキュリティ"
     ],
     "summary": "「これを知っているのは本人だけのはず」という合言葉です。"
+  },
+  {
+    "slug": "pbc",
+    "title": "PBC",
+    "yomi": "ピービーシー",
+    "english": "Public Benefit Corporation",
+    "difficulty": "特級",
+    "genres": [
+      "社会",
+      "AI"
+    ],
+    "summary": "株式会社でありながら、公益のための目的を会社の決まりに書き込んだ形です。アメリカの制度です。"
   },
   {
     "slug": "phishing",

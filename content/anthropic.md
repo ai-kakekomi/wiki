@@ -7,7 +7,7 @@ english_yomi: アンソロピック
 japanese: Claudeを作った会社
 difficulty: 初級
 genres: [AI]
-related: [claude, openai, dario-amodei, llm, generative-ai]
+related: [claude, pbc, openai, dario-amodei, generative-ai]
 sources:
   - title: Company | Anthropic
     url: https://www.anthropic.com/company
