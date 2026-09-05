@@ -7,7 +7,7 @@ english_yomi: クロード・コード
 japanese: 対話しながら開発するAIツール
 difficulty: 上級
 genres: [AI, プログラミング]
-related: [vibe-coding, generative-ai, prompt, git]
+related: [vibe-coding, codex, cli, prompt, git]
 sources:
   - title: Claude Code overview | Claude Docs
     url: https://code.claude.com/docs/en/overview

@@ -318,6 +318,18 @@
     "summary": "「社内だから安全」という前提をやめ、毎回確かめる守りかたです。"
   },
   {
+    "slug": "codex",
+    "title": "Codex",
+    "yomi": "コーデックス",
+    "english": "Codex",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "OpenAIが作った、コードを書いて直してくれるAIの道具です。"
+  },
+  {
     "slug": "commit",
     "title": "コミット",
     "yomi": "コミット",

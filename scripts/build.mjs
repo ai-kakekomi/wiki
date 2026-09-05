@@ -218,7 +218,7 @@ const GROUPS = [
     'jensen-huang', 'masayoshi-son', 'softbank'
   ]},
   { name: 'つくるためのことば', slugs: [
-    'vibe-coding', 'claude-code', 'cli', 'markdown',
+    'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',
     'html', 'css', 'javascript', 'python'
   ]},
   { name: 'GitとGitHub', slugs: [
