@@ -111,7 +111,11 @@ export function renderArticle(a, bySlug, template, warn = () => {}) {
      括弧や句点を強調の外に出せば直る。 */
   const leftover = body.replace(/<code>[\s\S]*?<\/code>/g, '');
   if (leftover.includes('**')) {
-    warn(`${a.slug}.md: 強調の ** が記号のまま残っています。閉じる ** の直前が「」や。だと閉じられません。括弧や句点を強調の外に出してください`);
+    /* これは警告ではなく失敗にする。見た目がそのまま壊れるうえ、
+       警告のままだと、気づかずに公開してしまう（実際に2回やった） */
+    throw new Error(
+      `${a.slug}.md: 強調の ** が記号のまま残っています。` +
+      `閉じる ** の直前が「」や。だと閉じられません。括弧や句点を強調の外に出してください`);
   }
   const desc = summarize(a.body, 110);
 
