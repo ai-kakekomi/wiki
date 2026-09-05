@@ -733,6 +733,18 @@
     "summary": "アプリを自分のスマホやパソコンに入れて、使えるようにすることです。"
   },
   {
+    "slug": "intelligence-explosion",
+    "title": "知能爆発",
+    "yomi": "チノウバクハツ",
+    "english": "Intelligence Explosion",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "AIが自分より賢いAIを作れるようになると、そこから一気に加速する、という筋書きです。"
+  },
+  {
     "slug": "ippan-shadan",
     "title": "一般社団法人",
     "yomi": "イッパンシャダンホウジン",

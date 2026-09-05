@@ -7,7 +7,7 @@ english_yomi: アーティフィシャル・スーパーインテリジェンス
 japanese: 人よりはるかに賢いAI
 difficulty: 上級
 genres: [AI, 未来]
-related: [agi, singularity, exponential-growth, ray-kurzweil, dario-amodei]
+related: [intelligence-explosion, agi, singularity, exponential-growth, dario-amodei]
 sources:
   - title: 「人と人とAI」 | AIかけこみ寺 note
     url: https://note.com/ai_kakekomi/n/n4faa522219ee
