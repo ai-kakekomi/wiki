@@ -258,7 +258,7 @@ const GROUPS = [
   ]},
   { name: '未来のことば', slugs: [
     'singularity', 'agi', 'asi', 'intelligence-explosion', 'exponential-growth',
-    'law-of-accelerating-returns', 'longevity-escape-velocity', 'humanoid-robot', 'self-driving',
+    'law-of-accelerating-returns', 'longevity-escape-velocity', 'humanoid-robot', 'self-driving', 'physical-ai',
     'ray-kurzweil'
   ]},
   { name: 'かけこみ寺のことば', slugs: [

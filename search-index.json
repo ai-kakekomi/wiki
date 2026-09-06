@@ -1716,6 +1716,18 @@
     "summary": "本物そっくりの偽の画面を見せて、合言葉やカード番号を打たせる手口です。"
   },
   {
+    "slug": "physical-ai",
+    "title": "フィジカルAI",
+    "yomi": "フィジカルエーアイ",
+    "english": "Physical AI",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "画面の中ではなく、現実の世界で体を動かすAIです。"
+  },
+  {
     "slug": "prompt-injection",
     "title": "プロンプトインジェクション",
     "yomi": "プロンプトインジェクション",
