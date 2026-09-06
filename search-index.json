@@ -1543,6 +1543,17 @@
     "summary": "投資で出た利益に税金がかからない、国が用意した枠のことです。"
   },
   {
+    "slug": "notebooklm",
+    "title": "Gemini Notebook",
+    "yomi": "ジェミニノートブック",
+    "english": "Gemini Notebook",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "自分の持っている資料を読ませて、その中身だけで答えてもらうAIです。"
+  },
+  {
     "slug": "notification",
     "title": "通知",
     "yomi": "ツウチ",
@@ -2190,6 +2201,17 @@
       "AI"
     ],
     "summary": "いまのAIのほとんどが使っている、中身の設計のことです。"
+  },
+  {
+    "slug": "transistor",
+    "title": "トランジスタ",
+    "yomi": "トランジスタ",
+    "english": "Transistor",
+    "difficulty": "中級",
+    "genres": [
+      "半導体"
+    ],
+    "summary": "電気の流れを、止めたり通したりする小さなスイッチです。"
   },
   {
     "slug": "tsmc",

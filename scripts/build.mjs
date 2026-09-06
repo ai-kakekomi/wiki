@@ -212,7 +212,7 @@ const GROUPS = [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
     'neural-network', 'reinforcement-learning', 'parameter', 'training-data',
     'prompt', 'token', 'context', 'inference', 'hallucination', 'rag', 'fine-tuning',
-    'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot',
+    'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
     'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
@@ -223,7 +223,7 @@ const GROUPS = [
     'mark-zuckerberg', 'jeff-bezos', 'steve-jobs'
   ]},
   { name: '半導体とインフラ', slugs: [
-    'semiconductor', 'semiconductor-equipment', 'gpu',
+    'semiconductor', 'transistor', 'semiconductor-equipment', 'gpu',
     'memory-chip', 'dram', 'nand-flash',
     'data-center', 'hyperscaler', 'moores-law', 'quantum-computer',
     'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'advantest', 'kioxia', 'ajinomoto-abf', 'huawei',
