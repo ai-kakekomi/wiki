@@ -4,7 +4,7 @@ title: イシュー
 yomi: イシュー
 english: Issue
 english_yomi: イシュー
-japanese: 直したいことを書いておく紙
+japanese: 論点、課題
 difficulty: 上級
 genres: [プログラミング]
 related: [github, pull-request, repository, readme, git]

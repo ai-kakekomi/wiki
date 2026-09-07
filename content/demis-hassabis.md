@@ -4,7 +4,7 @@ title: デミス・ハサビス
 yomi: デミスハサビス
 english: Demis Hassabis
 english_yomi: デミス・ハサビス
-japanese: グーグルのAI部門を率いる人
+proper_noun: true
 difficulty: 中級
 genres: [AI, 社会]
 related: [google, gemini, longevity-escape-velocity, neural-network, agi]

@@ -4,7 +4,7 @@ title: アドバンテスト
 yomi: アドバンテスト
 english: Advantest
 english_yomi: アドバンテスト
-japanese: 半導体を検査する機械の会社
+proper_noun: true
 difficulty: 中級
 genres: [半導体]
 related: [semiconductor-equipment, tokyo-electron, tsmc, gpu, dram]

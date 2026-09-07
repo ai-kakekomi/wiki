@@ -4,7 +4,7 @@ title: AWS
 yomi: エーダブリューエス
 english: Amazon Web Services
 english_yomi: アマゾン・ウェブ・サービス
-japanese: アマゾンが貸している計算の設備
+proper_noun: true
 difficulty: 上級
 genres: [プログラミング]
 related: [amazon, cloud, data-center, cloudflare, vercel]

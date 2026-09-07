@@ -4,7 +4,7 @@ title: ChatGPT
 yomi: チャットジーピーティー
 english: ChatGPT
 english_yomi: チャットジーピーティー
-japanese: 対話型の生成AIサービス
+proper_noun: true
 difficulty: 初級
 genres: [AI]
 related: [generative-ai, prompt, llm]

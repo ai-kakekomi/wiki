@@ -4,7 +4,7 @@ title: フィジカルAI
 yomi: フィジカルエーアイ
 english: Physical AI
 english_yomi: フィジカル・エーアイ
-japanese: 体を持って現実の世界で動くAI
+japanese: 物理AI
 difficulty: 中級
 genres: [AI, 未来]
 related: [humanoid-robot, self-driving, generative-ai, nvidia, agi]

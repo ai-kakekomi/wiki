@@ -4,7 +4,7 @@ title: メタ
 yomi: メタ
 english: Meta
 english_yomi: メタ
-japanese: FacebookとInstagramの会社
+proper_noun: true
 difficulty: 初級
 genres: [AI, 社会]
 related: [mark-zuckerberg, open-source, hugging-face, deepseek, google]

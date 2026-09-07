@@ -4,7 +4,7 @@ title: ハイパースケーラー
 yomi: ハイパースケーラー
 english: Hyperscaler
 english_yomi: ハイパースケーラー
-japanese: 巨大なデータセンターを自前で持つ会社
+japanese: 超大規模事業者
 difficulty: 上級
 genres: [半導体, AI]
 related: [data-center, aws, amazon, google, nvidia]

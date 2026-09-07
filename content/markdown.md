@@ -4,7 +4,7 @@ title: マークダウン
 yomi: マークダウン
 english: Markdown
 english_yomi: マークダウン
-japanese: 記号だけで構造を表す書きかた
+proper_noun: true
 difficulty: 中級
 genres: [プログラミング, AI]
 related: [prompt, skill, context, claude-code, readme]

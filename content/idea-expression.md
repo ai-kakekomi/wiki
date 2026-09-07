@@ -4,7 +4,7 @@ title: アイデア・表現二分論
 yomi: アイデアヒョウゲンニブンロン
 english: Idea-Expression Dichotomy
 english_yomi: アイデア・エクスプレッション・ダイコトミー
-japanese: 守られるのは表現だけで、思いつきは守られないという考えかた
+japanese: アイデアと表現の二分法
 difficulty: 特級
 genres: [社会]
 related: [copyright, ai-copyright, image-generation-ai, prompt, oss-license]

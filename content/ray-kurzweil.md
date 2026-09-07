@@ -4,7 +4,7 @@ title: レイ・カーツワイル
 yomi: レイカーツワイル
 english: Ray Kurzweil
 english_yomi: レイ・カーツワイル
-japanese: シンギュラリティを唱えた発明家
+proper_noun: true
 difficulty: 中級
 genres: [AI, 未来]
 related: [singularity, exponential-growth, agi, law-of-accelerating-returns, longevity-escape-velocity]

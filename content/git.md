@@ -4,7 +4,7 @@ title: Git
 yomi: ギット
 english: Git
 english_yomi: ギット
-japanese: 分散型バージョン管理システム
+proper_noun: true
 difficulty: 中級
 genres: [プログラミング]
 related: [repository, commit, branch, merge, database]

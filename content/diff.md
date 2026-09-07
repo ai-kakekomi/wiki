@@ -4,7 +4,7 @@ title: 差分
 yomi: サブン
 english: Diff
 english_yomi: ディフ
-japanese: 前と今でどこが変わったか
+japanese: 差分
 difficulty: 上級
 genres: [プログラミング]
 related: [commit, git, pull-request, conflict, repository]

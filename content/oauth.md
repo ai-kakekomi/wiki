@@ -4,7 +4,7 @@ title: OAuth
 yomi: オーオース
 english: OAuth
 english_yomi: オーオース
-japanese: 合言葉を渡さずに他のサービスとつなぐ仕組み
+japanese: 開かれた認可
 difficulty: 特級
 genres: [セキュリティ, プログラミング]
 related: [authentication, login, account, password, cloudflare-zero-trust]

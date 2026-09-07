@@ -4,7 +4,7 @@ title: ゼロトラスト
 yomi: ゼロトラスト
 english: Zero Trust
 english_yomi: ゼロ・トラスト
-japanese: 誰も無条件に信じない守りかた
+japanese: 信頼ゼロ
 difficulty: 特級
 genres: [セキュリティ]
 related: [authentication, oauth, vulnerability, zero-trust-accounting, rls]

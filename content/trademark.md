@@ -4,7 +4,7 @@ title: 商標登録
 yomi: ショウヒョウトウロク
 english: Trademark
 english_yomi: トレードマーク
-japanese: 名前やロゴを自分のものとして登録すること
+japanese: 商標
 difficulty: 上級
 genres: [社会]
 related: [copyright, npo, hojinkaku, teikan, koen-meigi]

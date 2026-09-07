@@ -4,7 +4,7 @@ title: クッキー
 yomi: クッキー
 english: Cookie
 english_yomi: クッキー
-japanese: ブラウザが預かる小さなメモ
+japanese: クッキー（焼き菓子）
 difficulty: 初級
 genres: [スマホ, セキュリティ]
 related: [cache, dark-pattern, browser, login, account]

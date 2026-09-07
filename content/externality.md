@@ -4,7 +4,7 @@ title: 外部経済
 yomi: ガイブケイザイ
 english: Externality
 english_yomi: エクスターナリティ
-japanese: 取引の外にこぼれる、良い影響や悪い影響
+japanese: 外部性
 difficulty: 上級
 genres: [社会]
 related: [market-failure, kakekomi-app, digital-divide, npo, ai-kakekomi]

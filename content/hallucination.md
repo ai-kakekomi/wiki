@@ -4,7 +4,7 @@ title: ハルシネーション
 yomi: ハルシネーション
 english: Hallucination
 english_yomi: ハルシネーション
-japanese: AIがもっともらしい嘘を書くこと
+japanese: 幻覚
 difficulty: 中級
 genres: [AI]
 related: [llm, chatgpt, generative-ai, prompt, ai-literacy, token]

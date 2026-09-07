@@ -4,7 +4,7 @@ title: ハギングフェース
 yomi: ハギングフェース
 english: Hugging Face
 english_yomi: ハギング・フェース
-japanese: AIを持ち寄って公開する場所
+proper_noun: true
 difficulty: 上級
 genres: [AI, プログラミング]
 related: [open-source, meta, github, transformer, alibaba]

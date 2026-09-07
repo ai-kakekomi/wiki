@@ -4,7 +4,7 @@ title: 生涯学習センター
 yomi: ショウガイガクシュウセンター
 english: Lifelong Learning Center
 english_yomi: ライフロング・ラーニング・センター
-japanese: 大人が学ぶための公共施設
+japanese: 生涯学習センター
 difficulty: 中級
 genres: [社会]
 related: [shakyo, koen-meigi, hands-on, digital-divide, npo]

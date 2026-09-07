@@ -4,7 +4,7 @@ title: トランジスタ
 yomi: トランジスタ
 english: Transistor
 english_yomi: トランジスター
-japanese: 電気を通したり止めたりする小さなスイッチ
+japanese: 転送する抵抗器
 difficulty: 中級
 genres: [半導体]
 related: [semiconductor, gpu, moores-law, iphone, memory-chip]

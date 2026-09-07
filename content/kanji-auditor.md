@@ -4,7 +4,7 @@ title: 監事
 yomi: カンジ
 english: Auditor
 english_yomi: オーディター
-japanese: 団体の運営とお金を見張る役
+japanese: 監事
 difficulty: 上級
 genres: [社会]
 related: [riji, rijicho, npo, teikan, zero-trust-accounting]

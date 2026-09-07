@@ -4,7 +4,7 @@ title: インフレ
 yomi: インフレ
 english: Inflation
 english_yomi: インフレーション
-japanese: 物の値段が上がり続けること
+japanese: 物価上昇（膨張）
 difficulty: 中級
 genres: [社会]
 related: [exchange-rate, compound-interest, nisa, index-investing, volatility, basic-income]

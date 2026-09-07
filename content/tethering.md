@@ -4,7 +4,7 @@ title: テザリング
 yomi: テザリング
 english: Tethering
 english_yomi: テザリング
-japanese: スマホをWi-Fiの代わりにすること
+japanese: つなぎ止め（テザー＝つなぎ綱）
 difficulty: 中級
 genres: [スマホ]
 related: [wifi, browser, cloud, app, subscription]

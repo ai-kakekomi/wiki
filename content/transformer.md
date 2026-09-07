@@ -4,7 +4,7 @@ title: トランスフォーマー
 yomi: トランスフォーマー
 english: Transformer
 english_yomi: トランスフォーマー
-japanese: いまのAIの土台になった設計
+japanese: 変換器
 difficulty: 特級
 genres: [AI]
 related: [llm, google, deep-learning, neural-network, generative-ai]

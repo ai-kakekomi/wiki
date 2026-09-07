@@ -4,7 +4,7 @@ title: クラウド
 yomi: クラウド
 english: Cloud
 english_yomi: クラウド
-japanese: よその会社の機械にあずけて使う形
+japanese: 雲
 difficulty: 初級
 genres: [スマホ]
 related: [aws, amazon, app, data-center, account]

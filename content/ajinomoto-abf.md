@@ -4,7 +4,7 @@ title: 味の素ビルドアップフィルム
 yomi: アジノモトビルドアップフィルム
 english: Ajinomoto Build-up Film
 english_yomi: アジノモト・ビルドアップ・フィルム
-japanese: 半導体に使う絶縁の膜
+japanese: 味の素の積み上げ膜
 difficulty: 上級
 genres: [半導体]
 related: [semiconductor, semiconductor-equipment, kioxia, gpu, nvidia]

@@ -4,7 +4,7 @@ title: プロンプトインジェクション
 yomi: プロンプトインジェクション
 english: Prompt Injection
 english_yomi: プロンプト・インジェクション
-japanese: 読ませた文章でAIを乗っ取る手口
+japanese: 指示文の注入
 difficulty: 上級
 genres: [AI, セキュリティ]
 related: [prompt, ai-agent, phishing, vulnerability, context]

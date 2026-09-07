@@ -4,7 +4,7 @@ title: NISA
 yomi: ニーサ
 english: NISA
 english_yomi: ニーサ
-japanese: 利益に税金がかからない投資の枠
+japanese: 少額投資非課税制度
 difficulty: 中級
 genres: [社会]
 related: [index-investing, dollar-cost-averaging, risk-tolerance, leverage, volatility]

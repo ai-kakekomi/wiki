@@ -4,7 +4,7 @@ title: キオクシア
 yomi: キオクシア
 english: Kioxia
 english_yomi: キオクシア
-japanese: 記憶用の半導体を作る日本の会社
+proper_noun: true
 difficulty: 中級
 genres: [半導体]
 related: [nand-flash, memory-chip, semiconductor, dram, semiconductor-equipment]

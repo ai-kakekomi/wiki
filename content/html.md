@@ -4,7 +4,7 @@ title: HTML
 yomi: エイチティーエムエル
 english: HyperText Markup Language
 english_yomi: ハイパーテキスト・マークアップ・ランゲージ
-japanese: ページの中身と構造を書くための言葉
+japanese: ハイパーテキスト記述言語
 difficulty: 中級
 genres: [プログラミング]
 related: [css, javascript, browser, vibe-coding, markdown]

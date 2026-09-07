@@ -4,7 +4,7 @@ title: Cloudflare
 yomi: クラウドフレア
 english: Cloudflare
 english_yomi: クラウドフレア
-japanese: サイトを速く届け、守る仕組み
+proper_noun: true
 difficulty: 上級
 genres: [プログラミング, セキュリティ]
 related: [vercel, aws, cloudflare-zero-trust, vulnerability, cloud]

@@ -4,7 +4,7 @@ title: ダークパターン
 yomi: ダークパターン
 english: Dark Pattern
 english_yomi: ダーク・パターン
-japanese: わざと利用者が損をするように作られた画面
+japanese: 暗い型
 difficulty: 中級
 genres: [スマホ, 社会]
 related: [cookie, subscription, phishing, app, browser]

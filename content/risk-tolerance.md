@@ -4,7 +4,7 @@ title: リスク許容度
 yomi: リスクキョヨウド
 english: Risk Tolerance
 english_yomi: リスク・トレランス
-japanese: どれだけ減っても耐えられるか
+japanese: 危険許容度
 difficulty: 上級
 genres: [社会]
 related: [volatility, index-investing, leverage, nisa, crypto-asset]

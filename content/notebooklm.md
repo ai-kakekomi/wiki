@@ -4,7 +4,7 @@ title: Gemini Notebook
 yomi: ジェミニノートブック
 english: Gemini Notebook
 english_yomi: ジェミニノートブック
-japanese: 手持ちの資料だけを読ませて使うAI
+proper_noun: true
 difficulty: 初級
 genres: [AI]
 related: [gemini, google, generative-ai, hallucination, prompt]

@@ -4,7 +4,7 @@ title: プロバイダ
 yomi: プロバイダ
 english: Internet Service Provider
 english_yomi: インターネット・サービス・プロバイダー
-japanese: インターネットにつないでくれる会社
+japanese: 接続提供者
 difficulty: 初級
 genres: [スマホ]
 related: [internet, wifi, 5g, subscription, tethering]

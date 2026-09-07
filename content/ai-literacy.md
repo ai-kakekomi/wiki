@@ -4,7 +4,7 @@ title: AIリテラシー
 yomi: エーアイリテラシー
 english: AI Literacy
 english_yomi: エーアイ・リテラシー
-japanese: AIを理解して使いこなす力
+japanese: AIの読み書き能力
 difficulty: 中級
 genres: [AI, 社会]
 related: [generative-ai, chatgpt, digital-divide]

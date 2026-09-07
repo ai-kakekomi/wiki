@@ -4,7 +4,7 @@ title: iOS
 yomi: アイオーエス
 english: iOS
 english_yomi: アイオーエス
-japanese: iPhoneを動かす土台
+proper_noun: true
 difficulty: 初級
 genres: [スマホ]
 related: [iphone, apple, os, android, update]

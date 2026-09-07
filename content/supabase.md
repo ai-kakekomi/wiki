@@ -4,7 +4,7 @@ title: Supabase
 yomi: スーパベース
 english: Supabase
 english_yomi: スーパベース
-japanese: オープンソースのバックエンド基盤
+proper_noun: true
 difficulty: 特級
 genres: [データベース, プログラミング]
 related: [database, rls, api, authentication]

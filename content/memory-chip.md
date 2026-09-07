@@ -4,7 +4,7 @@ title: メモリ半導体
 yomi: メモリハンドウタイ
 english: Memory Chip
 english_yomi: メモリ・チップ
-japanese: 覚えておくための半導体
+japanese: 記憶用チップ
 difficulty: 上級
 genres: [半導体]
 related: [dram, nand-flash, semiconductor, kioxia, gpu]

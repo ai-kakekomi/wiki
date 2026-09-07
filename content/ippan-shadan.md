@@ -4,7 +4,7 @@ title: 一般社団法人
 yomi: イッパンシャダンホウジン
 english: General Incorporated Association
 english_yomi: ジェネラル・インコーポレーテッド・アソシエーション
-japanese: 登記だけで作れる法人の形
+japanese: 一般社団法人
 difficulty: 上級
 genres: [社会]
 related: [npo, hojinkaku, teikan, hojokin, kanji-auditor]

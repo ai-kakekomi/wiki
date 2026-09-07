@@ -4,7 +4,7 @@ title: マルチモーダル
 yomi: マルチモーダル
 english: Multimodal
 english_yomi: マルチモーダル
-japanese: 複数の種類の情報を扱えること
+japanese: 複数の様式
 difficulty: 上級
 genres: [AI]
 related: [llm, image-generation-ai, ocr, generative-ai, claude, gemini]

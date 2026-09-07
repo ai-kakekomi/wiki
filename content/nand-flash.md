@@ -4,7 +4,7 @@ title: NANDフラッシュ
 yomi: ナンドフラッシュ
 english: NAND Flash Memory
 english_yomi: ナンド・フラッシュ・メモリ
-japanese: 電源を切っても消えない記憶用の半導体
+japanese: NAND型フラッシュ記憶
 difficulty: 上級
 genres: [半導体]
 related: [memory-chip, dram, kioxia, semiconductor, cloud]

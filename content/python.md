@@ -4,7 +4,7 @@ title: Python
 yomi: パイソン
 english: Python
 english_yomi: パイソン
-japanese: AIの分野で標準になっている言語
+proper_noun: true
 difficulty: 上級
 genres: [プログラミング, AI]
 related: [javascript, machine-learning, hugging-face, cli, vibe-coding]

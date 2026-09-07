@@ -4,7 +4,7 @@ title: データセンター
 yomi: データセンター
 english: Data Center
 english_yomi: データセンター
-japanese: 計算機を大量に置いた建物
+japanese: データの集積所
 difficulty: 中級
 genres: [半導体, AI]
 related: [hyperscaler, cloud, gpu, memory-chip, generative-ai]

@@ -4,7 +4,7 @@ title: インデックス投資
 yomi: インデックストウシ
 english: Index Investing
 english_yomi: インデックス・インベスティング
-japanese: 市場全体をまとめて買う形
+japanese: 指数投資
 difficulty: 中級
 genres: [社会]
 related: [risk-tolerance, dollar-cost-averaging, nisa, leverage, volatility]

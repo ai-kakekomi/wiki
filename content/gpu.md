@@ -4,7 +4,7 @@ title: GPU
 yomi: ジーピーユー
 english: Graphics Processing Unit
 english_yomi: グラフィックス・プロセッシング・ユニット
-japanese: 同じ計算を一度に大量にこなす部品
+japanese: 画像処理装置
 difficulty: 中級
 genres: [半導体, AI]
 related: [data-center, neural-network, llm, semiconductor, generative-ai]

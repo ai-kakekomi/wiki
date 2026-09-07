@@ -4,7 +4,7 @@ title: DRAM
 yomi: ディーラム
 english: Dynamic Random Access Memory
 english_yomi: ダイナミック・ランダム・アクセス・メモリ
-japanese: 電源を切ると消える、速い記憶用の半導体
+japanese: 動的な随時読み書き記憶
 difficulty: 上級
 genres: [半導体]
 related: [memory-chip, nand-flash, gpu, semiconductor, data-center]

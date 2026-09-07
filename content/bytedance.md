@@ -4,7 +4,7 @@ title: バイトダンス
 yomi: バイトダンス
 english: ByteDance
 english_yomi: バイトダンス
-japanese: TikTokを運営する中国の企業
+proper_noun: true
 difficulty: 中級
 genres: [AI, 社会]
 related: [alibaba, deepseek, generative-ai, image-generation-ai, digital-divide]

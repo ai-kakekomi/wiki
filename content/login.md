@@ -4,7 +4,7 @@ title: ログイン
 yomi: ログイン
 english: Log in
 english_yomi: ログイン
-japanese: 自分の席に座ること
+japanese: 記名して入る
 difficulty: 初級
 genres: [スマホ]
 related: [account, password, two-factor-auth, authentication, browser]

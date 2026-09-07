@@ -4,7 +4,7 @@ title: 社会福祉協議会
 yomi: シャカイフクシキョウギカイ
 english: Council of Social Welfare
 english_yomi: カウンシル・オブ・ソーシャル・ウェルフェア
-japanese: 地域の福祉をまとめる団体
+japanese: 社会福祉協議会
 difficulty: 上級
 genres: [社会]
 related: [npo, shogai-gakushu-center, koen-meigi, hojokin, digital-divide]

@@ -4,7 +4,7 @@ title: インストール
 yomi: インストール
 english: Install
 english_yomi: インストール
-japanese: 道具を自分の機械に入れること
+japanese: 据え付け
 difficulty: 初級
 genres: [スマホ]
 related: [app, os, android, iphone, update]

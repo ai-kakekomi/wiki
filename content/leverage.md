@@ -4,7 +4,7 @@ title: レバレッジ
 yomi: レバレッジ
 english: Leverage
 english_yomi: レバレッジ
-japanese: 借りて、持っている以上の金額を動かすこと
+japanese: てこ
 difficulty: 上級
 genres: [社会]
 related: [risk-tolerance, volatility, crypto-asset, index-investing, ai-bubble]

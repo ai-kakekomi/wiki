@@ -4,7 +4,7 @@ title: OS
 yomi: オーエス
 english: Operating System
 english_yomi: オペレーティング・システム
-japanese: 機械を動かす土台のソフト
+japanese: 基本ソフト
 difficulty: 初級
 genres: [スマホ]
 related: [android, ios, iphone, app, install]

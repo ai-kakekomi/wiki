@@ -4,7 +4,7 @@ title: ムーアの法則
 yomi: ムーアノホウソク
 english: Moore's Law
 english_yomi: ムーアズ・ロー
-japanese: 半導体の性能が定期的に倍になるという見かた
+japanese: ムーアの法則
 difficulty: 上級
 genres: [半導体, 未来]
 related: [semiconductor, exponential-growth, law-of-accelerating-returns, gpu, singularity]

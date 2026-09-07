@@ -4,7 +4,7 @@ title: キャッシュ
 yomi: キャッシュ
 english: Cache
 english_yomi: キャッシュ
-japanese: 一度取ってきたものを手元に置いておく仕組み
+japanese: 一時保管
 difficulty: 中級
 genres: [スマホ, プログラミング]
 related: [browser, cookie, cloudflare, deploy, app]

@@ -4,7 +4,7 @@ title: ディープフェイク
 yomi: ディープフェイク
 english: Deepfake
 english_yomi: ディープフェイク
-japanese: 本物そっくりの偽の映像や音声
+japanese: 深い偽物（深層学習の偽物）
 difficulty: 中級
 genres: [AI, セキュリティ]
 related: [image-generation-ai, phishing, ai-copyright, generative-ai, ai-suishin-ho]

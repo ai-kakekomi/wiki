@@ -4,7 +4,7 @@ title: 市場の失敗
 yomi: シジョウノシッパイ
 english: Market Failure
 english_yomi: マーケット・フェイリャー
-japanese: 市場に任せるとうまくいかない状態
+japanese: 市場の失敗
 difficulty: 上級
 genres: [社会]
 related: [externality, kakekomi-app, digital-divide, npo, ai-kakekomi]

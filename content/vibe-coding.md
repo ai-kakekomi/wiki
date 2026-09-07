@@ -4,7 +4,7 @@ title: バイブコーディング
 yomi: バイブコーディング
 english: Vibe Coding
 english_yomi: バイブ・コーディング
-japanese: AIに任せる感覚重視の開発
+japanese: 雰囲気コーディング
 difficulty: 中級
 genres: [AI, プログラミング]
 related: [claude-code, html, javascript, python, github]

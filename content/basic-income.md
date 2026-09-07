@@ -4,7 +4,7 @@ title: ベーシックインカム
 yomi: ベーシックインカム
 english: Basic Income
 english_yomi: ベーシック・インカム
-japanese: 全員に無条件でお金を配る仕組み
+japanese: 基礎所得
 difficulty: 上級
 genres: [社会, 未来]
 related: [agi, singularity, sam-altman, digital-divide, exponential-growth]

@@ -4,7 +4,7 @@ title: プッシュ
 yomi: プッシュ
 english: Push
 english_yomi: プッシュ
-japanese: 手元の記録を送信する
+japanese: 押し出す
 difficulty: 中級
 genres: [プログラミング]
 related: [commit, pull, repository, git, database]

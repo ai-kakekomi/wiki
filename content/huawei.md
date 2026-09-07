@@ -4,7 +4,7 @@ title: ファーウェイ
 yomi: ファーウェイ
 english: Huawei
 english_yomi: ファーウェイ
-japanese: 中国の通信機器・半導体の大手
+proper_noun: true
 difficulty: 中級
 genres: [半導体, 社会]
 related: [semiconductor, nvidia, gpu, deepseek, bytedance]

@@ -4,7 +4,7 @@ title: 管理者権限
 yomi: カンリシャケンゲン
 english: Administrator Privilege
 english_yomi: アドミニストレーター・プリビレッジ
-japanese: その機械やサービスで何でもできる強い権限
+japanese: 管理者権限
 difficulty: 中級
 genres: [セキュリティ, スマホ]
 related: [ransomware, phishing, authentication, cloudflare-zero-trust, rls]

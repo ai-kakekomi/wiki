@@ -45,7 +45,8 @@ title: RLS                   # 見出しに出る表記
 yomi: アールエルエス            # カタカナ必須
 english: Row Level Security  # 任意。英語・頭字語ならフルスペルを書く
 english_yomi: ロウ・レベル・セキュリティ  # english があれば必須・カタカナ
-japanese: 行単位のアクセス制御   # english があれば必須・和訳
+japanese: 行単位のアクセス制御   # english があれば必須。**和訳**（直訳）を書く。説明文は書かない（説明は「ひとことで」の仕事）
+proper_noun: true             # 会社・製品・人名など和訳が無いものだけ。このとき japanese は書かない
 difficulty: 特級              # 初級 | 中級 | 上級 | 特級 のみ
 genres: [データベース, セキュリティ]  # 1つ以上
 related: [database, supabase] # slugの配列。未収録slugは警告し記事に出さない（赤リンク禁止）

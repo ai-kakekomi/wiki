@@ -4,7 +4,7 @@ title: インターネット
 yomi: インターネット
 english: Internet
 english_yomi: インターネット
-japanese: 世界中の機械をつないだ網
+japanese: 相互接続網
 difficulty: 初級
 genres: [スマホ]
 related: [provider, wifi, browser, cloud, 5g]

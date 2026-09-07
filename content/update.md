@@ -4,7 +4,7 @@ title: アップデート
 yomi: アップデート
 english: Update
 english_yomi: アップデート
-japanese: 中身を新しくすること
+japanese: 更新
 difficulty: 初級
 genres: [スマホ, セキュリティ]
 related: [app, install, vulnerability, malware, phishing]

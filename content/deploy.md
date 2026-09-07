@@ -4,7 +4,7 @@ title: デプロイ
 yomi: デプロイ
 english: Deploy
 english_yomi: デプロイ
-japanese: 作ったものを公開して、動く状態にすること
+japanese: 配備
 difficulty: 上級
 genres: [プログラミング]
 related: [vercel, cloudflare, github, github-actions, push]

@@ -4,7 +4,7 @@ title: PBC
 yomi: ピービーシー
 english: Public Benefit Corporation
 english_yomi: パブリック・ベネフィット・コーポレーション
-japanese: 公益も目的に書き込んだ株式会社
+japanese: 公益目的会社
 difficulty: 特級
 genres: [社会, AI]
 related: [kabushiki-kaisha, anthropic, npo, hojinkaku, teikan]

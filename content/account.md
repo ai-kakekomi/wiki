@@ -4,7 +4,7 @@ title: アカウント
 yomi: アカウント
 english: Account
 english_yomi: アカウント
-japanese: そのサービスでの自分の席
+japanese: 口座、勘定
 difficulty: 初級
 genres: [スマホ]
 related: [login, password, authentication, two-factor-auth, app]

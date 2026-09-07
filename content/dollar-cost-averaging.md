@@ -4,7 +4,7 @@ title: ドルコスト平均法
 yomi: ドルコストヘイキンホウ
 english: Dollar Cost Averaging
 english_yomi: ダラー・コスト・アベレージング
-japanese: 毎回おなじ金額ずつ買っていくやりかた
+japanese: ドル・コスト平均法
 difficulty: 上級
 genres: [社会]
 related: [index-investing, risk-tolerance, nisa, volatility, leverage]

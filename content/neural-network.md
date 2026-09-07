@@ -4,7 +4,7 @@ title: ニューラルネットワーク
 yomi: ニューラルネットワーク
 english: Neural Network
 english_yomi: ニューラル・ネットワーク
-japanese: 脳のしくみをまねた計算の仕組み
+japanese: 神経回路網
 difficulty: 上級
 genres: [AI]
 related: [llm, generative-ai, gpu, demis-hassabis, agi]

@@ -4,7 +4,7 @@ title: Android
 yomi: アンドロイド
 english: Android
 english_yomi: アンドロイド
-japanese: グーグルが作るスマホの土台
+proper_noun: true
 difficulty: 初級
 genres: [スマホ]
 related: [os, iphone, ios, google, app]

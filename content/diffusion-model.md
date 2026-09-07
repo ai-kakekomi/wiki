@@ -4,7 +4,7 @@ title: 拡散モデル
 yomi: カクサンモデル
 english: Diffusion Model
 english_yomi: ディフュージョン・モデル
-japanese: 砂嵐から絵を彫り出す仕組み
+japanese: 拡散モデル
 difficulty: 特級
 genres: [AI]
 related: [image-generation-ai, neural-network, transformer, generative-ai, prompt]

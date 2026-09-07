@@ -4,7 +4,7 @@ title: SQL
 yomi: エスキューエル
 english: Structured Query Language
 english_yomi: ストラクチャード・クエリ・ランゲージ
-japanese: データベースに問い合わせる言葉
+japanese: 構造化問い合わせ言語
 difficulty: 上級
 genres: [プログラミング, データベース]
 related: [database, rls, supabase, csv, python]

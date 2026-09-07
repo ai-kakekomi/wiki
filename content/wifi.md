@@ -4,7 +4,7 @@ title: Wi-Fi
 yomi: ワイファイ
 english: Wi-Fi
 english_yomi: ワイファイ
-japanese: 電波でインターネットにつなぐ仕組み
+proper_noun: true
 difficulty: 初級
 genres: [スマホ]
 related: [internet, provider, 5g, tethering, cloud]

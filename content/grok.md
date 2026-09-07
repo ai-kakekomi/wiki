@@ -4,7 +4,7 @@ title: Grok
 yomi: グロック
 english: Grok
 english_yomi: グロック
-japanese: イーロン・マスクの会社が作ったAI
+proper_noun: true
 difficulty: 初級
 genres: [AI]
 related: [elon-musk, chatgpt, claude, gemini, generative-ai]

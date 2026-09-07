@@ -4,7 +4,7 @@ title: 半導体製造装置
 yomi: ハンドウタイセイゾウソウチ
 english: Semiconductor Equipment
 english_yomi: セミコンダクター・エクイップメント
-japanese: 半導体を作るための機械
+japanese: 半導体製造装置
 difficulty: 上級
 genres: [半導体]
 related: [asml, tokyo-electron, advantest, tsmc, semiconductor]

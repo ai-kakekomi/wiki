@@ -4,7 +4,7 @@ title: フィッシング
 yomi: フィッシング
 english: Phishing
 english_yomi: フィッシング
-japanese: 本物そっくりの偽サイトでだます手口
+japanese: 釣り（fishing のもじり）
 difficulty: 初級
 genres: [スマホ, セキュリティ]
 related: [crypto-asset, password, two-factor-auth, malware, dark-pattern]

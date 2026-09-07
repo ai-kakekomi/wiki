@@ -4,7 +4,7 @@ title: NVIDIA
 yomi: エヌビディア
 english: NVIDIA
 english_yomi: エヌビディア
-japanese: AI用の半導体をほぼ独占する会社
+proper_noun: true
 difficulty: 中級
 genres: [半導体, AI]
 related: [gpu, jensen-huang, semiconductor, data-center, huawei]

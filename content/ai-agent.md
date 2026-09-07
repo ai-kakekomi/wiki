@@ -4,7 +4,7 @@ title: AIエージェント
 yomi: エーアイエージェント
 english: AI Agent
 english_yomi: エーアイ・エージェント
-japanese: 自分で手順を決めて動くAI
+japanese: AIの代理人
 difficulty: 上級
 genres: [AI]
 related: [chatbot, claude-code, skill, context, generative-ai]

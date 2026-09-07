@@ -4,7 +4,7 @@ title: .gitignore
 yomi: ドットギットイグノア
 english: .gitignore
 english_yomi: ドット・ギットイグノア
-japanese: 記録しないものを書いておく紙
+japanese: Gitが無視するもの
 difficulty: 上級
 genres: [プログラミング, セキュリティ]
 related: [git, github, repository, commit, vulnerability]

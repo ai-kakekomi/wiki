@@ -4,7 +4,7 @@ title: Codex
 yomi: コーデックス
 english: Codex
 english_yomi: コーデックス
-japanese: OpenAIのコーディングエージェント
+proper_noun: true
 difficulty: 上級
 genres: [AI, プログラミング]
 related: [claude-code, vibe-coding, cli, openai, github]

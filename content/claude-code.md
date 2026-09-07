@@ -4,7 +4,7 @@ title: Claude Code
 yomi: クロードコード
 english: Claude Code
 english_yomi: クロード・コード
-japanese: 対話しながら開発するAIツール
+proper_noun: true
 difficulty: 上級
 genres: [AI, プログラミング]
 related: [vibe-coding, codex, cli, prompt, git]

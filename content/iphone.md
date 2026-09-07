@@ -4,7 +4,7 @@ title: iPhone
 yomi: アイフォーン
 english: iPhone
 english_yomi: アイフォーン
-japanese: アップルのスマートフォン
+proper_noun: true
 difficulty: 初級
 genres: [スマホ]
 related: [ios, apple, android, os, cloud]

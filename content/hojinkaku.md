@@ -4,7 +4,7 @@ title: 法人格
 yomi: ホウジンカク
 english: Legal Personality
 english_yomi: リーガル・パーソナリティ
-japanese: 団体が団体のまま契約できる資格
+japanese: 法人格
 difficulty: 中級
 genres: [社会]
 related: [npo, kabushiki-kaisha, ippan-shadan, teikan, pbc]

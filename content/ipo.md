@@ -4,7 +4,7 @@ title: IPO
 yomi: アイピーオー
 english: Initial Public Offering
 english_yomi: イニシャル・パブリック・オファリング
-japanese: 会社の株を、誰でも買える形にすること
+japanese: 新規株式公開
 difficulty: 上級
 genres: [社会]
 related: [kabushiki-kaisha, pbc, ai-bubble, supercycle, npo]

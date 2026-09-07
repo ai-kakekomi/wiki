@@ -4,7 +4,7 @@ title: スキル
 yomi: スキル
 english: Skill
 english_yomi: スキル
-japanese: AIに渡しておく手順書
+japanese: 技能
 difficulty: 上級
 genres: [AI]
 related: [prompt, claude-code, context, markdown, ai-agent]

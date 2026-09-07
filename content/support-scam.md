@@ -4,7 +4,7 @@ title: サポート詐欺
 yomi: サポートサギ
 english: Tech Support Scam
 english_yomi: テック・サポート・スキャム
-japanese: 偽の警告で電話させる手口
+japanese: 技術サポート詐欺
 difficulty: 中級
 genres: [セキュリティ, スマホ]
 related: [phishing, malware, browser, password, vulnerability]

@@ -4,7 +4,7 @@ title: JavaScript
 yomi: ジャバスクリプト
 english: JavaScript
 english_yomi: ジャバスクリプト
-japanese: ブラウザの中で動きを作る言葉
+proper_noun: true
 difficulty: 上級
 genres: [プログラミング]
 related: [html, css, browser, python, vibe-coding]

@@ -4,7 +4,7 @@ title: コンフリクト
 yomi: コンフリクト
 english: Conflict
 english_yomi: コンフリクト
-japanese: 直したところがぶつかること
+japanese: 衝突
 difficulty: 上級
 genres: [プログラミング]
 related: [merge, branch, git, pull, github]

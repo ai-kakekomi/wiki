@@ -4,7 +4,7 @@ title: ファインチューニング
 yomi: ファインチューニング
 english: Fine-tuning
 english_yomi: ファイン・チューニング
-japanese: 追加で学ばせて調整すること
+japanese: 微調整
 difficulty: 上級
 genres: [AI]
 related: [llm, machine-learning, training-data, rag, deep-learning, hugging-face]

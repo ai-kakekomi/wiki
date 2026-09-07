@@ -4,7 +4,7 @@ title: 自動運転
 yomi: ジドウウンテン
 english: Autonomous Driving
 english_yomi: オートノマス・ドライビング
-japanese: 車がみずから運転すること
+japanese: 自律運転
 difficulty: 中級
 genres: [未来, AI]
 related: [ai-agent, machine-learning, deep-learning, humanoid-robot, elon-musk]

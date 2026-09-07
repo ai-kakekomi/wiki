@@ -4,7 +4,7 @@ title: ゼロトラスト会計
 yomi: ゼロトラストカイケイ
 english: Zero Trust Accounting
 english_yomi: ゼロ・トラスト・カイケイ
-japanese: 信頼を前提にしない会計公開
+japanese: 信頼ゼロの会計
 difficulty: 特級
 genres: [社会, かけこみ用語]
 related: [npo, authentication, ai-literacy]

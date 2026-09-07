@@ -4,7 +4,7 @@ title: Vercel
 yomi: バーセル
 english: Vercel
 english_yomi: バーセル
-japanese: 作ったサイトを公開する場所
+proper_noun: true
 difficulty: 特級
 genres: [プログラミング]
 related: [deploy, cloudflare, aws, github, vibe-coding]

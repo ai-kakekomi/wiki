@@ -4,7 +4,7 @@ title: 暗号資産
 yomi: アンゴウシサン
 english: Crypto Asset
 english_yomi: クリプト・アセット
-japanese: 国が発行していない、電子のお金のようなもの
+japanese: 暗号資産
 difficulty: 中級
 genres: [社会]
 related: [blockchain, volatility, phishing, ransomware, dark-pattern]

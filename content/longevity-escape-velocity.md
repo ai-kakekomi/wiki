@@ -4,7 +4,7 @@ title: 寿命脱出速度
 yomi: ジュミョウダッシュツソクド
 english: Longevity Escape Velocity
 english_yomi: ロンジェビティ・エスケープ・ベロシティ
-japanese: 1年たつごとに寿命が1年以上延びる状態
+japanese: 寿命脱出速度
 difficulty: 特級
 genres: [未来]
 related: [exponential-growth, ray-kurzweil, law-of-accelerating-returns, demis-hassabis, singularity]

@@ -4,7 +4,7 @@ title: 孫正義
 yomi: ソンマサヨシ
 english: Masayoshi Son
 english_yomi: マサヨシ・ソン
-japanese: ソフトバンクグループを率いる人
+proper_noun: true
 difficulty: 初級
 genres: [半導体, 社会]
 related: [softbank, agi, singularity, nvidia, elon-musk]

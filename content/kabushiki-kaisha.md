@@ -4,7 +4,7 @@ title: 株式会社
 yomi: カブシキガイシャ
 english: Corporation
 english_yomi: コーポレーション
-japanese: 出資を集めて、もうけを分ける会社
+japanese: 株式会社
 difficulty: 初級
 genres: [社会]
 related: [ipo, pbc, npo, hojinkaku, ippan-shadan]

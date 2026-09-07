@@ -4,7 +4,7 @@ title: ブラウザ
 yomi: ブラウザ
 english: Browser
 english_yomi: ブラウザ
-japanese: ホームページを見るための道具
+japanese: 閲覧ソフト（ブラウズ＝拾い読み）
 difficulty: 初級
 genres: [スマホ]
 related: [cookie, cache, app, wifi, phishing]

@@ -4,7 +4,7 @@ title: アップル
 yomi: アップル
 english: Apple
 english_yomi: アップル
-japanese: iPhoneとMacを作る会社
+proper_noun: true
 difficulty: 初級
 genres: [AI, 社会]
 related: [steve-jobs, iphone, ios, google, microsoft]

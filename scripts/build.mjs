@@ -74,7 +74,7 @@ function englishBlock(a) {
   if (!a.english) return '';
   return `<p class="english"><span class="en">${escapeHtml(a.english)}</span>` +
     `<span class="en-yomi">${escapeHtml(a.english_yomi)}</span>` +
-    `<span class="en-ja">${escapeHtml(a.japanese)}</span></p>`;
+    (a.japanese ? `<span class="en-ja">${escapeHtml(a.japanese)}</span>` : '') + `</p>`;
 }
 
 function relatedBlock(a, bySlug, warn) {

@@ -4,7 +4,7 @@ title: GitHub Actions
 yomi: ギットハブアクションズ
 english: GitHub Actions
 english_yomi: ギットハブ・アクションズ
-japanese: 置き場に置くと自動で走る仕組み
+proper_noun: true
 difficulty: 特級
 genres: [プログラミング]
 related: [deploy, github, repository, push, open-source]

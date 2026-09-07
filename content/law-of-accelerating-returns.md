@@ -4,7 +4,7 @@ title: 収穫加速の法則
 yomi: シュウカクカソクノホウソク
 english: Law of Accelerating Returns
 english_yomi: ロー・オブ・アクセラレーティング・リターンズ
-japanese: 技術の進む速さ自体が上がっていくという見かた
+japanese: 収穫加速の法則
 difficulty: 特級
 genres: [未来]
 related: [ray-kurzweil, exponential-growth, singularity, moores-law, agi]

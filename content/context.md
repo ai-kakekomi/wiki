@@ -4,7 +4,7 @@ title: コンテキスト
 yomi: コンテキスト
 english: Context
 english_yomi: コンテキスト
-japanese: AIがいま覚えていられる範囲
+japanese: 文脈
 difficulty: 上級
 genres: [AI]
 related: [token, llm, prompt, claude-code, chatbot]

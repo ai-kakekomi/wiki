@@ -4,7 +4,7 @@ title: スーパーサイクル
 yomi: スーパーサイクル
 english: Supercycle
 english_yomi: スーパーサイクル
-japanese: 10年単位で続く、構造的な需要の伸び
+japanese: 超長期の循環
 difficulty: 上級
 genres: [社会, AI]
 related: [ai-bubble, semiconductor, data-center, nvidia, exponential-growth]

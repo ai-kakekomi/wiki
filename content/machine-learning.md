@@ -4,7 +4,7 @@ title: 機械学習
 yomi: キカイガクシュウ
 english: Machine Learning
 english_yomi: マシン・ラーニング
-japanese: 例を見せて機械に覚えさせるやりかた
+japanese: 機械学習
 difficulty: 中級
 genres: [AI]
 related: [deep-learning, inference, neural-network, llm, gpu]

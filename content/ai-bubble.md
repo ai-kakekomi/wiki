@@ -4,7 +4,7 @@ title: AIバブル
 yomi: エーアイバブル
 english: AI Bubble
 english_yomi: エーアイ・バブル
-japanese: AIへの期待が実体より先に膨らんでいる、という見かた
+japanese: AIの泡（バブル＝泡）
 difficulty: 上級
 genres: [社会, AI]
 related: [supercycle, nvidia, data-center, gpu, exponential-growth]

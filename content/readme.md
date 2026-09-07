@@ -4,7 +4,7 @@ title: README
 yomi: リードミー
 english: README
 english_yomi: リードミー
-japanese: いちばん最初に読んでほしい説明書
+japanese: 私を読んで
 difficulty: 上級
 genres: [プログラミング]
 related: [github, repository, open-source, oss-license, issue]

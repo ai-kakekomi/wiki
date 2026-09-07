@@ -27,8 +27,11 @@ export function validateArticle({ data, body, filename }) {
   if (data.english) {
     if (!data.english_yomi) e.push('english があるので english_yomi が必要です');
     else if (!KATAKANA.test(data.english_yomi)) e.push('english_yomi はカタカナで書いてください');
-    // 6. english があれば japanese（和訳）必須
-    if (!data.japanese) e.push('english があるので japanese（和訳）が必要です');
+    // 6. english があれば japanese（和訳）必須。
+    //    ただし固有名詞（会社・製品・人名）には和訳が無いので、proper_noun: true なら要らない。
+    //    和訳の欄に説明文を書いて逃げていたのを 2026/9/7 に全部やめた
+    if (!data.japanese && !data.proper_noun) e.push('english があるので japanese（和訳）が必要です。固有名詞なら proper_noun: true');
+    if (data.japanese && data.proper_noun) e.push('proper_noun なのに japanese があります');
   } else {
     if (data.english_yomi) e.push('english がないのに english_yomi があります');
     if (data.japanese) e.push('english がないのに japanese があります');

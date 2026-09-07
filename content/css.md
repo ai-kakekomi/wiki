@@ -4,7 +4,7 @@ title: CSS
 yomi: シーエスエス
 english: Cascading Style Sheets
 english_yomi: カスケーディング・スタイル・シート
-japanese: 見た目を決めるための言葉
+japanese: 重なり合う様式表
 difficulty: 中級
 genres: [プログラミング]
 related: [html, javascript, browser, vibe-coding, github]

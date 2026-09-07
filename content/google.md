@@ -4,7 +4,7 @@ title: Google
 yomi: グーグル
 english: Google
 english_yomi: グーグル
-japanese: 検索から始まった、アメリカの巨大IT企業
+proper_noun: true
 difficulty: 初級
 genres: [AI, 社会]
 related: [gemini, demis-hassabis, transformer, openai, nvidia]

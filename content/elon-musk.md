@@ -4,7 +4,7 @@ title: イーロン・マスク
 yomi: イーロンマスク
 english: Elon Musk
 english_yomi: イーロン・マスク
-japanese: テスラやスペースXを率いる人
+proper_noun: true
 difficulty: 初級
 genres: [AI, 社会]
 related: [grok, openai, humanoid-robot, agi, singularity]

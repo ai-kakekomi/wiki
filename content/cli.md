@@ -4,7 +4,7 @@ title: CLI
 yomi: シーエルアイ
 english: Command Line Interface
 english_yomi: コマンドライン・インターフェース
-japanese: 文字を打って機械に指示する画面
+japanese: 命令行での操作
 difficulty: 上級
 genres: [プログラミング]
 related: [claude-code, git, github, vibe-coding, skill]

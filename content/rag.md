@@ -4,7 +4,7 @@ title: RAG
 yomi: ラグ
 english: Retrieval-Augmented Generation
 english_yomi: リトリーバル・オーグメンテッド・ジェネレーション
-japanese: 調べてから答えさせる仕組み
+japanese: 検索で補強した生成
 difficulty: 上級
 genres: [AI]
 related: [llm, hallucination, context, prompt, chatgpt, token]

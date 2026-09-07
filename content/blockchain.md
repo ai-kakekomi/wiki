@@ -4,7 +4,7 @@ title: ブロックチェーン
 yomi: ブロックチェーン
 english: Blockchain
 english_yomi: ブロックチェーン
-japanese: 記録を鎖でつないで、皆で持ちあう仕組み
+japanese: 塊の鎖
 difficulty: 上級
 genres: [プログラミング, セキュリティ]
 related: [crypto-asset, database, vulnerability, cloudflare-zero-trust, csv]

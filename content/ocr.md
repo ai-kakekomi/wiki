@@ -4,7 +4,7 @@ title: OCR
 yomi: オーシーアール
 english: Optical Character Recognition
 english_yomi: オプティカル・キャラクター・レコグニション
-japanese: 画像から文字を読み取る技術
+japanese: 光学文字認識
 difficulty: 中級
 genres: [AI]
 related: [image-generation-ai, machine-learning, deep-learning, screenshot, csv]

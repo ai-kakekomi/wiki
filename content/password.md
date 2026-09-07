@@ -4,7 +4,7 @@ title: パスワード
 yomi: パスワード
 english: Password
 english_yomi: パスワード
-japanese: 自分だと確かめるための合言葉
+japanese: 合言葉
 difficulty: 初級
 genres: [スマホ, セキュリティ]
 related: [account, login, two-factor-auth, phishing, authentication]

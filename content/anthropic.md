@@ -4,7 +4,7 @@ title: アンソロピック
 yomi: アンソロピック
 english: Anthropic
 english_yomi: アンソロピック
-japanese: Claudeを作った会社
+proper_noun: true
 difficulty: 初級
 genres: [AI]
 related: [claude, pbc, openai, dario-amodei, generative-ai]

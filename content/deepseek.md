@@ -4,7 +4,7 @@ title: DeepSeek
 yomi: ディープシーク
 english: DeepSeek
 english_yomi: ディープシーク
-japanese: 安く作れることを示した中国のAI
+proper_noun: true
 difficulty: 中級
 genres: [AI]
 related: [alibaba, open-source, llm, gpu, huawei]

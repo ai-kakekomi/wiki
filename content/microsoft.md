@@ -4,7 +4,7 @@ title: マイクロソフト
 yomi: マイクロソフト
 english: Microsoft
 english_yomi: マイクロソフト
-japanese: WindowsとOfficeの会社
+proper_noun: true
 difficulty: 初級
 genres: [AI, 社会]
 related: [openai, github, google, sam-altman, cloud]

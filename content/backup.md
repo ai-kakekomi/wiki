@@ -4,7 +4,7 @@ title: バックアップ
 yomi: バックアップ
 english: Backup
 english_yomi: バックアップ
-japanese: 控えを取っておくこと
+japanese: 控え、予備
 difficulty: 初級
 genres: [スマホ, セキュリティ]
 related: [cloud, storage, ransomware, account, update]

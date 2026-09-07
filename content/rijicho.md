@@ -4,7 +4,7 @@ title: 理事長
 yomi: リジチョウ
 english: Chairperson
 english_yomi: チェアパーソン
-japanese: 団体を代表する理事の呼び名
+japanese: 理事長
 difficulty: 中級
 genres: [社会]
 related: [riji, kanji-auditor, teikan, npo, hojinkaku]

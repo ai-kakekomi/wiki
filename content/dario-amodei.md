@@ -4,7 +4,7 @@ title: ダリオ・アモデイ
 yomi: ダリオアモデイ
 english: Dario Amodei
 english_yomi: ダリオ・アモデイ
-japanese: アンソロピックを率いる人
+proper_noun: true
 difficulty: 中級
 genres: [AI, 社会]
 related: [anthropic, claude, sam-altman, agi, exponential-growth]

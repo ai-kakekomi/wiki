@@ -4,7 +4,7 @@ title: 複利
 yomi: フクリ
 english: Compound Interest
 english_yomi: コンパウンド・インタレスト
-japanese: 利息にも利息がつくこと
+japanese: 複利
 difficulty: 中級
 genres: [社会]
 related: [index-investing, nisa, dollar-cost-averaging, exponential-growth, leverage, inflation]

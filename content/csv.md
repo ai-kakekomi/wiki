@@ -4,7 +4,7 @@ title: CSV
 yomi: シーエスブイ
 english: Comma-Separated Values
 english_yomi: コンマ・セパレーテッド・バリューズ
-japanese: 表をカンマで区切って書いた文字だけのファイル
+japanese: カンマ区切りの値
 difficulty: 中級
 genres: [プログラミング]
 related: [database, zero-trust-accounting, markdown, git, diff]

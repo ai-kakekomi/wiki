@@ -4,7 +4,7 @@ title: OpenAI
 yomi: オープンエーアイ
 english: OpenAI
 english_yomi: オープンエーアイ
-japanese: ChatGPTを作った会社
+proper_noun: true
 difficulty: 初級
 genres: [AI]
 related: [chatgpt, generative-ai, llm, anthropic, sam-altman]

@@ -4,7 +4,7 @@ title: ランサムウェア
 yomi: ランサムウェア
 english: Ransomware
 english_yomi: ランサムウェア
-japanese: 中身を人質に取って金を要求するソフト
+japanese: 身代金ソフト
 difficulty: 上級
 genres: [セキュリティ, スマホ]
 related: [admin-privilege, malware, phishing, crypto-asset, cloud]

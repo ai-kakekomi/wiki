@@ -4,7 +4,7 @@ title: API
 yomi: エーピーアイ
 english: Application Programming Interface
 english_yomi: アプリケーション・プログラミング・インターフェース
-japanese: プログラム同士の連絡窓口
+japanese: 応用プログラムの接点
 difficulty: 上級
 genres: [プログラミング]
 related: [database, generative-ai, authentication]

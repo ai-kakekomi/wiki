@@ -4,7 +4,7 @@ title: データベース
 yomi: データベース
 english: Database
 english_yomi: データベース
-japanese: 整理して保管されたデータの集まり
+japanese: データの基地
 difficulty: 中級
 genres: [データベース]
 related: [supabase, rls, api]

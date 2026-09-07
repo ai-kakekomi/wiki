@@ -4,7 +4,7 @@ title: 認証
 yomi: ニンショウ
 english: Authentication
 english_yomi: オーセンティケーション
-japanese: 本人であることの確認
+japanese: 認証
 difficulty: 上級
 genres: [セキュリティ]
 related: [api, database, supabase]

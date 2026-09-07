@@ -4,7 +4,7 @@ title: 為替
 yomi: カワセ
 english: Exchange Rate
 english_yomi: エクスチェンジ・レート
-japanese: 通貨を交換する比率
+japanese: 為替相場
 difficulty: 中級
 genres: [社会]
 related: [inflation, volatility, index-investing, nisa, crypto-asset, semiconductor]

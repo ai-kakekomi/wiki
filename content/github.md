@@ -4,7 +4,7 @@ title: GitHub
 yomi: ギットハブ
 english: GitHub
 english_yomi: ギットハブ
-japanese: プログラムを置いて共有する場所
+proper_noun: true
 difficulty: 中級
 genres: [プログラミング]
 related: [git, repository, pull-request, issue, microsoft]

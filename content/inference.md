@@ -4,7 +4,7 @@ title: 推論
 yomi: スイロン
 english: Inference
 english_yomi: インファレンス
-japanese: AIが実際に考えて答えを出すこと
+japanese: 推論
 difficulty: 上級
 genres: [AI]
 related: [token, context, llm, machine-learning, gpu]

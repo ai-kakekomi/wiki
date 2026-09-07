@@ -4,7 +4,7 @@ title: 二段階認証
 yomi: ニダンカイニンショウ
 english: Two-Factor Authentication
 english_yomi: ツーファクター・オーセンティケーション
-japanese: 合言葉のあとにもう一つ確かめる仕組み
+japanese: 二要素認証
 difficulty: 初級
 genres: [スマホ, セキュリティ]
 related: [password, login, account, phishing, authentication]

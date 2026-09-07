@@ -4,7 +4,7 @@ title: ハンズオン
 yomi: ハンズオン
 english: Hands-on
 english_yomi: ハンズオン
-japanese: 実際に手を動かして学ぶ形
+japanese: 手を動かして
 difficulty: 中級
 genres: [社会]
 related: [ai-literacy, shogai-gakushu-center, digital-divide, prompt, app]
