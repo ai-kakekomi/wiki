@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JSONとは | かけこみ辞典</title>
+<meta name="description" content="プログラム同士がデータを受け渡すときに使う、決まった書き方です。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JSONとは | かけこみ辞典">
+<meta property="og:description" content="プログラム同士がデータを受け渡すときに使う、決まった書き方です。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/json/">
+<meta property="og:site_name" content="かけこみ辞典">
+<meta property="og:image" content="https://ai-kakekomi.com/wiki/assets/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://ai-kakekomi.com/wiki/json/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","name":"JSON","description":"プログラム同士がデータを受け渡すときに使う、決まった書き方です。","url":"https://ai-kakekomi.com/wiki/json/","inDefinedTermSet":{"@type":"DefinedTermSet","name":"かけこみ辞典","url":"https://ai-kakekomi.com/wiki/"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="中級" data-slug="json">
+<main>
+<article class="container article">
+  <nav class="breadcrumb" data-nosnippet><a href="../">← ことばのいちらん</a></nav>
+
+  
+
+  <header class="article-head">
+    <p class="yomi">ジェイソン</p>
+    <h1>JSON<span class="badge badge-title">中級</span></h1>
+    <p class="english"><span class="en">JavaScript Object Notation</span><span class="en-yomi">ジャバスクリプト・オブジェクト・ノーテーション</span><span class="en-ja">JavaScript 流の、ものの書き表し方</span></p>
+    <p class="hitokoto">プログラム同士がデータを受け渡すときに使う、決まった書き方です。</p>
+  </header>
+
+  <div class="body">
+<h2>なぜ大事?</h2>
+<p>スマホのアプリがサーバーと話すとき、AIが道具を呼ぶとき、その中身はたいていこの形で飛んでいます。<strong>目には見えないけれど、いまのインターネットで一番よく通っている「荷札」の書き方</strong>です。AIに何かを頼んで「JSONで返して」と言うと、プログラムがそのまま読める形で返ってきます。</p>
+<h2>やさしい解説</h2>
+<p>荷物に付ける荷札を想像してください。「名前：山田、年齢：34、持ち物：スマホと財布」。この「見出し：中身」の組を、波かっこで囲んで並べたものが JSON です。</p>
+<pre><code>{ &quot;名前&quot;: &quot;山田&quot;, &quot;年齢&quot;: 34, &quot;持ち物&quot;: [&quot;スマホ&quot;, &quot;財布&quot;] }
+</code></pre>
+<p>人が読んでも意味が取れて、機械にも迷いなく読める。この両立が JSON の値打ちで、公式の説明にも「人間にとって読み書きが容易で、マシンにとっても簡単」と書かれています。表なら CSV、人が読む文章ならマークダウン、プログラムに渡す荷札なら JSON、と使い分けます。</p>
+<p>名前の由来は JavaScript という言語の中でものを書き表す書き方で、いまでは JavaScript と無関係な場所でも使われています。「ジェイソン」と読みます。</p>
+<h2>例文</h2>
+<ul>
+<li>「AIの返事をプログラムで使いたい」「『JSONで返して』って頼むと、そのまま読める形で来るよ」</li>
+<li>「JSON って何語?」「荷札の書き方。見出しと中身を波かっこで並べるだけ」</li>
+</ul>
+
+  </div>
+
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../csv/"><span class="badge badge-inline" data-difficulty="中級">中級</span>CSV</a></li><li><a href="../javascript/"><span class="badge badge-inline" data-difficulty="上級">上級</span>JavaScript</a></li><li><a href="../api/"><span class="badge badge-inline" data-difficulty="上級">上級</span>API</a></li><li><a href="../markdown/"><span class="badge badge-inline" data-difficulty="中級">中級</span>マークダウン</a></li><li><a href="../database/"><span class="badge badge-inline" data-difficulty="中級">中級</span>データベース</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://www.json.org/json-ja.html" rel="noopener nofollow" target="_blank">JSON の紹介 | json.org</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-09-08</p>
+
+  <nav class="article-foot" data-nosnippet>
+    <a class="back-big" href="../">
+      <span class="back-big-em" aria-hidden="true">📖</span>
+      <span class="back-big-text">
+        <strong>ことばのいちらんへ</strong>
+        <small>ほかの言葉も見てみる</small>
+      </span>
+    </a>
+    <p class="feedback">
+      分かりにくいところはありませんでしたか。<br>
+      追加してほしい言葉があれば、<a href="https://ai-kakekomi.com/#contact">お知らせください</a>。
+    </p>
+  </nav>
+</article>
+</main>
+
+<!-- data-nosnippet: 検索結果の説明文にこの定型文が抜かれないようにする。
+     Google は団体名で検索されるとフッターの「〜のことばの辞典です」を説明文に使い、
+     meta description（ひとことで）を捨てていた（2026/9/7 に確認） -->
+<footer class="site-footer" data-nosnippet>
+  <div class="container">
+    <p>かけこみ辞典 は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> のことばの辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+<script src="../assets/read.js"></script>
+</body>
+</html>

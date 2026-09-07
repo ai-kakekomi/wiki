@@ -1273,6 +1273,17 @@
     "summary": "小学校で生成AIを学ぶことになる、これから新しく作られる学習の枠です。"
   },
   {
+    "slug": "json",
+    "title": "JSON",
+    "yomi": "ジェイソン",
+    "english": "JavaScript Object Notation",
+    "difficulty": "中級",
+    "genres": [
+      "プログラミング"
+    ],
+    "summary": "プログラム同士がデータを受け渡すときに使う、決まった書き方です。"
+  },
+  {
     "slug": "kabushiki-kaisha",
     "title": "株式会社",
     "yomi": "カブシキガイシャ",
