@@ -45,6 +45,18 @@
     "summary": "作った半導体が正しく動くかを検査する機械を作っている、日本の会社です。"
   },
   {
+    "slug": "agents-md",
+    "title": "AGENTS.md",
+    "yomi": "エージェンツエムディー",
+    "english": "AGENTS.md",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "AIの道具に読ませる「決まりごと」のファイルの、会社をまたいだ共通の名前です。"
+  },
+  {
     "slug": "agi",
     "title": "AGI",
     "yomi": "エージーアイ",
@@ -412,6 +424,18 @@
       "プログラミング"
     ],
     "summary": "日本語で頼むと、パソコンの中のプログラムを自分で読んで、書いて、動かして、直してくれるAIです。"
+  },
+  {
+    "slug": "claude-md",
+    "title": "CLAUDE.md",
+    "yomi": "クロードエムディー",
+    "english": "CLAUDE.md",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "Claude Code が作業のたびに最初に読む、「決まりごと」を書いたファイルです。"
   },
   {
     "slug": "claude",
@@ -942,6 +966,18 @@
       "AI"
     ],
     "summary": "イーロン・マスクの会社が作った、話しかけて使うAIです。"
+  },
+  {
+    "slug": "guardrail",
+    "title": "ガードレール",
+    "yomi": "ガードレール",
+    "english": "Guardrail",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "セキュリティ"
+    ],
+    "summary": "AIが道を外れないように、あらかじめ置いておく柵のことです。"
   },
   {
     "slug": "hallucination",
@@ -2090,6 +2126,18 @@
     "summary": "写真やアプリをしまっておく、スマホの中の置き場所です。"
   },
   {
+    "slug": "subagent",
+    "title": "サブエージェント",
+    "yomi": "サブエージェント",
+    "english": "Subagent",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "AIが、自分の下に別のAIを呼んで仕事を任せる、その呼ばれたほうのAIです。"
+  },
+  {
     "slug": "subscription",
     "title": "サブスク",
     "yomi": "サブスク",
@@ -2135,6 +2183,17 @@
       "スマホ"
     ],
     "summary": "「ウイルスに感染しました」という偽の警告を出して、電話をかけさせる手口です。"
+  },
+  {
+    "slug": "system-prompt",
+    "title": "システムプロンプト",
+    "yomi": "システムプロンプト",
+    "english": "System Prompt",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "会話が始まる前に、AIへ「あなたはこういう役で、こう振る舞う」と渡しておく指示文です。"
   },
   {
     "slug": "teikan",
