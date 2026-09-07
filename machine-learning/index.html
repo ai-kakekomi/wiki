@@ -24,7 +24,7 @@
 <body data-difficulty="中級" data-slug="machine-learning">
 <main>
 <article class="container article">
-  <nav class="breadcrumb"><a href="../">← ことばのいちらん</a></nav>
+  <nav class="breadcrumb" data-nosnippet><a href="../">← ことばのいちらん</a></nav>
 
   
 
@@ -55,7 +55,7 @@
 
   <p class="updated">最終更新: 2026-09-05</p>
 
-  <nav class="article-foot">
+  <nav class="article-foot" data-nosnippet>
     <a class="back-big" href="../">
       <span class="back-big-em" aria-hidden="true">📖</span>
       <span class="back-big-text">
@@ -71,7 +71,10 @@
 </article>
 </main>
 
-<footer class="site-footer">
+<!-- data-nosnippet: 検索結果の説明文にこの定型文が抜かれないようにする。
+     Google は団体名で検索されるとフッターの「〜のことばの辞典です」を説明文に使い、
+     meta description（ひとことで）を捨てていた（2026/9/7 に確認） -->
+<footer class="site-footer" data-nosnippet>
   <div class="container">
     <p>かけこみ辞典 は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> のことばの辞典です。</p>
     <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
