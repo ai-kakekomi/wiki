@@ -30,7 +30,6 @@ npm run serve        # http://localhost:8080 でローカル確認
 | `scripts/frontmatter.mjs` | 依存ゼロの最小YAML読み取り |
 | `scripts/validate.mjs` | frontmatterと本文の検証ルール（11本＋セクション検査） |
 | `scripts/text.mjs` | カナ正規化・要約・HTMLエスケープ |
-| `scripts/link.mjs` | note原稿へ初出リンクを埋め込むCLI（wiki-linkスキルから呼ぶ） |
 | `templates/article.html` | 記事HTMLのひな形。`{{PLACEHOLDER}}` を置換するだけ |
 | `assets/wiki.css` | LPのCSSトークン（`--primary:#2D6A4F` 系）を流用 |
 | `assets/search.js` | 依存ゼロの絞り込み(難易度・ジャンル)。検索バーは置かない方針 |

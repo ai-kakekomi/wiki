@@ -7,7 +7,6 @@
   "scripts": {
     "build": "node scripts/build.mjs && python3 scripts/ogp.py",
     "test": "node --test test/*.test.mjs",
-    "link": "node scripts/link.mjs",
     "serve": "python3 -m http.server 8080"
   },
   "license": "MIT",
