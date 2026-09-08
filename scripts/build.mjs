@@ -246,7 +246,7 @@ const GROUPS = [
   { name: 'データと安全のことば', slugs: [
     'api', 'database', 'sql', 'supabase', 'rls', 'csv', 'blockchain',
     'aws', 'cloudflare', 'vercel', 'deploy', 'saas',
-    'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust'
+    'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust', 'rate-limit'
   ]},
   { name: '団体と制度のことば', slugs: [
     'npo', 'teikan', 'riji', 'rijicho', 'kanji-auditor', 'hojinkaku',
