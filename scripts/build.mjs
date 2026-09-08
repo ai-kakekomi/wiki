@@ -204,7 +204,7 @@ const GROUPS = [
     'account', 'login', 'password', 'passkey', 'two-factor-auth', 'face-recognition', 'admin-privilege',
     'phishing', 'support-scam', 'malware', 'ransomware',
     'app', 'install', 'update', 'browser', 'url', 'qr-code', 'cookie', 'cache',
-    'wifi', 'tethering', 'giga', 'bluetooth', 'cloud', 'storage', 'backup',
+    'wifi', 'tethering', 'giga', 'bluetooth', 'cloud', 'server', 'storage', 'backup',
     'screenshot', 'notification', 'cashless',
     'subscription', 'dark-pattern', '5g',
     'encryption', 'parental-control', 'infinite-scroll', 'short-video', 'youtube',
