@@ -385,6 +385,18 @@
     "summary": "AIの賢さを比べるための、共通のテストのことです。"
   },
   {
+    "slug": "bias",
+    "title": "バイアス",
+    "yomi": "バイアス",
+    "english": "Bias",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "見かたや判断が、気づかないうちにどちらかへ傾いていることです。"
+  },
+  {
     "slug": "blockchain",
     "title": "ブロックチェーン",
     "yomi": "ブロックチェーン",
