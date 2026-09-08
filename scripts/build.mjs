@@ -217,7 +217,7 @@ const GROUPS = [
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
     'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok',
     'system-prompt', 'guardrail', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge', 'benchmark', 'ai-drug-discovery',
-    'frontier-model', 'frontier-lab'
+    'frontier-model', 'frontier-lab', 'ai-slop'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
     'openai', 'google', 'microsoft', 'meta', 'apple', 'amazon',

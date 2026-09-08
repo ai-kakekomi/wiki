@@ -154,6 +154,19 @@
     "summary": "物心ついたときからAIがそばにあり、それを空気のように使う人や会社のことです。"
   },
   {
+    "slug": "ai-slop",
+    "title": "AIスロップ",
+    "yomi": "エーアイスロップ",
+    "english": "AI Slop",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会",
+      "スマホ"
+    ],
+    "summary": "AIで大量に作られた、質の低い文章や画像や動画のことです。"
+  },
+  {
     "slug": "ai-suishin-ho",
     "title": "AI推進法",
     "yomi": "エーアイスイシンホウ",
