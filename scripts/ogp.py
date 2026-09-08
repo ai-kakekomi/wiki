@@ -93,7 +93,9 @@ def render(a):
             px = 96 + tw + 24
             py = y + int(size * 0.62) - 26
             d.rounded_rectangle((px, py, px + pill_w, py + 52), radius=26, fill=LEVEL.get(level, ACCENT))
-            d.text((px + 24, py + 6), level, font=f_pill, fill=(255, 255, 255))
+            # 文字はピルの真ん中に。anchor="mm" で文字の中心を指定する
+            # （左上基準だと、日本語フォントの余白ぶん下に寄る）
+            d.text((px + pill_w / 2, py + 26), level, font=f_pill, fill=(255, 255, 255), anchor="mm")
         y += int(size * 1.22)
 
     # よみ
