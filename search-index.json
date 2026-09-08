@@ -2133,6 +2133,18 @@
     "summary": "電気を通す状態と、通さない状態を切り替えられる材料です。"
   },
   {
+    "slug": "shakosei",
+    "title": "射幸性",
+    "yomi": "シャコウセイ",
+    "english": "",
+    "difficulty": "中級",
+    "genres": [
+      "社会",
+      "スマホ"
+    ],
+    "summary": "「運がよければ大きく得をするかも」という気持ちをかき立てる性質のことです。"
+  },
+  {
     "slug": "shakyo",
     "title": "社会福祉協議会",
     "yomi": "シャカイフクシキョウギカイ",
@@ -2187,6 +2199,18 @@
       "AI"
     ],
     "summary": "AIにあらかじめ渡しておく、決まった作業の手順書です。"
+  },
+  {
+    "slug": "social-game",
+    "title": "ソーシャルゲーム",
+    "yomi": "ソーシャルゲーム",
+    "english": "Social Game",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "社会"
+    ],
+    "summary": "スマホで、無料で始められて、遊びながらお金を使う仕組みが入っているゲームのことです。"
   },
   {
     "slug": "softbank",
@@ -2507,6 +2531,18 @@
       "スマホ"
     ],
     "summary": "線をつながずに、電波でインターネットにつなぐ仕組みです。"
+  },
+  {
+    "slug": "youtube",
+    "title": "YouTube",
+    "yomi": "ユーチューブ",
+    "english": "YouTube",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "社会"
+    ],
+    "summary": "誰でも動画を出せて、誰でも無料で見られる、世界一大きな動画の置き場です。"
   },
   {
     "slug": "zero-trust-accounting",
