@@ -223,14 +223,14 @@ const GROUPS = [
     'anthropic', 'hugging-face', 'deepseek',
     'alibaba', 'bytedance',
     'sam-altman', 'dario-amodei', 'demis-hassabis', 'elon-musk',
-    'mark-zuckerberg', 'jeff-bezos', 'steve-jobs'
+    'mark-zuckerberg', 'jeff-bezos', 'steve-jobs', 'tesla', 'spacex'
   ]},
   { name: '半導体とインフラ', slugs: [
     'semiconductor', 'transistor', 'semiconductor-equipment', 'gpu',
     'memory-chip', 'dram', 'nand-flash',
     'data-center', 'hyperscaler', 'moores-law', 'quantum-computer',
     'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'advantest', 'kioxia', 'ajinomoto-abf', 'huawei',
-    'jensen-huang', 'masayoshi-son', 'softbank', 'silicon-valley'
+    'jensen-huang', 'masayoshi-son', 'softbank', 'silicon-valley', 'rapidus'
   ]},
   { name: 'つくるためのことば', slugs: [
     'algorithm', 'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',
