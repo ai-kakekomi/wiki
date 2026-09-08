@@ -11,8 +11,8 @@ related: [digital-divide, ai-literacy, generative-ai, chatgpt, vibe-coding]
 sources:
   - title: Digital Natives, Digital Immigrants Part 1 | On the Horizon (Emerald)
     url: https://doi.org/10.1108/10748120110424816
-  - title: AIネイティブなデジタル・プロダクトエンジニアリング企業のSourceFuseが日本法人を設立 | ジェトロ
-    url: https://www.jetro.go.jp/invest/newsroom/2026/c8b4024ee6634ca7.html
+  - title: Anthropic and NEC collaborate to build Japan's largest AI engineering workforce | Anthropic
+    url: https://www.anthropic.com/news/anthropic-nec
 updated: 2026-09-08
 ---
 
@@ -28,7 +28,7 @@ updated: 2026-09-08
 
 「ネイティブ」は「生まれつきの」という意味です。2001年に教育学者のマーク・プレンスキーが、生まれたときからパソコンやインターネットがあった世代を「デジタルネイティブ」、あとから覚えた世代を「デジタル移民」と呼びました。その言い方をAIに当てはめたのが AIネイティブです。
 
-人だけでなく会社にも使います。最初からAIがあることを前提に仕事の流れを組んだ会社は、あとからAIを足した会社と、動き方が違います。書類を人が作ってからAIで直すのではなく、AIが下書きを作って人が確かめる。順番が逆になります。
+人だけでなく会社にも使います。最初からAIがあることを前提に仕事の流れを組んだ会社は、あとからAIを足した会社と、動き方が違います。書類を人が作ってからAIで直すのではなく、AIが下書きを作って人が確かめる。順番が逆になります。2026年4月には、Anthropic と NEC が「日本最大級の AIネイティブな技術者集団」を作ると発表しました。
 
 生まれた年で決まるものではありません。**毎日AIに聞く癖がついた人は、何歳でもAIネイティブに近づきます。**AIかけこみ寺の教室で目指しているのも、じつはこれです。
 
