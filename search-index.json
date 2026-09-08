@@ -801,6 +801,17 @@
     "summary": "作業中のものを置いておく、速い記憶用の半導体です。電源を切ると消えます。"
   },
   {
+    "slug": "dx",
+    "title": "DX",
+    "yomi": "ディーエックス",
+    "english": "Digital Transformation",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "紙や電話でやっていた仕事を、デジタルの道具に置き換えて、仕事のやり方そのものを変えることです。"
+  },
+  {
     "slug": "elon-musk",
     "title": "イーロン・マスク",
     "yomi": "イーロンマスク",
