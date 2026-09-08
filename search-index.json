@@ -2360,6 +2360,18 @@
     "summary": "運転手が乗っていない、AIが運転するタクシーのことです。"
   },
   {
+    "slug": "robots-txt",
+    "title": "robots.txt",
+    "yomi": "ロボッツテキスト",
+    "english": "robots.txt",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "AI"
+    ],
+    "summary": "「うちのサイトのここは読まないで」と、機械に向けて貼っておく紙のことです。"
+  },
+  {
     "slug": "saas",
     "title": "SaaS",
     "yomi": "サース",
@@ -2382,6 +2394,19 @@
       "社会"
     ],
     "summary": "ChatGPTを作ったOpenAIを率いている人です。"
+  },
+  {
+    "slug": "sandbox",
+    "title": "サンドボックス",
+    "yomi": "サンドボックス",
+    "english": "Sandbox",
+    "difficulty": "中級",
+    "genres": [
+      "セキュリティ",
+      "プログラミング",
+      "AI"
+    ],
+    "summary": "プログラムを、外に影響が出ない囲いの中で動かす仕組みのことです。"
   },
   {
     "slug": "screenshot",

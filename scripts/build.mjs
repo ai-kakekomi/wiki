@@ -236,7 +236,7 @@ const GROUPS = [
   { name: 'つくるためのことば', slugs: [
     'algorithm', 'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',
     'html', 'css', 'javascript', 'python',
-    'claude-md', 'agents-md', 'json', 'tech-stack', 'frontend', 'backend', 'seo', 'environment-variable'
+    'claude-md', 'agents-md', 'json', 'tech-stack', 'frontend', 'backend', 'seo', 'environment-variable', 'robots-txt'
   ]},
   { name: 'GitとGitHub', slugs: [
     'git', 'github', 'repository', 'clone', 'commit', 'branch', 'merge', 'conflict',
@@ -246,7 +246,7 @@ const GROUPS = [
   { name: 'データと安全のことば', slugs: [
     'api', 'database', 'sql', 'supabase', 'rls', 'csv', 'blockchain',
     'aws', 'cloudflare', 'vercel', 'deploy', 'saas',
-    'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust', 'rate-limit'
+    'authentication', 'oauth', 'vulnerability', 'cloudflare-zero-trust', 'rate-limit', 'sandbox'
   ]},
   { name: '団体と制度のことば', slugs: [
     'npo', 'teikan', 'riji', 'rijicho', 'kanji-auditor', 'hojinkaku',
