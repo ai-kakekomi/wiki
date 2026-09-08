@@ -860,6 +860,18 @@
     "summary": "電気自動車のテスラ、ロケットのスペースX、SNSのXを率いている人です。"
   },
   {
+    "slug": "encryption",
+    "title": "暗号化",
+    "yomi": "アンゴウカ",
+    "english": "Encryption",
+    "difficulty": "初級",
+    "genres": [
+      "セキュリティ",
+      "スマホ"
+    ],
+    "summary": "データを、鍵を持っている人にしか読めない形に変えることです。"
+  },
+  {
     "slug": "exchange-rate",
     "title": "為替",
     "yomi": "カワセ",
