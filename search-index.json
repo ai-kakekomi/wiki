@@ -1743,6 +1743,18 @@
     "summary": "FacebookとInstagramを運営していて、AIを無料で公開していることで知られる会社です。"
   },
   {
+    "slug": "metacognition",
+    "title": "メタ認知",
+    "yomi": "メタニンチ",
+    "english": "Metacognition",
+    "difficulty": "中級",
+    "genres": [
+      "社会",
+      "AI"
+    ],
+    "summary": "自分がいま何を考え、何を分かっていて、何を分かっていないかを、一段上から眺める力のことです。"
+  },
+  {
     "slug": "microsoft",
     "title": "マイクロソフト",
     "yomi": "マイクロソフト",

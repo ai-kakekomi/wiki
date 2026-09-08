@@ -259,7 +259,7 @@ const GROUPS = [
     'crypto-asset', 'volatility',
     'risk-tolerance', 'index-investing', 'dollar-cost-averaging', 'nisa', 'leverage',
     'compound-interest', 'inflation', 'exchange-rate',
-    'ai-bubble', 'supercycle', 'dx', 'fde', 'filter-bubble', 'echo-chamber', 'joho-shozai', 'online-salon'
+    'ai-bubble', 'supercycle', 'dx', 'fde', 'filter-bubble', 'echo-chamber', 'joho-shozai', 'online-salon', 'metacognition'
   ]},
   { name: '未来のことば', slugs: [
     'singularity', 'agi', 'asi', 'intelligence-explosion', 'exponential-growth',
