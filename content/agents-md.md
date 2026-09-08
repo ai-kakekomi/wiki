@@ -34,5 +34,6 @@ Claude Code は `AGENTS.md` を直接は読まず `CLAUDE.md` を読みますが
 
 ## 例文
 
-- 「CLAUDE.md と AGENTS.md、両方要るの?」「中身は同じ。片方に『もう片方を読んで』と書けばいい」
-- 「AGENTS.md って誰が決めたの?」「いろんな会社が寄せた共通の名前。いまは Linux Foundation の下」
+
+- 「CLAUDE.md と AGENTS.md、両方要るの?」「中身は同じでいいよ。片方に『もう片方を読んで』って書いておけば済むんだ」
+- 「AGENTS.md って誰が決めたの?」「いろんな会社が持ち寄った共通の名前だよ。いまは Linux Foundation の下にあるんだ」

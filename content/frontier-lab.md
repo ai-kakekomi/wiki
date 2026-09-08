@@ -34,5 +34,6 @@ OpenAI（ChatGPT）、Anthropic（Claude）、Google DeepMind（Gemini）、Meta
 
 ## 例文
 
-- 「AI業界って結局どこの話?」「フロンティアラボ。OpenAI、Anthropic、Google、Meta、xAI、DeepSeek。片手で数えられる」
-- 「なんでそんなに少ないの?」「半導体と電気と研究者で数千億円の桁。入れる組織がほぼ無い」
+
+- 「AI業界って結局どこの話?」「フロンティアラボだね。OpenAI、Anthropic、Google、Meta、xAI、DeepSeek。片手で数えられるくらいなんだ」
+- 「なんでそんなに少ないの?」「半導体と電気と研究者で数千億円の桁だからね。入れる組織がほぼ無いんだよ」

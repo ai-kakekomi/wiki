@@ -34,5 +34,6 @@ Microsoft のAIの名前です。Windows や Word、Excel の中に入ってい�
 
 ## 例文
 
+
 - 「うちの職場、AI禁止なんだよね」「Copilot のボタン、Windows の隅に出てない? 会社の契約次第で、もう入ってることが多いよ」
-- 「Copilot と ChatGPT どっちがいい?」「中身は近い。Word や Excel の中で使うなら Copilot、それ以外なら好みで」
+- 「Copilot と ChatGPT どっちがいい?」「中身は近いよ。Word や Excel の中で使うなら Copilot、それ以外なら好みでいいんじゃないかな」
