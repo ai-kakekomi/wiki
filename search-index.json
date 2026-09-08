@@ -1188,6 +1188,18 @@
     "summary": "AIが実際に考えて、答えを出す作業そのものです。"
   },
   {
+    "slug": "infinite-scroll",
+    "title": "無限スクロール",
+    "yomi": "ムゲンスクロール",
+    "english": "Infinite Scroll",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "社会"
+    ],
+    "summary": "画面を下に送るたびに次の投稿が足され、いつまでも終わらない画面の作りのことです。"
+  },
+  {
     "slug": "inflation",
     "title": "インフレ",
     "yomi": "インフレ",
@@ -2141,6 +2153,18 @@
       "社会"
     ],
     "summary": "大人が学ぶための、市区町村が置いている施設です。"
+  },
+  {
+    "slug": "short-video",
+    "title": "ショート動画",
+    "yomi": "ショートドウガ",
+    "english": "Short-form Video",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "社会"
+    ],
+    "summary": "1本が数秒から1分ほどの、縦向きの短い動画のことです。"
   },
   {
     "slug": "singularity",
