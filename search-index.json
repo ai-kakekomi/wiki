@@ -1443,6 +1443,19 @@
     "summary": "小学校で生成AIを学ぶことになる、これから新しく作られる学習の枠です。"
   },
   {
+    "slug": "joho-shozai",
+    "title": "情報商材",
+    "yomi": "ジョウホウショウザイ",
+    "english": "",
+    "difficulty": "初級",
+    "genres": [
+      "社会",
+      "スマホ",
+      "セキュリティ"
+    ],
+    "summary": "「簡単に稼げる方法を教えます」と言って売られる、中身の見えない情報のことです。"
+  },
+  {
     "slug": "json",
     "title": "JSON",
     "yomi": "ジェイソン",
@@ -1826,6 +1839,18 @@
       "AI"
     ],
     "summary": "写真や紙の中の文字を、打ち直さずに文字データへ変える技術です。"
+  },
+  {
+    "slug": "online-salon",
+    "title": "オンラインサロン",
+    "yomi": "オンラインサロン",
+    "english": "Online Salon",
+    "difficulty": "初級",
+    "genres": [
+      "社会",
+      "スマホ"
+    ],
+    "summary": "月会費を払って入る、ネット上の会員制の集まりのことです。"
   },
   {
     "slug": "open-source",
