@@ -199,6 +199,23 @@ test('トップページ: ことば一覧と絞り込みが入る(検索バー�
   assert.match(html, /assets\/search\.js/);
 });
 
+test('トップページ: すべての記事がことば一覧に出る（束に入れ忘れても落ちない）', () => {
+  const { articles } = loadArticles();
+  const html = renderIndex(articles, () => {});
+  for (const a of articles) {
+    assert.match(html, new RegExp(`class="card" href="${a.slug}/"`), `${a.slug} が一覧に無い`);
+  }
+  const cards = (html.match(/class="card" href=/g) || []).length;
+  assert.equal(cards, articles.length);
+});
+
+test('トップページ: 束に入っていない記事があれば警告する（黙って落とさない）', () => {
+  const { articles } = loadArticles();
+  const warns = [];
+  renderIndex(articles, (m) => warns.push(m));
+  assert.equal(warns.length, 0, '束に入っていない記事: ' + warns.join(' / '));
+});
+
 test('配信物に外部CDNの読み込みがない（LPと同じGoogle Fontsのみ許可）', () => {
   const files = ['assets/wiki.css', 'assets/search.js', 'templates/article.html'];
   for (const f of files) {

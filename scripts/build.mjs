@@ -206,14 +206,17 @@ const GROUPS = [
     'app', 'install', 'update', 'browser', 'url', 'qr-code', 'cookie', 'cache',
     'wifi', 'tethering', 'giga', 'bluetooth', 'cloud', 'storage', 'backup',
     'screenshot', 'notification', 'cashless',
-    'subscription', 'dark-pattern', '5g'
+    'subscription', 'dark-pattern', '5g',
+    'encryption', 'parental-control', 'infinite-scroll', 'short-video', 'youtube',
+    'social-game', 'shakosei', 'cyberbullying', 'revenge-porn', 'fake-news', 'yami-baito', 'tokuryu'
   ]},
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
     'neural-network', 'reinforcement-learning', 'parameter', 'training-data',
     'prompt', 'token', 'context', 'inference', 'hallucination', 'rag', 'fine-tuning',
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
-    'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok'
+    'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok',
+    'system-prompt', 'guardrail', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
     'openai', 'google', 'microsoft', 'meta', 'apple', 'amazon',
@@ -231,7 +234,8 @@ const GROUPS = [
   ]},
   { name: 'つくるためのことば', slugs: [
     'algorithm', 'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',
-    'html', 'css', 'javascript', 'python'
+    'html', 'css', 'javascript', 'python',
+    'claude-md', 'agents-md', 'json', 'tech-stack', 'frontend', 'backend', 'seo'
   ]},
   { name: 'GitとGitHub', slugs: [
     'git', 'github', 'repository', 'clone', 'commit', 'branch', 'merge', 'conflict',
@@ -254,7 +258,7 @@ const GROUPS = [
     'crypto-asset', 'volatility',
     'risk-tolerance', 'index-investing', 'dollar-cost-averaging', 'nisa', 'leverage',
     'compound-interest', 'inflation', 'exchange-rate',
-    'ai-bubble', 'supercycle'
+    'ai-bubble', 'supercycle', 'dx', 'fde'
   ]},
   { name: '未来のことば', slugs: [
     'singularity', 'agi', 'asi', 'intelligence-explosion', 'exponential-growth',
@@ -266,24 +270,27 @@ const GROUPS = [
   ]}
 ];
 const GROUP_OF = new Map(GROUPS.flatMap((g) => g.slugs.map((s) => [s, g.name])));
+/* 束に入れ忘れた記事の逃げ場。ここに出るのは一時しのぎで、GROUPS に足すのが正。
+   2026/9/8 に27本がここに落ちて、一覧に出ないまま1日気づかなかった */
+const FALLBACK_GROUP = 'そのほかのことば';
 
 export function wordGroup(a) {
-  return GROUP_OF.get(a.slug) || null;
+  return GROUP_OF.get(a.slug) || FALLBACK_GROUP;
 }
 
-const WORD_GROUPS = GROUPS.map((g) => g.name);
+const WORD_GROUPS = GROUPS.map((g) => g.name).concat(FALLBACK_GROUP);
 
-export function renderIndex(articles) {
+export function renderIndex(articles, warn = (m) => console.warn('  警告: ' + m)) {
   const genres = [...new Set(articles.flatMap((a) => a.genres || []))].sort();
   const wordPill = (a) =>
     `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}"><span class="w-badge">${escapeHtml(a.difficulty)}</span><span class="w-title">${escapeHtml(a.title)}</span></a>`;
   const sorted = articles
     .slice()
     .sort((a, b) => DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) || a.slug.localeCompare(b.slug));
-  const homeless = articles.filter((a) => !wordGroup(a)).map((a) => a.slug);
+  const homeless = articles.filter((a) => !GROUP_OF.has(a.slug)).map((a) => a.slug);
   if (homeless.length) {
-    console.warn('  警告: どの束にも入っていない記事があります → ' + homeless.join(', ') +
-      '（scripts/build.mjs の GROUPS に足してください）');
+    warn('どの束にも入っていない記事があります → ' + homeless.join(', ') +
+      '（scripts/build.mjs の GROUPS に足してください。いまは「' + FALLBACK_GROUP + '」に出しています）');
   }
 
   const cards = WORD_GROUPS.map((name) => {
@@ -410,7 +417,7 @@ export function build({ root = ROOT, quiet = false } = {}) {
     log(`  生成: ${a.slug}/index.html`);
   }
 
-  writeFileSync(join(root, 'index.html'), renderIndex(articles));
+  writeFileSync(join(root, 'index.html'), renderIndex(articles, warn));
   log('  生成: index.html');
 
   const index = buildSearchIndex(articles);
