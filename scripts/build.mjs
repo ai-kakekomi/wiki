@@ -207,7 +207,7 @@ const GROUPS = [
     'wifi', 'tethering', 'giga', 'bluetooth', 'cloud', 'server', 'storage', 'backup',
     'screenshot', 'notification', 'cashless',
     'subscription', 'dark-pattern', '5g',
-    'encryption', 'parental-control', 'infinite-scroll', 'short-video', 'youtube',
+    'encryption', 'opt-out', 'parental-control', 'infinite-scroll', 'short-video', 'youtube',
     'social-game', 'shakosei', 'cyberbullying', 'revenge-porn', 'fake-news', 'yami-baito', 'tokuryu', 'telegram'
   ]},
   { name: 'AIのことば', slugs: [

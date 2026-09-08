@@ -1974,6 +1974,19 @@
     "summary": "ChatGPTを作った、アメリカの会社です。"
   },
   {
+    "slug": "opt-out",
+    "title": "オプトアウト",
+    "yomi": "オプトアウト",
+    "english": "Opt-out",
+    "difficulty": "初級",
+    "genres": [
+      "セキュリティ",
+      "社会",
+      "AI"
+    ],
+    "summary": "「使っていいですか」と聞かれる前に使われていて、嫌なら自分で「やめて」と言う仕組みのことです。"
+  },
+  {
     "slug": "os",
     "title": "OS",
     "yomi": "オーエス",
