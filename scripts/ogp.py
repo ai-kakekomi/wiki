@@ -59,13 +59,14 @@ def wrap(draw, text, font, max_w):
 
 
 def glow(im):
-    """右上のやわらかい橙のにじみ。共通画像と同じ雰囲気にする。"""
+    """右上のやわらかい橙のにじみ。共通画像と同じ雰囲気にする。
+    ぼかすのは透明度（マスク）だけにする。色つきの透明レイヤーごとぼかすと、
+    外側の透明画素（色は黒）が混ざって縁が灰色に濁る（実際にそうなっていた）"""
     from PIL import ImageFilter
-    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    d = ImageDraw.Draw(layer)
-    d.ellipse((820, -220, 1420, 380), fill=(244, 162, 97, 70))
-    layer = layer.filter(ImageFilter.GaussianBlur(120))
-    im.alpha_composite(layer)
+    mask = Image.new("L", (W, H), 0)
+    ImageDraw.Draw(mask).ellipse((820, -220, 1420, 380), fill=70)
+    mask = mask.filter(ImageFilter.GaussianBlur(120))
+    im.paste((244, 162, 97, 255), (0, 0), mask)
 
 
 def render(a):
