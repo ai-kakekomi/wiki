@@ -128,6 +128,19 @@
     "summary": "AIを使う力と、AIの答えを疑う力をあわせて、AIリテラシーと呼びます。"
   },
   {
+    "slug": "ai-native",
+    "title": "AIネイティブ",
+    "yomi": "エーアイネイティブ",
+    "english": "AI Native",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会",
+      "未来"
+    ],
+    "summary": "物心ついたときからAIがそばにあり、それを空気のように使う人や会社のことです。"
+  },
+  {
     "slug": "ai-suishin-ho",
     "title": "AI推進法",
     "yomi": "エーアイスイシンホウ",
@@ -765,6 +778,18 @@
     "summary": "毎月おなじ金額ずつ買い続けるやりかたです。"
   },
   {
+    "slug": "domain-knowledge",
+    "title": "ドメイン知識",
+    "yomi": "ドメインチシキ",
+    "english": "Domain Knowledge",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "その仕事、その現場に長くいる人だけが持っている、細かい知識のことです。"
+  },
+  {
     "slug": "dram",
     "title": "DRAM",
     "yomi": "ディーラム",
@@ -831,6 +856,19 @@
       "AI"
     ],
     "summary": "カメラに写った顔で、本人かどうかを確かめる技術です。"
+  },
+  {
+    "slug": "fde",
+    "title": "FDE",
+    "yomi": "エフディーイー",
+    "english": "Forward Deployed Engineer",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング",
+      "社会"
+    ],
+    "summary": "お客さんの現場に入り込んで、その場でAIや道具を組み上げる技術者のことです。"
   },
   {
     "slug": "fine-tuning",
