@@ -7,7 +7,7 @@ english_yomi: テック・スタック
 japanese: 技術の積み重ね
 difficulty: 上級
 genres: [プログラミング]
-related: [database, api, cloud, javascript, supabase, cloudflare, vibe-coding]
+related: [database, api, cloud, javascript, supabase, cloudflare, vibe-coding, kakekomi-app]
 sources:
   - title: What Is A Technology Stack? | MongoDB
     url: https://www.mongodb.com/resources/basics/technology-stack
@@ -30,7 +30,7 @@ updated: 2026-09-08
 
 たとえば AIかけこみ寺の掲示板は、画面は JavaScript、データは Supabase、置き場は Cloudflare、という積み重ねです。これが技術スタックで、名刺代わりに「うちはこの組み合わせ」と一言で言えるのが便利なところです。
 
-**流行りで選ばないのがこつです。**直せる人がいるか、無料の範囲で動くか、10年後も残っていそうか。うちが小さな道具にサーバーを持たない作りを選ぶのも、この考えからです。
+**流行りで選ばないのがこつです。**直せる人がいるか、無料の範囲で動くか、10年後も残っていそうか。かけこみアプリにサーバーが無いのも、この考えからです。
 
 ## 例文
 

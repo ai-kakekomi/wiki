@@ -7,7 +7,7 @@ english_yomi: サーバー
 japanese: 給仕する側の機械
 difficulty: 初級
 genres: [スマホ, プログラミング]
-related: [cloud, data-center, backend, internet, provider, saas, encryption]
+related: [cloud, data-center, backend, internet, provider, saas, encryption, kakekomi-app]
 sources:
   - title: ウェブサーバーとは | MDN Web Docs
     url: https://developer.mozilla.org/ja/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server
@@ -30,7 +30,7 @@ updated: 2026-09-08
 
 見た目はただのコンピュータで、電源を切らずに置いてあるだけです。ただし1台で何万人の客をさばくので、頑丈で、たくさん並べて、冷やしながら動かします。それを大量に並べた建物がデータセンターで、借りて使う形がクラウドです。
 
-だから「サーバーが落ちた」は、給仕係が倒れて注文が通らない状態。「サーバーに保存」は、自分の手元ではなく、向こうの厨房に預けたということ。AIかけこみ寺の小さな道具は、サーバーを持たない作りにしています。給仕係がいなければ、預けるものも、落ちるものもありません。
+だから「サーバーが落ちた」は、給仕係が倒れて注文が通らない状態。「サーバーに保存」は、自分の手元ではなく、向こうの厨房に預けたということ。かけこみアプリはサーバーを持たない作りです。給仕係がいなければ、預けるものも、落ちるものもありません。
 
 ## 例文
 

@@ -7,7 +7,7 @@ english_yomi: フロント・エンド
 japanese: 前側
 difficulty: 上級
 genres: [プログラミング]
-related: [backend, html, css, javascript, browser, tech-stack, app]
+related: [backend, html, css, javascript, browser, tech-stack, app, kakekomi-app]
 sources:
   - title: ウェブのしくみ | MDN Web Docs
     url: https://developer.mozilla.org/ja/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works
@@ -30,7 +30,7 @@ updated: 2026-09-08
 
 ホームページなら、文字の骨組み（HTML）、色や配置（CSS）、押したときの動き（JavaScript）の3つでできていて、全部あなたのブラウザの中で動きます。だから「見た目を変えて」「ボタンを大きくして」という頼みごとは、フロントエンドだけで済むことが多く、安全で速い直しです。
 
-AIかけこみ寺の道具のほとんどは、じつはフロントエンドしかありません。裏の倉庫を持たないので、入力した内容がどこにも送られない、という作りになっています。フロントエンドだけで完結する道具は、いちばん安心して配れる道具です。
+かけこみアプリのほとんどは、じつはフロントエンドしかありません。裏の倉庫を持たないので、入力した内容がどこにも送られない、という作りになっています。フロントエンドだけで完結するアプリは、いちばん安心して配れます。
 
 ## 例文
 

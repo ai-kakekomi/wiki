@@ -7,7 +7,7 @@ english_yomi: ソフトウェア・アズ・ア・サービス
 japanese: サービスとして使うソフト
 difficulty: 中級
 genres: [プログラミング, 社会]
-related: [cloud, subscription, account, backend, supabase, install, dx]
+related: [cloud, subscription, account, backend, supabase, install, dx, kakekomi-app]
 sources:
   - title: SP 800-145 The NIST Definition of Cloud Computing | NIST
     url: https://csrc.nist.gov/pubs/sp/800/145/final
@@ -28,7 +28,7 @@ updated: 2026-09-08
 
 アメリカの標準機関 NIST の定義では、利用者は自分で機械やソフトを管理せず、提供者の設備で動くアプリを使う形とされています。だから、いつでも最新版で、どの端末からでも同じものが開き、壊れたら直すのは向こうの仕事。これが「うまくいくこと」です。
 
-困ることは3つ。払い続けないと使えなくなる（サブスク）。自分のデータが向こうにある（やめるとき持ち出せるか）。向こうが終わると、こちらも終わる。AIかけこみ寺が小さな道具を「入れずに、送らずに、ブラウザだけで動く」形で作るのは、SaaS の便利さは取りつつ、この3つの困りごとを持ち込まないためです。
+困ることは3つ。払い続けないと使えなくなる（サブスク）。自分のデータが向こうにある（やめるとき持ち出せるか）。向こうが終わると、こちらも終わる。かけこみアプリが「入れずに、送らずに、ブラウザだけで動く」形なのは、SaaS の便利さは取りつつ、この3つの困りごとを持ち込まないためです。
 
 ## 例文
 

@@ -7,7 +7,7 @@ english_yomi: バック・エンド
 japanese: 後ろ側
 difficulty: 上級
 genres: [プログラミング]
-related: [frontend, database, api, cloud, supabase, tech-stack, authentication]
+related: [frontend, database, api, cloud, supabase, tech-stack, authentication, kakekomi-app]
 sources:
   - title: クライアント・サーバーの概要 | MDN Web Docs
     url: https://developer.mozilla.org/ja/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview
@@ -30,7 +30,7 @@ updated: 2026-09-08
 
 バックエンドは、あなたの端末ではなく、どこかのサーバーで動いています。データベースにデータをしまい、誰が見てよいかを確かめ、必要な形にして画面へ返す。ホームページの申し込みフォームに名前を入れて「送信」を押したあと、その名前が向かう先がここです。
 
-だから、バックエンドがある道具は「入力した内容がどこかに送られる」道具です。悪いことではありませんが、預かる側には守る義務が生まれます。AIかけこみ寺が小さな道具をフロントエンドだけで作り、名簿や掲示板のように本当に必要なものにだけバックエンドを置くのは、この責任を最小にするためです。
+だから、バックエンドがある道具は「入力した内容がどこかに送られる」道具です。悪いことではありませんが、預かる側には守る義務が生まれます。かけこみアプリがフロントエンドだけで作られていて、名簿や掲示板のように本当に必要なものにだけバックエンドがあるのは、この責任を最小にするためです。
 
 ## 例文
 
