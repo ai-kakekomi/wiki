@@ -1776,6 +1776,19 @@
     "summary": "AIの中にある、学習で少しずつ調整される無数の数値のことです。"
   },
   {
+    "slug": "parental-control",
+    "title": "ペアレンタルコントロール",
+    "yomi": "ペアレンタルコントロール",
+    "english": "Parental Control",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "社会",
+      "セキュリティ"
+    ],
+    "summary": "子どものスマホやゲーム機を、親が設定で管理する仕組みのことです。"
+  },
+  {
     "slug": "passkey",
     "title": "パスキー",
     "yomi": "パスキー",
