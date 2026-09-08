@@ -2436,6 +2436,19 @@
     "summary": "会社や法人の根本ルールを書いた文書で、その団体にとっての憲法にあたります。"
   },
   {
+    "slug": "telegram",
+    "title": "Telegram",
+    "yomi": "テレグラム",
+    "english": "Telegram",
+    "difficulty": "中級",
+    "genres": [
+      "スマホ",
+      "セキュリティ",
+      "社会"
+    ],
+    "summary": "LINE に似た無料のメッセージアプリです。読んだあとに消えるやりとりができ、犯罪の連絡にもよく使われます。"
+  },
+  {
     "slug": "tethering",
     "title": "テザリング",
     "yomi": "テザリング",

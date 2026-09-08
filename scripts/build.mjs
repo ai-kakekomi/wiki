@@ -208,7 +208,7 @@ const GROUPS = [
     'screenshot', 'notification', 'cashless',
     'subscription', 'dark-pattern', '5g',
     'encryption', 'parental-control', 'infinite-scroll', 'short-video', 'youtube',
-    'social-game', 'shakosei', 'cyberbullying', 'revenge-porn', 'fake-news', 'yami-baito', 'tokuryu'
+    'social-game', 'shakosei', 'cyberbullying', 'revenge-porn', 'fake-news', 'yami-baito', 'tokuryu', 'telegram'
   ]},
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
