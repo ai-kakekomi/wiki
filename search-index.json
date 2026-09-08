@@ -659,6 +659,18 @@
     "summary": "ホームページが、あなたのブラウザに預けておく小さなメモです。食べるほうではありません。"
   },
   {
+    "slug": "copilot",
+    "title": "Copilot",
+    "yomi": "コパイロット",
+    "english": "Copilot",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "スマホ"
+    ],
+    "summary": "Microsoft のAIの名前です。Windows や Word、Excel の中に入っていて、ボタン1つで呼び出せます。"
+  },
+  {
     "slug": "copyright",
     "title": "著作権",
     "yomi": "チョサクケン",
