@@ -2206,6 +2206,18 @@
     "summary": "電気を通す状態と、通さない状態を切り替えられる材料です。"
   },
   {
+    "slug": "seo",
+    "title": "SEO",
+    "yomi": "エスイーオー",
+    "english": "Search Engine Optimization",
+    "difficulty": "中級",
+    "genres": [
+      "プログラミング",
+      "社会"
+    ],
+    "summary": "Google などで検索したとき、自分のページが上のほうに出るようにする工夫のことです。"
+  },
+  {
     "slug": "shakosei",
     "title": "射幸性",
     "yomi": "シャコウセイ",
@@ -2444,6 +2456,18 @@
       "AI"
     ],
     "summary": "AIが文章を読み書きするときの、長さの数えかたの単位です。"
+  },
+  {
+    "slug": "tokuryu",
+    "title": "トクリュウ",
+    "yomi": "トクリュウ",
+    "english": "",
+    "difficulty": "中級",
+    "genres": [
+      "社会",
+      "セキュリティ"
+    ],
+    "summary": "決まった組織を持たず、SNS で集めた人を入れ替えながら詐欺や強盗をする犯罪グループのことです。"
   },
   {
     "slug": "tokyo-electron",
