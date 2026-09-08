@@ -230,7 +230,7 @@ const GROUPS = [
     'memory-chip', 'dram', 'nand-flash',
     'data-center', 'hyperscaler', 'moores-law', 'quantum-computer',
     'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'advantest', 'kioxia', 'ajinomoto-abf', 'huawei',
-    'jensen-huang', 'masayoshi-son', 'softbank'
+    'jensen-huang', 'masayoshi-son', 'softbank', 'silicon-valley'
   ]},
   { name: 'つくるためのことば', slugs: [
     'algorithm', 'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',

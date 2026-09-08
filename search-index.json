@@ -2326,6 +2326,19 @@
     "summary": "1本が数秒から1分ほどの、縦向きの短い動画のことです。"
   },
   {
+    "slug": "silicon-valley",
+    "title": "シリコンバレー",
+    "yomi": "シリコンバレー",
+    "english": "Silicon Valley",
+    "difficulty": "初級",
+    "genres": [
+      "社会",
+      "半導体",
+      "AI"
+    ],
+    "summary": "アメリカ西海岸、サンフランシスコの南にある、世界のIT企業が集まる一帯のことです。"
+  },
+  {
     "slug": "singularity",
     "title": "シンギュラリティ",
     "yomi": "シンギュラリティ",
