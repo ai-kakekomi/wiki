@@ -530,6 +530,18 @@
     "summary": "OpenAIが作った、コードを書いて直してくれるAIの道具です。"
   },
   {
+    "slug": "cognitive-offloading",
+    "title": "認知的オフローディング",
+    "yomi": "ニンチテキオフローディング",
+    "english": "Cognitive Offloading",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "覚えたり考えたりする仕事を、頭の外の道具に任せることです。"
+  },
+  {
     "slug": "commit",
     "title": "コミット",
     "yomi": "コミット",
