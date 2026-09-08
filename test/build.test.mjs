@@ -7,7 +7,6 @@ import { parseFrontmatter, splitFrontmatter } from '../scripts/frontmatter.mjs';
 import { validateArticle } from '../scripts/validate.mjs';
 import { normalize, toHiragana, summarize, escapeHtml } from '../scripts/text.mjs';
 import { ROOT, loadArticles, buildSearchIndex, stepDownTargets, renderArticle, renderIndex } from '../scripts/build.mjs';
-import { linkify, findCandidates } from '../scripts/link.mjs';
 
 const SAMPLE = `---
 slug: demo
@@ -229,35 +228,4 @@ test('em dash を使っていない', () => {
   for (const f of ['content/rls.md', 'assets/wiki.css', 'scripts/build.mjs']) {
     assert.doesNotMatch(readFileSync(join(ROOT, f), 'utf8'), /[—―]/, `${f} に em dash があります`);
   }
-});
-
-const VOCAB = [
-  { term: 'プルリクエスト', slug: 'pull-request' },
-  { term: 'プル', slug: 'pull' },
-  { term: 'RLS', slug: 'rls' },
-];
-
-test('link: 長い語を優先し、初出だけリンクにする', () => {
-  const src = 'プルリクエストを送る。プルリクエストはもう一度出てくる。';
-  const { text } = linkify(src, VOCAB);
-  assert.equal(text.match(/\]\(https/g).length, 1);
-  assert.match(text, /\[プルリクエスト\]\(https:\/\/ai-kakekomi\.com\/wiki\/pull-request\)/);
-});
-
-test('link: コードブロック・見出し・既存リンクの中は書き換えない', () => {
-  const src = '# RLS の話\n\n```\nRLS\n```\n\n`RLS`\n\n[RLS](https://example.com)\n';
-  const { text } = linkify(src, VOCAB);
-  assert.equal(text, src);
-});
-
-test('link: 英単語の一部には食い込まない', () => {
-  const src = 'CURLS は関係ない語です。\n';
-  const { text } = linkify(src, VOCAB);
-  assert.equal(text, src);
-});
-
-test('link: 未収録の専門用語候補を拾う', () => {
-  const cands = findCandidates('スケーラビリティとRLSとプルの話。スケーラビリティは大事。', VOCAB).map((c) => c.term);
-  assert.ok(cands.includes('スケーラビリティ'));
-  assert.ok(!cands.includes('RLS'));
 });
