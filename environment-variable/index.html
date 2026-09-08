@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>環境変数とは | かけこみ辞典</title>
+<meta name="description" content="プログラムの外側に置いておく設定値のことです。合言葉や接続先のように、プログラム本体には書きたくないものを入れます。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="環境変数とは | かけこみ辞典">
+<meta property="og:description" content="プログラムの外側に置いておく設定値のことです。合言葉や接続先のように、プログラム本体には書きたくないものを入れます。">
+<meta property="og:url" content="https://ai-kakekomi.com/wiki/environment-variable/">
+<meta property="og:site_name" content="かけこみ辞典">
+<meta property="og:image" content="https://ai-kakekomi.com/wiki/assets/ogp/environment-variable.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://ai-kakekomi.com/wiki/environment-variable/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","name":"環境変数","description":"プログラムの外側に置いておく設定値のことです。合言葉や接続先のように、プログラム本体には書きたくないものを入れます。","url":"https://ai-kakekomi.com/wiki/environment-variable/","inDefinedTermSet":{"@type":"DefinedTermSet","name":"かけこみ辞典","url":"https://ai-kakekomi.com/wiki/"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/wiki.css">
+</head>
+<body data-difficulty="上級" data-slug="environment-variable">
+<main>
+<article class="container article">
+  <nav class="breadcrumb" data-nosnippet><a href="../">← ことばのいちらん</a></nav>
+
+  
+
+  <header class="article-head">
+    <p class="yomi">カンキョウヘンスウ</p>
+    <h1>環境変数<span class="badge badge-title">上級</span></h1>
+    <p class="english"><span class="en">Environment Variable</span><span class="en-yomi">エンバイロンメント・バリアブル</span><span class="en-ja">動かす場所ごとの設定値</span></p>
+    <p class="hitokoto">プログラムの外側に置いておく設定値のことです。合言葉や接続先のように、プログラム本体には書きたくないものを入れます。</p>
+  </header>
+
+  <div class="body">
+<h2>なぜ大事?</h2>
+<p>AIにアプリを作らせると、必ずここに行き当たります。<strong>AIの鍵やデータベースの合言葉を、プログラムの中にそのまま書いてしまう事故</strong>が、初心者のいちばん多い失敗です。GitHub に公開した瞬間に世界中から読まれ、数時間で高額請求が来ることがあります。環境変数は、それを防ぐ置き場です。</p>
+<h2>やさしい解説</h2>
+<p>家の合鍵を、玄関のドアに貼っておく人はいません。鍵は別の場所に持っていて、必要なときに使う。プログラムでも同じで、「本体」と「その場所でだけ使う値」を分けます。値のほうが環境変数です。</p>
+<p>同じプログラムでも、自分のパソコンで試すときと、本番のサーバーで動かすときでは、つなぐ先も合言葉も違います。プログラムに書き込むと、場所ごとに書き換えなければならず、うっかり本番の合言葉を公開してしまう。外に置けば、プログラムは1つのまま、値だけ場所ごとに差し替えられます。The Twelve-Factor App という有名な指針でも、設定は環境変数に格納する、と定めています。</p>
+<p>実際には <code>.env</code> という名前のファイルに書き、それを <code>.gitignore</code> で公開対象から外すのが定番です。AIに「.env に入れて、gitignore に書いて」と一言添えるだけで、事故の大半は防げます。</p>
+<h2>例文</h2>
+<ul>
+<li>「AIの鍵、どこに書けばいい?」「環境変数。.env に入れて、.gitignore で公開から外す。プログラムには書かない」</li>
+<li>「GitHub に上げたら請求が来た」「鍵を本体に書いてたでしょ。環境変数に出しておけば起きなかった」</li>
+</ul>
+
+  </div>
+
+  <section class="related"><h2>関連ワード</h2><ul class="related-list"><li><a href="../gitignore/"><span class="badge badge-inline" data-difficulty="上級">上級</span>.gitignore</a></li><li><a href="../api/"><span class="badge badge-inline" data-difficulty="上級">上級</span>API</a></li><li><a href="../backend/"><span class="badge badge-inline" data-difficulty="上級">上級</span>バックエンド</a></li><li><a href="../deploy/"><span class="badge badge-inline" data-difficulty="上級">上級</span>デプロイ</a></li><li><a href="../github/"><span class="badge badge-inline" data-difficulty="中級">中級</span>GitHub</a></li><li><a href="../password/"><span class="badge badge-inline" data-difficulty="初級">初級</span>パスワード</a></li><li><a href="../vibe-coding/"><span class="badge badge-inline" data-difficulty="中級">中級</span>バイブコーディング</a></li></ul></section>
+  <section class="sources"><h2>一次資料</h2><ul><li><a href="https://12factor.net/ja/config" rel="noopener nofollow" target="_blank">The Twelve-Factor App III. 設定</a></li><li><a href="https://docs.github.com/ja/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions" rel="noopener nofollow" target="_blank">GitHub Actions でのシークレットの使用 | GitHub Docs</a></li></ul></section>
+
+  <p class="updated">最終更新: 2026-09-08</p>
+
+  <nav class="article-foot" data-nosnippet>
+    <a class="back-big" href="../">
+      <span class="back-big-em" aria-hidden="true">📖</span>
+      <span class="back-big-text">
+        <strong>ことばのいちらんへ</strong>
+        <small>ほかの言葉も見てみる</small>
+      </span>
+    </a>
+    <p class="feedback">
+      分かりにくいところはありませんでしたか。<br>
+      追加してほしい言葉があれば、<a href="https://ai-kakekomi.com/#contact">お知らせください</a>。
+    </p>
+  </nav>
+</article>
+</main>
+
+<!-- data-nosnippet: 検索結果の説明文にこの定型文が抜かれないようにする。
+     Google は団体名で検索されるとフッターの「〜のことばの辞典です」を説明文に使い、
+     meta description（ひとことで）を捨てていた（2026/9/7 に確認） -->
+<footer class="site-footer" data-nosnippet>
+  <div class="container">
+    <p>かけこみ辞典 は <a href="https://ai-kakekomi.com/">AIかけこみ寺</a> のことばの辞典です。</p>
+    <p class="license">記事本文は CC BY 4.0 / サイトのプログラムは MIT ライセンスで公開しています。</p>
+  </div>
+</footer>
+<script src="../assets/read.js"></script>
+</body>
+</html>

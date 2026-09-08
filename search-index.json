@@ -934,6 +934,18 @@
     "summary": "データを、鍵を持っている人にしか読めない形に変えることです。"
   },
   {
+    "slug": "environment-variable",
+    "title": "環境変数",
+    "yomi": "カンキョウヘンスウ",
+    "english": "Environment Variable",
+    "difficulty": "上級",
+    "genres": [
+      "プログラミング",
+      "セキュリティ"
+    ],
+    "summary": "プログラムの外側に置いておく設定値のことです。合言葉や接続先のように、プログラム本体には書きたくないものを入れます。"
+  },
+  {
     "slug": "exchange-rate",
     "title": "為替",
     "yomi": "カワセ",
