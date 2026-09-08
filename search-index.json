@@ -642,6 +642,19 @@
     "summary": "表を、カンマで区切っただけの文字で表したファイルです。"
   },
   {
+    "slug": "cyberbullying",
+    "title": "ネットいじめ",
+    "yomi": "ネットイジメ",
+    "english": "Cyberbullying",
+    "difficulty": "初級",
+    "genres": [
+      "スマホ",
+      "社会",
+      "セキュリティ"
+    ],
+    "summary": "スマホやパソコンの上で起きるいじめのことです。LINE の仲間はずれ、SNS での悪口、写真の勝手な拡散など。"
+  },
+  {
     "slug": "dario-amodei",
     "title": "ダリオ・アモデイ",
     "yomi": "ダリオアモデイ",
