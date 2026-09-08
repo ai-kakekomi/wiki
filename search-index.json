@@ -104,6 +104,19 @@
     "summary": "AIに学習させるときと、出てきたものを使うときで、考えかたが分かれます。"
   },
   {
+    "slug": "ai-drug-discovery",
+    "title": "AI創薬",
+    "yomi": "エーアイソウヤク",
+    "english": "AI Drug Discovery",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会",
+      "未来"
+    ],
+    "summary": "新しい薬の候補を、AIに探させたり設計させたりすることです。"
+  },
+  {
     "slug": "ai-kakekomi",
     "title": "AIかけこみ寺",
     "yomi": "エーアイカケコミデラ",
