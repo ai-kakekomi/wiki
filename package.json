@@ -5,7 +5,7 @@
   "description": "かけこみ辞典 - AIかけこみ寺の技術用語辞典（静的サイト）",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs",
+    "build": "node scripts/build.mjs && python3 scripts/ogp.py",
     "test": "node --test test/*.test.mjs",
     "link": "node scripts/link.mjs",
     "serve": "python3 -m http.server 8080"
