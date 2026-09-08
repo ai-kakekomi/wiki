@@ -1246,6 +1246,18 @@
     "summary": "説明を聞くだけでなく、その場で自分の手を動かして学ぶ形です。"
   },
   {
+    "slug": "harness",
+    "title": "ハーネス",
+    "yomi": "ハーネス",
+    "english": "Harness",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "AIを「考える頭」から「働く手足つきの道具」にするための、まわりの仕組み全部のことです。"
+  },
+  {
     "slug": "hojinkaku",
     "title": "法人格",
     "yomi": "ホウジンカク",
