@@ -280,6 +280,18 @@
     "summary": "人よりもはるかに賢くなったAIのことです。"
   },
   {
+    "slug": "asic",
+    "title": "ASIC",
+    "yomi": "エーシック",
+    "english": "Application Specific Integrated Circuit",
+    "difficulty": "上級",
+    "genres": [
+      "半導体",
+      "AI"
+    ],
+    "summary": "「この仕事だけ」と用途を決めて作る半導体のことです。何でもできるかわりに遅い汎用の部品と対になります。"
+  },
+  {
     "slug": "asml",
     "title": "ASML",
     "yomi": "エーエスエムエル",
@@ -1024,6 +1036,30 @@
       "プログラミング"
     ],
     "summary": "アプリやサイトのうち、あなたの画面に見えて、指で触れる部分のことです。"
+  },
+  {
+    "slug": "frontier-lab",
+    "title": "フロンティアラボ",
+    "yomi": "フロンティアラボ",
+    "english": "Frontier Lab",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "世界でいちばん賢いAIを作れる、ごく少数の研究所や会社のことです。"
+  },
+  {
+    "slug": "frontier-model",
+    "title": "フロンティアモデル",
+    "yomi": "フロンティアモデル",
+    "english": "Frontier Model",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "その時点で世界でいちばん賢い、最前線にあるAIのことです。"
   },
   {
     "slug": "gemini",
@@ -2375,6 +2411,17 @@
       "AI"
     ],
     "summary": "アメリカ西海岸、サンフランシスコの南にある、世界のIT企業が集まる一帯のことです。"
+  },
+  {
+    "slug": "silicon",
+    "title": "シリコン",
+    "yomi": "シリコン",
+    "english": "Silicon",
+    "difficulty": "初級",
+    "genres": [
+      "半導体"
+    ],
+    "summary": "半導体の材料になる元素で、砂や石の主な成分です。日本語では珪素と言います。"
   },
   {
     "slug": "singularity",

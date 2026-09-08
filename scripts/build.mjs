@@ -216,7 +216,8 @@ const GROUPS = [
     'prompt', 'token', 'context', 'inference', 'hallucination', 'rag', 'fine-tuning',
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
     'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok',
-    'system-prompt', 'guardrail', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge', 'benchmark', 'ai-drug-discovery'
+    'system-prompt', 'guardrail', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge', 'benchmark', 'ai-drug-discovery',
+    'frontier-model', 'frontier-lab'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
     'openai', 'google', 'microsoft', 'meta', 'apple', 'amazon',
@@ -230,7 +231,7 @@ const GROUPS = [
     'memory-chip', 'dram', 'nand-flash',
     'data-center', 'hyperscaler', 'moores-law', 'quantum-computer',
     'nvidia', 'tsmc', 'asml', 'tokyo-electron', 'advantest', 'kioxia', 'ajinomoto-abf', 'huawei',
-    'jensen-huang', 'masayoshi-son', 'softbank', 'silicon-valley', 'rapidus'
+    'jensen-huang', 'masayoshi-son', 'softbank', 'silicon-valley', 'rapidus', 'silicon', 'asic'
   ]},
   { name: 'つくるためのことば', slugs: [
     'algorithm', 'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',
