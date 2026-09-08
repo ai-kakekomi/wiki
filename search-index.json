@@ -2236,6 +2236,19 @@
     "summary": "同じ表を見ても人によって見える行がちがう、という仕組みです。"
   },
   {
+    "slug": "robotaxi",
+    "title": "ロボットタクシー",
+    "yomi": "ロボットタクシー",
+    "english": "Robotaxi",
+    "difficulty": "初級",
+    "genres": [
+      "AI",
+      "社会",
+      "未来"
+    ],
+    "summary": "運転手が乗っていない、AIが運転するタクシーのことです。"
+  },
+  {
     "slug": "sam-altman",
     "title": "サム・アルトマン",
     "yomi": "サムアルトマン",
