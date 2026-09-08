@@ -2297,6 +2297,18 @@
     "summary": "運転手が乗っていない、AIが運転するタクシーのことです。"
   },
   {
+    "slug": "saas",
+    "title": "SaaS",
+    "yomi": "サース",
+    "english": "Software as a Service",
+    "difficulty": "中級",
+    "genres": [
+      "プログラミング",
+      "社会"
+    ],
+    "summary": "買って入れるのではなく、ネット越しに借りて使うソフトのことです。Gmail や LINE、"
+  },
+  {
     "slug": "sam-altman",
     "title": "サム・アルトマン",
     "yomi": "サムアルトマン",
