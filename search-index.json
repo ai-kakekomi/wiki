@@ -236,6 +236,18 @@
     "summary": "グーグルが作っている、スマホの土台のソフトです。"
   },
   {
+    "slug": "annotation",
+    "title": "アノテーション",
+    "yomi": "アノテーション",
+    "english": "Annotation",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "AIに見せる例に、人の手で「これは猫」「この部分が信号」と正解の札を付ける仕事のことです。"
+  },
+  {
     "slug": "anthropic",
     "title": "アンソロピック",
     "yomi": "アンソロピック",

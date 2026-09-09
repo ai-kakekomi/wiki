@@ -212,7 +212,7 @@ const GROUPS = [
   ]},
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
-    'neural-network', 'reinforcement-learning', 'parameter', 'training', 'training-data',
+    'neural-network', 'reinforcement-learning', 'parameter', 'training', 'training-data', 'annotation',
     'prompt', 'token', 'context', 'inference', 'hallucination', 'bias', 'rag', 'fine-tuning',
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
     'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok', 'copilot',
