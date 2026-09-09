@@ -1656,6 +1656,19 @@
     "summary": "技術は少しずつ進むのではなく、進む速さそのものが上がっていく、という見かたです。"
   },
   {
+    "slug": "lethal-autonomous-weapons",
+    "title": "完全自律兵器",
+    "yomi": "カンゼンジリツヘイキ",
+    "english": "Lethal Autonomous Weapons Systems (LAWS)",
+    "difficulty": "中級",
+    "genres": [
+      "未来",
+      "社会",
+      "AI"
+    ],
+    "summary": "いったん動かしたら、人が指示しなくても、自分で標的を選んで攻撃する兵器のことです。"
+  },
+  {
     "slug": "leverage",
     "title": "レバレッジ",
     "yomi": "レバレッジ",
