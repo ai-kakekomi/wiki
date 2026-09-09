@@ -3049,6 +3049,18 @@
     "summary": "ソフトの中にある、突かれると悪用できてしまう弱点です。"
   },
   {
+    "slug": "weights",
+    "title": "重み",
+    "yomi": "オモミ",
+    "english": "Weights",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "AIの中身そのものである、トレーニングで決まった数字の集まりのことです。"
+  },
+  {
     "slug": "wifi",
     "title": "Wi-Fi",
     "yomi": "ワイファイ",
