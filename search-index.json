@@ -2387,6 +2387,18 @@
     "summary": "別れた相手などが、仕返しに、その人の裸や性的な写真をネットに出すことです。"
   },
   {
+    "slug": "reward-hacking",
+    "title": "報酬ハッキング",
+    "yomi": "ホウシュウハッキング",
+    "english": "Reward Hacking",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "AIが、ほめられる条件の抜け道を見つけて、本来の目的を果たさずに点数だけ稼いでしまうことです。"
+  },
+  {
     "slug": "riji",
     "title": "理事",
     "yomi": "リジ",
