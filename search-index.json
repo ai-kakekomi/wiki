@@ -2875,6 +2875,17 @@
     "summary": "AIに覚えさせるために読ませる、大量の文章や画像のことです。"
   },
   {
+    "slug": "training",
+    "title": "トレーニング",
+    "yomi": "トレーニング",
+    "english": "Training",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIに大量の例を見せて、答えを当てられるように中身の数字を直していく工程のことです。"
+  },
+  {
     "slug": "transformer",
     "title": "トランスフォーマー",
     "yomi": "トランスフォーマー",
