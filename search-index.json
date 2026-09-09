@@ -799,6 +799,18 @@
     "summary": "たくさんの情報を、あとから一瞬で探し出せる形にして保管しておく仕組みです。"
   },
   {
+    "slug": "dataset",
+    "title": "データセット",
+    "yomi": "データセット",
+    "english": "Dataset",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "データ"
+    ],
+    "summary": "同じ形にそろえて、ひとまとめにしたデータの束のことです。"
+  },
+  {
     "slug": "deep-learning",
     "title": "ディープラーニング",
     "yomi": "ディープラーニング",
