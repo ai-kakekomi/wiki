@@ -235,7 +235,7 @@ const GROUPS = [
   ]},
   { name: 'つくるためのことば', slugs: [
     'algorithm', 'vibe-coding', 'claude-code', 'codex', 'cli', 'markdown',
-    'html', 'css', 'javascript', 'python',
+    'html', 'css', 'javascript', 'python', 'pytorch',
     'claude-md', 'agents-md', 'json', 'tech-stack', 'frontend', 'backend', 'seo', 'environment-variable', 'robots-txt'
   ]},
   { name: 'GitとGitHub', slugs: [

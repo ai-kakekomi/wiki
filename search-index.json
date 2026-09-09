@@ -2210,6 +2210,18 @@
     "summary": "読みやすさを重んじた言語で、AIの分野では事実上の標準になっています。"
   },
   {
+    "slug": "pytorch",
+    "title": "PyTorch",
+    "yomi": "パイトーチ",
+    "english": "PyTorch",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "AIを作る人のほとんどが使っている、ニューラルネットワークを組むための無料の道具箱です。"
+  },
+  {
     "slug": "qr-code",
     "title": "QRコード",
     "yomi": "キューアールコード",
