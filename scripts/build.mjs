@@ -216,7 +216,7 @@ const GROUPS = [
     'prompt', 'token', 'context', 'inference', 'hallucination', 'bias', 'rag', 'fine-tuning',
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
     'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'claude', 'gemini', 'grok', 'copilot',
-    'system-prompt', 'guardrail', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge', 'benchmark', 'ai-drug-discovery',
+    'system-prompt', 'guardrail', 'alignment', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge', 'benchmark', 'ai-drug-discovery',
     'frontier-model', 'frontier-lab', 'ai-slop', 'harness'
   ]},
   { name: 'AIをつくる会社と人', slugs: [

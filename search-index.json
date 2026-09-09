@@ -213,6 +213,18 @@
     "summary": "中国の大きなIT企業です。ネット通販から始まり、いまはAIにも力を入れています。"
   },
   {
+    "slug": "alignment",
+    "title": "アライメント",
+    "yomi": "アライメント",
+    "english": "Alignment",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "AIのやりたがることを、人が本当に望むことと同じ向きにそろえる取り組みのことです。「アラインメント」とも書きます。"
+  },
+  {
     "slug": "amazon",
     "title": "アマゾン",
     "yomi": "アマゾン",
