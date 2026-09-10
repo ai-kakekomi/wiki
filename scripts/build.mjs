@@ -370,8 +370,8 @@ ${pills}
 
   <div class="toolbar">
     <div class="search">
-      <label class="visually-hidden" for="q">ことばをさがす</label>
-      <input id="q" type="search" placeholder="ことばをさがす（ひらがな・カタカナ・英語どれでも）" autocomplete="off" enterkeyhint="search">
+      <label class="visually-hidden" for="q">検索</label>
+      <input id="q" type="search" placeholder="検索" autocomplete="off" enterkeyhint="search">
     </div>
     <div class="filters">
       <div class="filter-row">${difficultyButtons}</div>

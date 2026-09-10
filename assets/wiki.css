@@ -85,9 +85,10 @@ main { flex: 1; }
 .search { margin-bottom: 12px; }
 .search input {
   width: 100%; font-family: var(--font); font-size: 1rem; line-height: 1.6;
-  padding: 10px 16px; border: 1.5px solid rgba(45, 106, 79, 0.25); border-radius: 999px;
+  padding: 10px 16px; border: 1.5px solid rgba(45, 106, 79, 0.25); border-radius: var(--radius-sm);
   background: var(--white); color: var(--text); -webkit-appearance: none; appearance: none;
 }
+.search input::-webkit-search-decoration, .search input::-webkit-search-cancel-button { -webkit-appearance: none; }
 .search input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-pale); }
 .search input::placeholder { color: #9a9a9a; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
