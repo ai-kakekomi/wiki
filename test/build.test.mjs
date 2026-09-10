@@ -188,11 +188,24 @@ test('記事HTML: OGP と description を持つ', () => {
   assert.match(html, /property="og:url" content="https:\/\/ai-kakekomi\.com\/wiki\/rls\/"/);
 });
 
-test('トップページ: ことば一覧と絞り込みが入る(検索バーは置かない)', () => {
+test('トップページ: ことば一覧・絞り込み・検索バーが入る', () => {
   const { articles } = loadArticles();
   const html = renderIndex(articles);
-  assert.doesNotMatch(html, /id="q"/);
+  assert.match(html, /<input id="q" type="search"/);
   assert.match(html, /class="card" href="rls\/"/);
+  /* 検索キーは、見出し語・よみ・英語を正規化したもの。ブラウザ側は入力を同じ規則で正規化して部分一致を見る */
+  const key = html.match(/href="rls\/"[^>]*data-key="([^"]*)"/)[1];
+  for (const s of ['アールエルエス', 'Row Level Security', '行単位のアクセス制御', 'RLS']) {
+    assert.ok(key.includes(normalize(s)), `検索キーに ${s} が入っていない: ${key}`);
+  }
+  assert.equal(normalize('ハルシネーション'), normalize('はるしねーしょん'));
+  assert.equal(normalize('Row Level Security'), 'rowlevelsecurity');
+  assert.equal(normalize('ＧＰＵ'), 'gpu');
+  assert.equal(normalize('ｱｶｳﾝﾄ'), 'あかうんと');
+  /* ブラウザ側の normalize は Node 側と同じ規則で書かれている */
+  const js = readFileSync(join(ROOT, 'assets', 'search.js'), 'utf8');
+  assert.match(js, /\.replace\(\/\[ァ-ヶ\]\/g/);
+  assert.match(js, /data-key/);
   assert.match(html, /data-difficulty="特級"/);
   assert.match(html, /data-genre="データベース"/);
   assert.match(html, /assets\/search\.js/);

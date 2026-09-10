@@ -32,7 +32,7 @@ npm run serve        # http://localhost:8080 でローカル確認
 | `scripts/text.mjs` | カナ正規化・要約・HTMLエスケープ |
 | `templates/article.html` | 記事HTMLのひな形。`{{PLACEHOLDER}}` を置換するだけ |
 | `assets/wiki.css` | LPのCSSトークン（`--primary:#2D6A4F` 系）を流用 |
-| `assets/search.js` | 依存ゼロの絞り込み(難易度・ジャンル)。検索バーは置かない方針 |
+| `assets/search.js` | 依存ゼロの検索バー＋絞り込み(難易度・ジャンル)。検索は各カードの `data-key`（見出し語・よみ・英語を正規化したもの）への部分一致。`search-index.json` は取りに行かない |
 | `test/build.test.mjs` | `node --test` で走るテスト |
 
 ## frontmatter仕様（検証で必須強制）

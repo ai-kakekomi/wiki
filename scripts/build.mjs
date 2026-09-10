@@ -11,7 +11,7 @@ import { marked } from 'marked';
 const SITE = 'https://ai-kakekomi.com';
 import { parseFrontmatter, DIFFICULTIES } from './frontmatter.mjs';
 import { validateArticle } from './validate.mjs';
-import { escapeHtml, summarize } from './text.mjs';
+import { escapeHtml, summarize, normalize } from './text.mjs';
 
 export const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -20,7 +20,9 @@ export function loadArticles(contentDir = join(ROOT, 'content')) {
   const articles = [];
   const errors = [];
   for (const filename of files) {
-    const raw = readFileSync(join(contentDir, filename), 'utf8');
+    /* Windows の checkout は CRLF になる。改行を LF に揃えないと、生成物が CRLF と LF の混在になり、
+       git が改行変換を諦めて全記事が差分になる（2026/9/11 に 271 本が一斉に変わって見えた） */
+    const raw = readFileSync(join(contentDir, filename), 'utf8').replace(/\r\n?/g, '\n');
     let parsed;
     try {
       parsed = parseFrontmatter(raw);
@@ -283,8 +285,13 @@ const WORD_GROUPS = GROUPS.map((g) => g.name).concat(FALLBACK_GROUP);
 
 export function renderIndex(articles, warn = (m) => console.warn('  警告: ' + m)) {
   const genres = [...new Set(articles.flatMap((a) => a.genres || []))].sort();
+  /* 検索の照合キー。見出し語・よみ・英語・英語のよみ・和訳を正規化して1本にまとめ、
+     ブラウザ側は入力を同じ規則で正規化して部分一致を見るだけにする。
+     search-index.json を取りに行かないので、ローカルの http.server でも1リクエストで済む */
+  const searchKey = (a) =>
+    normalize([a.title, a.yomi, a.english, a.english_yomi, a.japanese, a.slug].filter(Boolean).join(' '));
   const wordPill = (a) =>
-    `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}"><span class="w-badge">${escapeHtml(a.difficulty)}</span><span class="w-title">${escapeHtml(a.title)}</span></a>`;
+    `      <a class="card" href="${escapeHtml(a.slug)}/" data-difficulty="${escapeHtml(a.difficulty)}" data-genres="${escapeHtml((a.genres || []).join(','))}" data-key="${escapeHtml(searchKey(a))}"><span class="w-badge">${escapeHtml(a.difficulty)}</span><span class="w-title">${escapeHtml(a.title)}</span></a>`;
   const sorted = articles
     .slice()
     .sort((a, b) => DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) || a.slug.localeCompare(b.slug));
@@ -362,6 +369,10 @@ ${pills}
   <div class="progress" id="progress" hidden></div>
 
   <div class="toolbar">
+    <div class="search">
+      <label class="visually-hidden" for="q">ことばをさがす</label>
+      <input id="q" type="search" placeholder="ことばをさがす（ひらがな・カタカナ・英語どれでも）" autocomplete="off" enterkeyhint="search">
+    </div>
     <div class="filters">
       <div class="filter-row">${difficultyButtons}</div>
       <div class="filter-row">${genreButtons}</div>
@@ -408,7 +419,7 @@ export function build({ root = ROOT, quiet = false } = {}) {
   }
 
   const bySlug = new Map(articles.map((a) => [a.slug, a]));
-  const template = readFileSync(join(root, 'templates', 'article.html'), 'utf8');
+  const template = readFileSync(join(root, 'templates', 'article.html'), 'utf8').replace(/\r\n?/g, '\n');
 
   for (const a of articles) {
     const dir = join(root, a.slug);

@@ -8,12 +8,21 @@
   if (!cardsWrap) return;
 
   var cards = Array.prototype.slice.call(cardsWrap.querySelectorAll('.card'));
-  var state = { difficulty: '', genre: '' };
+  var state = { difficulty: '', genre: '', q: '' };
+
+  // scripts/text.mjs の normalize と同じ規則。カタカナ→ひらがな、小文字化、区切り記号と長音を捨てる
+  function normalize(s) {
+    return String(s).normalize('NFKC')
+      .replace(/[ァ-ヶ]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0x60); })
+      .toLowerCase()
+      .replace(/[・･・\s　ー-]/g, '');
+  }
 
   function apply() {
     var shown = 0;
     cards.forEach(function (card) {
       var ok = true;
+      if (state.q && (card.getAttribute('data-key') || '').indexOf(state.q) === -1) ok = false;
       if (state.difficulty && card.getAttribute('data-difficulty') !== state.difficulty) ok = false;
       if (state.genre) {
         var genres = (card.getAttribute('data-genres') || '').split(',');
@@ -29,7 +38,7 @@
     });
 
     if (countEl) {
-      var active = state.difficulty || state.genre;
+      var active = state.difficulty || state.genre || state.q;
       countEl.hidden = !active;
       countEl.textContent = shown + ' 件の言葉が見つかりました';
     }
@@ -49,6 +58,20 @@
       apply();
     });
   });
+
+  var q = document.getElementById('q');
+  if (q) {
+    q.addEventListener('input', function () {
+      state.q = normalize(q.value);
+      apply();
+    });
+    // Enter で候補が1つなら、その記事へ
+    q.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter') return;
+      var left = cards.filter(function (c) { return !c.hidden; });
+      if (left.length === 1) location.href = left[0].getAttribute('href');
+    });
+  }
 
   apply();
 })();

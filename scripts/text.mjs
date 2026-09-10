@@ -7,7 +7,8 @@ export function toHiragana(s) {
 }
 
 export function normalize(s) {
-  return toHiragana(String(s))
+  /* NFKC: 全角英数を半角に、半角カナを全角に。日本語入力のまま「ｇｐｕ」と打っても当たるように */
+  return toHiragana(String(s).normalize('NFKC'))
     .toLowerCase()
     .replace(/[・･・\s　ー-]/g, '');
 }
