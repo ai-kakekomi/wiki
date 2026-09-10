@@ -513,6 +513,17 @@
     "summary": "人の代わりに、会話の形で応じてくれる自動の窓口です。"
   },
   {
+    "slug": "chatgpt-images",
+    "title": "ChatGPT Images",
+    "yomi": "チャットジーピーティーイメージズ",
+    "english": "ChatGPT Images",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "ChatGPTに「こんな絵がほしい」と話しかけると、その場で絵を描いてくれる機能です。"
+  },
+  {
     "slug": "chatgpt",
     "title": "ChatGPT",
     "yomi": "チャットジーピーティー",
@@ -1235,6 +1246,17 @@
       "社会"
     ],
     "summary": "検索から始まり、いまはAIでも中心にいるアメリカの会社です。"
+  },
+  {
+    "slug": "gpt-live",
+    "title": "GPT-Live",
+    "yomi": "ジーピーティーライブ",
+    "english": "GPT-Live",
+    "difficulty": "初級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "ChatGPTと、電話のように声だけで話せるようにした仕組みです。"
   },
   {
     "slug": "gpu",
