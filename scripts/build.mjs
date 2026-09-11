@@ -264,7 +264,7 @@ const GROUPS = [
     'ai-bubble', 'supercycle', 'dx', 'fde', 'filter-bubble', 'echo-chamber', 'joho-shozai', 'online-salon', 'metacognition'
   ]},
   { name: '未来のことば', slugs: [
-    'singularity', 'agi', 'asi', 'intelligence-explosion', 'exponential-growth',
+    'singularity', 'gyurareru', 'agi', 'asi', 'intelligence-explosion', 'exponential-growth',
     'law-of-accelerating-returns', 'longevity-escape-velocity', 'paperclip-maximizer', 'humanoid-robot', 'self-driving', 'physical-ai', 'robotaxi', 'lethal-autonomous-weapons',
     'ray-kurzweil'
   ]},

@@ -1306,6 +1306,19 @@
     "summary": "AIが道を外れないように、あらかじめ置いておく柵のことです。"
   },
   {
+    "slug": "gyurareru",
+    "title": "ギュられる",
+    "yomi": "ギュラレル",
+    "english": "",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会",
+      "未来"
+    ],
+    "summary": "AIの進歩に、自分の仕事や役割を持っていかれることを指す、若い人の言葉です。"
+  },
+  {
     "slug": "hallucination",
     "title": "ハルシネーション",
     "yomi": "ハルシネーション",
