@@ -218,7 +218,7 @@ const GROUPS = [
     'prompt', 'token', 'context', 'inference', 'hallucination', 'bias', 'rag', 'fine-tuning',
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
     'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'chatgpt-images', 'gpt-live', 'claude', 'gemini', 'grok', 'copilot',
-    'system-prompt', 'guardrail', 'alignment', 'reward-hacking', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge', 'benchmark', 'ai-drug-discovery',
+    'system-prompt', 'guardrail', 'alignment', 'reward-hacking', 'objective-function', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge', 'benchmark', 'ai-drug-discovery',
     'frontier-model', 'frontier-lab', 'ai-slop', 'harness'
   ]},
   { name: 'AIをつくる会社と人', slugs: [
@@ -252,12 +252,12 @@ const GROUPS = [
   ]},
   { name: '団体と制度のことば', slugs: [
     'npo', 'teikan', 'riji', 'rijicho', 'kanji-auditor', 'hojinkaku',
-    'kabushiki-kaisha', 'ippan-shadan', 'pbc', 'ipo',
+    'kabushiki-kaisha', 'ippan-shadan', 'koeki-shadan', 'pbc', 'ipo',
     'hojokin', 'koen-meigi', 'trademark', 'copyright', 'ai-copyright', 'idea-expression',
     'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'joho-ryoiki'
   ]},
   { name: '社会と経済のことば', slugs: [
-    'digital-divide', 'my-number', 'externality', 'market-failure', 'basic-income',
+    'digital-divide', 'ai-unemployment', 'reskilling', 'my-number', 'externality', 'market-failure', 'basic-income',
     'crypto-asset', 'volatility',
     'risk-tolerance', 'index-investing', 'dollar-cost-averaging', 'nisa', 'leverage',
     'compound-interest', 'inflation', 'exchange-rate',
@@ -265,7 +265,7 @@ const GROUPS = [
   ]},
   { name: '未来のことば', slugs: [
     'singularity', 'agi', 'asi', 'intelligence-explosion', 'exponential-growth',
-    'law-of-accelerating-returns', 'longevity-escape-velocity', 'humanoid-robot', 'self-driving', 'physical-ai', 'robotaxi', 'lethal-autonomous-weapons',
+    'law-of-accelerating-returns', 'longevity-escape-velocity', 'paperclip-maximizer', 'humanoid-robot', 'self-driving', 'physical-ai', 'robotaxi', 'lethal-autonomous-weapons',
     'ray-kurzweil'
   ]},
   { name: 'かけこみ寺のことば', slugs: [

@@ -179,6 +179,18 @@
     "summary": "日本で初めてAIを正面から扱った法律です。禁止ではなく、進めるための法律です。"
   },
   {
+    "slug": "ai-unemployment",
+    "title": "AI失業",
+    "yomi": "エーアイシツギョウ",
+    "english": "",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "社会"
+    ],
+    "summary": "AIが仕事を引き受けることで、人の仕事が減ったり、中身が変わったりすることです。"
+  },
+  {
     "slug": "ajinomoto-abf",
     "title": "味の素ビルドアップフィルム",
     "yomi": "アジノモトビルドアップフィルム",
@@ -1692,6 +1704,17 @@
     "summary": "スマホやパソコンの記憶部分に使う半導体を作っている、日本の会社です。"
   },
   {
+    "slug": "koeki-shadan",
+    "title": "公益社団法人",
+    "yomi": "コウエキシャダンホウジン",
+    "english": "Public Interest Incorporated Association",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "「みんなのための活動をしている」と国や都道府県が認めた社団法人です。"
+  },
+  {
     "slug": "koen-meigi",
     "title": "後援名義",
     "yomi": "コウエンメイギ",
@@ -2023,6 +2046,17 @@
     "summary": "自分の合言葉を相手に渡さずに、他のサービスとつなぐ仕組みです。"
   },
   {
+    "slug": "objective-function",
+    "title": "目的関数",
+    "yomi": "モクテキカンスウ",
+    "english": "Objective Function",
+    "difficulty": "上級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "AIが「何を目指して学ぶか」を、点数の計算式にしたものです。"
+  },
+  {
     "slug": "ocr",
     "title": "OCR",
     "yomi": "オーシーアール",
@@ -2103,6 +2137,18 @@
       "社会"
     ],
     "summary": "作った人が「この条件で使っていいですよ」と決めて示す、利用のルールです。"
+  },
+  {
+    "slug": "paperclip-maximizer",
+    "title": "ペーパークリップ問題",
+    "yomi": "ペーパークリップモンダイ",
+    "english": "Paperclip Maximizer",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "「クリップをできるだけ多く作れ」とだけ命じられた超知能が、地球ごとクリップに変えてしまう、という思考実験です。"
   },
   {
     "slug": "parameter",
@@ -2394,6 +2440,18 @@
       "プログラミング"
     ],
     "summary": "ファイル一式と、その全部の変更履歴をまとめて入れておく保管庫です。"
+  },
+  {
+    "slug": "reskilling",
+    "title": "リスキリング",
+    "yomi": "リスキリング",
+    "english": "Reskilling",
+    "difficulty": "中級",
+    "genres": [
+      "社会",
+      "AI"
+    ],
+    "summary": "いまとは違う仕事に就くために、新しい技能を身につけることです。"
   },
   {
     "slug": "revenge-porn",
