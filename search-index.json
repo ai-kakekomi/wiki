@@ -684,6 +684,17 @@
     "summary": "利息にもまた利息がついて、雪だるま式に増えていく仕組みです。"
   },
   {
+    "slug": "conflict-of-interest",
+    "title": "利益相反",
+    "yomi": "リエキソウハン",
+    "english": "Conflict of Interest",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "団体のために決める立場の人が、自分の得にもなる話を決めてしまう状態のことです。"
+  },
+  {
     "slug": "conflict",
     "title": "コンフリクト",
     "yomi": "コンフリクト",
