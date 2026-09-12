@@ -1282,6 +1282,17 @@
     "summary": "検索から始まり、いまはAIでも中心にいるアメリカの会社です。"
   },
   {
+    "slug": "governance",
+    "title": "ガバナンス",
+    "yomi": "ガバナンス",
+    "english": "Governance",
+    "difficulty": "中級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "組織の中で「誰がどう決めて、誰がそれを見張るか」を決めておく仕組みのことです。"
+  },
+  {
     "slug": "gpt-live",
     "title": "GPT-Live",
     "yomi": "ジーピーティーライブ",
