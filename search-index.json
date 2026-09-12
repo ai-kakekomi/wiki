@@ -238,14 +238,14 @@
   },
   {
     "slug": "alphago",
-    "title": "AlphaGo",
+    "title": "アルファ碁",
     "yomi": "アルファゴ",
     "english": "AlphaGo",
     "difficulty": "中級",
     "genres": [
       "AI"
     ],
-    "summary": "2016年に囲碁の世界トップ棋士に勝った、Google DeepMindのAIです。「アルファ碁」とも書きます。"
+    "summary": "2016年に囲碁の世界トップ棋士に勝った、Google DeepMindのAIです。英語では AlphaGo と書きます。"
   },
   {
     "slug": "amazon",
@@ -2978,7 +2978,7 @@
   },
   {
     "slug": "telegram",
-    "title": "Telegram",
+    "title": "テレグラム",
     "yomi": "テレグラム",
     "english": "Telegram",
     "difficulty": "中級",
