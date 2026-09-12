@@ -4,7 +4,7 @@ title: 情報の領域
 yomi: ジョウホウノリョウイキ
 difficulty: 上級
 genres: [社会]
-related: [generative-ai, ai-literacy, digital-divide, prompt, phishing]
+related: [gakushu-shido-yoryo, generative-ai, ai-literacy, digital-divide, prompt, phishing]
 sources:
   - title: 小学校から「AI学習」、情報教育を大幅拡充 次期学習指導要領案 | 日本経済新聞
     url: https://www.nikkei.com/article/DGXZQOUD2366J0T20C26A7000000/

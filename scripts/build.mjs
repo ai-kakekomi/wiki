@@ -254,7 +254,7 @@ const GROUPS = [
     'npo', 'teikan', 'riji', 'rijicho', 'kanji-auditor', 'conflict-of-interest', 'governance', 'hojinkaku',
     'kabushiki-kaisha', 'ippan-shadan', 'koeki-shadan', 'pbc', 'ipo',
     'hojokin', 'koen-meigi', 'trademark', 'copyright', 'ai-copyright', 'idea-expression',
-    'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'joho-ryoiki'
+    'ai-suishin-ho', 'shakyo', 'shogai-gakushu-center', 'hands-on', 'gakushu-shido-yoryo', 'joho-ryoiki'
   ]},
   { name: '社会と経済のことば', slugs: [
     'digital-divide', 'ai-unemployment', 'reskilling', 'my-number', 'externality', 'market-failure', 'basic-income',

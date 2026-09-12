@@ -1192,6 +1192,17 @@
     "summary": "その時点で世界でいちばん賢い、最前線にあるAIのことです。"
   },
   {
+    "slug": "gakushu-shido-yoryo",
+    "title": "学習指導要領",
+    "yomi": "ガクシュウシドウヨウリョウ",
+    "english": "",
+    "difficulty": "初級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "全国どこの学校でも同じ水準で教えられるように、国が決めている「学校で何を教えるか」の基準です。"
+  },
+  {
     "slug": "gemini",
     "title": "Gemini",
     "yomi": "ジェミニ",
