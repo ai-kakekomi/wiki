@@ -237,6 +237,17 @@
     "summary": "AIのやりたがることを、人が本当に望むことと同じ向きにそろえる取り組みのことです。「アラインメント」とも書きます。"
   },
   {
+    "slug": "alphago",
+    "title": "AlphaGo",
+    "yomi": "アルファゴ",
+    "english": "AlphaGo",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "2016年に囲碁の世界トップ棋士に勝った、Google DeepMindのAIです。「アルファ碁」とも書きます。"
+  },
+  {
     "slug": "amazon",
     "title": "アマゾン",
     "yomi": "アマゾン",
@@ -2702,6 +2713,17 @@
     "summary": "市区町村ごとに置かれている、地域の福祉をまとめる団体です。略して「社協」と呼ばれます。"
   },
   {
+    "slug": "shintaku-hozen",
+    "title": "信託保全",
+    "yomi": "シンタクホゼン",
+    "english": "Trust Protection",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "預かったお客さんのお金を業者のお金と分けて信託銀行などに置き、業者が倒れても返せるようにする仕組みです。"
+  },
+  {
     "slug": "shogai-gakushu-center",
     "title": "生涯学習センター",
     "yomi": "ショウガイガクシュウセンター",
@@ -2723,6 +2745,17 @@
       "社会"
     ],
     "summary": "1本が数秒から1分ほどの、縦向きの短い動画のことです。"
+  },
+  {
+    "slug": "shuno-daiko",
+    "title": "収納代行",
+    "yomi": "シュウノウダイコウ",
+    "english": "Payment Collection Agency",
+    "difficulty": "上級",
+    "genres": [
+      "社会"
+    ],
+    "summary": "お金を受け取る人の代わりに、業者がいったん預かって、あとで渡す仕組みです。"
   },
   {
     "slug": "silicon-valley",

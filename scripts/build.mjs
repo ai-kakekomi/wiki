@@ -214,7 +214,7 @@ const GROUPS = [
   ]},
   { name: 'AIのことば', slugs: [
     'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
-    'neural-network', 'reinforcement-learning', 'parameter', 'weights', 'training', 'training-data', 'dataset', 'annotation',
+    'neural-network', 'reinforcement-learning', 'alphago', 'parameter', 'weights', 'training', 'training-data', 'dataset', 'annotation',
     'prompt', 'token', 'context', 'inference', 'hallucination', 'bias', 'rag', 'fine-tuning',
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
     'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'chatgpt-images', 'gpt-live', 'claude', 'gemini', 'grok', 'copilot',
@@ -260,7 +260,7 @@ const GROUPS = [
     'digital-divide', 'ai-unemployment', 'reskilling', 'my-number', 'externality', 'market-failure', 'basic-income',
     'crypto-asset', 'volatility',
     'risk-tolerance', 'index-investing', 'dollar-cost-averaging', 'nisa', 'leverage',
-    'compound-interest', 'inflation', 'exchange-rate',
+    'compound-interest', 'inflation', 'exchange-rate', 'shuno-daiko', 'shintaku-hozen',
     'ai-bubble', 'supercycle', 'dx', 'fde', 'filter-bubble', 'echo-chamber', 'joho-shozai', 'online-salon', 'metacognition'
   ]},
   { name: '未来のことば', slugs: [
