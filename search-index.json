@@ -558,6 +558,17 @@
     "summary": "文章で話しかけると、文章で返してくれるAIサービスです。"
   },
   {
+    "slug": "classifier",
+    "title": "分類器",
+    "yomi": "ブンルイキ",
+    "english": "Classifier",
+    "difficulty": "中級",
+    "genres": [
+      "AI"
+    ],
+    "summary": "入ってきたものを見て「これはAの箱、これはBの箱」と振り分けるAIの部品です。"
+  },
+  {
     "slug": "claude-code",
     "title": "Claude Code",
     "yomi": "クロードコード",

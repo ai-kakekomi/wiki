@@ -213,7 +213,7 @@ const GROUPS = [
     'social-game', 'shakosei', 'cyberbullying', 'revenge-porn', 'fake-news', 'yami-baito', 'tokuryu', 'telegram'
   ]},
   { name: 'AIのことば', slugs: [
-    'generative-ai', 'llm', 'transformer', 'machine-learning', 'deep-learning',
+    'generative-ai', 'llm', 'transformer', 'machine-learning', 'classifier', 'deep-learning',
     'neural-network', 'reinforcement-learning', 'alphago', 'parameter', 'weights', 'training', 'training-data', 'dataset', 'annotation',
     'prompt', 'token', 'context', 'inference', 'hallucination', 'bias', 'rag', 'fine-tuning',
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
