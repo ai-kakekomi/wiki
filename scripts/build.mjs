@@ -217,7 +217,7 @@ const GROUPS = [
     'neural-network', 'reinforcement-learning', 'alphago', 'parameter', 'weights', 'training', 'training-data', 'dataset', 'annotation',
     'prompt', 'token', 'context', 'inference', 'hallucination', 'bias', 'rag', 'fine-tuning',
     'multimodal', 'ocr', 'skill', 'ai-agent', 'chatbot', 'notebooklm',
-    'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'ai-literacy', 'chatgpt', 'chatgpt-images', 'gpt-live', 'claude', 'gemini', 'grok', 'copilot',
+    'image-generation-ai', 'diffusion-model', 'deepfake', 'prompt-injection', 'jailbreak', 'ai-literacy', 'chatgpt', 'chatgpt-images', 'gpt-live', 'claude', 'gemini', 'grok', 'copilot',
     'system-prompt', 'guardrail', 'alignment', 'reward-hacking', 'objective-function', 'subagent', 'ai-native', 'cognitive-offloading', 'domain-knowledge', 'benchmark', 'ai-drug-discovery',
     'frontier-model', 'frontier-lab', 'ai-slop', 'harness'
   ]},

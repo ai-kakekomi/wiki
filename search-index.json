@@ -1645,6 +1645,18 @@
     "summary": "「ここを直したい」「これを足したい」を書いて貼っておく紙です。"
   },
   {
+    "slug": "jailbreak",
+    "title": "脱獄",
+    "yomi": "ダツゴク",
+    "english": "Jailbreak",
+    "difficulty": "中級",
+    "genres": [
+      "AI",
+      "セキュリティ"
+    ],
+    "summary": "作り手が「ここから先はダメ」とかけた制限を、使う側が破ってしまうことです。"
+  },
+  {
     "slug": "javascript",
     "title": "JavaScript",
     "yomi": "ジャバスクリプト",
