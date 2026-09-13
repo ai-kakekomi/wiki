@@ -59,12 +59,28 @@
     });
   });
 
+  // URL の ?q=github を検索窓に流し込む（人に「関連用語はこちら」と渡せるリンクにする）。
+  // 入力のたびに URL も書き換えて、いま見ている絞り込みをそのまま共有できるようにする
+  function syncUrl(raw) {
+    if (!window.history || !history.replaceState) return;
+    var url = new URL(location.href);
+    if (raw) url.searchParams.set('q', raw); else url.searchParams.delete('q');
+    history.replaceState(null, '', url.pathname + url.search + url.hash);
+  }
+
   var q = document.getElementById('q');
   if (q) {
     q.addEventListener('input', function () {
       state.q = normalize(q.value);
+      syncUrl(q.value);
       apply();
     });
+    var initial = new URLSearchParams(location.search).get('q');
+    if (initial) {
+      q.value = initial;
+      state.q = normalize(initial);
+      q.scrollIntoView({ block: 'start' });
+    }
     // Enter で候補が1つなら、その記事へ
     q.addEventListener('keydown', function (e) {
       if (e.key !== 'Enter') return;

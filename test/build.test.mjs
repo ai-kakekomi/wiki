@@ -206,6 +206,9 @@ test('トップページ: ことば一覧・絞り込み・検索バーが入る
   const js = readFileSync(join(ROOT, 'assets', 'search.js'), 'utf8');
   assert.match(js, /\.replace\(\/\[ァ-ヶ\]\/g/);
   assert.match(js, /data-key/);
+  /* ?q=github で検索窓に流し込める（人に渡す「関連用語はこちら」リンク用） */
+  assert.match(js, /URLSearchParams\(location\.search\)\.get\('q'\)/);
+  assert.match(js, /history\.replaceState/);
   assert.match(html, /data-difficulty="特級"/);
   assert.match(html, /data-genre="データベース"/);
   assert.match(html, /assets\/search\.js/);
