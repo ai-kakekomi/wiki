@@ -13,7 +13,7 @@ sources:
     url: https://docs.github.com/ja/get-started/writing-on-github
   - title: Claude Docs
     url: https://docs.claude.com/
-updated: 2026-09-05
+updated: 2026-09-15
 ---
 
 ## ひとことで
@@ -33,6 +33,8 @@ updated: 2026-09-05
 - 言葉を `**` ではさむ … 太字
 - 行頭に `>` … 引用
 - 言葉を `` ` `` ではさむ … そのままの文字
+
+手を動かして覚えるなら、[マークダウン練習帳](https://ai-kakekomi.com/apps/markdown-practice/)が無料で使えます。左に書くと右に整形後が出るので、記号の意味がその場で分かります。
 
 ## AIへの指示に効く理由
 
