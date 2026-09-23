@@ -2500,6 +2500,18 @@
     "summary": "置き場を開いた人が最初に読む、その道具の説明書です。"
   },
   {
+    "slug": "recursive-self-improvement",
+    "title": "再帰的自己改善",
+    "yomi": "サイキテキジコカイゼン",
+    "english": "Recursive Self-Improvement",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "未来"
+    ],
+    "summary": "AIが、次のAIを作る仕事を自分でこなし、それをくり返していくことです。"
+  },
+  {
     "slug": "reinforcement-learning",
     "title": "強化学習",
     "yomi": "キョウカガクシュウ",
