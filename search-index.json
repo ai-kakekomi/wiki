@@ -1944,6 +1944,18 @@
     "summary": "ソフトバンクグループを創業し、率いている経営者です。"
   },
   {
+    "slug": "mcp",
+    "title": "MCP",
+    "yomi": "エムシーピー",
+    "english": "Model Context Protocol",
+    "difficulty": "上級",
+    "genres": [
+      "AI",
+      "プログラミング"
+    ],
+    "summary": "AIと、外にある道具やデータをつなぐための、共通の差込口の規格です。"
+  },
+  {
     "slug": "memory-chip",
     "title": "メモリ半導体",
     "yomi": "メモリハンドウタイ",
