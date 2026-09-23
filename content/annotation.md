@@ -11,7 +11,7 @@ related: [training-data, training, machine-learning, bias, reinforcement-learnin
 sources:
   - title: Google Machine Learning Glossary（label / labeled example）
     url: https://developers.google.com/machine-learning/glossary
-  - title: Label Studio（オープンソースのアノテーション道具）
+  - title: Label Studio（オープンソースのアノテーションツール）
     url: https://labelstud.io/
 updated: 2026-09-09
 ---
